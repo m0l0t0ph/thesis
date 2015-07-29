@@ -1,0 +1,41 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}
+\contentsline {chapter}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {2.1}Funktionsweise von Batterien und Kondensatoren}{3}
+\contentsline {subsection}{\numberline {2.1.1}Aufbau von Batterien}{3}
+\contentsline {subsection}{\numberline {2.1.2}Elektrochemischer Vorgang}{5}
+\contentsline {section}{\numberline {2.2}Festk\IeC {\"o}rperelektrolyten}{7}
+\contentsline {subsection}{\numberline {2.2.1}Perowskite}{8}
+\contentsline {subsection}{\numberline {2.2.2}NASICON}{8}
+\contentsline {section}{\numberline {2.3}NMR-Spektroskopie}{8}
+\contentsline {subsection}{\numberline {2.3.1}Physikalische Grundlagen der NMR-Spektroskopie}{9}
+\contentsline {subsection}{\numberline {2.3.2}Aufbau eines NMR-Spektrometers}{10}
+\contentsline {subsection}{\numberline {2.3.3}Betriebsmodus}{10}
+\contentsline {section}{\numberline {2.4}Kennzahlen}{10}
+\contentsline {chapter}{\numberline {3}Strukturierung}{11}
+\contentsline {section}{\numberline {3.1}Verwendete Materialien, Ger\IeC {\"a}te und Maschinen}{11}
+\contentsline {section}{\numberline {3.2}Pr\IeC {\"a}gen der Aluminiumfolie}{11}
+\contentsline {subsection}{\numberline {3.2.1}Kaltverformen}{11}
+\contentsline {subsection}{\numberline {3.2.2}Schleifen}{13}
+\contentsline {chapter}{\numberline {4}Probenaufbau}{15}
+\contentsline {section}{\numberline {4.1}Testzelle}{15}
+\contentsline {subsection}{\numberline {4.1.1}Aufbau}{15}
+\contentsline {subsection}{\numberline {4.1.2}Herstellung der fertigen Testzelle}{16}
+\contentsline {section}{\numberline {4.2}Herstellung der Kollektorproben}{17}
+\contentsline {section}{\numberline {4.3}Herstellung des Aktivmaterials}{17}
+\contentsline {subsection}{\numberline {4.3.1}Lithium-Anode}{18}
+\contentsline {subsection}{\numberline {4.3.2}\mhchem@ce@xiii {\noexpand L\noexpand i\noexpand C\noexpand o\noexpand O\noexpand 2}-Kathode}{18}
+\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{21}
+\contentsline {section}{\numberline {5.1}Relevante Kennzahlen}{21}
+\contentsline {section}{\numberline {5.2}Batterietests}{21}
+\contentsline {subsection}{\numberline {5.2.1}Impedanzspektroskopie}{22}
+\contentsline {subsubsection}{Elektrochemisches Ersatzschaltbild}{22}
+\contentsline {subsubsection}{Nyquist-Plot}{23}
+\contentsline {subsubsection}{Linearer Kramers-Kronig Test}{23}
+\contentsline {subsection}{\numberline {5.2.2}Ergebnisse}{23}
+\contentsline {section}{\numberline {5.3}Wirtschaftlichkeit}{25}
+\contentsline {chapter}{\numberline {6}Fazit}{27}
+\contentsline {section}{\numberline {6.1}Zusammenfassung}{27}
+\contentsline {section}{\numberline {6.2}Ausblick}{27}
+\contentsline {chapter}{Abbildungsverzeichnis}{29}
+\contentsline {chapter}{Literaturverzeichnis}{31}
