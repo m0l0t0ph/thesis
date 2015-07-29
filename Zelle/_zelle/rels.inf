@@ -1,0 +1,209 @@
+﻿Beziehung                           Parameter                 Neuer Wert
+--------                           ---------                 --- -----
+
+/*** STEMPEL_D11 hat keine Beziehungen.
+
+Lokale Parameter
+----------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+DESCRIPTION                                          TYP: Zeichenkette          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG:              
+
+MODELED_BY                                           TYP: Zeichenkette          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG:              
+
+Parameter für alternative Masseneigenschaft
+-------------------------------------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+PRO_MP_SOURCE                   GEOMETRY             TYP: Zeichenkette          
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+MP_DENSITY                                           TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_MASS                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_VOLUME                                    TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_AREA                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_COGX                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_COGY                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_COGZ                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IXX                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IYY                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IZZ                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IXZ                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IYZ                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IXY                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+Parameter für gemeldete Masseneigenschaften
+-------------------------------------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+PRO_MP_MASS                                          TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_VOLUME                                        TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_DENSITY                  0.000000e+00         TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: kg/mm^3           
+
+PRO_MP_AREA                                          TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_COGX                                          TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_COGY                                          TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_COGZ                                          TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_IXX                                           TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_IYY                                           TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_IZZ                                           TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_IXZ                                           TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_IYZ                                           TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_IXY                                           TYP: Unbekannt             
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+

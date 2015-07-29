@@ -1,0 +1,25 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Message Dialog: Warning
+!               : Erforderliche Creo Simulate Lizenz kann nicht abgerufen werden.
+!               : Wenden Sie sich an Ihren Vertriebspartner.
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+!mem_use INCREASE Blocks 699488, AppSize 126608005, SysSize 144871840
+~ FocusIn `UI Message Dialog` `ok`
+~ Activate `UI Message Dialog` `UI Message Dialog`
+~ Activate `UI Message Dialog` `ok`
+!ODUI external UI session start for device : sim_dlg_mdl_type 
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdHelpAboutProE` 
+~ Activate `ptc_about` `Close`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdHelpSupportInfo` 
+!%CICustomer Service Informationen wurden in C:\Users\Toph\Dropbox\Studium\Masterarbeit\Zelle\Zelle_Neu\support.inf.1 ausgegeben.
+~ Move `texttool` `texttool` 2 5.417848 4.857381
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ FocusIn `texttool` `textPH.TextArea`
+~ Activate `texttool` `CloseButton`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+!ODUI external UI session stop. 
+!End of Trail File
