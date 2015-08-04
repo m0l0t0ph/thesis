@@ -1,23 +1,9 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Entwicklung der Energiedichten verschiedener Batteriesysteme (\cite {jossen_2006}, S.129)\relax }}{1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Prinzip der Energieumwandlung und Speicherung bei Batterien \cite {jossen_2006}.\relax }}{3}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Energie- und Leistungsdichte verschiedener Batterietechnologien in der \IeC {\"U}bersicht \cite {wikimedia_energiespeicher}.\relax }}{4}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Unterschiedliche Bauformen von Batterien (von links nach rechts): Rundzelle, prismatische Zelle, Pouch-Zelle \cite {bub_skript}.\relax }}{6}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Battery-Pack des BMW i3. Es sind zwei Batteriemodule zu sehen, die an ein gemeinsames Batteriemanagement angeschlossen sind. Im offenen Modul sind die prismatischen Batteriezellen zu erkennen \cite {bmwblog}.\relax }}{7}
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Schematischer Aufbau einer Li-Ionen-Batterie \cite {howstuffworks}.\relax }}{8}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Schema der Testzelle; 1: Plastikkappe, 2: Dichtungsring, 3: Edelstahlfeder, 4: Kathode, 5: Anode, 6: Plastikkappe, 7: Glaszylinder, 8: Kontaktierpl\IeC {\"a}ttchen, 9: Separator, 10: Edelstahlstopfen. \relax }}{5}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Handschuhbox der Firma MBraun\relax }}{6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Skizze des Versuchsaufbaus zur Strukturierung der Aluminiumfolie. 1 (von oben nach unten): PMMA-Folie, d\IeC {\"u}nne Aluminiumfolie, Formeinsatz, Teflonfolie, dicke Aluminiumfolie, Pressvorrichtung; 2: Draufsicht auf den Formeinsatz mit markierten Strukturfeldern (schwarz) und Auflagefl\IeC {\"a}che des Aluminiums (grau).\relax }}{12}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Mikrostrukturiertes Aluminium\relax }}{13}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Formeinsatz zur Herstellung sandgestrahlter Oberfl\IeC {\"a}chen\relax }}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Schema der Testzelle; 1: Plastikkappe, 2: Dichtungsring, 3: Edelstahlfeder, 4: Kathode, 5: Anode, 6: Plastikkappe, 7: Glaszylinder, 8: Kontaktierpl\IeC {\"a}ttchen, 9: Separator, 10: Edelstahlstopfen. \relax }}{16}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Handschuhbox der Firma MBraun\relax }}{17}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Hergestellte Kathodenproben (10mm Durchmesser)\relax }}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Detektierung unterschiedlicher Verlustmechanismen verschiedener Grenzschichten innerhalb einer \mhchem@ce@xiii {\noexpand L\noexpand i\noexpand F\noexpand e\noexpand P\noexpand O\noexpand 4}-Zelle mittels Impedanzspektroskopie \cite {bub_skript}.\relax }}{22}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Impedanz\discretionary {-}{}{}spektroskopie der Probe mit unbehandeltem Aluminium-Strom\discretionary {-}{}{}kol\discretionary {-}{}{}lek\discretionary {-}{}{}tor.\relax }}{24}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Impedanz\discretionary {-}{}{}spektroskopie der Probe mit sand\discretionary {-}{}{}gestrahltem Aluminium-Strom\discretionary {-}{}{}kol\discretionary {-}{}{}lek\discretionary {-}{}{}tor.\relax }}{24}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Impedanzspektroskopie der Probe mit mikrostrukturiertem Aluminium-Strom\discretionary {-}{}{}kollektor.\relax }}{25}
 \addvspace {10\p@ }

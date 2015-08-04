@@ -1,41 +1,48 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Zielsetzung}{1}
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}
-\contentsline {section}{\numberline {2.1}Funktionsweise von Batterien und Kondensatoren}{3}
-\contentsline {subsection}{\numberline {2.1.1}Aufbau von Batterien}{3}
-\contentsline {subsection}{\numberline {2.1.2}Elektrochemischer Vorgang}{5}
-\contentsline {section}{\numberline {2.2}Festk\IeC {\"o}rperelektrolyten}{7}
-\contentsline {subsection}{\numberline {2.2.1}Perowskite}{8}
-\contentsline {subsection}{\numberline {2.2.2}NASICON}{8}
-\contentsline {section}{\numberline {2.3}NMR-Spektroskopie}{8}
-\contentsline {subsection}{\numberline {2.3.1}Physikalische Grundlagen der NMR-Spektroskopie}{9}
-\contentsline {subsection}{\numberline {2.3.2}Aufbau eines NMR-Spektrometers}{10}
-\contentsline {subsection}{\numberline {2.3.3}Betriebsmodus}{10}
-\contentsline {section}{\numberline {2.4}Kennzahlen}{10}
-\contentsline {chapter}{\numberline {3}Strukturierung}{11}
-\contentsline {section}{\numberline {3.1}Verwendete Materialien, Ger\IeC {\"a}te und Maschinen}{11}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\"a}gen der Aluminiumfolie}{11}
-\contentsline {subsection}{\numberline {3.2.1}Kaltverformen}{11}
-\contentsline {subsection}{\numberline {3.2.2}Schleifen}{13}
-\contentsline {chapter}{\numberline {4}Probenaufbau}{15}
-\contentsline {section}{\numberline {4.1}Testzelle}{15}
-\contentsline {subsection}{\numberline {4.1.1}Aufbau}{15}
-\contentsline {subsection}{\numberline {4.1.2}Herstellung der fertigen Testzelle}{16}
-\contentsline {section}{\numberline {4.2}Herstellung der Kollektorproben}{17}
-\contentsline {section}{\numberline {4.3}Herstellung des Aktivmaterials}{17}
-\contentsline {subsection}{\numberline {4.3.1}Lithium-Anode}{18}
-\contentsline {subsection}{\numberline {4.3.2}\mhchem@ce@xiii {\noexpand L\noexpand i\noexpand C\noexpand o\noexpand O\noexpand 2}-Kathode}{18}
-\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{21}
-\contentsline {section}{\numberline {5.1}Relevante Kennzahlen}{21}
-\contentsline {section}{\numberline {5.2}Batterietests}{21}
-\contentsline {subsection}{\numberline {5.2.1}Impedanzspektroskopie}{22}
-\contentsline {subsubsection}{Elektrochemisches Ersatzschaltbild}{22}
-\contentsline {subsubsection}{Nyquist-Plot}{23}
-\contentsline {subsubsection}{Linearer Kramers-Kronig Test}{23}
-\contentsline {subsection}{\numberline {5.2.2}Ergebnisse}{23}
-\contentsline {section}{\numberline {5.3}Wirtschaftlichkeit}{25}
-\contentsline {chapter}{\numberline {6}Fazit}{27}
-\contentsline {section}{\numberline {6.1}Zusammenfassung}{27}
-\contentsline {section}{\numberline {6.2}Ausblick}{27}
-\contentsline {chapter}{Abbildungsverzeichnis}{29}
-\contentsline {chapter}{Literaturverzeichnis}{31}
+\contentsline {section}{\numberline {2.1}Batteriezellen}{3}
+\contentsline {subsection}{\numberline {2.1.1}Elektrochemischer Vorgang}{3}
+\contentsline {subsection}{\numberline {2.1.2}Aufbau}{3}
+\contentsline {subsection}{\numberline {2.1.3}Elektroden}{3}
+\contentsline {subsection}{\numberline {2.1.4}Elektrolyten}{3}
+\contentsline {section}{\numberline {2.2}Analysemethoden}{3}
+\contentsline {subsection}{\numberline {2.2.1}R\IeC {\"o}ntgendiffraktion}{3}
+\contentsline {subsection}{\numberline {2.2.2}Impedanzspektroskopie}{3}
+\contentsline {subsection}{\numberline {2.2.3}NMR-Spektroskopie}{3}
+\contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der NMR-Spektroskopie}{3}
+\contentsline {subsubsection}{\nonumberline Aufbau eines NMR-Spektrometers}{5}
+\contentsline {subsubsection}{\nonumberline Betriebsmodus}{5}
+\contentsline {subsubsection}{\nonumberline Herstellung der fertigen Testzelle}{5}
+\contentsline {chapter}{\numberline {3}Methodik}{7}
+\contentsline {section}{\numberline {3.1}Pulverherstellung}{7}
+\contentsline {subsection}{\numberline {3.1.1}LATP}{7}
+\contentsline {subsection}{\numberline {3.1.2}\ce {LiTi4O5}}{7}
+\contentsline {subsection}{\numberline {3.1.3}Weitere verwendete Pulver}{7}
+\contentsline {section}{\numberline {3.2}Elektrodenherstellung}{7}
+\contentsline {subsection}{\numberline {3.2.1}Herstellung verschiedener Elektrodenslurries}{7}
+\contentsline {subsection}{\numberline {3.2.2}Foliengie\IeC {\ss }en der Elektroden}{7}
+\contentsline {subsection}{\numberline {3.2.3}Herstellung eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{7}
+\contentsline {section}{\numberline {3.3}Konstruktion der in-situ-Testzelle}{7}
+\contentsline {subsection}{\numberline {3.3.1}Anforderungen}{7}
+\contentsline {subsection}{\numberline {3.3.2}Planung}{7}
+\contentsline {subsection}{\numberline {3.3.3}Angefertigte Teile}{7}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{9}
+\contentsline {section}{\numberline {4.1}Pulveranalyse}{9}
+\contentsline {subsection}{\numberline {4.1.1}XRD-Analyse}{9}
+\contentsline {subsection}{\numberline {4.1.2}MAS-NMR-Analyse}{9}
+\contentsline {section}{\numberline {4.2}Batterietests}{9}
+\contentsline {subsection}{\numberline {4.2.1}Ladekennlinien}{9}
+\contentsline {subsection}{\numberline {4.2.2}Impedanzmessungen}{9}
+\contentsline {subsection}{\numberline {4.2.3}NMR-Messungen}{9}
+\contentsline {chapter}{\numberline {5}Diskussion}{11}
+\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{11}
+\contentsline {section}{\numberline {5.2}Vergleich Batterien}{11}
+\contentsline {chapter}{\numberline {6}Fazit}{13}
+\contentsline {section}{\numberline {6.1}Zusammenfassung}{13}
+\contentsline {section}{\numberline {6.2}Ausblick}{13}
+\contentsline {chapter}{Abbildungsverzeichnis}{15}
+\contentsline {chapter}{Literaturverzeichnis}{17}
