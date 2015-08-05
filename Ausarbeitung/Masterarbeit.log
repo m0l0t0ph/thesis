@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.4)  4 AUG 2015 18:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.4)  5 AUG 2015 18:25
 entering extended mode
 **C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/Masterarbeit.tex
 (C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/Masterarbeit.tex
@@ -1845,7 +1845,7 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 39.
+Package pdftex.def Info: images/leerpixel.png used on input line 44.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [3])
 \tf@toc=\write4
@@ -1871,170 +1871,200 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--231
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 233.
+Package pdftex.def Info: images/leerpixel.png used on input line 235.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [1
 
 
 
 
-] [2
-
-
 ]
+File: images/KIT_LOGO.png Graphic file (type png)
+ <use images/KIT_LOGO.png>
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 237.
+(pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
+ [2]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--249
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
 
  []
 
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 251.
+Package pdftex.def Info: images/leerpixel.png used on input line 253.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 255--259
+ [3
 
- []
 
+]
 <images/Schema_Zelle.jpg, id=53, 398.48875pt x 425.59pt>
 File: images/Schema_Zelle.jpg Graphic file (type jpg)
 
 <use images/Schema_Zelle.jpg>
-Package pdftex.def Info: images/Schema_Zelle.jpg used on input line 276.
+Package pdftex.def Info: images/Schema_Zelle.jpg used on input line 261.
 (pdftex.def)             Requested size: 306.71938pt x 327.5949pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/handschuhbox.jpg, id=54, 1003.75pt x 752.8125pt>
-File: images/handschuhbox.jpg Graphic file (type jpg)
-
-<use images/handschuhbox.jpg>
-Package pdftex.def Info: images/handschuhbox.jpg used on input line 297.
-(pdftex.def)             Requested size: 438.17245pt x 328.63097pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--301
+Underfull \hbox (badness 10000) in paragraph at lines 256--276
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--292
+
+ []
 
 File: images/KIT_LOGO.png Graphic file (type png)
-
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 301.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 292.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
  [4]
-File: images/KIT_LOGO.png Graphic file (type png)
- <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 301.
-(pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [5 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/Schema_Zel
-le.jpg>]
-File: images/KIT_LOGO.png Graphic file (type png)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+<images/IAM_Logo.png, id=57, 248.42813pt x 113.67468pt>
+File: images/IAM_Logo.png Graphic file (type png)
+
+<use images/IAM_Logo.png>
+Package pdftex.def Info: images/IAM_Logo.png used on input line 298.
+(pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
+ [5 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/Schema_Zel
+le.jpg> <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/IAM_Lo
+go.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 298--302
+
+ []
+
+<images/handschuhbox.jpg, id=65, 1003.75pt x 752.8125pt>
+File: images/handschuhbox.jpg Graphic file (type jpg)
+
+<use images/handschuhbox.jpg>
+Package pdftex.def Info: images/handschuhbox.jpg used on input line 322.
+(pdftex.def)             Requested size: 438.17245pt x 328.63097pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--326
+
+ []
+
+File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 301.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 326.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [6 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/handschuhb
-ox.jpg>]
+ [6]
+File: images/IAM_Logo.png Graphic file (type png)
+ <use images/IAM_Logo.png>
+Package pdftex.def Info: images/IAM_Logo.png used on input line 326.
+(pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
+ [7 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/handschuhb
+ox.jpg>] [8
+
+
+]
 chapter 3.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 315.
+Package pdftex.def Info: images/leerpixel.png used on input line 340.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [7
-
-
-] [8
+ [9] [10
 
 
 ]
 chapter 4.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 323.
+Package pdftex.def Info: images/leerpixel.png used on input line 348.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [9] [10
+ [11] [12
 
 
 ]
 chapter 5.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 326.
+Package pdftex.def Info: images/leerpixel.png used on input line 351.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [11] [12
+ [13] [14
 
 
 ]
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--334
+Underfull \hbox (badness 10000) in paragraph at lines 354--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--334
+Underfull \hbox (badness 10000) in paragraph at lines 354--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--348
+Underfull \hbox (badness 10000) in paragraph at lines 360--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--348
+Underfull \hbox (badness 10000) in paragraph at lines 360--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--348
+Underfull \hbox (badness 10000) in paragraph at lines 360--373
 
  []
 
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 348.
+Package pdftex.def Info: images/leerpixel.png used on input line 373.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [13]
+ [15]
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 350.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 375.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [14]
+ [16]
 (C:\Users\Wiwi-Admin\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.lof)
 \tf@lof=\write5
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 356.
+Package pdftex.def Info: images/leerpixel.png used on input line 381.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [15
+ [17
 
 
 
 
-] [16
+] [18
 
 
 ]
@@ -2045,18 +2075,18 @@ Package natbib Warning: Empty `thebibliography' environment on input line 10.
 )
 File: images/leerpixel.png Graphic file (type png)
  <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 363.
+Package pdftex.def Info: images/leerpixel.png used on input line 388.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [17
+ [19
 
 
 ]
 (C:\Users\Wiwi-Admin\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 36760 strings out of 493921
- 867944 string characters out of 3144862
- 998575 words of memory out of 3000000
- 39478 multiletter control sequences out of 15000+200000
+ 36765 strings out of 493921
+ 868051 string characters out of 3144862
+ 1001575 words of memory out of 3000000
+ 39482 multiletter control sequences out of 15000+200000
  29462 words of font info for 72 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  73i,15n,81p,10453b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2085,9 +2115,9 @@ dmin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Wi
 wi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
 /Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
 ers/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Masterarbeit.pdf (24 pages, 495973 bytes).
+Output written on Masterarbeit.pdf (26 pages, 527211 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
+ 556 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

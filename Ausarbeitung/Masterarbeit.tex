@@ -74,7 +74,7 @@
 \fancyhead[OR]{\thepage}
 \fancyfoot[OL]{\parbox[b][0.04\columnwidth][t]{0.5\textwidth}{\raggedright Masterarbeit, Christoph Gielisch}}
 \fancyfoot[OR]{
-	\includegraphics[height=0.05\columnwidth]{images/KIT_LOGO.png}
+	\includegraphics[height=0.05\columnwidth]{images/IAM_Logo.png}
 	%\caption{}
 	\label{img:grafik-dummy}
 	}
@@ -222,20 +222,63 @@ TBD
 \setcounter{page}{1}
 \pagenumbering{arabic}
 \chapter{Einleitung}
-% Abschnitt muss umformuliert werden, da aus SemArbeit
-Batterien sind bereits heutzutage in den meisten elektrischen Geräten verbaut. Im Rahmen des Klimaschutzes ist in Zukunft ein stärkerer Einsatz von elektrischen Komponenten als Substitut für bisher mittels fossiler Brennstoffe betriebener Geräte und Maschinen zu erwarten. In den letzten Jahren konnte die Leistungsfähigkeit von Batterien schon beträchtlich gesteigert werden, wie Abbildung 1.1 verdeutlicht. Im Rahmen dieser Arbeit soll die Möglichkeit einer weiteren Verbesserung durch Mikrostrukturierung der Elektroden sowie deren wirtschaftliche Machbarkeit überprüft werden.
+Batterien nehmen in unserem Leben einen immer höheren Stellenwert ein. Sie kommen in nahezu allen mobilen elektrischen Geräten zum Einsatz. Die im Zuge des Klimaschutzes zunehmende Dekarboniserung von Wirtschaft und Gesellschaft erfordert außerdem, dass bisher mittels fossiler Brennstoffe betriebene Geräte und Maschinen in Zukunft elektrisch betrieben werden. Ein Beispiel ist hier die großflächige Einführung von Elektroautomobilen. Aber auch zur Speicherung von volatil erzeugter Energie, beispielsweise bei Wind- und Sonnenenergie, sind leistungsfähige Batterien nötig.
+\\\\
+Die vorliegende Arbeit betrachtet nun die Einsatzmöglichkeit von speziellen Keramiken als Festkörperelektrolyt in Batterien.
 \section{Motivation}
 Ein Batterie mit einem Festkörperelektrolyten bietet gleich mehrere Vorteile gegenüber der herkömmlichen Flüssigelektrolyt-Batterie. Der Flüssigelektrolyt moderner Lithiumbatterien besteht zumeist aus einem organischem Lösungsmittel und darin gelösten Lithiumsalzen (QUELLE). Diese sind jedoch nicht stabil gegenüber der Luftfeuchtigkeit und reagieren unter der Bildung von ätzenden Substanzen wie Flusssäure ab. Dies ist neben der Unsicherheit beim Versagen der Batterie ebenso auch ein Problem bei der industriellen Großproduktion. Diese kann nur mit großen Anlagen zur Trocknung der Luft erfolgen. Ein Festkörperelektrolyt könnte so gestaltet werden, dass dieser stabil gegenüber der Luftfeuchtigkeit und dem Sauerstoff der Luft ist.
 \\\\
-Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte Stabilität gegenüber elektrischen Spannungen. Handelsübliche Flüssigelektrolyte sind lediglich bis zu einer Spannung von 4,2V stabil (QUELLE). Es existieren jedoch Hochvoltelektroden, die von höheren Spannungen profitieren würden. Festkörperelektrolyte könnten hier zum Einsatz kommen.
+Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte Stabilität gegenüber elektrischen Spannungen. Handelsübliche Flüssigelektrolyte sind lediglich bis zu einer Spannung von 4,2V stabil (QUELLE). Es existieren jedoch Hochvoltelektroden, die von höheren Spannungen profitieren würden. Festkörperelektrolyte könnten diesen Mangel beheben.
 \section{Zielsetzung}
+%Ggf Anpassen
+Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als Festkörperelektrolyt anzupassen und zu analysieren. Als Ausgangspunkt dienen hierbei die Materialien \ce{LiLaTiO3} (LLTO) sowie \ce{Li_(1_+_x_)Al_xTi_(2_-_x_)(PO4)3} (LATP), die in der Literatur bereits eine ausreichend gute Lithiumleitfähigkeit nachweisen konnten (QUELLE). Die Keramiken sollen dabei in Pulverform, als Folienguss, als Tablette und im Gefüge Elektrode-Elektrolyt hergestellt werden. Als Referenz werden auch Elektroden für den Einsatz in normalen Flüssigelektrolyt-Batterien hergestellt und untersucht. Die Festkörperelektrolyte sollen mittels Röntendiffraktometrie (XRD), Kernspinspektroskopie (NMR) und Impedanzspektroskopie untersucht werden. Für die Messung von in-situ-NMR-Daten muss sowohl der Lithium-Probenkopf des NMR-Spektrometers angepasst, als auch eine eigene Testzelle konstruiert und gebaut werden.
 \section{Aufbau der Arbeit}
+Im ersten Kapitel wird die Arbeit motiviert sowie eine Zielsetzung formuliert. Anschließend werden die nötigen Grundlagen für die durchzuführenden Experimente beschrieben. Das dritte Kapitel beschreibt die Art und Weise der Experimente und deren Durchführung. Die erzielten Ergebnisse werden im vierten Kapitel dargestellt und im fünften Kapitel diskutiert. Das sechste Kapitel bietet eine kurze Zusammenfassung sowie einen Ausblick in die Zukunft.
 \chapter{Grundlagen}
+Im folgenden Kapitel werden die Grundlagen für die im Rahmen der Arbeit stattgefundenen Experimente gelegt. Dafür wird im ersten Teil der Aufbau und die Elektrochemie sowie die Materialauswahl von Batteriezellen beschrieben. Anschließend werden drei verschiedene Analysemethoden für Festkörperelektrolyte vorgestellt.
 \section{Batteriezellen}
+Die Batteriezelle ist eine Form der Galvanischen Zelle. Es lassen sich dabei grundsätzlich drei verschiedene Arten von Zellen unterscheiden:
 \subsection{Elektrochemischer Vorgang}
+Die Elektrochemie einer Batteriezelle basiert auf einem Potential zwischen zwei räumlich getrennten Materialien. Durch den Anschluss eines externen Stromkreises kann dieses Potential entweder unter Abgabe von Energie abgebaut oder unter Zugabe von Energie vergrößert werden. 
+\\\\
+Es existieren zwei grundsätzliche Mechanismen:
+\subsubsection{i) Interkalierend}
+\subsubsection{ii) Das Andere}
+Das Potential zwischen den beiden Materialien kann als Differenz ihrer jeweiligen Nernstschen Halbzellenpotentiale bestimmt werden.
+% Hier Formel einfügen
 \subsection{Aufbau}
-\subsection{Elektroden}
+Eine Batterie besteht aus zwei räumlich voneinander getrennten Elektroden. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen.
+\\\\
+Es gibt verschiedene Bauformen für Batteriezellen.
+\subsubsection{Rundzellen}
+\subsubsection{Prismatische Zellen}
+\subsubsection{Knopfzellen}
+.
+\\\\
+Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfzellen ähnelt. Die beiden Elektroden und der Elektrolyt werden in eine Glasröhre übereinander montiert. Die Röhre ist über zwei Stopfen mit Dichtungsringen nach außen hin abgedichtet. Eine Druckfeder sorgt für den nötigen Anpressdruck, zwei Edelstahlplättchen für eine homogene Kraftverteilung und Kontaktierung. Verschlossen wird die Zelle mittels Plastikverschlüssen, welche die Stopfen am Verrutschen hindern. Über einfache 2mm-Bohrungen in den Stopfen kann die Zelle mit Bananensteckern an Geräte angeschlossen werden. Die Abbildung \ref{schema_zelle} zeigt die Testzelle schematisch.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\columnwidth]{images/Schema_Zelle.jpg}
+	\caption{Schema der Testzelle; 
+			1: Plastikkappe,
+			2: Dichtungsring,
+			3: Edelstahlfeder,
+			4: Kathode,
+			5: Anode,
+			6: Plastikkappe,
+			7: Glaszylinder,
+			8: Kontaktierplättchen,
+			9: Separator,
+			10: Edelstahlstopfen.
+			}
+	\label{schema_zelle}
+\end{figure}
+\subsection{Anoden}
+Typische Anodenmaterialien sind:
+\subsection{Kathoden}
+Typische Kathodenmaterialien sind:
 \subsection{Elektrolyten}
+\section{Keramiken}
 \section{Analysemethoden}
 \subsection{Röntgendiffraktion}
 \subsection{Impedanzspektroskopie}
@@ -270,24 +313,6 @@ Das magnetische Moment kann also beschrieben werden mit:
 Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiediffernzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Diese Frequenz wird als Larmor-Frequenz bezeichnet und kann auch als Präzession des Kerns beschrieben werden.
 \subsubsection{Aufbau eines NMR-Spektrometers}
 \subsubsection{Betriebsmodus}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\columnwidth]{images/Schema_Zelle.jpg}
-	\caption{Schema der Testzelle; 
-			1: Plastikkappe,
-			2: Dichtungsring,
-			3: Edelstahlfeder,
-			4: Kathode,
-			5: Anode,
-			6: Plastikkappe,
-			7: Glaszylinder,
-			8: Kontaktierplättchen,
-			9: Separator,
-			10: Edelstahlstopfen.
-			}
-	\label{schema_zelle}
-\end{figure}
 \subsubsection{Herstellung der fertigen Testzelle}
 Die Testzellen müssen unter Schutzgasatmosphäre in einer Handschuhbox (siehe Abbildung \ref{handschuhbox}) gefertigt werden. Dies ist nötig, da sowohl das rein metallische Lithium, aber insbesondere auch der zum Einsatz kommende Flüssigelektrolyt mit dem Luftsauerstoff und der Luftfeuchtigkeit reagieren können. Als Flüssigelektrolyt kommt dabei das kommerzielle Produkt LP30 der Firma Merck zum Einsatz. Dieser besteht aus einem organischen Lösungsmittel, in dem verschiedene Lithiumsalze als Flourverbindungen gelöst sind. In Kontakt mit Luftfeuchtigkeit reagiert dieser und es entsteht hochätzende Flusssäure. 
 \\\\
