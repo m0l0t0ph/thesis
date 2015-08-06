@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.4)  5 AUG 2015 18:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.4)  6 AUG 2015 13:29
 entering extended mode
 **C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/Masterarbeit.tex
 (C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/Masterarbeit.tex
@@ -1845,7 +1845,7 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 44.
+Package pdftex.def Info: images/leerpixel.png used on input line 42.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [3])
 \tf@toc=\write4
@@ -1897,31 +1897,45 @@ Package pdftex.def Info: images/KIT_LOGO.png used on input line 237.
  [2]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--245
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--253
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
 
  []
 
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 253.
+Package pdftex.def Info: images/leerpixel.png used on input line 258.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [3
 
 
 ]
-<images/Schema_Zelle.jpg, id=53, 398.48875pt x 425.59pt>
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
+
+ []
+
+<images/Schema_Zelle.jpg, id=54, 398.48875pt x 425.59pt>
 File: images/Schema_Zelle.jpg Graphic file (type jpg)
 
 <use images/Schema_Zelle.jpg>
-Package pdftex.def Info: images/Schema_Zelle.jpg used on input line 261.
+Package pdftex.def Info: images/Schema_Zelle.jpg used on input line 270.
 (pdftex.def)             Requested size: 306.71938pt x 327.5949pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--276
+Underfull \hbox (badness 10000) in paragraph at lines 265--285
 
  []
 
@@ -1929,79 +1943,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--276
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--288
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--292
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
 File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 292.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 297.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
  [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
 
+ []
 
-<images/IAM_Logo.png, id=57, 248.42813pt x 113.67468pt>
+<images/IAM_Logo.png, id=58, 248.42813pt x 113.67468pt>
 File: images/IAM_Logo.png Graphic file (type png)
 
 <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 298.
+Package pdftex.def Info: images/IAM_Logo.png used on input line 301.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
  [5 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/Schema_Zel
 le.jpg> <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/IAM_Lo
 go.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 307--311
 
  []
 
-<images/handschuhbox.jpg, id=65, 1003.75pt x 752.8125pt>
+
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
+File: images/KIT_LOGO.png Graphic file (type png)
+
+<use images/KIT_LOGO.png>
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 323.
+(pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
+ [6]
+<images/handschuhbox.jpg, id=72, 1003.75pt x 752.8125pt>
 File: images/handschuhbox.jpg Graphic file (type jpg)
 
 <use images/handschuhbox.jpg>
-Package pdftex.def Info: images/handschuhbox.jpg used on input line 322.
+Package pdftex.def Info: images/handschuhbox.jpg used on input line 331.
 (pdftex.def)             Requested size: 438.17245pt x 328.63097pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 326--335
 
  []
 
-File: images/KIT_LOGO.png Graphic file (type png)
-<use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 326.
-(pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [6]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: images/IAM_Logo.png Graphic file (type png)
- <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 326.
+<use images/IAM_Logo.png>
+Package pdftex.def Info: images/IAM_Logo.png used on input line 335.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [7 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/handschuhb
-ox.jpg>] [8
-
-
-]
+ [7]
+File: images/KIT_LOGO.png Graphic file (type png)
+ <use images/KIT_LOGO.png>
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 335.
+(pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
+ [8 <C:/Users/Wiwi-Admin/Documents/GitHub/thesis/Ausarbeitung/images/handschuhb
+ox.jpg>]
 chapter 3.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 340.
+Package pdftex.def Info: images/leerpixel.png used on input line 349.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [9] [10
+ [9
+
+
+] [10
 
 
 ]
 chapter 4.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 348.
+Package pdftex.def Info: images/leerpixel.png used on input line 357.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [11] [12
 
@@ -2010,7 +2032,7 @@ Package pdftex.def Info: images/leerpixel.png used on input line 348.
 chapter 5.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 351.
+Package pdftex.def Info: images/leerpixel.png used on input line 360.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [13] [14
 
@@ -2018,38 +2040,38 @@ Package pdftex.def Info: images/leerpixel.png used on input line 351.
 ]
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--359
+Underfull \hbox (badness 10000) in paragraph at lines 363--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--359
+Underfull \hbox (badness 10000) in paragraph at lines 363--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--373
+Underfull \hbox (badness 10000) in paragraph at lines 369--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--373
+Underfull \hbox (badness 10000) in paragraph at lines 369--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--373
+Underfull \hbox (badness 10000) in paragraph at lines 369--382
 
  []
 
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 373.
+Package pdftex.def Info: images/leerpixel.png used on input line 382.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [15]
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 375.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 384.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
  [16]
 (C:\Users\Wiwi-Admin\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.lof)
@@ -2057,7 +2079,7 @@ Package pdftex.def Info: images/KIT_LOGO.png used on input line 375.
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 381.
+Package pdftex.def Info: images/leerpixel.png used on input line 390.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [17
 
@@ -2075,7 +2097,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 10.
 )
 File: images/leerpixel.png Graphic file (type png)
  <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 388.
+Package pdftex.def Info: images/leerpixel.png used on input line 397.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [19
 
@@ -2083,11 +2105,11 @@ Package pdftex.def Info: images/leerpixel.png used on input line 388.
 ]
 (C:\Users\Wiwi-Admin\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 36765 strings out of 493921
- 868051 string characters out of 3144862
+ 36767 strings out of 493921
+ 868076 string characters out of 3144862
  1001575 words of memory out of 3000000
- 39482 multiletter control sequences out of 15000+200000
- 29462 words of font info for 72 fonts, out of 3000000 for 9000
+ 39483 multiletter control sequences out of 15000+200000
+ 30151 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  73i,15n,81p,10453b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
  <
@@ -2095,29 +2117,31 @@ C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecsx0800.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\tcrm1095.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\font
 s\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\Wiwi-Admin\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Wiwi-Admin
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\U
-sers\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecs
-x1095.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecsx2074.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Wiwi-Admin\App
-Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users
-\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm109
-5.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx1728.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk><C:/Users/Wiwi-Admin/Download
-s/localtexmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Wiwi-Admin/Dow
-nloads/localtexmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Wiwi-Admin
-/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Wiwi-A
-dmin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Wi
-wi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
-/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
-ers/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Masterarbeit.pdf (26 pages, 527211 bytes).
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Wiwi-Admin
+\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\U
+sers\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
+m0800.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecsx1095.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecsx2074.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Wiwi-Admin\App
+Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users
+\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx144
+0.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecrm1095.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Wiwi-Admin\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Wiwi-Admin\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk><C:/Users/Wiwi
+-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
+/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/U
+sers/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Users/Wiwi-Admin/Downloads/localtexmf/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on Masterarbeit.pdf (26 pages, 535909 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
+ 580 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
