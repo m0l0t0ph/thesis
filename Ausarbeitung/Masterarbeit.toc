@@ -5,49 +5,48 @@
 \contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{2}
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}
 \contentsline {section}{\numberline {2.1}Batteriezellen}{3}
-\contentsline {subsection}{\numberline {2.1.1}Elektrochemischer Vorgang}{3}
-\contentsline {subsection}{\numberline {2.1.2}Aufbau}{4}
-\contentsline {subsubsection}{\nonumberline Rundzellen}{4}
-\contentsline {subsubsection}{\nonumberline Prismatische Zellen}{4}
-\contentsline {subsubsection}{\nonumberline Knopfzellen}{4}
-\contentsline {subsection}{\numberline {2.1.3}Anoden}{4}
-\contentsline {subsection}{\numberline {2.1.4}Kathoden}{4}
-\contentsline {subsection}{\numberline {2.1.5}Elektrolyten}{5}
-\contentsline {section}{\numberline {2.2}Keramiken}{5}
-\contentsline {section}{\numberline {2.3}Analysemethoden}{5}
-\contentsline {subsection}{\numberline {2.3.1}R\IeC {\"o}ntgendiffraktion}{5}
-\contentsline {subsection}{\numberline {2.3.2}Impedanzspektroskopie}{5}
-\contentsline {subsection}{\numberline {2.3.3}NMR-Spektroskopie}{5}
-\contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der NMR-Spektroskopie}{6}
-\contentsline {subsubsection}{\nonumberline Aufbau eines NMR-Spektrometers}{7}
-\contentsline {subsubsection}{\nonumberline Betriebsmodus}{7}
-\contentsline {subsubsection}{\nonumberline Herstellung der fertigen Testzelle}{7}
-\contentsline {chapter}{\numberline {3}Methodik}{9}
-\contentsline {section}{\numberline {3.1}Pulverherstellung}{9}
-\contentsline {subsection}{\numberline {3.1.1}LATP}{9}
-\contentsline {subsection}{\numberline {3.1.2}\ce {LiTi4O5}}{9}
-\contentsline {subsection}{\numberline {3.1.3}Weitere verwendete Pulver}{9}
-\contentsline {section}{\numberline {3.2}Elektrodenherstellung}{9}
-\contentsline {subsection}{\numberline {3.2.1}Herstellung verschiedener Elektrodenslurries}{9}
-\contentsline {subsection}{\numberline {3.2.2}Foliengie\IeC {\ss }en der Elektroden}{9}
-\contentsline {subsection}{\numberline {3.2.3}Herstellung eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{9}
-\contentsline {section}{\numberline {3.3}Konstruktion der in-situ-Testzelle}{9}
-\contentsline {subsection}{\numberline {3.3.1}Anforderungen}{9}
-\contentsline {subsection}{\numberline {3.3.2}Planung}{9}
-\contentsline {subsection}{\numberline {3.3.3}Angefertigte Teile}{9}
-\contentsline {chapter}{\numberline {4}Ergebnisse}{11}
-\contentsline {section}{\numberline {4.1}Pulveranalyse}{11}
-\contentsline {subsection}{\numberline {4.1.1}XRD-Analyse}{11}
-\contentsline {subsection}{\numberline {4.1.2}MAS-NMR-Analyse}{11}
-\contentsline {section}{\numberline {4.2}Batterietests}{11}
-\contentsline {subsection}{\numberline {4.2.1}Ladekennlinien}{11}
-\contentsline {subsection}{\numberline {4.2.2}Impedanzmessungen}{11}
-\contentsline {subsection}{\numberline {4.2.3}NMR-Messungen}{11}
-\contentsline {chapter}{\numberline {5}Diskussion}{13}
-\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{13}
-\contentsline {section}{\numberline {5.2}Vergleich Batterien}{13}
-\contentsline {chapter}{\numberline {6}Fazit}{15}
-\contentsline {section}{\numberline {6.1}Zusammenfassung}{15}
-\contentsline {section}{\numberline {6.2}Ausblick}{15}
-\contentsline {chapter}{Abbildungsverzeichnis}{17}
-\contentsline {chapter}{Literaturverzeichnis}{19}
+\contentsline {subsection}{\numberline {2.1.1}Elektrochemischer Vorgang}{4}
+\contentsline {subsubsection}{\nonumberline Bestimmung der Potentialdifferenz}{5}
+\contentsline {subsection}{\numberline {2.1.2}Aufbau}{5}
+\contentsline {subsection}{\numberline {2.1.3}Elektrodenmaterialien}{6}
+\contentsline {subsubsection}{\nonumberline Typische Anodenmaterialien}{7}
+\contentsline {subsubsection}{\nonumberline Typische Kathodenmaterialien}{7}
+\contentsline {section}{\numberline {2.2}Keramiken}{7}
+\contentsline {subsection}{\numberline {2.2.1}Perowskite}{7}
+\contentsline {subsection}{\numberline {2.2.2}NASICON}{7}
+\contentsline {section}{\numberline {2.3}Analysemethoden}{9}
+\contentsline {subsection}{\numberline {2.3.1}R\IeC {\"o}ntgendiffraktion}{9}
+\contentsline {subsection}{\numberline {2.3.2}Impedanzspektroskopie}{9}
+\contentsline {subsection}{\numberline {2.3.3}NMR-Spektroskopie}{9}
+\contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der NMR-Spektroskopie}{9}
+\contentsline {subsubsection}{\nonumberline Aufbau eines NMR-Spektrometers}{10}
+\contentsline {subsubsection}{\nonumberline Betriebsmodus}{10}
+\contentsline {chapter}{\numberline {3}Methodik}{11}
+\contentsline {section}{\numberline {3.1}Pulverherstellung}{11}
+\contentsline {subsection}{\numberline {3.1.1}LATP}{11}
+\contentsline {subsection}{\numberline {3.1.2}\ce {LiTi4O5}}{11}
+\contentsline {subsection}{\numberline {3.1.3}Weitere verwendete Pulver}{11}
+\contentsline {section}{\numberline {3.2}Elektrodenherstellung}{11}
+\contentsline {subsection}{\numberline {3.2.1}Herstellung verschiedener Elektrodenslurries}{11}
+\contentsline {subsection}{\numberline {3.2.2}Foliengie\IeC {\ss }en der Elektroden}{11}
+\contentsline {subsection}{\numberline {3.2.3}Herstellung eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{11}
+\contentsline {section}{\numberline {3.3}Konstruktion der in-situ-Testzelle}{11}
+\contentsline {subsection}{\numberline {3.3.1}Anforderungen}{11}
+\contentsline {subsection}{\numberline {3.3.2}Planung}{11}
+\contentsline {subsection}{\numberline {3.3.3}Angefertigte Teile}{11}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{13}
+\contentsline {section}{\numberline {4.1}Pulveranalyse}{13}
+\contentsline {subsection}{\numberline {4.1.1}XRD-Analyse}{13}
+\contentsline {subsection}{\numberline {4.1.2}MAS-NMR-Analyse}{13}
+\contentsline {section}{\numberline {4.2}Batterietests}{13}
+\contentsline {subsection}{\numberline {4.2.1}Ladekennlinien}{13}
+\contentsline {subsection}{\numberline {4.2.2}Impedanzmessungen}{13}
+\contentsline {subsection}{\numberline {4.2.3}NMR-Messungen}{13}
+\contentsline {chapter}{\numberline {5}Diskussion}{15}
+\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{15}
+\contentsline {section}{\numberline {5.2}Vergleich Batterien}{15}
+\contentsline {chapter}{\numberline {6}Fazit}{17}
+\contentsline {section}{\numberline {6.1}Zusammenfassung}{17}
+\contentsline {section}{\numberline {6.2}Ausblick}{17}
+\contentsline {chapter}{Abbildungsverzeichnis}{19}
+\contentsline {chapter}{Literaturverzeichnis}{21}

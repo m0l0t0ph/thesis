@@ -224,48 +224,102 @@ TBD
 \chapter{Einleitung}
 Batterien nehmen in unserem Leben einen immer höheren Stellenwert ein. Sie kommen in nahezu allen mobilen elektrischen Geräten zum Einsatz. Die im Zuge des Klimaschutzes zunehmende Dekarboniserung von Wirtschaft und Gesellschaft erfordert außerdem, dass bisher mittels fossiler Brennstoffe betriebene Geräte und Maschinen in Zukunft elektrisch betrieben werden. Ein Beispiel ist hier die großflächige Einführung von Elektroautomobilen. Aber auch zur Speicherung von volatil erzeugter Energie, beispielsweise bei Wind- und Sonnenenergie, sind leistungsfähige Batterien nötig.
 \\\\
-Die vorliegende Arbeit betrachtet nun die Einsatzmöglichkeit von speziellen Keramiken als Festkörperelektrolyt in Batterien.
+Die vorliegende Arbeit betrachtet die Einsatzmöglichkeit von speziellen Keramiken als Festkörperelektrolyt in Batterien.
 \section{Motivation}
 Ein Batterie mit einem Festkörperelektrolyten bietet gleich mehrere Vorteile gegenüber der herkömmlichen Flüssigelektrolyt-Batterie. Der Flüssigelektrolyt moderner Lithiumbatterien besteht zumeist aus einem organischem Lösungsmittel und darin gelösten Lithiumsalzen (QUELLE). Diese sind jedoch nicht stabil gegenüber der Luftfeuchtigkeit und reagieren unter der Bildung von ätzenden Substanzen wie Flusssäure ab. Dies ist neben der Unsicherheit beim Versagen der Batterie ebenso auch ein Problem bei der industriellen Großproduktion. Diese kann nur mit großen Anlagen zur Trocknung der Luft erfolgen. Ein Festkörperelektrolyt könnte so gestaltet werden, dass dieser stabil gegenüber der Luftfeuchtigkeit und dem Sauerstoff der Luft ist.
 \\\\
 Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte Stabilität gegenüber elektrischen Spannungen. Handelsübliche Flüssigelektrolyte sind lediglich bis zu einer Spannung von 4,2V stabil (QUELLE). Es existieren jedoch Hochvoltelektroden, die von höheren Spannungen profitieren würden. Festkörperelektrolyte könnten diesen Mangel beheben.
 \section{Zielsetzung}
 %Ggf Anpassen
-Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als Festkörperelektrolyt anzupassen und zu analysieren. Als Ausgangspunkt dienen hierbei die Materialien \ce{LiLaTiO3} (LLTO) sowie \ce{Li_(1_+_x_)Al_xTi_(2_-_x_)(PO4)3} (LATP), die in der Literatur bereits eine ausreichend gute Lithiumleitfähigkeit nachweisen konnten (QUELLE). Die Keramiken sollen dabei in Pulverform, als Folienguss, als Tablette und im Gefüge Elektrode-Elektrolyt hergestellt werden. Als Referenz werden auch Elektroden für den Einsatz in normalen Flüssigelektrolyt-Batterien hergestellt und untersucht. Die Festkörperelektrolyte sollen mittels Röntendiffraktometrie (XRD), Kernspinspektroskopie (NMR) und Impedanzspektroskopie untersucht werden. Für die Messung von in-situ-NMR-Daten muss sowohl der Lithium-Probenkopf des NMR-Spektrometers angepasst, als auch eine eigene Testzelle konstruiert und gebaut werden.
+Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als Festkörperelektrolyt anzupassen und zu analysieren. Als Ausgangspunkt dienen hierbei die Materialien \ce{LiLaTiO3} (LLTO) sowie \ce{Li_(_1_+_x_)Al_xTi_(_2_-_x_)(PO4)3} (LATP), die in der Literatur bereits eine ausreichend gute Lithiumleitfähigkeit nachweisen konnten (QUELLE). Die Keramiken sollen dabei in Pulverform, als Folienguss, als Tablette und im Gefüge Elektrode-Elektrolyt hergestellt werden. Als Referenz werden auch Elektroden für den Einsatz in normalen Flüssigelektrolyt-Batterien hergestellt und untersucht. Die Festkörperelektrolyte sollen mittels Röntendiffraktometrie (XRD), Kernspinspektroskopie (NMR) und Impedanzspektroskopie untersucht werden. Für die Messung von in-situ-NMR-Daten muss sowohl der Lithium-Probenkopf des NMR-Spektrometers angepasst, als auch eine eigene Testzelle konstruiert und gebaut werden.
 \section{Aufbau der Arbeit}
 Im ersten Kapitel wird die Arbeit motiviert sowie eine Zielsetzung formuliert. Anschließend werden die nötigen Grundlagen für die durchzuführenden Experimente beschrieben. Das dritte Kapitel beschreibt die Art und Weise der Experimente und deren Durchführung. Die erzielten Ergebnisse werden im vierten Kapitel dargestellt und im fünften Kapitel diskutiert. Das sechste Kapitel bietet eine kurze Zusammenfassung sowie einen Ausblick in die Zukunft.
 \chapter{Grundlagen}
 Im folgenden Kapitel werden die Grundlagen für die im Rahmen der Arbeit stattgefundenen Experimente gelegt. Dafür wird im ersten Teil der Aufbau und die Elektrochemie sowie die Materialauswahl von Batteriezellen beschrieben. Anschließend werden drei verschiedene Analysemethoden für Festkörperelektrolyte vorgestellt.
 \section{Batteriezellen}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Prinzipieller_Aufbau.png}
+	\caption{Prinzip einer sekundären Zelle}
+	\label{Prinzip_Zelle}
+\end{figure}
 Die Batteriezelle ist eine Form der Galvanischen Zelle. Es lassen sich dabei grundsätzlich drei verschiedene Arten von Galvanischen Zellen unterscheiden:
 \begin{description}
 \item[Primäre Zelle - Batterie] Primäre Zellen besitzen ein chemisches Potential, welches durch den Anschluss eines externen Verbrauchers als elektrischer Strom abgerufen werden kann. Dieser Vorgang ist jedoch nicht reversibel.
-\item[Sekundäre Zelle - Akkumulator] Im Gegensatz zur primären Zelle kann die sekundäre Zelle Energie nicht nur abgeben, sondern auch wieder aufnehmen und speichern.
+\item[Sekundäre Zelle - Akkumulator] Im Gegensatz zur primären Zelle kann die sekundäre Zelle Energie nicht nur abgeben, sondern auch wieder aufnehmen und speichern. Dieses Verhalten wird in Abbildung \ref{Prinzip_Zelle} dargestellt.
 \item[Tertiäre Zelle - Brennstoffzelle] Die Tertiäre Zelle wird kontinuierlich mit einem Brenngas durchflossen und kann daher auch dauerhaft Energie in Form von elektrischen Strom abgeben.  
 \end{description}
 Die Bezeichnung Akkumulator ist dabei gerade im englischen Sprachgebrauch nicht geläufig, man spricht eher von \textit{rechargeable batteries}, also wiederaufladbaren Batterien. Auch im deutschen geht man dazu über den Begriff Batterie sowohl für primäre als auch für sekundäre Zellen zu gebrauchen. Iim Rahmen dieser Arbeit wird das Wort \textit{Batterie} synonym für beide Arten von Zelle verwendet. Betrachtet werden jedoch nur wiederaufladbare Batterien.
 \subsection{Elektrochemischer Vorgang}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\columnwidth]{images/Schematischer_Aufbau_Li_Ionen.png}
+	\caption{Schematischer Aufbau einer Lithium-Ionen-Batterie}
+	\label{schema_li_ionen}
+\end{figure}
 Die Elektrochemie einer Batteriezelle basiert auf einem Potential zwischen zwei räumlich getrennten Materialien. Durch den Anschluss eines externen Stromkreises kann dieses Potential entweder unter Abgabe von Energie abgebaut oder unter Zugabe von Energie vergrößert werden. 
 \\\\
-Es existieren zwei grundsätzliche Mechanismen:
+Es existieren zwei grundsätzliche Mechanismen zur Ladungsübertragung und Speicherung:
 \\\\
-\textbf{i) Interkalierend}
+\textbf{i) Interkalation}
 \\\\
-\textbf{ii) X}
+Bei der Interkalation handelt es sich um den reinen Einbau eines Atoms oder Ions in ein Wirtsgitter hinein, ohne das Stattfinden einer Reaktion. Beispiel wäre hier der Einbau von Lithiumkationen in eine Graphitstruktur.
 \\\\
-Das Potential zwischen den beiden Materialien kann als Differenz ihrer jeweiligen Nernstschen Halbzellenpotentiale bestimmt werden.
+\textbf{ii) Redoxreaktion}
+\\\\
+Während der Redoxreaktion kommt es zu einem Austausch von Elektronen zwischen verschiedenen Edukten. Der reduzierte, also elektronenabgebende, und der oxidierte, also elektronenaufnehmende, Part können dabei räumlich getrennt in den jeweiligen Elektroden vorliegen.
+\\\\
+Bei einer Interkalation kommt es nicht zum Übertrag von Elektronen (?).
+\subsubsection{Bestimmung der Potentialdifferenz}
+Das Potential zwischen zwei Materialien kann als Differenz ihrer jeweiligen Nernstschen Halbzellenpotentiale bestimmt werden. Die Nernst-Gleichung definiert:
+\begin{equation}
+E = E_0 + \frac{RT}{z_eF}\; ln \frac{a_{Ox}}{a_{Red}}
+\end{equation}
+mit:
+\begin{description}\itemsep0pt
+\item[E] Elektrodenpotential
+\item[E$_0$] Standardelektrodenpotential
+\item[R] Gaskonstante
+\item[T] absolute Temperatur
+\item[z$_e$] Anzahl der übertragenen Elektronen
+\item[F] Faraday-Konstante
+\item[a] Aktivität des betreffenden Redox-Partners
+\end{description}
+Einsetzen der Naturkonstanten ergibt als vereinfachte Formel unter der Bedingung eines Betriebes bei Raumtemperatur:
+\begin{equation}
+E = E_0 + \frac{0,059 V}{z_e} \; log \frac{a_{Ox}}{a_{Red}}
+\end{equation}
+Die Leerlaufspannung einer Vollzelle ergibt sich dann aus der Differenz zwischen Kathode und Anode:
+\begin{equation}
+U_{Zelle} = U_{Kathode} - U_{Anode}
+\end{equation}
 % Hier Formel einfügen
 \subsection{Aufbau}
-Eine Batterie besteht aus zwei räumlich voneinander getrennten Elektroden. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen.
+Eine Batterie besteht aus zwei räumlich voneinander getrennten Elektroden. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen. Die beiden Elektroden sind jeweils auf einem Stromkollektor aufgebracht, welcher die Kontaktierung der Elektrode nach außen hin ermöglicht.
 \\\\
 Es gibt verschiedene Bauformen für Batteriezellen.
-\subsubsection{Rundzellen}
-\subsubsection{Prismatische Zellen}
-\subsubsection{Knopfzellen}
-.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/rund_prisma_pouch.jpg}
+	\caption{Vergleich möglicher Bauformen: Rundzelle, prismatische Zelle, Pouch-Zelle}
+	\label{vergleich_zellform}
+\end{figure}
+\begin{description}
+\item[Rundzellen] Bei der Rundzellen werden die Stromkollektoren jeweils doppelseitig mit einem Elektrodenmaterial beschichtet und dann abwechselnd aufeinander gestapelt. Anschließend wird die Batteriezelle zu einem Zylinder aufgewickelt.
+\item[Prismatische Zellen] Die prismatische Zelle ähnelt im Aufbau der Rundzelle, wird jedoch rechteckig gewickelt und ist so besser schichtbar.
+\item[Pouch-Zellen] In diesen Zellen werden meist nur wenige Schichten von Elektroden übereinander gewickelt und anschließend in einer dünnen Hülle gasdicht verschweißt. Ein vor dem Einschweißen durchgeführtes Anbringen eines Vakuums garantiert das Entfernen überflüssiger Gase innerhalb der Zelle.
+\item[Knopfzellen] In einer Knopfzelle werden die Elektroden, Elektrolyt und Separator jeweils rund geformt auf einem Boden gestapelt und anschließend mit einem Deckel verschlossen. Eine zusätzlich eingebrachte Feder zwischen Zelle und Deckel sorgt für den notwendigen Anpressdruck, um eine gute Kontaktierung zu gewährleisten.
+\end{description}
+Eine Übersicht über die verschiedenen Bauformen wird in Abbildung \ref{vergleich_zellform} gezeigt. Batteriezellen können zu Batteriemodulen zusammengeschlossen werden, die dann über ein externes Batteriemanagement gezielt angesprochen und kontrolliert werden können. Ein solcher Aufbau ist in Abbildung \ref{battery_pack} zu sehen.
 \\\\
 Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfzellen ähnelt. Die beiden Elektroden und der Elektrolyt werden in eine Glasröhre übereinander montiert. Die Röhre ist über zwei Stopfen mit Dichtungsringen nach außen hin abgedichtet. Eine Druckfeder sorgt für den nötigen Anpressdruck, zwei Edelstahlplättchen für eine homogene Kraftverteilung und Kontaktierung. Verschlossen wird die Zelle mittels Plastikverschlüssen, welche die Stopfen am Verrutschen hindern. Über einfache 2mm-Bohrungen in den Stopfen kann die Zelle mit Bananensteckern an Geräte angeschlossen werden. Die Abbildung \ref{schema_zelle} zeigt die Testzelle schematisch.
-\begin{figure}[h]
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\columnwidth]{images/bmw-i3-battery-pack.png}
+	\caption{Battery-Pack des BMW i3 bestehend aus zwei Batteriemodulen und einem Batteriemanagement}
+	\label{battery_pack}
+\end{figure}
+\begin{figure}
 	\centering
 	\includegraphics[width=0.7\columnwidth]{images/Schema_Zelle.jpg}
 	\caption{Schema der Testzelle; 
@@ -282,18 +336,28 @@ Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfze
 			}
 	\label{schema_zelle}
 \end{figure}
-\subsection{Anoden}
-Typische Anodenmaterialien sind:
-\subsection{Kathoden}
-Typische Kathodenmaterialien sind:
-\subsection{Elektrolyten}
+\subsection{Elektrodenmaterialien}
+Materialien müssen verschiedene chemische und physikalische Eigenschaften erfüllen, um für den Einsatz in Elektroden geeignet zu sein. Die Ein- oder Auslagerung von Lithium sollte nicht zu einer zu hohen Veränderung des Volumens führen.
+\\\\
+Die Materialien für Elektroden können grundsätzlich nach ihrem Diffusionsverhalten klassifiziert werden.
+\begin{description}
+\item[Olivinstruktur] Die Olivinstruktur ist eine eindimensionale Tunnelstruktur, an der entlang die Diffusion stattfindet.
+\item[Lagenstruktur] Materialien, die zweidimensionale Diffusion zwischen Schichten ermöglichen, besitzen eine Lagenstruktur.
+\item[Spinellstruktur] In der Spinellstruktur ist eine Diffusion in alle drei Richtungen des Raums möglich.
+\end{description}
+\subsubsection{Typische Anodenmaterialien}
+\subsubsection{Typische Kathodenmaterialien}
 \section{Keramiken}
+\subsection{Perowskite}
+\ce{ABO_3}
+\subsection{NASICON}
+\textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor
 \section{Analysemethoden}
+Zur Strukturaufklärung werden die Materialien mit unterschiedlichen Analysemethoden untersucht.
 \subsection{Röntgendiffraktion}
 \subsection{Impedanzspektroskopie}
 \subsection{NMR-Spektroskopie}
 Die Grundlage der Kernspinresonanzspektroskopie (nuclear magnetic resonance spectroscopy, NMR-Spektroskopie) wurde zum Jahreswechsel 1945/1946 von zwei amerikanischen Forschungsgruppen unabhängig voneinander entwickelt. Felix Bloch und Edward M. Purcell wurden dafür 1952 mit dem Nobelpreis in Physik ausgezeichnet.
-\\\\
 \subsubsection{Physikalische Grundlagen der NMR-Spektroskopie}
 Die NMR-Spektroskopie nutzt die magnetischen Eigenschaften von Atomkernen und ihren Umgebungen aus, um Aussagen über Zusammensetzungen und Bindungen von Stoffen treffen zu können.
 \\\\
@@ -322,16 +386,6 @@ Das magnetische Moment kann also beschrieben werden mit:
 Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiediffernzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Diese Frequenz wird als Larmor-Frequenz bezeichnet und kann auch als Präzession des Kerns beschrieben werden.
 \subsubsection{Aufbau eines NMR-Spektrometers}
 \subsubsection{Betriebsmodus}
-\subsubsection{Herstellung der fertigen Testzelle}
-Die Testzellen müssen unter Schutzgasatmosphäre in einer Handschuhbox (siehe Abbildung \ref{handschuhbox}) gefertigt werden. Dies ist nötig, da sowohl das rein metallische Lithium, aber insbesondere auch der zum Einsatz kommende Flüssigelektrolyt mit dem Luftsauerstoff und der Luftfeuchtigkeit reagieren können. Als Flüssigelektrolyt kommt dabei das kommerzielle Produkt LP30 der Firma Merck zum Einsatz. Dieser besteht aus einem organischen Lösungsmittel, in dem verschiedene Lithiumsalze als Flourverbindungen gelöst sind. In Kontakt mit Luftfeuchtigkeit reagiert dieser und es entsteht hochätzende Flusssäure. 
-\\\\
-Für den Aufbau einer Testzelle wird ein Stempel in einen Glaszylinder eingeführt und mit einer Kappe fixiert. Anschließend kann die Zelle von der anderen Seite des Zylinders befüllt werden. Dafür wird zunächst ein Edelstahlplättchen und die Kathodenprobe eingesetzt. Darauf werden zwei Lagen Separator gelegt. Dadurch hat man die Sicherheit, dass selbst bei einem lokalen Defekt eines Separators immer noch das Verhindern des Kurzschlusses gewährleistet ist. Die Separatoren werden dann mit \SI{160}{\micro\litre} Elektrolyt benetzt. Nun kann die Lithiumanode und das obere Edelstahlplättchen abgelegt werden. Darauf wird die Feder gestellt und mit dem oberen Stempel und der oberen Kappe komprimiert sowie die Testzelle verschlossen.
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/handschuhbox.jpg}
-	\caption{Handschuhbox der Firma MBraun}
-	\label{handschuhbox}
-\end{figure}
 \chapter{Methodik}
 \section{Pulverherstellung}
 \subsection{LATP}
@@ -358,21 +412,8 @@ Es wurde ein LLTO-LTO-Gefüge hergestellt. 1,5g LLTO. 1,2g LTO. 900 Grad FAST.
 \section{Anwendbarkeit NMR}
 \section{Vergleich Batterien}
 \chapter{Fazit}
-Abschließend werden die wichtigsten Erkenntnisse dieser Arbeit noch einmal kurz zusammengefasst und mögliche Verbesserungs- und Veränderungsvorschläge in einem Ausblick gegeben.
 \section{Zusammenfassung}
-Die Herstellung gezielt strukturierter Aluminiumfolien mit mikrostrukturierter und sandgestrahlter Oberfläche für den Einsatz in Batteriezellen ist möglich. Diese konnten zu Elektrodenplättchen weiterverarbeitet werden. Die Elektrodenplättchen wurden erfolgreich in Batterietestzellen eingebaut und konnten über mehrere Zyklen hinweg getestet werden.
-\\\\
-Mittels Impedanzspektroskopie konnten die Proben anschließend auf ihren Wiederstand zwischen Aktivmaterial und Aluminiumfolie hin untersucht werden. Dabei wurde festgestellt, dass nur die sandgestrahlte Oberfläche ein verbessertes Verlustverhalten aufwies. 
-\\\\
-Eine wirtschaftliche Produktion von Batterien mit strukturierten Stromkollektorfolien ist denkbar. Es wird allerdings noch eine genauere, quantitative Untersuchung des Verbesserungspotentials der Technologie benötigt, um konkrete Berechnungen durchführen zu können. Weiterhin muss gezeigt werden, dass die Strukturierung auch mittels Roll-to-Roll-Anlagen in ausreichender Geschwindigkeit realisierbar ist.
 \section{Ausblick}
-Auf Grundlage dieser Arbeit gibt es verschiedene Fragestellungen, welche in Zukunft weiter untersucht werden können. Die verwendete Mikrostruktur kann weiter verbessert werden. Im Vergleich zur Höhe der Aktivmaterialschicht auf kommerziellen Zellen von $100 - 200\mu m$ ist die Struktur noch zu flach, um tief genug in das Material hinein zu reichen. Eine höhere und dafür auch breitere Struktur könnte hier bessere Ergebnisse erzielen.
-\\\\
-Das Aktivmaterial selbst kann auch auf die Mikrostruktur hin optimiert werden. Dabei wäre beispielsweise denkbar durch die kürzeren Wege den Anteil an Leitruß zu verringern und dadurch die Energiedichte weiter zu verbessern. Auch ein Kalendrieren der Probe sollte in Betracht gezogen werden, um einen besseren Kontakt zwischen Aktivmaterial und Stromkollektor zu gewährleisten. Eine genauere Analyse mit Hilfe eines Rasterelektronenmikroskops kann hier genaueren Aufschluss über den Kontakt zwischen den Schichten geben.
-\\\\
-Für die Batterietests sind weiterführende Experimente zu empfehlen. Dabei sollte vor allem die Anzahl an Proben angehoben werden und auch Langzeittests in Betracht gezogen werden. Die Impedanzmessungen können durch bessere Proben und gezieltere Beeinflussung der Umgebungsfaktoren wie verschiedene Ladungszustände und Temperaturen besser analysiert werden.
-\\\\
-Aus Zeitgründen konnte der Test des strukturierten Aluminiums als Material für Kondensatoren nicht realisiert werden. Auch die Herstellung der Folie über Roll-to-Roll-Anlagen muss noch genauer erforscht werden. Erst dann sind weiterführende Aussagen über eine auch kommerzielle Eignung der Technik möglich.
 % der Anhang
 \renewcommand{\thesection}{\Alph{section}}
 %\appendix
