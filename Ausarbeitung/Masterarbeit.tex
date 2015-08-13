@@ -293,7 +293,7 @@ Die Leerlaufspannung einer Vollzelle ergibt sich dann aus der Differenz zwischen
 \begin{equation}
 U_{Zelle} = U_{Kathode} - U_{Anode}
 \end{equation}
-% Hier Formel einfügen
+% Hier noch mehr
 \subsection{Aufbau}
 Eine Batterie besteht aus zwei räumlich voneinander getrennten Elektroden. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen. Die beiden Elektroden sind jeweils auf einem Stromkollektor aufgebracht, welcher die Kontaktierung der Elektrode nach außen hin ermöglicht.
 \\\\
@@ -346,17 +346,60 @@ Die Materialien für Elektroden können grundsätzlich nach ihrem Diffusionsverh
 \item[Spinellstruktur] In der Spinellstruktur ist eine Diffusion in alle drei Richtungen des Raums möglich.
 \end{description}
 \subsubsection{Typische Anodenmaterialien}
+\begin{description}
+\item[Lithium-Metall]
+\item[Graphit (\ce{C6})]
+\item[Lithiumtitanat (\ce{Li4Ti5O12})] Teilweise auch Lithiumtitanspinell.
+\end{description}
 \subsubsection{Typische Kathodenmaterialien}
+\begin{description}
+\item[Lithiumcobaltdioxid (\ce{LiCoO2})]
+\item[Lithiummanganspinell (\ce{LiMn2O4})]
+\item[Schwefel]
+\end{description}
+\subsubsection{Elektrolyte}
 \section{Keramiken}
+Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe zwei vielversprechende Klassen von lithiumleitenden Krramiken identifizieren: Die perowskititischen sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken. 
 \subsection{Perowskite}
-\ce{ABO_3}
+Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Element an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung. %Abbildung!
+\\\\
+Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}).
 \subsection{NASICON}
 \textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor
 \section{Analysemethoden}
-Zur Strukturaufklärung werden die Materialien mit unterschiedlichen Analysemethoden untersucht.
+Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht.
 \subsection{Röntgendiffraktion}
+Die Röntgendiffraktion (X-Ray Diffraction, XRD) nutzt den Zustand der charakteristischen Beugung von Röntgenstrahlung an geordneten Strukturen wie Kristallen aus, um daraus Aussagen über diese Struktur treffen zu können. Damit ist es beispielsweise möglich, die Phasenreinheit eines Stoffes zu bestimmen.
+\subsubsection{Physikalische Grundlagen der XRD}
+Bei der Beugung von Röntgenstrahlen an Kristallgittern entstehen Interferenzen durch die unterschiedlich tiefe Eindringung in das Material bis zum Auftreffen auf ein Teilchen. Dieser Umstand kann mit der Bragg-Gleichung beschrieben werden:
+\begin{equation}
+n\lambda = 2d \sin{\theta}
+\end{equation}
+mit
+\begin{description}\itemsep0pt
+\item[n] Grad des untersuchten Maximums (?)
+\item[$\lambda$] Wellenlänge der Röntgenstrahlung
+\item[d] Abstand der Netzebenen
+\item[$\theta$] Winkel der Strahlung zur Netzebene
+\end{description}
+Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\columnwidth]{images/Bragg.png}
+	\caption{Schematische Darstellung der Bragg-Reflexion (https://de.wikipedia.org/wiki/Datei:Bragg.svg)}
+	\label{bragg}
+\end{figure}
 \subsection{Impedanzspektroskopie}
-\subsection{NMR-Spektroskopie}
+Die Impedanzspektroskopie eignet sich, um Widerstände in einem Gesamtsystem genauer zu untersuchen und dadurch Aussagen über die Leitung innerhalb des Systems treffen zu können.
+\subsubsection{Grundlagen der Impedanzspektroskopie}
+\subsubsection{Elektrochemisches Ersatzschaltbild}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\columnwidth]{images/Schema_IS.jpg}
+	\caption{Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce{LiFePO4}-Zelle}
+	\label{schema_is}
+\end{figure}
+\subsection{Kernspinresonanzspektroskopie}
 Die Grundlage der Kernspinresonanzspektroskopie (nuclear magnetic resonance spectroscopy, NMR-Spektroskopie) wurde zum Jahreswechsel 1945/1946 von zwei amerikanischen Forschungsgruppen unabhängig voneinander entwickelt. Felix Bloch und Edward M. Purcell wurden dafür 1952 mit dem Nobelpreis in Physik ausgezeichnet.
 \subsubsection{Physikalische Grundlagen der NMR-Spektroskopie}
 Die NMR-Spektroskopie nutzt die magnetischen Eigenschaften von Atomkernen und ihren Umgebungen aus, um Aussagen über Zusammensetzungen und Bindungen von Stoffen treffen zu können.
@@ -387,9 +430,17 @@ Keiner dieser möglichen Spinzustände ist energetisch günstiger als die andere
 \subsubsection{Aufbau eines NMR-Spektrometers}
 \subsubsection{Betriebsmodus}
 \chapter{Methodik}
+
 \section{Pulverherstellung}
+Es wurden zwei Pulver selbst hergestellt, zwei weitere bereits am Institut vorhandene und charakterisierte Pulver wurden ebenfalls benutzt.
 \subsection{LATP}
 \subsection{\ce{LiTi4O5}}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/SolGel.jpg}
+	\caption{Herstellung von \ce{LiTi4O5} über einen Sol-Gel-Prozess}
+	\label{sol_gel}
+\end{figure}
 \subsection{Weitere verwendete Pulver}
 \section{Elektrodenherstellung}
 \subsection{Herstellung verschiedener Elektrodenslurries}
@@ -397,9 +448,48 @@ Keiner dieser möglichen Spinzustände ist energetisch günstiger als die andere
 \subsection{Herstellung eines Elektrode-Elektrolyt-Gefüges}
 Es wurde ein LLTO-LTO-Gefüge hergestellt. 1,5g LLTO. 1,2g LTO. 900 Grad FAST.
 \section{Konstruktion der in-situ-Testzelle}
+Um NMR-Messungen im laufenden Betrieb einer Batterie machen zu können, musste ein spezieller Testaufbau geplant und kostruiert werden. Es war nötig sowohl den Probenkopf des NMR-Spektrometers anzupassen, als auch eine komplett neue Batterie-Testzelle zu bauen.
 \subsection{Anforderungen}
+Ziel war die Konstruktion einer Testzelle, welche sowohl Die eingesetzten Materialien mussten alle ausreichend amagnetisch sein, um die empfindlichen Kernspinmessungen der NMR-Spektroskopie nicht zu sehr zu stören. 
 \subsection{Planung}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Skizze_Testzelle.jpg}
+	\caption{Skizze der Testzelle}
+	\label{skizze_testzelle}
+\end{figure}
+\begin{figure}
+%mit Subfigures machen?
+	\centering
+	\includegraphics[width=0.7\columnwidth]{images/stempel_oben.png}
+	\caption{Stempel oben}
+	\label{stempel_oben}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\columnwidth]{images/stempel_unten.png}
+	\caption{Stempel unten}
+	\label{stempel_unten}
+\end{figure}
 \subsection{Angefertigte Teile}
+\subsubsection{Die Glaszelle}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\columnwidth]{images/Glaszelle.jpg}
+	\caption{Glaszelle}
+	\label{glaszelle_foto}
+\end{figure}
+\subsubsection{Die Stempel}
+Die Stempel wurden 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\columnwidth]{images/Stempel_Foto_cutted.jpg}
+	\caption{Die gedrehten Messingstempel}
+	\label{stempel_foto}
+\end{figure}
+\subsubsection{Die Mutter}
+\subsubsection{Die Feder}
+\subsubsection{Die Positionsplättchen}
 \chapter{Ergebnisse}
 \section{Pulveranalyse}
 \subsection{XRD-Analyse}
