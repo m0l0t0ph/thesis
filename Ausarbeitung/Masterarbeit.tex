@@ -263,13 +263,22 @@ Es existieren zwei grundsätzliche Mechanismen zur Ladungsübertragung und Speic
 \\\\
 \textbf{i) Interkalation}
 \\\\
-Bei der Interkalation handelt es sich um den reinen Einbau eines Atoms oder Ions in ein Wirtsgitter hinein, ohne das Stattfinden einer Reaktion. Beispiel wäre hier der Einbau von Lithiumkationen in eine Graphitstruktur.
+Bei der Interkalation handelt es sich um den reinen Einbau eines Atoms oder Ions in ein Wirtsgitter hinein, ohne das Stattfinden einer Reaktion. Beispiel wäre hier der Einbau von Lithiumkationen in eine Graphitstruktur. Bei einer Interkalation kommt es nicht zum Übertrag von Elektronen.
 \\\\
 \textbf{ii) Redoxreaktion}
 \\\\
 Während der Redoxreaktion kommt es zu einem Austausch von Elektronen zwischen verschiedenen Edukten. Der reduzierte, also elektronenabgebende, und der oxidierte, also elektronenaufnehmende, Part können dabei räumlich getrennt in den jeweiligen Elektroden vorliegen.
 \\\\
-Bei einer Interkalation kommt es nicht zum Übertrag von Elektronen (?).
+Im Falle einer \ce{LiCoO2}-Batterie mit graphitischer Anode wären die bei der Entladung ablaufenden Reaktionen \cite{minakshi2008book}:
+\\\\
+An der Anode:\\ %DAs mit der Interkalation dringend nochmal recherchieren!!!
+\begin{equation}
+	\ce{Li1C6 -> C6 + Li+ + e-}
+\end{equation}
+An der Kathode:\\ %Kein vollständiger Ausbau! Korrigieren!
+\begin{equation}
+	\ce{Li+ + e- + CoO2 -> LiCoO2}
+\end{equation}
 \subsubsection{Bestimmung der Potentialdifferenz}
 Das Potential zwischen zwei Materialien kann als Differenz ihrer jeweiligen Nernstschen Halbzellenpotentiale bestimmt werden. Die Nernst-Gleichung definiert:
 \begin{equation}
@@ -285,15 +294,19 @@ mit:
 \item[F] Faraday-Konstante
 \item[a] Aktivität des betreffenden Redox-Partners
 \end{description}
-Einsetzen der Naturkonstanten ergibt als vereinfachte Formel unter der Bedingung eines Betriebes bei Raumtemperatur:
+Das Verhältnis der Aktivitäten kann dabei als Konzentrationsverhältnis der beiden Phasen dargestellt werden. Einsetzen der Naturkonstanten ergibt als vereinfachte Formel unter der Bedingung eines Betriebes bei Raumtemperatur:
 \begin{equation}
-E = E_0 + \frac{0,059 V}{z_e} \; log \frac{a_{Ox}}{a_{Red}}
+E = E_0 + \frac{0,059 V}{z_e} \; log \frac{c_{Ox}}{c_{Red}}
 \end{equation}
-Die Leerlaufspannung einer Vollzelle ergibt sich dann aus der Differenz zwischen Kathode und Anode:
+Über die molare freie Reaktionsenthalpie $\Delta G_m$ kann die Potentialdifferenz als theoretische Zellspannung ebenfalls dargestellt werden:
+\begin{equation}
+\Delta U_{theo} = -\frac{\Delta G_m}{z_eF}
+\end{equation}
+Eine einfache Darstellung ist die Angabe des Potentials jedes Stoffes zu reinem Lithiummetall. Die Leerlaufspannung einer Vollzelle ergibt sich dann aus der Differenz zwischen Kathoden- und Anodenspannung gegenüber Lithiummetall:
 \begin{equation}
 U_{Zelle} = U_{Kathode} - U_{Anode}
 \end{equation}
-% Hier noch mehr
+So gilt für eine \ce{LiCoO2}-Zelle mit graphitischer Anode ein mittleres Elektrodenpotential der Kathode gegen Lithium von 3,9V, der Anode von ungefähr 0,1V. Die Zelle erreicht daher eine theoretische Zellspannung von 3,8V.
 \subsection{Aufbau}
 Eine Batterie besteht aus zwei räumlich voneinander getrennten Elektroden. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen. Die beiden Elektroden sind jeweils auf einem Stromkollektor aufgebracht, welcher die Kontaktierung der Elektrode nach außen hin ermöglicht.
 \\\\
@@ -321,8 +334,8 @@ Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfze
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\columnwidth]{images/Schema_Zelle.jpg}
-	\caption{Schema der Testzelle; 
+	\includegraphics[width=0.55\columnwidth]{images/Schema_Zelle.jpg}
+	\caption{Schema der IAM-KWT-Testzelle; 
 			1: Plastikkappe,
 			2: Dichtungsring,
 			3: Edelstahlfeder,
@@ -337,7 +350,7 @@ Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfze
 	\label{schema_zelle}
 \end{figure}
 \subsection{Elektrodenmaterialien}
-Materialien müssen verschiedene chemische und physikalische Eigenschaften erfüllen, um für den Einsatz in Elektroden geeignet zu sein. Die Ein- oder Auslagerung von Lithium sollte nicht zu einer zu hohen Veränderung des Volumens führen.
+Materialien müssen verschiedene chemische und physikalische Eigenschaften erfüllen, um für den Einsatz in Elektroden geeignet zu sein. Die eingesetzten Stoffe sollten ungiftig sein und in ausreichender Menge günstig zu beschaffen sein. Sie sollten eine ausreichend hohe Potentialdifferenz zwischen den Elektroden besitzen, um eine hohe Zellspannung gewährleisten zu können. Das Material sollte eine möglichs hohe Energie- und Leistungssdichte ermöglichen, um auch für den mobilen Einsatz interessant zu sein. Es muss sowohl eine gute Lithium- als auch Elektronenleitfähigkeit gewährleistet sein. Die Ein- und Auslagerung von Lithium sollte nicht zu einer zu hohen Veränderung des Volumens führen, da diese unter Umstände Grenzflächen zerstört und hohe Anforderungen an die Bauweise der Zellen stellt. Auch nach einer hohen Anzahl an Zyklierungen sollte das Material noch eine ausreichende Kapazität besitzen. Ein Versagen der Zelle sollte möglichst nicht zu einer starken Hitzeentwicklung und Explosion der Zelle führen.
 \\\\
 Die Materialien für Elektroden können grundsätzlich nach ihrem Diffusionsverhalten klassifiziert werden.
 \begin{description}
@@ -345,25 +358,41 @@ Die Materialien für Elektroden können grundsätzlich nach ihrem Diffusionsverh
 \item[Lagenstruktur] Materialien, die zweidimensionale Diffusion zwischen Schichten ermöglichen, besitzen eine Lagenstruktur.
 \item[Spinellstruktur] In der Spinellstruktur ist eine Diffusion in alle drei Richtungen des Raums möglich.
 \end{description}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/strukturen_elektroden.png}
+	\caption{Spannunglsagen verschiedener Elektrodenmaterialien (links) und ihre entsprechenden Kanalstrukturen (rechts) (BuB-Skript)}
+	\label{strukturen_elektroden}
+\end{figure}
 \subsubsection{Typische Anodenmaterialien}
+% Was zur SEI schreiben? Quelle Skript BuB?
+Für die meisten Zellen in dieser Arbeit kamen metallische Lithiumanoden zum Einsatz. Kommerziell ist Graphit momentan das Standardanodenmaterial von Lithium-Ionen-Batterien.
 \begin{description}
-\item[Lithium-Metall]
-\item[Graphit (\ce{C6})]
-\item[Lithiumtitanat (\ce{Li4Ti5O12})] Teilweise auch Lithiumtitanspinell.
+\item[Lithium-Metall] Rein metallisches Lithium besitzt eine sehr hohe theoretische Kapazität von 3860mAh/g. Da jedoch die Anode im Betrieb nicht aufgebraucht werden darf, muss es im Überschuss bereit gestellt werden. Es besitzt die maximal mögliche Zellspannung gegenüber der Kathode. Problematisch ist jedoch, dass es durch das fehlende Wirtsgitter dazu neigt während der Zyklierung Dendriten auszubilden, die schlussendlich zu einem Kurzschluss und Ausfall der Zelle führen.
+\item[Graphit (\ce{C6})] Graphit besitzt eine Lagenstruktur zwischen der er Lithium einspeichern kann. Es kann jeweils ein Lithiumatom pro sechs Kohlenstoffatomen eingelagert werden. Er erreicht damit eine theoretische Kapazität von 372 mAh/g. Das Potential gegen rein metallisches Lithium ist sehr klein (ca. 0,1V), was hohe Zellspannungen ermöglicht. Die Einlagerung erfolgt über drei unterschiedliche Stufen und führt zu einer Volumenzunahme von maximal 9\%.
+\item[Lithiumtitanat (\ce{Li4Ti5O12}, LTO)] Teilweise auch Lithiumtitanspinell. Lithiumtitanat besitzt eine Spinellstruktur. Die theoretische Kapazität liegt bei 233mAh/g, in der Praxis werden meistens Kapazitäten von etwa 150mAh/g erreicht. Das Material vollführt nahezu keine Volumenänderung bei Ein- und Ausbau von Lithium. Jedoch ist seine Potentiallage mit 1,55V gegenüber metallischem Lithium sehr hoch, was zu kleineren Zellspannungen führt.
 \end{description}
 \subsubsection{Typische Kathodenmaterialien}
 \begin{description}
-\item[Lithiumcobaltdioxid (\ce{LiCoO2})]
-\item[Lithiummanganspinell (\ce{LiMn2O4})]
-\item[Schwefel]
+\item[Lithiumcobaltdioxid (\ce{LiCoO2})] Die praktische Kapazität von Lithiumcobaltoxid liegt bei 150mAh/g. Dies liegt an der Tatsache, dass nur etwa 60\% der Lithiumatome aus dem Gitter ausgebaut werden dürfen, da es sonst durch den Zusammenbruch der Struktur zur Bildung von Sauerstoff kommt. Beim Laden muss daher die Spannung unter 4,2V gehalten werden. Die Diffusion läuft daher zweidimensional zwischen zwei Schichten ab. Das mittlere Elektrodenpotential von Lithiumcobaltoxid liegt bei hohen 3,9V.
+\item[Lithiummanganspinell (\ce{LiMn2O4}, LMO)] Lithiummanganspinell ist ein Hochvolkathodenmaterial. %LMNO ???
+\item[Schwefel] ???
 \end{description}
 \subsubsection{Elektrolyte}
+Elektrolyte sollen möglichst wenig elektronenleitend sein, um eine schleichende Selbstentladung der Batterie zu verhindern. Gleichzeitig muss aber eine gute Ionenleitfähigkeit gewährleistet werden, um eine hohe Leistung der Zelle zu ermöglichen. Weiterhin müssen die Grenzflächen zwischen Elektrode und Elektrolyt eine ausreichende Güte besitzen, damit die Ionen zwischen beiden Zellbestandteilen wandern können.
+\\\\
+Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum Einsatz. Diese bestehen aus einem organischen Lösungsmittel wie beispielsweise einer Ethylencarbonat-Dimethylcarbonat-Mischung (EC-DMC). Hier sorgt das stark polare Ethylencarbonat für die Löslichkeit, während man mit dem Dimethylcarbonat-Anteil die Viskosität der Lösung einstellen kann. In diese Mischung löst man dann ungesättigte Lithium-Leitsalze wie \ce{LiPF6}, \ce{LiAsF6} oder \ce{LiClO4}.
+\\\\
+Problem dieser Lösungen sind ihre schlechte Beständigkeit gegenüber Wasser. Bei \ce{LiPF6} sorgen beispielsweise schon kleinste Verunreinigungen des Elektrolyts zur Bildung von hochätzender Flusssäure, die den Elektrolyt vergiftet und zu einem Ausfall der Zelle führt. Dies ist bei der Herstellung von Lithium-Ionen-Batterien ein großes Problem, da es eine aufwendige und teure Trocknung der Luft bei der Herstellung der Zellen erfordert.
+\\\\
+Ein weiteres Problem von Flüssigelektrolyten ist ihr begrenztes Temperaturfenster. Bei zu hohen Temperaturen siedet der Elektrolyt und zerstört so die Zelle, bei zu niedrigeren Temperaturen bildet sich zumeist ein Polymergel, welches nicht mehr in der Lage ist die Ionen zu leiten.
 \section{Keramiken}
 Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe zwei vielversprechende Klassen von lithiumleitenden Krramiken identifizieren: Die perowskititischen sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken. 
 \subsection{Perowskite}
-Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Element an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung. %Abbildung!
+Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Elementen an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung. %Abbildung!
 \\\\
-Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}).
+Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}, LLTO). Das einfach positive Lithium und das dreifach positive Lanthan besetzen dabei die A-Plätze, das vierfach positive Titan den B-Platz. Mögliche Strukturen des LLTO können daher über die Formel \ce{Li_{3x}La_{2/3-x}TiO3} mit $x \in (0, 1/6)$ beschrieben werden. Der Anteil an Lithium-Leerstellen steigt mit größerem x an.
 \subsection{NASICON}
 \textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor
 \section{Analysemethoden}
@@ -488,7 +517,13 @@ Die Stempel wurden
 	\label{stempel_foto}
 \end{figure}
 \subsubsection{Die Mutter}
+Durch den Einsatz des M3-Standardgewindes bei den Stempeln, konnte bei der Mutter ein Standardmodell aus Messing aus dem Fachhandel eingesetzt werden.
 \subsubsection{Die Feder}
+Die Feder stellte besondere Herausforderungen an die Materialauswahl. So musste neben der amagnetischen Eigenschaft auch eine gute elastische Verformbarkeit gegeben sein. Neben Messing wurde daher auch Federbronze (\ce{CuSn6}) und Kupferberyllium (\ce{CuBr2}) als mögliche Materialien betrachtet.
+% Tabelle mit Übersicht?
+\\\\
+Die Feder wurde dabei so ausgelegt, dass der Anpressdruck auf die Zelle gleich ist, wie bei der bereits am IAM-KWT existierenden Zelle.
+
 \subsubsection{Die Positionsplättchen}
 \chapter{Ergebnisse}
 \section{Pulveranalyse}
