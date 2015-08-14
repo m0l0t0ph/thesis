@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  14 AUG 2015 18:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  14 AUG 2015 19:31
 entering extended mode
 **Masterarbeit.tex
 (C:\Users\Toph\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.tex
@@ -1942,47 +1942,51 @@ Package pdftex.def Info: images/IAM_Logo.png used on input line 409.
 <images/Bragg.png, id=94, 1027.84pt x 536.0025pt>
 File: images/Bragg.png Graphic file (type png)
  <use images/Bragg.png>
-Package pdftex.def Info: images/Bragg.png used on input line 417.
+Package pdftex.def Info: images/Bragg.png used on input line 421.
 (pdftex.def)             Requested size: 262.90614pt x 137.10002pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--425
+
+ []
 
 <images/Schema_IS.jpg, id=95, 1305.87875pt x 1161.33875pt>
 File: images/Schema_IS.jpg Graphic file (type jpg)
 
 <use images/Schema_IS.jpg>
-Package pdftex.def Info: images/Schema_IS.jpg used on input line 427.
+Package pdftex.def Info: images/Schema_IS.jpg used on input line 431.
 (pdftex.def)             Requested size: 350.53929pt x 311.72272pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--437
+Underfull \hbox (badness 10000) in paragraph at lines 438--441
 
  []
 
 File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 437.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 441.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
  [12 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Bragg.png>]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 437.
+Package pdftex.def Info: images/IAM_Logo.png used on input line 441.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
  [13 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schema_IS.jpg>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--447
+Underfull \hbox (badness 10000) in paragraph at lines 447--451
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2027) has occurred while \output is active []
 
 File: images/KIT_LOGO.png Graphic file (type png)
 
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 459.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 463.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
  [14]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 461.
+Package pdftex.def Info: images/IAM_Logo.png used on input line 465.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
  [15] [16
 
@@ -1992,54 +1996,54 @@ Kapitel 3.
 <images/SolGel.jpg, id=114, 2007.5pt x 975.645pt>
 File: images/SolGel.jpg Graphic file (type jpg)
  <use images/SolGel.jpg>
-Package pdftex.def Info: images/SolGel.jpg used on input line 469.
+Package pdftex.def Info: images/SolGel.jpg used on input line 473.
 (pdftex.def)             Requested size: 438.17245pt x 212.94543pt.
 
 <images/Skizze_Testzelle.jpg, id=115, 576.2328pt x 714.9912pt>
 File: images/Skizze_Testzelle.jpg Graphic file (type jpg)
 
 <use images/Skizze_Testzelle.jpg>
-Package pdftex.def Info: images/Skizze_Testzelle.jpg used on input line 486.
+Package pdftex.def Info: images/Skizze_Testzelle.jpg used on input line 490.
 (pdftex.def)             Requested size: 438.17245pt x 543.69353pt.
+File: images/leerpixel.png Graphic file (type png)
+ <use images/leerpixel.png>
+Package pdftex.def Info: images/leerpixel.png used on input line 493.
+(pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
+ [17]
+Underfull \hbox (badness 10000) in paragraph at lines 496--499
 
-<images/stempel_oben.png, id=116, 556.8899pt x 507.58194pt>
+ []
+
+<images/stempel_oben.png, id=119, 556.8899pt x 507.58194pt>
 File: images/stempel_oben.png Graphic file (type png)
 
 <use images/stempel_oben.png>
-Package pdftex.def Info: images/stempel_oben.png used on input line 493.
+Package pdftex.def Info: images/stempel_oben.png used on input line 506.
 (pdftex.def)             Requested size: 306.71938pt x 279.56592pt.
 
-<images/stempel_unten.png, id=117, 569.942pt x 514.10799pt>
+<images/stempel_unten.png, id=120, 569.942pt x 514.10799pt>
 File: images/stempel_unten.png Graphic file (type png)
 
 <use images/stempel_unten.png>
-Package pdftex.def Info: images/stempel_unten.png used on input line 499.
+Package pdftex.def Info: images/stempel_unten.png used on input line 512.
 (pdftex.def)             Requested size: 306.71938pt x 276.6728pt.
 
-<images/Glaszelle.jpg, id=118, 2601.72pt x 1951.29pt>
+<images/Glaszelle.jpg, id=121, 2601.72pt x 1951.29pt>
 File: images/Glaszelle.jpg Graphic file (type jpg)
 
 <use images/Glaszelle.jpg>
-Package pdftex.def Info: images/Glaszelle.jpg used on input line 507.
+Package pdftex.def Info: images/Glaszelle.jpg used on input line 518.
 (pdftex.def)             Requested size: 262.90614pt x 197.16507pt.
 
-<images/Stempel_Foto_cutted.jpg, id=119, 963.6pt x 536.0025pt>
+<images/Stempel_Foto_cutted.jpg, id=122, 963.6pt x 536.0025pt>
 File: images/Stempel_Foto_cutted.jpg Graphic file (type jpg)
 
 <use images/Stempel_Foto_cutted.jpg>
-Package pdftex.def Info: images/Stempel_Foto_cutted.jpg used on input line 515.
+Package pdftex.def Info: images/Stempel_Foto_cutted.jpg used on input line 524.
 
 (pdftex.def)             Requested size: 394.35252pt x 219.3535pt.
 
-Underfull \vbox (badness 1460) has occurred while \output is active []
-
-File: images/leerpixel.png Graphic file (type png)
-
-<use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 519.
-(pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [17]
-Underfull \hbox (badness 10000) in paragraph at lines 522--526
+Underfull \hbox (badness 10000) in paragraph at lines 500--528
 
  []
 
@@ -2054,37 +2058,45 @@ Package pdftex.def Info: images/IAM_Logo.png used on input line 528.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
  [19 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Skizze_Testzell
 e.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 531--535
+
+ []
+
+File: images/KIT_LOGO.png Graphic file (type png)
+<use images/KIT_LOGO.png>
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 537.
+(pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
+ [20 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_oben.pn
+g>]
+File: images/IAM_Logo.png Graphic file (type png)
+ <use images/IAM_Logo.png>
+Package pdftex.def Info: images/IAM_Logo.png used on input line 537.
+(pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
+ [21 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_unten.p
+ng> <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Glaszelle.jpg>]
 File: images/KIT_LOGO.png Graphic file (type png)
 
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 528.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 537.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [20 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_oben.pn
-g> <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_unten.png
->]
-File: images/IAM_Logo.png Graphic file (type png)
- <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 528.
-(pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [21 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Glaszelle.jpg> 
-<C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Stempel_Foto_cutted.
-jpg>] [22
-
-
-]
+ [22 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Stempel_Foto_cu
+tted.jpg>]
 Kapitel 4.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 536.
+Package pdftex.def Info: images/leerpixel.png used on input line 545.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [23] [24
+ [23
+
+
+] [24
 
 
 ]
 Kapitel 5.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 539.
+Package pdftex.def Info: images/leerpixel.png used on input line 548.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [25] [26
 
@@ -2093,7 +2105,7 @@ Package pdftex.def Info: images/leerpixel.png used on input line 539.
 Kapitel 6.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 550.
+Package pdftex.def Info: images/leerpixel.png used on input line 559.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [27] [28
 
@@ -2109,7 +2121,7 @@ s://de.wikipedia.org/wiki/Datei:Bragg.svg) [][]
 \tf@lof=\write5
 File: images/leerpixel.png Graphic file (type png)
  <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 556.
+Package pdftex.def Info: images/leerpixel.png used on input line 565.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [29
 
@@ -2122,7 +2134,7 @@ Package pdftex.def Info: images/leerpixel.png used on input line 556.
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 563.
+Package pdftex.def Info: images/leerpixel.png used on input line 572.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [31
 
@@ -2163,7 +2175,7 @@ ype1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on Masterarbeit.pdf (38 pages, 7661776 bytes).
+Output written on Masterarbeit.pdf (38 pages, 7664304 bytes).
 PDF statistics:
  678 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

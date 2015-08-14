@@ -379,7 +379,7 @@ Für die meisten Zellen in dieser Arbeit kamen metallische Lithiumanoden zum Ein
 \item[Lithiummanganspinell (\ce{LiMn2O4}, LMO)] Lithiummanganspinell ist ein Hochvolkathodenmaterial. %LMNO ???
 \item[Schwefel] ???
 \end{description}
-\subsubsection{Elektrolyte}
+\subsection{Elektrolyte}
 Elektrolyte sollen möglichst wenig elektronenleitend sein, um eine schleichende Selbstentladung der Batterie zu verhindern. Gleichzeitig muss aber eine gute Ionenleitfähigkeit gewährleistet werden, um eine hohe Leistung der Zelle zu ermöglichen. Weiterhin müssen die Grenzflächen zwischen Elektrode und Elektrolyt eine ausreichende Güte besitzen, damit die Ionen zwischen beiden Zellbestandteilen wandern können.
 \\\\
 Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum Einsatz. Diese bestehen aus einem organischen Lösungsmittel wie beispielsweise einer Ethylencarbonat-Dimethylcarbonat-Mischung (EC-DMC). Hier sorgt das stark polare Ethylencarbonat für die Löslichkeit, während man mit dem Dimethylcarbonat-Anteil die Viskosität der Lösung einstellen kann. In diese Mischung löst man dann ungesättigte Lithium-Leitsalze wie \ce{LiPF6}, \ce{LiAsF6} oder \ce{LiClO4}.
@@ -412,6 +412,10 @@ mit
 \item[$\theta$] Winkel der Strahlung zur Netzebene
 \end{description}
 Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
+\subsubsection{Bragg-Brentano-Diffraktometer}
+.
+\\\\
+Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\columnwidth]{images/Bragg.png}
@@ -479,14 +483,23 @@ Es wurde ein LLTO-LTO-Gefüge hergestellt. 1,5g LLTO. 1,2g LTO. 900 Grad FAST.
 \section{Konstruktion der in-situ-Testzelle}
 Um NMR-Messungen im laufenden Betrieb einer Batterie machen zu können, musste ein spezieller Testaufbau geplant und kostruiert werden. Es war nötig sowohl den Probenkopf des NMR-Spektrometers anzupassen, als auch eine komplett neue Batterie-Testzelle zu bauen.
 \subsection{Anforderungen}
-Ziel war die Konstruktion einer Testzelle, welche sowohl Die eingesetzten Materialien mussten alle ausreichend amagnetisch sein, um die empfindlichen Kernspinmessungen der NMR-Spektroskopie nicht zu sehr zu stören. 
-\subsection{Planung}
+Ziel war die Konstruktion einer Testzelle, welche sowohl ... Die eingesetzten Materialien mussten alle ausreichend amagnetisch sein, um die empfindlichen Kernspinmessungen der NMR-Spektroskopie nicht zu sehr zu stören. Sie sollte möglichst ähnlich wie die bereits am IAM-KWT im Einsatz befindliche Zelle aufgebaut sein, um eine Vergleichbarkeit zwischen beiden Zellen zu gewährleisten und einen Einsatz auch außerhalb der NMR-Anlage zu ermöglichen. Der Außendurchmesser der Zelle war durch den Aufbau des NMR-Probenkopfes auf maximal 10mm festgesetzt.
+\subsection{Planung und Anfertigung der Teile}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/Skizze_Testzelle.jpg}
 	\caption{Skizze der Testzelle}
 	\label{skizze_testzelle}
 \end{figure}
+Der Aufbau des NMR-Spektrometers gibt eine zylindrische Form der einzuführenden Probe vor. ..., ähnlich der bereits am IAM-KWT im Einsatz befindlichen Testzelle. Jedoch musste der bisherige Abschluss der Zelle umgestaltet werden. Um eingeführt werden zu können, muss der Boden der neuen Zelle bündig mit der restlichen Zelle abschließen und darf nicht auskragen. Die Kontaktierung kann nicht nach unten hin weg erfolgen, weshalb an der Außenseite der Zelle nach oben hin weg eine Leitung existieren muss. Beide Maßnahmen erfordern ein neues Design des unteren Stempels sowie der äußeren Hülle. Der obere Stempel und die Feder müssen sowohl auf den kleineren Durchmesser hin angepasst werden, als auch aus amagnetischen Materialien gefertigt werden. Abbildung \ref{skizze_testzelle} zeigt skizzenhaft die Planung der neuen Testzelle.
+\subsubsection{Die Glaszelle}
+Als Material für die Zellhülle wurde Glas ausgewählt. Glas bietet den Vorteil einer optischen Kontrolle der Zelle während des manuellen Einbaus der verschiedenen Komponenten. Es ist auch bei dünnen Wandstärken ausreichend fest, womit der Innendurchmesser maximiert werden konnte. Glas ist amagnetisch (Größenangabe).
+\\\\
+Die Glaszelle wurde von einem Glasbläser der Laborhandelsgesellschaft GmbH (Karlsruhe) aus verschiedenen Standardelementen spezialangefertigt.
+\subsubsection{Die Stempel}
+Die beiden Stempel wurden jeweils als CAD-Modell mit der Software Creo Parametric der Firma PTV geplant. Die Zeichnungen sind in Abbildung \ref{stempel_oben} und \ref{stempel_unten} dargestellt. Als Material kommt eine Messinglegierung zum Einsatz (\ce{Cu..}). 
+\\\\
+Die Stempel wurden an einer XX-Maschine des Typs XY von Technikern der Technologiefabrik Karlsruhe gedreht.
 \begin{figure}
 %mit Subfigures machen?
 	\centering
@@ -500,16 +513,12 @@ Ziel war die Konstruktion einer Testzelle, welche sowohl Die eingesetzten Materi
 	\caption{Stempel unten}
 	\label{stempel_unten}
 \end{figure}
-\subsection{Angefertigte Teile}
-\subsubsection{Die Glaszelle}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\columnwidth]{images/Glaszelle.jpg}
 	\caption{Glaszelle}
 	\label{glaszelle_foto}
 \end{figure}
-\subsubsection{Die Stempel}
-Die Stempel wurden 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\columnwidth]{images/Stempel_Foto_cutted.jpg}
