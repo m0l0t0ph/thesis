@@ -1,0 +1,93 @@
+EC-Lab ASCII FILE
+Nb header lines : 82                          
+
+Galvanostatic Cycling with Potential Limitation
+
+Run on channel : 1 (SN 6985)
+Grouped channel(s) : 1
+User : 
+CE vs. WE compliance from -10 V to 10 V
+Electrode connection : standard
+Ewe ctrl range : min = 0,00 V, max = 5,00 V
+Acquisition started on : 10.28.2014 11:50:52
+Saved on :
+	File : LATP vs Li Batterietest Probe1_02_GCPL_C01.mpr
+	Directory : C:\Hupfer\Batterietest Li vs LATP\
+	Host : 192.168.0.2
+Device : VMP3 (SN 0324)
+Address : 192.168.0.1
+EC-Lab for windows v10.33 (software)
+Internet server v10.33 (firmware)
+Command interpretor v10.32 (firmware)
+Electrode material : Lithium - LATP folie
+Initial state : unbekannt
+Electrolyte : LP30
+Comments : Batterietest
+Mass of active material : 0,001 mg
+ at x = 0,000
+Molecular weight of active material (at x = 0) : 0,001 g/mol
+Atomic weight of intercalated ion : 0,001 g/mol
+Acquisition started at : xo = 0,000
+Number of e- transfered per intercalated ion : 1
+for DX = 1, DQ = 26,801 mA.h
+Battery capacity : 0,000 A.h
+Reference electrode : Li+/Li (-3,020 V)
+Electrode surface area : 0,001 cm²
+Characteristic mass : 0,001 g
+Ns                  0                   1                   2                   
+Set I/C             I                   I                   I                   
+Is                  0,000               100,000             -100,000            
+unit Is             mA                  µA                  µA                  
+vs.                 <None>              <None>              <None>              
+N                   1                   1                   1                   
+I sign              > 0                 > 0                 > 0                 
+t1 (h:m:s)          0:00:0,0000         60:00:0,0000        60:00:0,0000        
+I Range             100 µA              100 µA              100 µA              
+Bandwidth           5                   5                   5                   
+dE1 (mV)            0,00                0,00                0,00                
+dt1 (s)             0,0000              2,0000              2,0000              
+EM (V)              0,000               4,500               1,200               
+tM (h:m:s)          0:00:0,0000         0:00:0,0000         0:00:0,0000         
+Im                  0,000               0,000               0,000               
+unit Im             mA                  mA                  mA                  
+E range min (V)     0,000               0,000               0,000               
+E range max (V)     5,000               5,000               5,000               
+dq                  0,000               1,000               1,000               
+unit dq             mA.h                mA.h                mA.h                
+dtq (s)             0,0000              120,0000            120,0000            
+dQM                 0,000               0,000               0,000               
+unit dQM            mA.h                mA.h                mA.h                
+dxM                 0,000               0,000               0,000               
+tR (h:m:s)          0:00:0,0000         0:00:0,0000         0:00:0,0000         
+dER/dt (mV/h)       0,0                 0,1                 0,1                 
+dER (mV)            0,00                5,00                5,00                
+dtR (s)             1,0000              120,0000            120,0000            
+EL (V)              pass                3,500               3,500               
+goto Ns'            0                   0                   0                   
+nc cycles           0                   0                   0                   
+
+Number of loops : 11
+Loop 0 from point number 0 to 0
+Loop 1 from point number 1 to 1
+Loop 2 from point number 2 to 2
+Loop 3 from point number 3 to 3
+Loop 4 from point number 4 to 4
+Loop 5 from point number 5 to 5
+Loop 6 from point number 6 to 6
+Loop 7 from point number 7 to 7
+Loop 8 from point number 8 to 8
+Loop 9 from point number 9 to 9
+Loop 10 from point number 10 to 10
+
+time/s	cycle number	Q charge/mA.h	Q discharge/mA.h	Energy charge/W.h	Energy discharge/W.h	Capacitance charge/µF	Capacitance discharge/µF	Efficiency/%
+4390,0049	1	0,02237975455701169	0,049557206963365261	7,4546373790909926E-005	-0,00010072114628469418	41360,930373684787	54311,008753615482	221,437668
+7822,9839	2	0,04800734729032633	0,047348088813490784	0,00014161616266974118	-9,6989857885615168E-005	54133,032717529523	51869,951360961293	98,6267548
+11168,9634	3	0,046593140750841638	0,046345481346678803	0,0001367452838675129	-9,5266672100006426E-005	52566,356252918298	50761,801392269261	99,4684601
+14441,9522	4	0,045751295550965875	0,045159208396527872	0,00013386431916336398	-9,3105964023451533E-005	51631,418190605434	49465,423868976314	98,7058563
+17659,7623	5	0,044681365424736499	0,044696818968908192	0,00013069486223210678	-9,210851242999008E-005	50462,940726557261	48960,704352794445	100,034584
+20871,6999	6	0,044493198289412486	0,044722050117592787	0,00012982467443466413	-9,2399729893327091E-005	50242,90391239072	48975,821812688442	100,514351
+24073,8433	7	0,044473385850650016	0,044469756623800851	0,00012949205188517445	-9,2002331346129728E-005	50205,794073260659	48697,433306128109	99,9918365
+27255,0506	8	0,044216935680575046	0,044144547478856717	0,00012864070019392035	-9,139337011671913E-005	49912,405922729728	48344,232824729952	99,8362885
+30417,1880	9	0,04393355291608768	0,043898281404770522	0,00012774421090984707	-9,09311006571104E-005	49598,15914718455	48056,950578160941	99,9197159
+33563,4674	10	0,043713158513645421	0,043678112030188301	0,00012703560187276602	-9,0521806722568704E-005	49345,50921461223	47820,311168405414	99,9198227
+36696,7408	11	0,043510828292403923	0,043519154006239021	0,0001264051310761324	-9,0201689601518451E-005	49120,050629484166	47640,853365169222	100,019135
