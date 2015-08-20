@@ -260,7 +260,7 @@ Die Bezeichnung Akkumulator ist dabei gerade im englischen Sprachgebrauch nicht 
 Die Elektrochemie einer Batteriezelle basiert auf einem Potential zwischen zwei räumlich getrennten Materialien. Durch den Anschluss eines externen Stromkreises kann dieses Potential entweder unter Abgabe von Energie abgebaut oder unter Zugabe von Energie vergrößert werden. 
 \\\\
 Es existieren zwei grundsätzliche Mechanismen zur Ladungsübertragung und Speicherung:
-\\\\
+\\\\ %Besser: Unterschiedung reiner Einbau vs. Neubildung von Struktur ???
 \textbf{i) Interkalation}
 \\\\
 Bei der Interkalation handelt es sich um den reinen Einbau eines Atoms oder Ions in ein Wirtsgitter hinein, ohne das Stattfinden einer Reaktion. Beispiel wäre hier der Einbau von Lithiumkationen in eine Graphitstruktur. Bei einer Interkalation kommt es nicht zum Übertrag von Elektronen.
@@ -271,7 +271,7 @@ Während der Redoxreaktion kommt es zu einem Austausch von Elektronen zwischen v
 \\\\
 Im Falle einer \ce{LiCoO2}-Batterie mit graphitischer Anode wären die bei der Entladung ablaufenden Reaktionen \cite{minakshi2008book}:
 \\\\
-An der Anode:\\ %DAs mit der Interkalation dringend nochmal recherchieren!!!
+An der Anode:\\ %Das mit der Interkalation dringend nochmal recherchieren!!!
 \begin{equation}
 	\ce{Li1C6 -> C6 + Li+ + e-}
 \end{equation}
@@ -379,11 +379,14 @@ Für die meisten Zellen in dieser Arbeit kamen metallische Lithiumanoden zum Ein
 \item[Lithiummanganspinell (\ce{LiMn2O4}, LMO)] Lithiummanganspinell ist ein Hochvolkathodenmaterial, sein mittleres Elektrodenpotential liegt bei 4,0V. Die praktische Kapazität des Stoffes liegt bei etwa 120mAh/g bei der Verwendung von Flüssigelektrolyten, welche die Ladespannung auf 4,2V begrenzen. Der Spinell selbst ist auch noch bei höheren Potentialen stabil. Bei tiefen Ladezuständen kann es zu einer Manganauslösung und unerwünschten Gitterumwandlungen kommen, der Jahn-Teller-Verzerrung. Um diese zu verhindern, können Teile des Mangans durch andere Übergangsmetalle substituiert werden. In dieser Arbeit wird eine \ce{LiNi_{0,5}Mn_{1,5}O4}-Verbindung (LNMO) untersucht.
 \item[Schwefel] Reiner Schwefel besitzt normalerweise einen zyklischen Achterring. Beim Einsatz als Kathodenmaterial wird dieser Ring beim Entladen langsam reduziert und es entstehen verschiedene Polysulfide:
 \begin{equation}
-\ce{S8 -> Li2S8 -> Li2S6 -> Li2S6 -> Li2S5 }%Zeilenumbruch hier
-\ce{-> Li2S4 -> Li2S3 -> Li2S2 -> Li2S}
+\begin{split}
+\ce{S8 -> Li2S8 -> Li2S6 -> Li2S6 -> Li2S5 -> }\\
+\ce{ Li2S4 -> Li2S3 -> Li2S2 -> Li2S}
+\end{split}
 \end{equation}
-Diese existieren in unterschiedlichen Konzentrationen auch nebeneinander, der Schwefelanteil am Gemisch nimmt aber während dem Entladevorgang ab.
+Diese existieren in unterschiedlichen Konzentrationen auch nebeneinander, der Schwefelanteil am Gemisch nimmt aber während dem Entladevorgang ab. Dieser Vorgang findet reversibel beim Laden der Zelle statt. Die theoretische Kapazität einer Lithium-Schwefel-Zelle liegt bei 1672mAh/g, praktisch kann aber momentan bei höheren Lade/Entladeraten jedoch nur ein um den Faktor 5-10 niedrigerer Wert erreicht werden. Das größte Problem des Materials sind ungewollte Reaktionen der Polysulfide mit dem Elektrolyten und eine damit einhergehende schleichende Vergiftung des Elektrolyten und Verlust an Aktivmaterial.
 \end{description}
+Alle Kathodenmaterialien und auch das Anodenmaterial LTO besitzen eine zu schwache Leitfähigkeit für Elektronen. Daher wird ihnen Kohlenstoff beigemischt, um Elektronen in die Elektrode zu transportieren. Die Materialien werden dabei mit Bindern versetzt. Die optimale Auswahl an Kohlenstoffmodifikation (Ruß, Graphit, Kohlenstoffnanoröhrchen, Graphen) und deren Prozessierung ist dabei eine aktuelle Forschungsaktivität (QUELLE). Es wird eine möglichst geringe Beimischung dieser Zusatzstoffe angestrebt, um die Masse an Aktivmaterial in der Zelle zu optimieren.
 \subsection{Elektrolyte}
 Elektrolyte sollen möglichst wenig elektronenleitend sein, um eine schleichende Selbstentladung der Batterie zu verhindern. Gleichzeitig muss aber eine gute Ionenleitfähigkeit gewährleistet werden, um eine hohe Leistung der Zelle zu ermöglichen. Weiterhin müssen die Grenzflächen zwischen Elektrode und Elektrolyt eine ausreichende Güte besitzen, damit die Ionen zwischen beiden Zellbestandteilen wandern können.
 \\\\
@@ -391,7 +394,7 @@ Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum E
 \\\\
 Problem dieser Lösungen sind ihre schlechte Beständigkeit gegenüber Wasser. Bei \ce{LiPF6} sorgen beispielsweise schon kleinste Verunreinigungen des Elektrolyts zur Bildung von hochätzender Flusssäure, die den Elektrolyt vergiftet und zu einem Ausfall der Zelle führt. Dies ist bei der Herstellung von Lithium-Ionen-Batterien ein großes Problem, da es eine aufwendige und teure Trocknung der Luft bei der Herstellung der Zellen erfordert.
 \\\\
-Ein weiteres Problem von Flüssigelektrolyten ist ihr begrenztes Temperaturfenster. Bei zu hohen Temperaturen siedet der Elektrolyt und zerstört so die Zelle, bei zu niedrigeren Temperaturen bildet sich zumeist ein Polymergel, welches nicht mehr in der Lage ist die Ionen zu leiten.
+Ein weiteres Problem von Flüssigelektrolyten ist ihr begrenztes Temperaturfenster. Bei zu hohen Temperaturen verdampft der Elektrolyt und zerstört so die Zelle, bei zu niedrigeren Temperaturen bildet sich zumeist ein Polymergel, welches nicht mehr in der Lage ist die Ionen zu leiten.
 \section{Keramiken}
 Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe zwei vielversprechende Klassen von lithiumleitenden Krramiken identifizieren: Die perowskititischen sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken. 
 \subsection{Perowskite}
@@ -401,7 +404,7 @@ Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist h
 \subsection{NASICON}
 \textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor
 \section{Analysemethoden}
-Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht.
+Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht. Die Röntgendiffraktion misst Reflexionen und Interferenzen an Kristallgittern und ermöglicht daher eine Charakterisierung der untersuchten Stoffe über ihre kristalline Struktur. Bei der Impedanzspektroskopie wird der frequenzabhängige, komplexe Widerstand eines Materials untersucht, um dessen Leitfähigkeit genauer analysieren zu können. Die Kernspinspektroskopie ermöglicht die genaue Untersuchung der atomaren Umgebung eines speziellen Elements innerhalb einer Struktur durch gezieltes Ausrichten und Variieren der Kernspins.
 \subsection{Röntgendiffraktion}
 Die Röntgendiffraktion (X-Ray Diffraction, XRD) nutzt den Zustand der charakteristischen Beugung von Röntgenstrahlung an geordneten Strukturen wie Kristallen aus, um daraus Aussagen über diese Struktur treffen zu können. Damit ist es beispielsweise möglich, die Phasenreinheit eines Stoffes zu bestimmen.
 \subsubsection{Physikalische Grundlagen der XRD}
@@ -417,26 +420,42 @@ mit
 \item[$\theta$] Winkel der Strahlung zur Netzebene
 \end{description}
 Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
-\subsubsection{Bragg-Brentano-Diffraktometer}
-.
-\\\\
-Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\columnwidth]{images/Bragg.png}
 	\caption{Schematische Darstellung der Bragg-Reflexion (https://de.wikipedia.org/wiki/Datei:Bragg.svg)}
 	\label{bragg}
 \end{figure}
+\subsubsection{Bragg-Brentano-Diffraktometer}
+Eine Bragg-Brentano-Anordunung eignet sich besonders für das Anfertigen von Pulverdiffraktogrammen. Eine ebene, flache Probe, z.B. in einen kleinen Tigel gepresstes Pulver, wird im Mittelpunkt eines Drehkreises befestigt. Der Röhrenfokus wird nun im gleichen Abstand zur Probe wie der Detektor angebracht. Beide zeigen im gleichen Winkel auf die Probe. Während der Messung wird dieser Winkel nun kontinuierlich variiert. Dazu kann entweder die Probe mit halber Winkelgeschwindigkeit des Detektors gedreht werden oder Röhre und Detektor bewegen sich mit gleicher Geschwindigkeit aufeinander zu beziehungsweise voneinander weg. Es kann nun für jeden Winkel quantitativ das Maß an Reflexion und Interferenz gemessen werden und daraus ein Diffraktogramm erstellt werden. Mittels Rietveld-Methode oder Vergleich mit einer Datenbank ist anschließend eine Analyse des Diffraktogramms möglich.
+% Evtl. noch eine Grafik?
+\\\\
+Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
 \subsection{Impedanzspektroskopie}
 Die Impedanzspektroskopie eignet sich, um Widerstände in einem Gesamtsystem genauer zu untersuchen und dadurch Aussagen über die Leitung innerhalb des Systems treffen zu können.
 \subsubsection{Grundlagen der Impedanzspektroskopie}
+Kapazitive und induktive Bauelemente besitzen einen sich über den Zeitverlauf ändernden Widerstand. Werden diese nun in einem Wechselstrom betrieben, so entsteht ein frequenzabhängiger Widerstand, die Impedanz. Eine Impedanz ist aufgebaut aus einem realen, frequenz\-unabhängigen und einem komplexen, frequenz\-abhängigen Teil.
+\\\\
+Admittanz, Leitfähigkeit.
 \subsubsection{Elektrochemisches Ersatzschaltbild}
+Elektrotechnische Bauelemente besitzen nun unterschiedliche, charakteristische Impedanzen. Eine Verschaltung unterschiedlicher Elemente resultiert in einem Impedanzspektrum. Dargestellt werden können diese in einem Nyquist-Plot, der den Realteil gegen den Imaginärteil aufträgt.
+\begin{description}
+\item[Widerstand] Der Widerstand besitzt keinen komplexen, sondern lediglich einen realen Anteil. Dies entspricht einem Punkt auf der Realachse des Nyquist-Plots.
+\item[Kondensator] Ein idealer Kondensator besitzt keinen realen Widerstand. Sein Imaginärteil konvergiert bei hohen Frequenzen gegen Null, bei niedrigen Frequenzen divergiert er ins Negative.
+\item[Spule] Eine Spule besitzt ebenfalls keinen relaen, sondern nur einen imaginären Widerstand. Dieser konvergiert für niedrige Frequenzen gegen Null, bei hohen Frequenzen divergiert er ins Positive
+\item[RC-Glied] Grenzflächen, beispielsweise zwischen Elektrode und Elektrolyt in einer Batterie, bilden meistens sogenannte Helmholtz-Doppelschichten aus. Sie besitzen sowohl ein kapazitives Element als auch einen Durchtrittswiderstand. Dies kann als RC-Glied, also einer Parallelschaltung von Widerstand und Kondensator, dargestellt werden. Im Nyquist-Plot ergibt sich ein Halbkreis mit Radius 1/RC.
+\item[Warburg-Element] Um Diffusionprozesse darzustellen, können Warburg-Elemente verwendet werden. Diese leiten sich aus den Fickschen Gesetzen her. 
+\end{description}
+Das Impedanzspektrum einer Batterie kann mit Hilfe eines elektrochemischen Ersatzschaltbildes analysiert werden. Dabei versucht man für ein experimentell erhaltenes Impedanzspektrum ein plausibles Ersatzschaltbild zu finden, dessen Impedanzspektrum vom experimentell bestimmte Spektrum möglichst wenig abweicht. Ein Beispiel hierfür lässt sich in Abbildung \ref{schema_is} finden.
+\\\\
+Aus dem so modellierten Ersatzschaltbild lassen sich quantitative Aussagen über die einzelnen Widerstände und Grenzschichten innerhalb einer Batteriezelle treffen. Das Impedanzspektrum ist bei einer Batterie jedoch auch immer von Faktoren wie dem Ladezustand, der Temperatur oder der Anzahl an bereits erfolgter Zyklen abhängig.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\columnwidth]{images/Schema_IS.jpg}
 	\caption{Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce{LiFePO4}-Zelle}
 	\label{schema_is}
 \end{figure}
+% Evtl. noch zyklische Voltametrie?
 \subsection{Kernspinresonanzspektroskopie}
 Die Grundlage der Kernspinresonanzspektroskopie (nuclear magnetic resonance spectroscopy, NMR-Spektroskopie) wurde zum Jahreswechsel 1945/1946 von zwei amerikanischen Forschungsgruppen unabhängig voneinander entwickelt. Felix Bloch und Edward M. Purcell wurden dafür 1952 mit dem Nobelpreis in Physik ausgezeichnet.
 \subsubsection{Physikalische Grundlagen der NMR-Spektroskopie}
