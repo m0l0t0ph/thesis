@@ -388,21 +388,52 @@ Diese existieren in unterschiedlichen Konzentrationen auch nebeneinander, der Sc
 \end{description}
 Alle Kathodenmaterialien und auch das Anodenmaterial LTO besitzen eine zu schwache Leitfähigkeit für Elektronen. Daher wird ihnen Kohlenstoff beigemischt, um Elektronen in die Elektrode zu transportieren. Die Materialien werden dabei mit Bindern versetzt. Die optimale Auswahl an Kohlenstoffmodifikation (Ruß, Graphit, Kohlenstoffnanoröhrchen, Graphen) und deren Prozessierung ist dabei eine aktuelle Forschungsaktivität (QUELLE). Es wird eine möglichst geringe Beimischung dieser Zusatzstoffe angestrebt, um die Masse an Aktivmaterial in der Zelle zu optimieren.
 \subsection{Elektrolyte}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/fluessigelektrolyt.png}
+	\caption{Chemische Strukturen der Bestandteile eines Flüssigelektrolyten}
+	\label{fluessigelektrolyt}
+\end{figure}
 Elektrolyte sollen möglichst wenig elektronenleitend sein, um eine schleichende Selbstentladung der Batterie zu verhindern. Gleichzeitig muss aber eine gute Ionenleitfähigkeit gewährleistet werden, um eine hohe Leistung der Zelle zu ermöglichen. Weiterhin müssen die Grenzflächen zwischen Elektrode und Elektrolyt eine ausreichende Güte besitzen, damit die Ionen zwischen beiden Zellbestandteilen wandern können.
 \\\\
-Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum Einsatz. Diese bestehen aus einem organischen Lösungsmittel wie beispielsweise einer Ethylencarbonat-Dimethylcarbonat-Mischung (EC-DMC). Hier sorgt das stark polare Ethylencarbonat für die Löslichkeit, während man mit dem Dimethylcarbonat-Anteil die Viskosität der Lösung einstellen kann. In diese Mischung löst man dann ungesättigte Lithium-Leitsalze wie \ce{LiPF6}, \ce{LiAsF6} oder \ce{LiClO4}.
+Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum Einsatz. Diese bestehen aus einem organischen Lösungsmittel wie beispielsweise einer Ethylencarbonat-Dimethylcarbonat-Mischung (EC-DMC). Hier sorgt das stark polare Ethylencarbonat für die Löslichkeit, während man mit dem Dimethylcarbonat-Anteil die Viskosität der Lösung einstellen kann. In diese Mischung löst man dann ungesättigte Lithium-Leitsalze wie \ce{LiPF6}, \ce{LiAsF6} oder \ce{LiClO4}. Eine Abbildung der chemischen Strukturen der Bestandteile eines Flüssigelektrolyten auf EC/DMC-Basis mit \ce{LiClO4} als Leitsalz ist in Abbildung \ref{fluessigelektrolyt} dargestellt.
 \\\\
 Problem dieser Lösungen sind ihre schlechte Beständigkeit gegenüber Wasser. Bei \ce{LiPF6} sorgen beispielsweise schon kleinste Verunreinigungen des Elektrolyts zur Bildung von hochätzender Flusssäure, die den Elektrolyt vergiftet und zu einem Ausfall der Zelle führt. Dies ist bei der Herstellung von Lithium-Ionen-Batterien ein großes Problem, da es eine aufwendige und teure Trocknung der Luft bei der Herstellung der Zellen erfordert.
 \\\\
 Ein weiteres Problem von Flüssigelektrolyten ist ihr begrenztes Temperaturfenster. Bei zu hohen Temperaturen verdampft der Elektrolyt und zerstört so die Zelle, bei zu niedrigeren Temperaturen bildet sich zumeist ein Polymergel, welches nicht mehr in der Lage ist die Ionen zu leiten.
 \section{Keramiken}
-Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe zwei vielversprechende Klassen von lithiumleitenden Krramiken identifizieren: Die perowskititischen sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken. 
+Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe zwei vielversprechende Klassen von lithiumleitenden Keramiken identifizieren: Die perowskitischen sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken. 
 \subsection{Perowskite}
-Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Elementen an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung. %Abbildung!
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\columnwidth]{images/Perowskit-Struktur.png}
+	\caption{\ce{ABO3}-Struktur eines Perowskits (blau: A, rot: B, grün: O)}
+	\label{struktur-perowskit}
+\end{figure}
+Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Elementen an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung.
 \\\\
-Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}, LLTO). Das einfach positive Lithium und das dreifach positive Lanthan besetzen dabei die A-Plätze, das vierfach positive Titan den B-Platz. Mögliche Strukturen des LLTO können daher über die Formel \ce{Li_{3x}La_{2/3-x}TiO3} mit $x \in (0, 1/6)$ beschrieben werden. Der Anteil an Lithium-Leerstellen steigt mit größerem x an.
-\subsection{NASICON}
-\textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor
+Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}, LLTO). Das einfach positive Lithium und das dreifach positive Lanthan besetzen dabei die A-Plätze, das vierfach positive Titan den B-Platz. Mögliche Strukturen des LLTO können daher über die Formel \ce{Li_{3x}La_{2/3-x}TiO3} mit $x \in (0, 1/6)$ beschrieben werden. Der Anteil an Leerstellen in der Struktur steigt mit größerem x an.
+\\\\
+Durch die Leerstellen auf den A-Plätzen und durch Diffusion können Lithiumionen durch das Material wandern. Dabei bilden jeweils vier Sauerstoffionen eine Flaschenhalsformation (QUELLE). Durch eine unterschiedliche Neigung der TiO6-Oktaeder ist der Diffusionswiderstand und die Aktivierungsenergie allerdings im Material inhomogen verteilt. Da sich im Material außerdem entlang der c-Achse lanthanreiche und lanthanarme Schichten bilden, ist die Leerstellenbewegung zwischen diesen Ebenen teilweise gehemmt (QUELLE).
+\\\\
+Für Lithiumlanthantitanoxid konnte eine Bulk-Leitfähigkeit von bis zu 1x$10^{-3}$ S/cm nachgewiesen werden (QUELLE), weshalb eine Einsatzmöglichkeit als Festkörperelektrolyt untersucht wird.
+\subsection{NASICON-Keramiken}
+Das Akronym NASICON steht für \textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor und wurde ursprünglich für spezielle, natriumleitende Keramiken in Natrium-Schwefel-Batterien verwendet. Heute steht es allerdings für eine ganze Klasse an Keramiken die mit der allgemeinen Formel \ce{LiM2(PO4)3} beschrieben werden können. Dabei steht der Platzhalter M für ein Element aus der Gruppe Titan (Ti), Zirkon (Zr), Germanium (Ge) oder Hafnium (Hf).
+\\\\
+Die Struktur der NASICON-Keramiken ist aus \ce{MO6}-Oktaedern und \ce{PO4}-Tetraedern aufgebaut. Dabei verbindet sich ein \ce{PO4}-Tetraeder immer mit vier unterschiedlichen \ce{MO6}-Oktaedern, der wiederum mit sechs unterschiedlichen Tetraedern in Kontakt steht. Zwischen dieser Struktur existieren zwei Zwischengitterplätze, auf dem sich die Lithiumionen aufhalten können. Eine Darstellung ist in Abbildung (noch einfügen) ersichtlich.
+\\\\
+Der Zwischengitterplatz M1 beschreibt dabei einen Raum zwischen zwei \ce{MO6}-Oktaedern entlang der c-Achse. Die M2-Plätze sind hingegen senkrecht zur c-Achse zwischen den Bändern angeordnet. Zwischen diesen Räumen existieren außerdem noch M12 Plätze. Von entscheidender Bedeutung für die Leitfähigkeit des Materials ist nun, welche Größe die Engstelle zwischen den Gitterplätzen einnimmt. Dieser Flaschenhals kann maßgeblich durch die Ionen innerhalb der Gitterstruktur beeinflusst werden.
+\subsubsection{Lithiumtitanphosphat}
+Wählt man als Komponente M Titan, so erhält man Lithiumtitanphosphat (\ce{LiTi2(PO4)3}). Die zueinander passenden Größen von Lithiumionen auf der einen und der Zwischengitterstruktur auf der anderen Seite sorgt für eine sehr gute Leitfähigkeit. Die Lithiumionen besetzen dabei vollständig die M1-Stellen, die M2-Stellen bleiben vollständig unbesetzt. 
+\\\\
+Eine weitere Erhöhung der Bulk-Leitfähigkeit kann durch einen teilweisen Einbau von beweglicheren Aluminiumionen anstelle von Titanionen erzielt werden. Das entstehende Material ist Lithium-Aluminium-Titanphosphat (LATP) und kann durch die allgemeine Struktur \ce{Li_{1+x}Al_{x}Ti_{2-x}(PO4)3} beschrieben werden. Die durch die Substituierung der Titanionen zusätzlich eingebrachten Lithiumionen besetzten dabei M2-Plätze, was zu einer Steigerung der Ionenleitfähigkeit führt.
+\\\\
+Die \ce{Ti^{4+}}-Ionen des LATP werden von verschiedenen Anodenmaterialien, wie Lithiummetall oder lithiierten Graphit, zu \ce{Ti^{3+}} reduziert. Diese Instabilität kann zu einem Versagen des Elektrolyts führen. Das LATP muss daher mit einem geeigneten Anodenmaterial kombiniert werden.
+\subsubsection{Lithium-Aluminium-Germaniumphosphat}
+Um der Reduktion der Titankationen vorzubeugen, können diese mit Germaniumkationen ersetzt werden. Das so entstehende Material ist Lithium-Aluminium-Germaniumphosphat (LAGP). Es kann mit der allgemeinen Struktur \ce{Li_{1+x}Al_xGe_{2-x}(PO4)3} beschrieben werden.
+\\\\
+LAGP besitzt eine mit LATP vergleichbare Leitfähigkeit und ist außerdem auch noch bei hohen Spannungen von bis zu 7V stabil gegen Lithium.
+% Details zur Herstellung?
 \section{Analysemethoden}
 Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht. Die Röntgendiffraktion misst Reflexionen und Interferenzen an Kristallgittern und ermöglicht daher eine Charakterisierung der untersuchten Stoffe über ihre kristalline Struktur. Bei der Impedanzspektroskopie wird der frequenzabhängige, komplexe Widerstand eines Materials untersucht, um dessen Leitfähigkeit genauer analysieren zu können. Die Kernspinspektroskopie ermöglicht die genaue Untersuchung der atomaren Umgebung eines speziellen Elements innerhalb einer Struktur durch gezieltes Ausrichten und Variieren der Kernspins.
 \subsection{Röntgendiffraktion}
@@ -484,8 +515,16 @@ Das magnetische Moment kann also beschrieben werden mit:
 \mu_z = \gamma m_I \hbar
 \end{equation}
 Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiediffernzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Diese Frequenz wird als Larmor-Frequenz bezeichnet und kann auch als Präzession des Kerns beschrieben werden.
+\\\\
+- Anregung, Echo, Fourier-Transformation
+\\\\
+- Inhomogenität durch Nachbarschaft, chemische Verschiebung
 \subsubsection{Aufbau eines NMR-Spektrometers}
+- Abschirmung, Kryomagneten
 \subsubsection{Betriebsmodus}
+- Echovarianten
+\subsubsection{Magic Angle Spinning}
+- MAS-NMR
 \chapter{Methodik}
 
 \section{Pulverherstellung}
@@ -502,6 +541,12 @@ Es wurden zwei Pulver selbst hergestellt, zwei weitere bereits am Institut vorha
 \section{Elektrodenherstellung}
 \subsection{Herstellung verschiedener Elektrodenslurries}
 \subsection{Foliengießen der Elektroden}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/folienguss.jpg}
+	\caption{Folienguss einer Elektrode auf Aluminiumfolie}
+	\label{folienguss}
+\end{figure}
 \subsection{Herstellung eines Elektrode-Elektrolyt-Gefüges}
 Es wurde ein LLTO-LTO-Gefüge hergestellt. 1,5g LLTO. 1,2g LTO. 900 Grad FAST.
 \section{Konstruktion der in-situ-Testzelle}
