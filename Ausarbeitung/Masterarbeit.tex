@@ -451,6 +451,7 @@ mit
 \item[$\theta$] Winkel der Strahlung zur Netzebene
 \end{description}
 Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
+% Weitere Beschreibung?
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\columnwidth]{images/Bragg.png}
@@ -462,6 +463,10 @@ Eine Bragg-Brentano-Anordunung eignet sich besonders für das Anfertigen von Pul
 % Evtl. noch eine Grafik?
 \\\\
 Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
+\subsection{Zyklische Voltametrie}
+Bei der zyklischen Voltametrie wird zuerst ein ansteigendes und anschließend ein abfallendes Potential an eine Batterie angelegt. Gemessen wird die sich bei den unterschiedlichen Potentialen ergebende Stromstärke. Diese ist ein Maß dafür, ob eine elektrochemische Reaktion innerhalb der Batterie stattfindet. Diese stellt sich als ein Peak innerhalb des Diagramms der zyklischen Voltametrie dar. Es kann dabei zwischen oxidierenden und reduzierenden Reaktionen unterschieden werden, je nachdem ob ein Peak im ansteigenden oder im abfallenden Potentialbereich auftritt.
+\\\\
+Die zyklische Voltametrie ist insbesondere dazu geeignet, zu verstehen bei welchen Spannungen Reaktionen ablaufen und ermöglicht damit das exakte einstellen von Arbeitsspannungen zum Laden und Entladen von Batteriezellen, die nicht über- oder unterschritten werden sollten.
 \subsection{Impedanzspektroskopie}
 Die Impedanzspektroskopie eignet sich, um Widerstände in einem Gesamtsystem genauer zu untersuchen und dadurch Aussagen über die Leitung innerhalb des Systems treffen zu können.
 \subsubsection{Grundlagen der Impedanzspektroskopie}
@@ -469,14 +474,26 @@ Kapazitive und induktive Bauelemente besitzen einen sich über den Zeitverlauf �
 \\\\
 Admittanz, Leitfähigkeit.
 \subsubsection{Elektrochemisches Ersatzschaltbild}
-Elektrotechnische Bauelemente besitzen nun unterschiedliche, charakteristische Impedanzen. Eine Verschaltung unterschiedlicher Elemente resultiert in einem Impedanzspektrum. Dargestellt werden können diese in einem Nyquist-Plot, der den Realteil gegen den Imaginärteil aufträgt.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/is_bauteile.png}
+	\caption{Ideale Darstellung verschiedener elektrotechnischer Bauteile bei der Impedanzspektroskopie im Nyquist-Plot}
+	\label{bauteile_is}
+\end{figure}
+Elektrotechnische Bauelemente besitzen nun unterschiedliche, charakteristische Impedanzen. Eine Verschaltung unterschiedlicher Elemente resultiert in einem Impedanzspektrum. Dargestellt werden können diese in einem Nyquist-Plot, der den Realteil gegen den Imaginärteil aufträgt. Eine Übersicht über alle Bauteile und ihre korrespondierenden Nyquist-Plots findet sich in Abbildung \ref{bauteile_is}.
 \begin{description}
 \item[Widerstand] Der Widerstand besitzt keinen komplexen, sondern lediglich einen realen Anteil. Dies entspricht einem Punkt auf der Realachse des Nyquist-Plots.
 \item[Kondensator] Ein idealer Kondensator besitzt keinen realen Widerstand. Sein Imaginärteil konvergiert bei hohen Frequenzen gegen Null, bei niedrigen Frequenzen divergiert er ins Negative.
-\item[Spule] Eine Spule besitzt ebenfalls keinen relaen, sondern nur einen imaginären Widerstand. Dieser konvergiert für niedrige Frequenzen gegen Null, bei hohen Frequenzen divergiert er ins Positive
+\item[Spule] Eine Spule besitzt ebenfalls keinen realen, sondern nur einen imaginären Widerstand. Dieser konvergiert für niedrige Frequenzen gegen Null, bei hohen Frequenzen divergiert er ins Positive
 \item[RC-Glied] Grenzflächen, beispielsweise zwischen Elektrode und Elektrolyt in einer Batterie, bilden meistens sogenannte Helmholtz-Doppelschichten aus. Sie besitzen sowohl ein kapazitives Element als auch einen Durchtrittswiderstand. Dies kann als RC-Glied, also einer Parallelschaltung von Widerstand und Kondensator, dargestellt werden. Im Nyquist-Plot ergibt sich ein Halbkreis mit Radius 1/RC.
-\item[Warburg-Element] Um Diffusionprozesse darzustellen, können Warburg-Elemente verwendet werden. Diese leiten sich aus den Fickschen Gesetzen her. 
+\item[Warburg-Element] Um Diffusionprozesse darzustellen, können Warburg-Elemente verwendet werden. Diese leiten sich aus den Fickschen Gesetzen her. Sie bestehen aus einem Kettenleitermodell aus Widerständen und Kondensatoren, wobei zwischen Finite-Length und Finite-Space Warburg-Elementen unterschieden werden muss (siehe Abbildung \ref{warburg_element})
 \end{description}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\columnwidth]{images/warburg_element.png}
+	\caption{Kettenleitermodell eines Finite-Length (a) und Finite-Space (b) Warburg-Elements}
+	\label{warburg_element}
+\end{figure}
 Das Impedanzspektrum einer Batterie kann mit Hilfe eines elektrochemischen Ersatzschaltbildes analysiert werden. Dabei versucht man für ein experimentell erhaltenes Impedanzspektrum ein plausibles Ersatzschaltbild zu finden, dessen Impedanzspektrum vom experimentell bestimmte Spektrum möglichst wenig abweicht. Ein Beispiel hierfür lässt sich in Abbildung \ref{schema_is} finden.
 \\\\
 Aus dem so modellierten Ersatzschaltbild lassen sich quantitative Aussagen über die einzelnen Widerstände und Grenzschichten innerhalb einer Batteriezelle treffen. Das Impedanzspektrum ist bei einer Batterie jedoch auch immer von Faktoren wie dem Ladezustand, der Temperatur oder der Anzahl an bereits erfolgter Zyklen abhängig.
@@ -486,7 +503,6 @@ Aus dem so modellierten Ersatzschaltbild lassen sich quantitative Aussagen über
 	\caption{Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce{LiFePO4}-Zelle}
 	\label{schema_is}
 \end{figure}
-% Evtl. noch zyklische Voltametrie?
 \subsection{Kernspinresonanzspektroskopie}
 Die Grundlage der Kernspinresonanzspektroskopie (nuclear magnetic resonance spectroscopy, NMR-Spektroskopie) wurde zum Jahreswechsel 1945/1946 von zwei amerikanischen Forschungsgruppen unabhängig voneinander entwickelt. Felix Bloch und Edward M. Purcell wurden dafür 1952 mit dem Nobelpreis in Physik ausgezeichnet.
 \subsubsection{Physikalische Grundlagen der NMR-Spektroskopie}
@@ -509,38 +525,104 @@ Ein Atomkern besitzt eine Ladung. Wenn diese durch einen Kernspin bewegt wird, s
 Das Drehmoment des Kerns in Richtung z eines frei gewählten kartesischen Koordinatensystems entspricht dabei seiner magnetischen Spinquantenzahl multipliziert mit dem reduzierten Planckschen Wirkungsquantum:
 \begin{equation}
 P_z = m_I \hbar
+\label{magnMoment}
 \end{equation}
 Das magnetische Moment kann also beschrieben werden mit:
 \begin{equation}
 \mu_z = \gamma m_I \hbar
 \end{equation}
-Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiediffernzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Diese Frequenz wird als Larmor-Frequenz bezeichnet und kann auch als Präzession des Kerns beschrieben werden.
+Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Potentialenergie E kann beschrieben werden als:
+\begin{equation}
+E = -\mu_z B_0
+\end{equation}
+Mit Einsetzen von Gleichung \ref{magnMoment} ergibt sich daher mit den unterschiedlichen Spinorientierungen $m_I$:
+\begin{equation}
+E = -m_I \gamma \hbar B_0
+\label{energiezustaende}
+\end{equation}
+Diese Aufspaltung der Energieniveaus ist bekannt als \textit{nuclear Zeeman splitting}. Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiedifferenzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Mit der \textit{Bohrschen Frequenzbedingung}:
+\begin{equation}
+\Delta E = hv
+\end{equation}
+kann die benötigte Quantenenergie bestimmt werden als: %gilt nur für den Protonenfall?
+\begin{equation}
+hv_0 = \gamma \hbar B_0
+\end{equation}
+Dargestellt als Frequenz:
+\begin{equation}
+\omega_0 = \gamma B_0
+\end{equation}
+Diese Frequenz wird als \textit{Larmor-Frequenz} bezeichnet und kann auch als Präzession des Kerns beschrieben werden. 
 \\\\
-- Anregung, Echo, Fourier-Transformation
+Wird nun eine Transmitterspule in einem äußeren Magnetfeld $B_0$ mit einer spezifischen Larmor-Frequenz betrieben, so bringt sie exakt die nötige Energiedifferenz ein, um die Spins in einen energiereicheren Zustand zu promovieren. Das dadurch entstehende NMR-Signal kann mit einer Empfängerspule aufgezeichnet werden.
 \\\\
-- Inhomogenität durch Nachbarschaft, chemische Verschiebung
+Durch chemische Verbindungen entstehen um Atomkerne herum unterschiedlich dichte Elektronenwolken. Diese schirmen den Kern etwas vom äußeren Magnetfeld $B_0$ ab. Es entsteht ein lokales Magnetfeld $B_{lokal}$ um die Kerne herum, welches sich in seiner Stärke vom globalen Magnetfeld unterscheidet. Dadurch variiert die benötigte Anregungsfrequenz je nach der Umgebung eines Kernes leicht. Dieser Effekt findet sich als \textit{chemische Verschiebung} in Gestalt von unterschiedlichen Peaks im NMR-Spektrum wieder. Mit ihr ist es möglich Strukturaussagen über ein untersuchtes Material zu treffen.
 \subsubsection{Aufbau eines NMR-Spektrometers}
-- Abschirmung, Kryomagneten
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\columnwidth]{images/Aufbau_NMR.png}
+	\caption{Schematischer Aufbau eines NMR-Spektrometers. Der Kryomagnetaufbau (1) mit Spule (a), Einfüllstutzen (b, c) und Vakuummänteln (d), Probenkopf (2), Probe (3), Probenwechsler (4) sowie Shim-Einheit (5). }
+	\label{aufbau_nmr}
+\end{figure}
+Aus Gleichung \ref{energiezustaende} wird klar, dass die Größe der Potentialdifferenz zwischen energiereichen und -armen Zuständen mit der Stärke des Magnetfelds $B_0$ ansteigt. Die Kerne liegen dabei in Abhängigkeit zur Energiedifferenz $\Delta E$ boltzmannverteilt im energiereichen und -armen Zustand vor:
+\begin{equation} %auch hier: Hinterer Teil gilt nur für den Protonenfall
+\frac{N_{reich}}{N_{arm}} = \exp{\frac{-\Delta E}{kT}}=\exp{\frac{-\gamma h B_0}{2\pi k T}} \approx 1-\frac{\gamma h B_0}{2 \pi k T}
+\end{equation}
+Im Falle von H$^1$-NMR liegt die Energiedifferenz bei 0.04 J/mol. Bei Raumtemperatur und einer Magnetfeldstärke von 2,35 T ergibt sich damit eine Übergangswahrscheinlichkeit in den energiereichen Zustand von nur 0,002 \%. Um eine ausreichend gute Sensitivität zu gewährleisten, ist daher ein sehr starkes äußeres Magnetfeld $B_0$ nötig. Dies ist lediglich mit Kryomagneten zu erreichen.
+\\\\
+Der schematische Aufbau eines NMR-Spektrometers wird in Abbildung \ref{aufbau_nmr} dargestellt. Der Kryomagnetaufbau (1) besteht aus den Spulen (a), welche mit Flüssighelium gekühlt werden. Dieser wird wiederum mit Flüssigstickstoff umspült. Die Kühlflüssigkeiten können über spezielle Einlässe eingefüllt werden (b, c) und befinden sich in Vakuummänteln (d).
+\\\\
+ Der Probenkopf (2) wird von unten eingeführt und an eine Ansteuerungseinheit angeschlossen, welche die Transmitter- und die Empfängerspule ansteuert sowie das Signal aufzeichnet und ggf. verstärkt. Die Transmitter- und Empfängerspule kann meistens als eine Spule realisiert werden, welche beide Funktionen übernimmt. Sie ist im Probenkopf montiert, genauso wie die Entkoppler- Lock- und Gradientenspulen. Die Probe (3) wird von oben eingeführt, was durch einen Probenwechsler (4) passieren kann. Das äußere Magnetfeld $B_0$ liegt damit in Längsrichtung zur Probe. 
+\\\\
+Um die Feldhomogenität des eingepulsten Signals zu optimieren kann mit einer Shim-Einheit (5) ein \textit{Shimming} durchgeführt werden. Dieses besteht aus einem \textit{Tuning} und einem \textit{Matching}. Mit dem Tuning wird die durch die eingeführte Probe gedämpfte Empfindlichkeit des Probenkopfes auf die Resonanzfrequenz des zu untersuchenden Kerns eingestellt, um die höchstmögliche Empfindlichkeit zu gewährleisten. Das Matching besteht aus einer Impedanzanpassung, um die maximale Leistung am Probenkopf anliegen zu haben. Der gesamte Aufbau wird von einem Computer gesteuert und überwacht, welcher auch die Signalverarbeitung übernimmt.
 \subsubsection{Betriebsmodus}
-- Echovarianten
+% Das hier ist schon arg rudimentär
+% Beschreibung der Relaxationsmechanismen?
+Es existieren zwei unterschiedliche Verfahren, um ein NMR-Spektrum zu messen. Das ältere von beiden ist das Continuous-Wave-Verfahren (CW). Beim CW-Verfahren wird eine monochromatische Strahlung in die Probe emittiert. Diese wird kontinuirlich variiert und die entsprechende Resonanz gemessen. Problematisch ist dabei vor allem die durch das Abfahren unterschiedlicher Frequenzen sehr lange Messzeit.
+\\\\
+Heute kommt nahezu ausschließlich das Puls-Fourier-Transform-Verfahren (PFT) zum Einsatz. Hierbei wird ein starker Frequenzpuls über einen Wellenlängenbereich auf die Probe abgegeben. Als Resonanz erhält man dabei einen \textit{Free Induction Decay} (FID), der als eine über den Zeitverlauf geschehende Einpendelbewegung in Larmor-Frequenz der angeregten Kerne beschrieben werden kann. Die sich dabei überlagernden Resonanzen können anschließend über eine Fourier-Transformation zum eigentlichen NMR-Spektrum zurückgerechnet werden.
 \subsubsection{Magic Angle Spinning}
-- MAS-NMR
+Festkörper haben im Vergleich zu Flüssigkeiten eine starrere Orientierung zu ihren Nachbarn und auch zum äußeren Magnetfeld $B_0$. Dies kann beispielsweise über die \textit{Dipolare Kopplung} eines Kerns zu einem magnetischen Moment $\mu$ in einer Entfernung $r$ unter einem Winkel $\theta$ gezeigt werden. Die Variation $\Delta B$ des lokalen Magnetfeld kann dann mit der Permeabilität des freien Raumes bestimmt werden zu:
+\begin{equation}
+\Delta B = \frac{\mu_0}{4\pi}(3\cos^2\theta - 1)\mu r
+\end{equation}
+Für Flüssigkeiten geht der Effekt der Diploaren Kopplung  durch thermische Bewegung und Rotation gegen Null, bei Feststoffen nicht. Er führt zu einer Verbreiterung der Peaks im Spektrum, was diese schwerer zu analysieren macht. Es gilt jedoch weiterhin:
+\begin{equation}
+3\cos^2\theta-1 = 0 \;\; \forall \;\; \theta = 54.7^\circ
+\end{equation}
+Dieser Winkel wird als \textit{magischer Winkel} (magic angle) bezeichnet. Wenn eine feste Probe also in einem speziellen Probengefäß (\textit{Spinner}) im magischen Winkel durch das Magnetfeld rotiert wird, so kann der Effekt der Dipolaren Kopplung auch bei Festkörpern verhindert werden. Diese Form der Kernspinresonanzspektroskopie nennt sich MAS-NMR.
 \chapter{Methodik}
-
+Zuerst wird die Herstellung unterschiedlicher keramischer Pulver beschrieben. Anschließend erfolgt die Beschreibung der Mischung zu Elektrodenslurries und des Foliengusses. Im dritten Abschnitt wird die Konstruktion und der Bau einer neuen in-situ NMR-Testzelle beschrieben. Im letzten Abschnitt wird der Bau der unterschiedlichen Batterie-Testzellen dargestellt. 
 \section{Pulverherstellung}
-Es wurden zwei Pulver selbst hergestellt, zwei weitere bereits am Institut vorhandene und charakterisierte Pulver wurden ebenfalls benutzt.
+Es wurden zwei Pulver selbst hergestellt. Weitere bereits am Institut vorhandene und charakterisierte Pulver wurden für die darauf folgenden Schritte ausgewählt.
 \subsection{LATP}
-\subsection{\ce{LiTi4O5}}
+Bei der Herstellung des LATP kommt das Sol-Gel-Verfahren zum Einsatz. Als Ausgangsmaterial werden drei Stoffe verwendet: Aluminiumnitrat (\ce{Al(No3)3 \; 9H2O}, Aluminiumnitrate nonahydrat, EMSURE), Lithiumacetat (\ce{LiOOCH3 \; 2H2O} Lithiumacetate dihydrate, Reagent Grade, Alfa Aesar) und Tetra\-iso\-propyl\-ortho\-titanat (\ce{C12H28O4Ti}, Merck). Die Einwaage der Stoffe erfolgt stöchiometrisch. Alle werden jeweils in Wasser gelöst und anschließend miteinander vermengt. Danach wird Phosphorsäure (\ce{H3PO4}) zugegeben. Auf Grund der dabei entstehenden Reaktionswärme erfolgt dies in einem Wasserbad unter kontinuierlichen Rühren.
+\\\\
+Um die organischen Anteile des Gels zu entfernen, wird dieses zunächst für acht Stunden bei 400$^\circ$C wärmebehandelt. In einem zweiten Schritt kann dann mit einem weiteren Glühschritt bei 900$^\circ$C für acht Stunden die gewünschte LATP-Struktur erzeugt werden. Um feinere Agglomerate zu erhalten wird das Pulver noch mit einem Mörser zerkleinert.
+\subsection{\ce{LiTiPO5}}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/SolGel.jpg}
-	\caption{Herstellung von \ce{LiTi4O5} über einen Sol-Gel-Prozess}
+	\caption{Herstellung von \ce{LiTiPO5} über einen Sol-Gel-Prozess}
 	\label{sol_gel}
 \end{figure}
+Die Herstellung des \ce{LiTiPO5} erfolgt analog zur Herstellung des LATP im Sol-Gel-Verfahren. Es wird jedoch auf das Aluminiumnitrat verzichtet.
+\\\\
+Prozessierung?
 \subsection{Weitere verwendete Pulver}
+- LAGP \\
+- LLTO \\
+- LTO
 \section{Elektrodenherstellung}
+Die hergestellten und ausgewählten Pulver werden anschließend zu Elektroden weiterverarbeitet. Dazu müssen Elektrodenslurries hergestellt werden und auf Folien gegossen werden. Alternativ erfolgt die Sinterung eines Gefüges aus Elektrode und Elektrolyt.
 \subsection{Herstellung verschiedener Elektrodenslurries}
+Es wurden aus allen angefertigten und ausgewählten Materialien Elektrodenslurries hergestellt. Dabei wurde jeweils der gleiche Prozess verwendet. 
+\\\\
+Zunächst wird das ausgewählte Pulver als Aktivmaterial in N-Methyl-2-pyrrolidon (NMP, Firma?) gelöst. Anschließend wird masseäquivalent zum Aktivmaterial das Leitruß C65 (Firma?), falls nötig unter Zugabe von weiterem NMP, beigemengt. Das Gemisch wird mit einem Ultraschallstab homogenisiert. Dies geschieht wegen der Wärmeentwicklung im Wasserbad. Abschließend wird ein Bindergemisch (5m\% Binder ??? in NMP) zugegeben. Der Anteil an Binder im Gesamtgewicht wird dabei auf 10m\% eingestellt. Da der Binder durch eine Ultraschallbehandlung Schaden nehmen würde, erfolgt das Vermischen für eine Stunde mittels eines Rührfisches unter einer Vakuumglocke.
 \subsection{Foliengießen der Elektroden}
+Als Stromkollektor wird handelsübliche Aluminiumfolie zurechtgeschnitten. Diese wird mit der rauen Seite nach oben auf das Gerät XY aufgelegt. Dieses zieht die Folie mittels Vakuum an, ein händisches Glattstreichen verhindert Falten. Anschließend wird ein Aluminiumschuh auf die Folie aufgelegt. Dieser bestimmt die Schichtdicke der Elektrode. Dicken über 300$\mu$m zeigten eine unzureichende Trocknung und Haftung, weshalb alle Folien mit einer Höhe von 200$\mu$m gegossen wurden.
+\\\\
+Die Folien werden anschließend zur Trocknung für mehrere Tage in einen Vakuumtrockenschrank bei 80$^\circ$C gelagert.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\columnwidth]{images/folienguss.jpg}
@@ -549,6 +631,8 @@ Es wurden zwei Pulver selbst hergestellt, zwei weitere bereits am Institut vorha
 \end{figure}
 \subsection{Herstellung eines Elektrode-Elektrolyt-Gefüges}
 Es wurde ein LLTO-LTO-Gefüge hergestellt. 1,5g LLTO. 1,2g LTO. 900 Grad FAST.
+\section{Anpassung des NMR-Probenkopfes}
+Die in-situ-Testzelle kommt im 200MHz-NMR-Spektrometer der Firma mBruker am Institut XY zum Einsatz. Dafür wurde der Probenkopf entsprechend angepasst. Es wurde eine neue Sattelspule um ein Teflonrohr mit Innendurchmesser von 10mm gewickelt. Diese musste anschließend mit dem Anschlussstempel des Probenkopfes verlötet werden. Damit die Spule auf der richtigen Resonanzfrequenz von 77,7MHz für Li$^7$-NMR arbeitet, wurde ein 5pF-Kondensator in den Spulen-Schwingkreis eingebaut. Um einen Kurzschluss der Spule durch die massive Kupferabschirmung nach außen hin zu vermeiden, wird eine zweite Teflonrühre über die Spule gestülpt.
 \section{Konstruktion der in-situ-Testzelle}
 Um NMR-Messungen im laufenden Betrieb einer Batterie machen zu können, musste ein spezieller Testaufbau geplant und kostruiert werden. Es war nötig sowohl den Probenkopf des NMR-Spektrometers anzupassen, als auch eine komplett neue Batterie-Testzelle zu bauen.
 \subsection{Anforderungen}
@@ -603,6 +687,7 @@ Die Feder stellte besondere Herausforderungen an die Materialauswahl. So musste 
 Die Feder wurde dabei so ausgelegt, dass der Anpressdruck auf die Zelle gleich ist, wie bei der bereits am IAM-KWT existierenden Zelle.
 
 \subsubsection{Die Positionsplättchen}
+\section{Bau und Betrieb der Batterie-Testzellen}
 \chapter{Ergebnisse}
 \section{Pulveranalyse}
 \subsection{XRD-Analyse}
