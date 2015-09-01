@@ -34,34 +34,34 @@
 \contentsline {section}{\numberline {3.1}Pulverherstellung}{25}
 \contentsline {subsection}{\numberline {3.1.1}LATP}{25}
 \contentsline {subsection}{\numberline {3.1.2}\ce {LiTiPO5}}{25}
-\contentsline {subsection}{\numberline {3.1.3}Weitere verwendete Pulver}{25}
+\contentsline {subsection}{\numberline {3.1.3}Weitere verwendete Pulver}{26}
 \contentsline {section}{\numberline {3.2}Elektrodenherstellung}{26}
 \contentsline {subsection}{\numberline {3.2.1}Herstellung verschiedener Elektrodenslurries}{26}
-\contentsline {subsection}{\numberline {3.2.2}Foliengie\IeC {\ss }en der Elektroden}{26}
+\contentsline {subsection}{\numberline {3.2.2}Foliengie\IeC {\ss }en der Elektroden}{27}
 \contentsline {subsection}{\numberline {3.2.3}Herstellung eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{27}
-\contentsline {section}{\numberline {3.3}Anpassung des NMR-Probenkopfes}{27}
+\contentsline {section}{\numberline {3.3}Anpassung des NMR-Probenkopfes}{28}
 \contentsline {section}{\numberline {3.4}Konstruktion der in-situ-Testzelle}{28}
 \contentsline {subsection}{\numberline {3.4.1}Anforderungen}{28}
-\contentsline {subsection}{\numberline {3.4.2}Planung und Anfertigung der Teile}{28}
-\contentsline {subsubsection}{\nonumberline Die Glaszelle}{28}
-\contentsline {subsubsection}{\nonumberline Die Stempel}{28}
-\contentsline {subsubsection}{\nonumberline Die Mutter}{30}
-\contentsline {subsubsection}{\nonumberline Die Feder}{30}
-\contentsline {subsubsection}{\nonumberline Die Positionspl\IeC {\"a}ttchen}{32}
-\contentsline {section}{\numberline {3.5}Bau und Betrieb der Batterie-Testzellen}{32}
-\contentsline {chapter}{\numberline {4}Ergebnisse}{33}
-\contentsline {section}{\numberline {4.1}Pulveranalyse}{33}
-\contentsline {subsection}{\numberline {4.1.1}XRD-Analyse}{33}
-\contentsline {subsection}{\numberline {4.1.2}MAS-NMR-Analyse}{33}
-\contentsline {section}{\numberline {4.2}Batterietests}{33}
-\contentsline {subsection}{\numberline {4.2.1}Ladekennlinien}{33}
-\contentsline {subsection}{\numberline {4.2.2}Impedanzmessungen}{33}
-\contentsline {subsection}{\numberline {4.2.3}NMR-Messungen}{33}
-\contentsline {chapter}{\numberline {5}Diskussion}{35}
-\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{35}
-\contentsline {section}{\numberline {5.2}Vergleich Batterien}{35}
-\contentsline {chapter}{\numberline {6}Fazit}{37}
-\contentsline {section}{\numberline {6.1}Zusammenfassung}{37}
-\contentsline {section}{\numberline {6.2}Ausblick}{37}
-\contentsline {chapter}{Abbildungsverzeichnis}{39}
-\contentsline {chapter}{Literaturverzeichnis}{41}
+\contentsline {subsection}{\numberline {3.4.2}Planung und Anfertigung der Teile}{29}
+\contentsline {subsubsection}{\nonumberline Die Glaszelle}{31}
+\contentsline {subsubsection}{\nonumberline Die Stempel}{31}
+\contentsline {subsubsection}{\nonumberline Die Mutter}{32}
+\contentsline {subsubsection}{\nonumberline Die Feder}{32}
+\contentsline {subsubsection}{\nonumberline Die Positionspl\IeC {\"a}ttchen}{34}
+\contentsline {section}{\numberline {3.5}Bau und Betrieb der Batterie-Testzellen}{34}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{37}
+\contentsline {section}{\numberline {4.1}Pulveranalyse}{37}
+\contentsline {subsection}{\numberline {4.1.1}XRD-Analyse}{37}
+\contentsline {subsection}{\numberline {4.1.2}MAS-NMR-Analyse}{37}
+\contentsline {section}{\numberline {4.2}Batterietests}{37}
+\contentsline {subsection}{\numberline {4.2.1}Ladekennlinien}{37}
+\contentsline {subsection}{\numberline {4.2.2}Impedanzmessungen}{37}
+\contentsline {subsection}{\numberline {4.2.3}NMR-Messungen}{37}
+\contentsline {chapter}{\numberline {5}Diskussion}{41}
+\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{41}
+\contentsline {section}{\numberline {5.2}Vergleich Batterien}{41}
+\contentsline {chapter}{\numberline {6}Fazit}{43}
+\contentsline {section}{\numberline {6.1}Zusammenfassung}{43}
+\contentsline {section}{\numberline {6.2}Ausblick}{43}
+\contentsline {chapter}{Abbildungsverzeichnis}{45}
+\contentsline {chapter}{Literaturverzeichnis}{47}

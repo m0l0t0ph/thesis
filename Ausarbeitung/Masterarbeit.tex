@@ -608,8 +608,11 @@ Um die organischen Anteile des Gels zu entfernen, wird dieses zunächst für ach
 \end{figure}
 Die Herstellung des \ce{LiTiPO5} erfolgt analog zur Herstellung des LATP im Sol-Gel-Verfahren. Es wird jedoch auf das Aluminiumnitrat verzichtet.
 \\\\
-Prozessierung?
+Prozessierung? 
+\\\\
+Kalzinierung etc. Händisches mörsern
 \subsection{Weitere verwendete Pulver}
+Bereits am Institut hergestellte Pulver wurden weiterverarbeitet.
 - LAGP \\
 - LLTO \\
 - LTO
@@ -630,13 +633,25 @@ Die Folien werden anschließend zur Trocknung für mehrere Tage in einen Vakuumt
 	\label{folienguss}
 \end{figure}
 \subsection{Herstellung eines Elektrode-Elektrolyt-Gefüges}
-Es wurde ein LLTO-LTO-Gefüge hergestellt. 1,5g LLTO. 1,2g LTO. 900 Grad FAST.
+Für die Herstellung eines Elektrode-Elektrolyt-Gefüges wird zunächst 1,2g LTO in eine Matrize für das Spark-Plasma-Sintern (SPS) mit einem Durchmesser von 20mm verteilt. Darauf werden 1,5g LLTO aufgebracht. Die Pulver werden mit einer Handpresse mit 3kN vorgepresst. Anschließend wird die Matrize in die SPS-Anlage eingebaut. 
+\\\\
+Prozessierung
 \section{Anpassung des NMR-Probenkopfes}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/Platzhalter_Spule.jpg}
+	\caption{Spule mit Kondensator (links) und eingebaut in den Probenkopf (rechts)}
+	\label{spule}
+\end{figure}
 Die in-situ-Testzelle kommt im 200MHz-NMR-Spektrometer der Firma mBruker am Institut XY zum Einsatz. Dafür wurde der Probenkopf entsprechend angepasst. Es wurde eine neue Sattelspule um ein Teflonrohr mit Innendurchmesser von 10mm gewickelt. Diese musste anschließend mit dem Anschlussstempel des Probenkopfes verlötet werden. Damit die Spule auf der richtigen Resonanzfrequenz von 77,7MHz für Li$^7$-NMR arbeitet, wurde ein 5pF-Kondensator in den Spulen-Schwingkreis eingebaut. Um einen Kurzschluss der Spule durch die massive Kupferabschirmung nach außen hin zu vermeiden, wird eine zweite Teflonrühre über die Spule gestülpt.
 \section{Konstruktion der in-situ-Testzelle}
 Um NMR-Messungen im laufenden Betrieb einer Batterie machen zu können, musste ein spezieller Testaufbau geplant und kostruiert werden. Es war nötig sowohl den Probenkopf des NMR-Spektrometers anzupassen, als auch eine komplett neue Batterie-Testzelle zu bauen.
 \subsection{Anforderungen}
-Ziel war die Konstruktion einer Testzelle, welche sowohl ... Die eingesetzten Materialien mussten alle ausreichend amagnetisch sein, um die empfindlichen Kernspinmessungen der NMR-Spektroskopie nicht zu sehr zu stören. Sie sollte möglichst ähnlich wie die bereits am IAM-KWT im Einsatz befindliche Zelle aufgebaut sein, um eine Vergleichbarkeit zwischen beiden Zellen zu gewährleisten und einen Einsatz auch außerhalb der NMR-Anlage zu ermöglichen. Der Außendurchmesser der Zelle war durch den Aufbau des NMR-Probenkopfes auf maximal 10mm festgesetzt.
+Ziel ist die Konstruktion einer Testzelle, in welcher sowohl herkömmliche Batterien als auch Festkörperelektrolyt-Batterien eingebaut werden können. Für den Einsatz von reinem Lithium\-metall und Flüssigelektrolyten muss die Testzelle gasdicht gebaut werden können. Die eingesetzten Materialien müssen alle ausreichend amagnetisch sein, um die empfindlichen Kernspinresonanzmessungen der NMR-Spektroskopie nicht zu sehr zu stören. Sie sollte möglichst ähnlich wie die bereits am IAM-KWT im Einsatz befindliche Zelle aufgebaut sein, um eine Vergleichbarkeit zwischen beiden Zellen zu gewährleisten und einen Einsatz auch außerhalb der NMR-Anlage zu ermöglichen. 
+\\\\
+Der Außendurchmesser der Zelle ist durch den Aufbau des NMR-Probenkopfes auf maximal 10mm festgesetzt. Eine Ausnahme stellt hier der Zellabschluss dar, da dieser über die Teflonhülle der Spule des Probenkopfes reichen kann und daher lediglich durch die Öffnung der Kupferabschirmung des Probenkopfes beschränkt ist. Diese hat einen Durchmesser von 16,5mm. Der relevante Messbereich der Spule befindet sich auf einer Höhe von 22mm bis 32mm. Ein Anschluss an den externen Stromkreis zum Laden und Entladen der Zelle kann nur nach oben hin erfolgen.
+\\\\
+In der Literatur lassen sich unterschiedliche Umsetzungen von in-situ-Testzellen für NMR-Spektroskopie finden. Die Arbeitsgruppe um Silvio Indris am IAM-ESS sowie Zhou et al. \cite{zhou2013paramagnetic} und Key et al. \cite{key2009real} benutzen dafür Pouch-Zellen, die gerollt oder gefaltet in den NMR-Aufbau eingebracht werden können. Dies ist jedoch mit Festkörperelektrolyten wegen des starren Aufbaus der Zelle nicht möglich, weshalb dieser Ansatz nicht verfolgt wurde.  Poli et al. \cite{poli2011new} und Gerald et al. \cite{gerald2001situ} implementieren beide einen Knopfzellenaufbau. Beide Lösungen sehen aber einen umfangreichen Umbau des NMR-Probenkopfes vor. Die angestrebte Lösung soll jedoch eine weitere Verwendung des Probenkopfes für andere NMR-Experimente im gewohnten Messaufbau und damit einhergehend schnelles Umrüsten des Probenkopfes ermöglichen.
 \subsection{Planung und Anfertigung der Teile}
 \begin{figure}
 	\centering
@@ -644,13 +659,21 @@ Ziel war die Konstruktion einer Testzelle, welche sowohl ... Die eingesetzten Ma
 	\caption{Skizze der Testzelle}
 	\label{skizze_testzelle}
 \end{figure}
-Der Aufbau des NMR-Spektrometers gibt eine zylindrische Form der einzuführenden Probe vor. ..., ähnlich der bereits am IAM-KWT im Einsatz befindlichen Testzelle. Jedoch musste der bisherige Abschluss der Zelle umgestaltet werden. Um eingeführt werden zu können, muss der Boden der neuen Zelle bündig mit der restlichen Zelle abschließen und darf nicht auskragen. Die Kontaktierung kann nicht nach unten hin weg erfolgen, weshalb an der Außenseite der Zelle nach oben hin weg eine Leitung existieren muss. Beide Maßnahmen erfordern ein neues Design des unteren Stempels sowie der äußeren Hülle. Der obere Stempel und die Feder müssen sowohl auf den kleineren Durchmesser hin angepasst werden, als auch aus amagnetischen Materialien gefertigt werden. Abbildung \ref{skizze_testzelle} zeigt skizzenhaft die Planung der neuen Testzelle.
+Der Aufbau des NMR-Spektrometers gibt eine zylindrische Form der einzuführenden Probe vor. Da die gewickelte Zellen für Festkörperelektrolytbatterien nicht geeignet sind, wird ein Knopfzellenaufbau gewählt. Für die einfachere Handhabung wird ein länglicheres Design mit einer normalen Druckfeder, ähnlich der bereits am IAM-KWT im Einsatz befindlichen Testzelle, umgesetzt. Jedoch musste der bisherige Abschluss der Zelle umgestaltet werden. Um in den Probenkopf eingeführt werden zu können, muss der Boden der neuen Zelle bündig mit der restlichen Zelle abschließen und darf nicht auskragen. Dies würde den optimalen Sitz der Spule verhindern. Der Verschluss kann daher nicht außenliegend erfolgen. Die Kontaktierung kann nicht nach unten hinweg erfolgen, weshalb an der Außenseite der Zelle nach oben hin eine Leitung existieren muss. Beide Maßnahmen erfordern ein neues Design des unteren Stempels sowie der äußeren Hülle. Der obere Stempel und die Feder müssen sowohl auf den kleineren Durchmesser hin angepasst werden, als auch aus amagnetischen Materialien gefertigt werden. Abbildung \ref{skizze_testzelle} zeigt skizzenhaft die Planung der neuen Testzelle.
 \subsubsection{Die Glaszelle}
-Als Material für die Zellhülle wurde Glas ausgewählt. Glas bietet den Vorteil einer optischen Kontrolle der Zelle während des manuellen Einbaus der verschiedenen Komponenten. Es ist auch bei dünnen Wandstärken ausreichend fest, womit der Innendurchmesser maximiert werden konnte. Glas ist amagnetisch (Größenangabe).
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\columnwidth]{images/Glaszelle.jpg}
+	\caption{Glaszelle}
+	\label{glaszelle_foto}
+\end{figure}
+Als Material für die Zellhülle wurde Glas ausgewählt. Glas bietet den Vorteil einer optischen Kontrolle der Zelle während des manuellen Einbaus der verschiedenen Komponenten. Es ist auch bei dünnen Wandstärken ausreichend fest, womit der Innendurchmesser maximiert werden konnte. Glas ist amagnetisch (Größenangabe) und kann gut bearbeitet werden.
 \\\\
-Die Glaszelle wurde von einem Glasbläser der Laborhandelsgesellschaft GmbH (Karlsruhe) aus verschiedenen Standardelementen spezialangefertigt.
+Die Glaszelle wurde von einem Glasbläser der Laborhandelsgesellschaft GmbH (Karlsruhe) aus einem Glasrohr gefertigt, welches unten nach innen verdickt und durchstochen worden ist und an das nach oben mit einem Standardgewindeteil (G14) versehen worden ist.
+\\\\
+Die mitgelieferten Plastikdeckel mussten auf den maximalen Durchmesser der Kupferabschirmung von 16,5mm abgeschliffen werden. Dies erfolgte händisch auf einer Schleifmaschine des Typs XX.
 \subsubsection{Die Stempel}
-Die beiden Stempel wurden jeweils als CAD-Modell mit der Software Creo Parametric der Firma PTV geplant. Die Zeichnungen sind in Abbildung \ref{stempel_oben} und \ref{stempel_unten} dargestellt. Als Material kommt eine Messinglegierung zum Einsatz (\ce{Cu..}). 
+Die beiden Stempel wurden jeweils als CAD-Modell mit der Software Creo Parametric der Firma PTV geplant. Die Zeichnungen sind in Abbildung \ref{stempel_oben} und \ref{stempel_unten} dargestellt. Der obere Stempel entspricht dabei dem Stempel aus der existierenden Zelle mit angepasster Höhe, Durchmesser und Nut für den Dichtungsring. Die 2mm-Bohrung zur Kontaktierung bleibt erhalten. Der untere Stempel wurde komplett neu gestaltet. Er besteht aus einem Kopf mit einer Nut für den Dichtungsring, welcher für die Dichtigkeit der Zelle sorgt. Von ihm abgehend ist ein Stab mit einem M3-Isogewinde. Dieser passt durch die Aussparung der Glaszelle und ermöglicht das Befestigen des Stempels mit einer außenliegenden Mutter. Als Material kommt eine Messinglegierung zum Einsatz (\ce{CuZn39Pb3}), welche ausreichend amagnetisch (Suszeptibilität X $=\;-$0,173 · 10$^{-6}$ cm$^3$/g) ist. 
 \\\\
 Die Stempel wurden an einer XX-Maschine des Typs XY von Technikern der Technologiefabrik Karlsruhe gedreht.
 \begin{figure}
@@ -668,12 +691,6 @@ Die Stempel wurden an einer XX-Maschine des Typs XY von Technikern der Technolog
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\columnwidth]{images/Glaszelle.jpg}
-	\caption{Glaszelle}
-	\label{glaszelle_foto}
-\end{figure}
-\begin{figure}
-	\centering
 	\includegraphics[width=0.9\columnwidth]{images/Stempel_Foto_cutted.jpg}
 	\caption{Die gedrehten Messingstempel}
 	\label{stempel_foto}
@@ -681,17 +698,43 @@ Die Stempel wurden an einer XX-Maschine des Typs XY von Technikern der Technolog
 \subsubsection{Die Mutter}
 Durch den Einsatz des M3-Standardgewindes bei den Stempeln, konnte bei der Mutter ein Standardmodell aus Messing aus dem Fachhandel eingesetzt werden.
 \subsubsection{Die Feder}
-Die Feder stellte besondere Herausforderungen an die Materialauswahl. So musste neben der amagnetischen Eigenschaft auch eine gute elastische Verformbarkeit gegeben sein. Neben Messing wurde daher auch Federbronze (\ce{CuSn6}) und Kupferberyllium (\ce{CuBr2}) als mögliche Materialien betrachtet.
+Die Feder stellte besondere Herausforderungen an die Materialauswahl. So musste neben der amagnetischen Eigenschaft auch eine gute elastische Verformbarkeit und eine gute Leitfähigkeit für den elektrischen Strom gegeben sein. Neben Messing wurde daher auch Federbronze (\ce{CuSn6}) und Kupferberyllium (\ce{CuBe2}) als mögliche Materialien betrachtet.
 % Tabelle mit Übersicht?
 \\\\
-Die Feder wurde dabei so ausgelegt, dass der Anpressdruck auf die Zelle gleich ist, wie bei der bereits am IAM-KWT existierenden Zelle.
-
+Die Feder wird dabei so ausgelegt, dass der Anpressdruck auf die Zelle möglichst gleich ist, wie bei der bereits am IAM-KWT existierenden Zelle. Diese baut bei einem Federweg von 25 mm und einer Federrate von 0,541 N/mm eine Kraft von 13,525 N auf. Bei einer Fläche von 93,3 mm$^2$ entspricht dies einem Anpressdruck von 0,145 N/mm$^2$. Die Höhe der neuen Feder wurde auf 30 mm festgelegt, der zu absolvierende Federweg bei Einbau beträgt 10 mm. Die Fläche auf der die Kraft aufgebracht wird beträgt 36,32 mm$^2$. Um den gleichen Anpressdruck zu gewährleisten, benötigt die neue Feder daher eine Kraft von 5,266 N, was einer Federrate von 0,527 N/mm entspricht.
+\\\\
+Die Feder wurde von Febrotec Federn (Halver) aus Kupferberyllium gefertigt. Der Drahtdurchmesser beträgt 0,75 mm, der Federnaußendurchmesser 6,5 mm. Ungespannt hat die Feder eine Höhe von 30mm. %Windungszahl?
 \subsubsection{Die Positionsplättchen}
+Die Positionsplättchen sorgen dafür, dass sich die eigentliche Batteriezelle, also die Elektroden und der Elektrolyt, im sensitiven Bereich der Spule befindet. Da sie sich selbst dadurch unmittelbar im Messbereich aufhalten, wird auf eine vollständige Metallfertigung verzichtet, um die dämpfende Wirkung zu minimieren. Stattdessen werden von einem Teflonstab passende Scheiben abgeschnitten und plan geschliffen. Anschließend werden die beiden Grundflächen mit Kupferklebeband abgeklebt. Die beiden Seiten sind über einen dünnen Kupferstreifen an der Seite miteinander verbunden. 
 \section{Bau und Betrieb der Batterie-Testzellen}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/handschuhbox.jpg}
+	\caption{Handschuhbox der Firma MBraun}
+	\label{glovebox}
+\end{figure}
+Zunächst werden aus den gegossenen Elektrodenfolien Proben entnommen. Dies geschieht händisch mit einem 6mm-Stanzeisen. Die Proben werden anschließend in eine Handschuhbox der Firma mBraun eingeschleust. Der Zusammenbau der Testzellen erfolgt dort unter Argonatmosphäre. Die Proben werden dabei jeweils als Kathode verbaut.
+\\\\
+Die Batteriezellen werden mit dem Messsystem XY der Firma Z untersucht. Dieses ermöglicht die Zyklierung der Zellen, zyklische Voltametrie sowie Impedanzmessungen.
 \chapter{Ergebnisse}
+Die angefertigten Pulver werden mittels Röntgendiffraktion und MAS-NMR untersucht. Für die aus ihnen hergestellten Batterieproben werden Ladekennlinien erstellt. Außerdem werden sie mittels zyklischer Voltametrie und Impedanzmessungen analysiert. Die Funktionalität der in-situ-Testzelle wird mit einer Lithium-Schwefel-Zelle gezeigt.
 \section{Pulveranalyse}
+Da die MAS-NMR lediglich mit Pulver funktioniert,  
 \subsection{XRD-Analyse}
+.
 \subsection{MAS-NMR-Analyse}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Spektrum_LATP.png}
+	\caption{MAS-NMR-Spektrum von LATP bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, grün 4kHz, rot 6kHz)}
+	\label{nmr_mas_LATP}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Spektrum_LiCl.png}
+	\caption{MAS-NMR-Spektrum von LiCl bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, grün 4kHz, rot 6kHz)}
+	\label{nmr_mas_LiCl}
+\end{figure}
 \section{Batterietests}
 \subsection{Ladekennlinien}
 \subsection{Impedanzmessungen}
