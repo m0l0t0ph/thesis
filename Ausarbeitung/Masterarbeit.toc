@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {2.3.2}Zyklische Voltametrie}{15}
 \contentsline {subsection}{\numberline {2.3.3}Impedanzspektroskopie}{16}
 \contentsline {subsubsection}{\nonumberline Grundlagen der Impedanzspektroskopie}{16}
-\contentsline {subsubsection}{\nonumberline Elektrochemisches Ersatzschaltbild}{16}
+\contentsline {subsubsection}{\nonumberline Elektrochemisches Ersatzschaltbild}{17}
 \contentsline {subsection}{\numberline {2.3.4}Kernspinresonanzspektroskopie}{18}
 \contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der NMR-Spektroskopie}{18}
 \contentsline {subsubsection}{\nonumberline Aufbau eines NMR-Spektrometers}{20}
@@ -61,47 +61,47 @@
 \contentsline {subsubsection}{\nonumberline XRD-Analyse}{37}
 \contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{37}
 \contentsline {subsection}{\numberline {4.1.3}Weitere Pulver}{37}
-\contentsline {subsubsection}{\nonumberline LAGP}{40}
-\contentsline {subsubsection}{\nonumberline LTO}{40}
-\contentsline {subsubsection}{\nonumberline LLTO}{40}
-\contentsline {subsubsection}{\nonumberline LiCl}{40}
-\contentsline {section}{\numberline {4.2}Batterietests}{40}
-\contentsline {subsection}{\numberline {4.2.1}\ce {LiCoO2}}{40}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{40}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{40}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{40}
-\contentsline {subsection}{\numberline {4.2.2}Schwefel}{40}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{40}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{40}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{40}
-\contentsline {subsection}{\numberline {4.2.3}LATP}{40}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{40}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{40}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{40}
-\contentsline {subsection}{\numberline {4.2.4}LAGP}{40}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{40}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{40}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{40}
-\contentsline {subsection}{\numberline {4.2.5}LTO}{40}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{41}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{41}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{41}
-\contentsline {subsection}{\numberline {4.2.6}LLTO}{41}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{41}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{41}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{41}
-\contentsline {subsection}{\numberline {4.2.7}LTO-LLTO-Gef\IeC {\"u}ge}{41}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{41}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{41}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{41}
-\contentsline {section}{\numberline {4.3}NMR-Messungen}{41}
-\contentsline {subsection}{\numberline {4.3.1}Referenzmessung}{41}
-\contentsline {subsection}{\numberline {4.3.2}Lithium-Schwefel-Zelle}{41}
-\contentsline {chapter}{\numberline {5}Diskussion}{43}
-\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{43}
-\contentsline {section}{\numberline {5.2}Vergleich Batterien}{43}
-\contentsline {chapter}{\numberline {6}Fazit}{45}
-\contentsline {section}{\numberline {6.1}Zusammenfassung}{45}
-\contentsline {section}{\numberline {6.2}Ausblick}{45}
-\contentsline {chapter}{Abbildungsverzeichnis}{47}
-\contentsline {chapter}{Literaturverzeichnis}{49}
+\contentsline {subsubsection}{\nonumberline LAGP}{43}
+\contentsline {subsubsection}{\nonumberline LTO}{43}
+\contentsline {subsubsection}{\nonumberline LLTO}{43}
+\contentsline {subsubsection}{\nonumberline LiCl}{43}
+\contentsline {section}{\numberline {4.2}Batterietests}{43}
+\contentsline {subsection}{\numberline {4.2.1}\ce {LiCoO2}}{43}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{43}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{43}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{43}
+\contentsline {subsection}{\numberline {4.2.2}Schwefel}{43}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{43}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{43}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{43}
+\contentsline {subsection}{\numberline {4.2.3}LATP}{43}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{43}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{43}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{43}
+\contentsline {subsection}{\numberline {4.2.4}LAGP}{43}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{43}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{43}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{43}
+\contentsline {subsection}{\numberline {4.2.5}LTO}{43}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{44}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{44}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{44}
+\contentsline {subsection}{\numberline {4.2.6}LLTO}{44}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{44}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{44}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{44}
+\contentsline {subsection}{\numberline {4.2.7}LTO-LLTO-Gef\IeC {\"u}ge}{44}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{44}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{44}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{44}
+\contentsline {section}{\numberline {4.3}NMR-Messungen}{44}
+\contentsline {subsection}{\numberline {4.3.1}Referenzmessung}{44}
+\contentsline {subsection}{\numberline {4.3.2}Lithium-Schwefel-Zelle}{44}
+\contentsline {chapter}{\numberline {5}Diskussion}{45}
+\contentsline {section}{\numberline {5.1}Anwendbarkeit NMR}{45}
+\contentsline {section}{\numberline {5.2}Vergleich Batterien}{45}
+\contentsline {chapter}{\numberline {6}Fazit}{47}
+\contentsline {section}{\numberline {6.1}Zusammenfassung}{47}
+\contentsline {section}{\numberline {6.2}Ausblick}{47}
+\contentsline {chapter}{Abbildungsverzeichnis}{49}
+\contentsline {chapter}{Literaturverzeichnis}{51}

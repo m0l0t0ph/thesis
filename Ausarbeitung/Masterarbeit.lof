@@ -1,16 +1,16 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Prinzip einer sekund\IeC {\"a}ren Zelle\relax }}{3}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Schematischer Aufbau einer Lithium-Ionen-Batterie\relax }}{4}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Prinzip einer sekund\IeC {\"a}ren Zelle \cite {jossen_2006}\relax }}{3}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Schematischer Aufbau einer Lithium-Ionen-Batterie \cite {howstuffworks}\relax }}{4}
 \contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Vergleich m\IeC {\"o}glicher Bauformen: Rundzelle, prismatische Zelle, Pouch-Zelle\relax }}{6}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Battery-Pack des BMW i3 bestehend aus zwei Batteriemodulen und einem Batteriemanagement\relax }}{7}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Battery-Pack des BMW i3 bestehend aus zwei Batteriemodulen und einem Batteriemanagement \cite {bmwblog}\relax }}{7}
 \contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Schema der IAM-KWT-Testzelle; 1: Plastikkappe, 2: Dichtungsring, 3: Edelstahlfeder, 4: Kathode, 5: Anode, 6: Plastikkappe, 7: Glaszylinder, 8: Kontaktierpl\IeC {\"a}ttchen, 9: Separator, 10: Edelstahlstopfen. \relax }}{8}
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Spannunglsagen verschiedener Elektrodenmaterialien (links) und ihre entsprechenden Kanalstrukturen (rechts) (BuB-Skript)\relax }}{9}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Spannunglsagen verschiedener Elektrodenmaterialien (links) und ihre entsprechenden Kanalstrukturen (rechts) \cite {bub_skript}\relax }}{9}
 \contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Chemische Strukturen der Bestandteile eines Fl\IeC {\"u}ssigelektrolyten\relax }}{11}
 \contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces \ce {ABO3}-Struktur eines Perowskits (blau: A, rot: B, gr\IeC {\"u}n: O)\relax }}{12}
-\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Schematische Darstellung der Bragg-Reflexion (https://de.wikipedia.org/wiki/Datei:Bragg.svg)\relax }}{15}
-\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Ideale Darstellung verschiedener elektrotechnischer Bauteile bei der Impedanzspektroskopie im Nyquist-Plot\relax }}{17}
+\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Schematische Darstellung der Bragg-Reflexion \cite {wiki_bragg}\relax }}{15}
+\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Ideale Darstellung verschiedener elektrotechnischer Bauteile bei der Impedanzspektroskopie im Nyquist-Plot\relax }}{16}
 \contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Kettenleitermodell eines Finite-Length (a) und Finite-Space (b) Warburg-Elements\relax }}{17}
 \contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce {LiFePO4}-Zelle\relax }}{18}
 \contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Schematischer Aufbau eines NMR-Spektrometers. Der Kryomagnetaufbau (1) mit Spule (a), Einf\IeC {\"u}llstutzen (b, c) und Vakuumm\IeC {\"a}nteln (d), Probenkopf (2), Probe (3), Probenwechsler (4) sowie Shim-Einheit (5). \relax }}{21}
@@ -25,6 +25,9 @@
 \contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Messplatz f\IeC {\"u}r Batteriezellen mit Handschuhbox zum Bau (rechts), Ansteuerungselektronik und Aufbewahrung (mitte) sowie Kontrolle und Aufzeichnung durch Computer (links). --> Besseres Foto\relax }}{35}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces MAS-NMR-Spektrum von LATP bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, gr\IeC {\"u}n 4kHz, rot 6kHz)\relax }}{38}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces MAS-NMR-Spektrum von LiCl bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, gr\IeC {\"u}n 4kHz, rot 6kHz)\relax }}{39}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces MAS-NMR-Spektrum von LATP bei 4kHz\relax }}{39}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces MAS-NMR-Spektrum von LAGP bei 4kHz\relax }}{40}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces MAS-NMR-Spektrum von LiCl bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, gr\IeC {\"u}n 4kHz, rot 6kHz)\relax }}{41}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces MAS-NMR-Spektrum von LiCl bei 4kHz\relax }}{42}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
