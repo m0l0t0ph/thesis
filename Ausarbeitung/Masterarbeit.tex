@@ -226,17 +226,17 @@ Batterien nehmen in unserem Leben einen immer höheren Stellenwert ein. Sie komm
 \\\\
 Die vorliegende Arbeit betrachtet die Einsatzmöglichkeit von speziellen Keramiken als Festkörperelektrolyt in Batterien.
 \section{Motivation}
-Ein Batterie mit einem Festkörperelektrolyten bietet gleich mehrere Vorteile gegenüber der herkömmlichen Flüssigelektrolyt-Batterie. Der Flüssigelektrolyt moderner Lithiumbatterien besteht zumeist aus einem organischem Lösungsmittel und darin gelösten Lithiumsalzen (QUELLE). Diese sind jedoch nicht stabil gegenüber der Luftfeuchtigkeit und reagieren unter der Bildung von ätzenden Substanzen wie Flusssäure ab. Dies ist neben der Unsicherheit beim Versagen der Batterie ebenso auch ein Problem bei der industriellen Großproduktion. Diese kann nur mit großen Anlagen zur Trocknung der Luft erfolgen. Ein Festkörperelektrolyt könnte so gestaltet werden, dass dieser stabil gegenüber der Luftfeuchtigkeit und dem Sauerstoff der Luft ist.
+Ein Batterie mit einem Festkörperelektrolyten bietet gleich mehrere Vorteile gegenüber der herkömmlichen Flüssigelektrolyt-Batterie. Der Flüssigelektrolyt moderner Lithiumbatterien besteht zumeist aus einem organischem Lösungsmittel und darin gelösten Lithiumsalzen \cite{xu2004nonaqueous}. Diese sind jedoch nicht stabil gegenüber der Luftfeuchtigkeit und reagieren unter der Bildung von ätzenden Substanzen wie Flusssäure ab. Dies ist neben der Unsicherheit beim Versagen der Batterie ebenso auch ein Problem bei der industriellen Großproduktion. Diese kann nur mit großen Anlagen zur Trocknung der Luft erfolgen. Ein Festkörperelektrolyt könnte so gestaltet werden, dass dieser stabil gegenüber der Luftfeuchtigkeit und dem Sauerstoff der Luft ist.
 \\\\
-Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte Stabilität gegenüber elektrischen Spannungen. Handelsübliche Flüssigelektrolyte sind lediglich bis zu einer Spannung von 4,2V stabil (QUELLE). Es existieren jedoch Hochvoltelektroden, die von höheren Spannungen profitieren würden. Festkörperelektrolyte könnten diesen Mangel beheben.
+Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte Stabilität gegenüber elektrischen Spannungen. Handelsübliche Flüssigelektrolyte sind lediglich bis zu einer Spannung von maximal 5V stabil \cite{tarascon1994new}. Es existieren jedoch Hochvoltelektroden, die von höheren Spannungen profitieren würden. Festkörperelektrolyte könnten diesen Mangel beheben.
 \section{Zielsetzung}
 %Ggf Anpassen
-Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als Festkörperelektrolyt anzupassen und zu analysieren. Als Ausgangspunkt dienen hierbei die Materialien \ce{LiLaTiO3} (LLTO) sowie \ce{Li_(_1_+_x_)Al_xTi_(_2_-_x_)(PO4)3} (LATP), die in der Literatur bereits eine ausreichend gute Lithiumleitfähigkeit nachweisen konnten (QUELLE). Die Keramiken sollen dabei in Pulverform, als Folienguss, als Tablette und im Gefüge Elektrode-Elektrolyt hergestellt werden. Als Referenz werden auch Elektroden für den Einsatz in normalen Flüssigelektrolyt-Batterien hergestellt und untersucht. Die Festkörperelektrolyte sollen mittels Röntendiffraktometrie (XRD), Kernspinspektroskopie (NMR) und Impedanzspektroskopie untersucht werden. Für die Messung von in-situ-NMR-Daten muss sowohl der Lithium-Probenkopf des NMR-Spektrometers angepasst, als auch eine eigene Testzelle konstruiert und gebaut werden.
+Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als Festkörperelektrolyt anzupassen und zu analysieren. Als Ausgangspunkt dienen hierbei die Materialien \ce{LiLaTiO3} (LLTO) sowie \ce{Li_(_1_+_x_)Al_xTi_(_2_-_x_)(PO4)3} (LATP), die in der Literatur bereits eine ausreichend gute Lithiumleitfähigkeit nachweisen konnten \cite{tatsumisago2013recent}. Die Keramiken sollen dabei in Pulverform, als Folienguss, als Tablette und im Gefüge Elektrode-Elektrolyt hergestellt werden. Als Referenz werden auch Elektroden für den Einsatz in normalen Flüssigelektrolyt-Batterien hergestellt und untersucht. Die Festkörperelektrolyte sollen mittels Röntendiffraktometrie (XRD), Kernspinspektroskopie (NMR) und Impedanzspektroskopie untersucht werden. Für die Messung von in-situ-NMR-Daten muss sowohl der Lithium-Probenkopf des NMR-Spektrometers angepasst, als auch eine eigene Testzelle konstruiert und gebaut werden.
 \section{Aufbau der Arbeit}
 Im ersten Kapitel wird die Arbeit motiviert sowie eine Zielsetzung formuliert. Anschließend werden die nötigen Grundlagen für die durchzuführenden Experimente beschrieben. Das dritte Kapitel beschreibt die Art und Weise der Experimente und deren Durchführung. Die erzielten Ergebnisse werden im vierten Kapitel dargestellt und im fünften Kapitel diskutiert. Das sechste Kapitel bietet eine kurze Zusammenfassung sowie einen Ausblick in die Zukunft.
 \chapter{Grundlagen}
 Im folgenden Kapitel werden die Grundlagen für die im Rahmen der Arbeit stattgefundenen Experimente gelegt. Dafür wird im ersten Teil der Aufbau und die Elektrochemie sowie die Materialauswahl von Batteriezellen beschrieben. Anschließend werden drei verschiedene Analysemethoden für Festkörperelektrolyte vorgestellt.
-\section{Batteriezellen}
+\section{Prinzip und Funktionsweise von Batteriezellen}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/Prinzipieller_Aufbau.png}
@@ -249,7 +249,7 @@ Die Batteriezelle ist eine Form der Galvanischen Zelle. Es lassen sich dabei gru
 \item[Sekundäre Zelle - Akkumulator] Im Gegensatz zur primären Zelle kann die sekundäre Zelle Energie nicht nur abgeben, sondern auch wieder aufnehmen und speichern. Dieses Verhalten wird in Abbildung \ref{Prinzip_Zelle} dargestellt.
 \item[Tertiäre Zelle - Brennstoffzelle] Die Tertiäre Zelle wird kontinuierlich mit einem Brenngas durchflossen und kann daher auch dauerhaft Energie in Form von elektrischen Strom abgeben.  
 \end{description}
-Die Bezeichnung Akkumulator ist dabei gerade im englischen Sprachgebrauch nicht geläufig, man spricht eher von \textit{rechargeable batteries}, also wiederaufladbaren Batterien. Auch im deutschen geht man dazu über den Begriff Batterie sowohl für primäre als auch für sekundäre Zellen zu gebrauchen. Iim Rahmen dieser Arbeit wird das Wort \textit{Batterie} synonym für beide Arten von Zelle verwendet. Betrachtet werden jedoch nur wiederaufladbare Batterien.
+Die Bezeichnung Akkumulator ist dabei gerade im englischen Sprachgebrauch nicht geläufig, man spricht eher von \textit{rechargeable batteries}, also wiederaufladbaren Batterien. Auch im deutschen geht man dazu über den Begriff Batterie sowohl für primäre als auch für sekundäre Zellen zu gebrauchen. Im Rahmen dieser Arbeit wird das Wort \textit{Batterie} synonym für beide Arten von Zelle verwendet. Betrachtet werden jedoch nur wiederaufladbare Batterien.
 \subsection{Elektrochemischer Vorgang}
 \begin{figure}
 	\centering
@@ -257,9 +257,9 @@ Die Bezeichnung Akkumulator ist dabei gerade im englischen Sprachgebrauch nicht 
 	\caption{Schematischer Aufbau einer Lithium-Ionen-Batterie \cite{howstuffworks}}
 	\label{schema_li_ionen}
 \end{figure}
-Die Elektrochemie einer Batteriezelle basiert auf einem Potential zwischen zwei räumlich getrennten Materialien. Durch den Anschluss eines externen Stromkreises kann dieses Potential entweder unter Abgabe von Energie abgebaut oder unter Zugabe von Energie vergrößert werden (QUELLE). 
+Die Elektrochemie einer Batteriezelle basiert auf einem Potential zwischen zwei räumlich getrennten Materialien. Durch den Anschluss eines externen Stromkreises kann dieses Potential entweder unter Abgabe von Energie abgebaut oder unter Zugabe von Energie vergrößert werden \cite{mortimer}. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen. Die beiden Elektroden sind jeweils auf einem Stromkollektor aufgebracht, welcher die Kontaktierung der Elektrode nach außen hin ermöglicht \cite{korthauer2013}.
 \\\\
-Es existieren zwei grundsätzliche Mechanismen zur Ladungsübertragung und Speicherung (QUELLE):
+Es existieren zwei grundsätzliche Mechanismen zur Ladungsübertragung und Speicherung:
 \\\\ %Besser: Unterschiedung reiner Einbau vs. Neubildung von Struktur ???
 \textbf{i) Interkalation}
 \\\\
@@ -298,7 +298,7 @@ Das Verhältnis der Aktivitäten kann dabei als Konzentrationsverhältnis der be
 \begin{equation}
 E = E_0 + \frac{0,059 V}{z_e} \; log \frac{c_{Ox}}{c_{Red}}
 \end{equation}
-Über die molare freie Reaktionsenthalpie $\Delta G_m$ kann die Potentialdifferenz als theoretische Zellspannung ebenfalls dargestellt werden:
+Über die molare freie Reaktionsenthalpie $\Delta G_m$ kann die Potentialdifferenz als theoretische Zellspannung ebenfalls dargestellt werden \cite{mortimer}:
 \begin{equation}
 \Delta U_{theo} = -\frac{\Delta G_m}{z_eF}
 \end{equation}
@@ -307,14 +307,257 @@ Eine einfache Darstellung ist die Angabe des Potentials jedes Stoffes zu reinem 
 U_{Zelle} = U_{Kathode} - U_{Anode}
 \end{equation}
 So gilt für eine \ce{LiCoO2}-Zelle mit graphitischer Anode ein mittleres Elektrodenpotential der Kathode gegen Lithium von 3,9V, der Anode von ungefähr 0,1V \cite{bub_skript}. Die Zelle erreicht daher eine theoretische Zellspannung von 3,8V.
-\subsection{Aufbau}
-Eine Batterie besteht aus zwei räumlich voneinander getrennten Elektroden. Dabei wird die Elektrode mit dem niedrigeren Halbzellenpotential als Anode, die Elektrode mit dem höheren Halbzellenpotential als Kathode bezeichnet. Zwischen den beiden Elektroden existiert ein Elektrolyt. Dieser ermöglicht den Ladungsaustausch beider Elektroden über den Transfer von Ionen. Um einen Kurzschluss, also einen direkten Ladungsaustausch zwischen beiden Elektroden, zu vermeiden, kann es außerdem nötig sein, einen Separator zwischen beiden Elektroden einzusetzen. Die beiden Elektroden sind jeweils auf einem Stromkollektor aufgebracht, welcher die Kontaktierung der Elektrode nach außen hin ermöglicht \cite{korthauer2013}.
+\subsection{Elektrodenmaterialien}
+Materialien müssen verschiedene chemische und physikalische Eigenschaften erfüllen, um für den Einsatz in Elektroden geeignet zu sein. Die eingesetzten Stoffe sollten ungiftig sein und in ausreichender Menge günstig zu beschaffen sein. Sie sollten eine ausreichend hohe Potentialdifferenz zwischen den Elektroden besitzen, um eine hohe Zellspannung gewährleisten zu können. Das Material sollte eine möglichs hohe Energie- und Leistungssdichte ermöglichen, um auch für den mobilen Einsatz interessant zu sein. Es muss sowohl eine gute Lithium- als auch Elektronenleitfähigkeit gewährleistet sein. Die Ein- und Auslagerung von Lithium sollte nicht zu einer zu hohen Veränderung des Volumens führen, da diese unter Umstände Grenzflächen zerstört und hohe Anforderungen an die Bauweise der Zellen stellt. Auch nach einer hohen Anzahl an Zyklierungen sollte das Material noch eine ausreichende Kapazität besitzen. Ein Versagen der Zelle sollte möglichst nicht zu einer starken Hitzeentwicklung und Explosion der Zelle führen.
 \\\\
-Es gibt verschiedene Bauformen für Batteriezellen.
+Die Materialien für Elektroden können grundsätzlich nach ihrem Diffusionsverhalten klassifiziert werden (QUELLE):
+\begin{description}
+\item[Olivinstruktur] Die Olivinstruktur ist eine eindimensionale Tunnelstruktur, an der entlang die Diffusion stattfindet.
+\item[Lagenstruktur] Materialien, die zweidimensionale Diffusion zwischen Schichten ermöglichen, besitzen eine Lagenstruktur.
+\item[Spinellstruktur] In der Spinellstruktur ist eine Diffusion in alle drei Richtungen des Raums möglich.
+\end{description}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/strukturen_elektroden.png}
+	\caption{Potentiallagen verschiedener Elektrodenmaterialien (links) und die ihrere Diffusion zugrundeliegenden Kanalstrukturen (rechts) \cite{bub_skript}}
+	\label{strukturen_elektroden}
+\end{figure}
+\subsubsection{Typische Anodenmaterialien}
+% Was zur SEI schreiben? Quelle Skript BuB?
+Für die meisten Zellen in dieser Arbeit kamen metallische Lithiumanoden zum Einsatz. Kommerziell ist Graphit momentan das Standardanodenmaterial von Lithium-Ionen-Batterien.
+\begin{description}
+\item[Lithium-Metall] Rein metallisches Lithium besitzt eine sehr hohe theoretische Kapazität von 3860mAh/g. Da jedoch die Anode im Betrieb nicht aufgebraucht werden darf, muss es im Überschuss bereit gestellt werden. Problematisch ist, dass es durch das fehlende Wirtsgitter dazu neigt während der Zyklierung Dendriten auszubilden, die schlussendlich zu einem Kurzschluss und Ausfall der Zelle führen.
+\item[Graphit (\ce{C6})] Graphit besitzt eine Lagenstruktur zwischen der er Lithium einspeichern kann. Es kann jeweils ein Lithiumatom pro sechs Kohlenstoffatomen eingelagert werden. Er erreicht damit eine theoretische Kapazität von 372 mAh/g. Das Potential gegen rein metallisches Lithium ist sehr klein (ca. 0,1V), was hohe Zellspannungen ermöglicht. Die Einlagerung erfolgt über drei unterschiedliche Stufen und führt zu einer Volumenzunahme von maximal 9\%.
+\item[Lithiumtitanat (\ce{Li4Ti5O12}, LTO)] Teilweise auch Lithiumtitanspinell. Lithiumtitanat besitzt eine Spinellstruktur. Die theoretische Kapazität liegt bei 233mAh/g, in der Praxis werden meistens Kapazitäten von etwa 150mAh/g erreicht. Das Material vollführt nahezu keine Volumenänderung bei Ein- und Ausbau von Lithium. Jedoch ist seine Potentiallage mit 1,55V gegenüber metallischem Lithium sehr hoch, was zu kleineren Zellspannungen führt.
+\end{description}
+\subsubsection{Typische Kathodenmaterialien}
+. %Einleitungstext
+\begin{description}
+\item[Lithiumcobaltdioxid (\ce{LiCoO2})] Die praktische Kapazität von Lithiumcobaltoxid liegt bei 150mAh/g. Dies liegt an der Tatsache, dass nur etwa 60\% der Lithiumatome aus dem Gitter ausgebaut werden dürfen, da es sonst durch den Zusammenbruch der Struktur zur Bildung von Sauerstoff kommt. Beim Laden muss die Spannung deshalb unter 4,2V gehalten werden. Die Diffusion läuft zweidimensional zwischen zwei Schichten ab. Das mittlere Elektrodenpotential von Lithiumcobaltoxid liegt bei hohen 3,9V.
+\item[Lithiummanganspinell (\ce{LiMn2O4}, LMO)] Lithiummanganspinell ist ein Hochvolkathodenmaterial, sein mittleres Elektrodenpotential liegt bei 4,0V. Die praktische Kapazität des Stoffes liegt bei etwa 120mAh/g bei der Verwendung von Flüssigelektrolyten, welche die Ladespannung auf 4,2V begrenzen. Der Spinell selbst ist auch noch bei höheren Potentialen stabil. Bei tiefen Ladezuständen kann es zu einer Manganauslösung und unerwünschten Gitterumwandlungen kommen, der Jahn-Teller-Verzerrung. Um diese zu verhindern, können Teile des Mangans durch andere Übergangsmetalle substituiert werden. In dieser Arbeit wird eine \ce{LiNi_{0,5}Mn_{1,5}O4}-Verbindung (LNMO) untersucht.
+\item[Schwefel] Reiner Schwefel besitzt normalerweise einen zyklischen Achterring. Beim Einsatz als Kathodenmaterial wird dieser Ring beim Entladen langsam reduziert und es entstehen verschiedene Polysulfide:
+\begin{equation}
+\begin{split}
+\ce{S8 -> Li2S8 -> Li2S6 -> Li2S5 -> }\\
+\ce{ Li2S4 -> Li2S3 -> Li2S2 -> Li2S}
+\end{split}
+\end{equation}
+Diese existieren in unterschiedlichen Konzentrationen auch nebeneinander, der Schwefelanteil am Gemisch nimmt aber während dem Entladevorgang ab. Dieser Vorgang findet reversibel beim Laden der Zelle statt. Die theoretische Kapazität einer Lithium-Schwefel-Zelle liegt bei 1672mAh/g, praktisch kann aber momentan bei höheren Lade/Entladeraten jedoch nur ein um den Faktor 5-10 niedrigerer Wert erreicht werden. Das größte Problem des Materials sind ungewollte Reaktionen der Polysulfide mit dem Elektrolyten und eine damit einhergehende schleichende Vergiftung des Elektrolyten und Verlust an Aktivmaterial.
+\end{description}
+Alle Kathodenmaterialien und auch das Anodenmaterial LTO besitzen eine zu schwache Leitfähigkeit für Elektronen. Daher wird ihnen Kohlenstoff beigemischt, um Elektronen in die Elektrode zu transportieren. Die Materialien werden dabei mit Bindern versetzt. Die optimale Auswahl an Kohlenstoffmodifikation (Ruß, Graphit, Kohlenstoffnanoröhrchen, Graphen) und deren Prozessierung ist dabei eine aktuelle Forschungsaktivität (QUELLE). Es wird eine möglichst geringe Beimischung dieser Zusatzstoffe angestrebt, um die Masse an Aktivmaterial in der Zelle zu optimieren.
+\subsection{Elektrolyte}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/fluessigelektrolyt.png}
+	\caption{Chemische Strukturen der Bestandteile eines Flüssigelektrolyten}
+	\label{fluessigelektrolyt}
+\end{figure}
+Elektrolyte sollen möglichst wenig elektronenleitend sein, um eine schleichende Selbstentladung der Batterie zu verhindern. Gleichzeitig muss aber eine gute Ionenleitfähigkeit gewährleistet werden, um eine hohe Leistung der Zelle zu ermöglichen. Weiterhin müssen die Grenzflächen zwischen Elektrode und Elektrolyt eine ausreichende Güte besitzen, damit die Ionen zwischen beiden Zellbestandteilen wandern können.
+\\\\
+Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum Einsatz. Diese bestehen aus einem organischen Lösungsmittel wie beispielsweise einer Ethylencarbonat-Dimethylcarbonat-Mischung (EC-DMC). Hier sorgt das stark polare Ethylencarbonat für die Löslichkeit, während man mit dem Dimethylcarbonat-Anteil die Viskosität der Lösung einstellen kann. In diese Mischung löst man dann ungesättigte Lithium-Leitsalze wie \ce{LiPF6}, \ce{LiAsF6} oder \ce{LiClO4}. Eine Abbildung der chemischen Strukturen der Bestandteile eines Flüssigelektrolyten auf EC/DMC-Basis mit \ce{LiClO4} als Leitsalz ist in Abbildung \ref{fluessigelektrolyt} dargestellt.
+\\\\
+Problem dieser Lösungen sind ihre schlechte Beständigkeit gegenüber Wasser. Bei \ce{LiPF6} sorgen beispielsweise schon kleinste Verunreinigungen des Elektrolyts zur Bildung von hochätzender Flusssäure, die den Elektrolyt vergiftet und zu einem Ausfall der Zelle führt. Dies ist bei der Herstellung von Lithium-Ionen-Batterien ein großes Problem, da es eine aufwendige und teure Trocknung der Luft bei der Herstellung der Zellen erfordert.
+\\\\
+Ein weiteres Problem von Flüssigelektrolyten ist ihr begrenztes Temperaturfenster. Bei zu hohen Temperaturen verdampft der Elektrolyt und zerstört so die Zelle, bei zu niedrigeren Temperaturen bildet sich zumeist ein Polymergel, welches nicht mehr in der Lage ist die Ionen zu leiten.
+\subsection{Potentialuntersuchung mit zyklischer Voltametrie}
+Bei der zyklischen Voltametrie wird zuerst ein ansteigendes und anschließend ein abfallendes Potential an eine Batterie angelegt. Gemessen wird die sich bei den unterschiedlichen Potentialen ergebende Stromstärke. Diese ist ein Maß dafür, ob eine elektrochemische Reaktion innerhalb der Batterie stattfindet. Diese stellt sich als ein Peak innerhalb des Diagramms der zyklischen Voltametrie dar. Es kann dabei zwischen oxidierenden und reduzierenden Reaktionen unterschieden werden, je nachdem ob ein Peak im ansteigenden oder im abfallenden Potentialbereich auftritt \cite{Hamann2005}.
+\\\\
+Die zyklische Voltametrie ist insbesondere dazu geeignet, zu verstehen bei welchen Spannungen Reaktionen ablaufen und ob diese reversibel sind. Sie ermöglicht damit das exakte Einstellen von Arbeitsspannungen zum Laden und Entladen von Batteriezellen, die nicht über- oder unterschritten werden sollten \cite{Linden2011}.
+\subsection{Grenzschichtcharakterisierung durch Impedanzspektroskopie}
+Die Impedanzspektroskopie eignet sich, um Widerstände und Kapazitäten in einem Gesamtsystem genauer zu untersuchen und dadurch Aussagen über die Leitung und die Grenzschichten innerhalb des Systems treffen zu können.
+\\\\
+Die Grundlage der Impedanzspektroskopie ist, dass kapazitive und induktive Bauelemente einen sich über den Zeitverlauf ändernden Widerstand besitzen. Werden diese nun in einem Wechselstrom betrieben, so entsteht ein frequenzabhängiger Widerstand, die Impedanz. Eine Impedanz ist aufgebaut aus einem realen, frequenz\-unabhängigen und einem komplexen, frequenz\-abhängigen Teil.
+\subsubsection{Elektrochemisches Ersatzschaltbild}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/is_bauteile.png}
+	\caption{Ideale Darstellung verschiedener elektrotechnischer Bauteile bei der Impedanzspektroskopie im Nyquist-Plot \cite{bub_skript}}
+	\label{bauteile_is}
+\end{figure}
+Elektrotechnische Bauelemente besitzen nun unterschiedliche, charakteristische Impedanzen. Eine Verschaltung unterschiedlicher Elemente resultiert in einem Impedanzspektrum. Dargestellt werden können diese in einem Nyquist-Plot, der den Realteil gegen den Imaginärteil aufträgt \cite{Hamann2005}. Eine Übersicht über alle Bauteile und ihre korrespondierenden Nyquist-Plots findet sich in Abbildung \ref{bauteile_is}.
+% Dazu schreiben, wo in einer Batterie das auftritt
+\begin{description}
+\item[Widerstand] Der Widerstand besitzt keinen komplexen, sondern lediglich einen realen Anteil. Dies entspricht einem Punkt auf der Realachse des Nyquist-Plots.
+\item[Kondensator] Ein idealer Kondensator besitzt keinen realen Widerstand. Sein Imaginärteil konvergiert bei hohen Frequenzen gegen Null, bei niedrigen Frequenzen divergiert er ins Negative.
+\item[Spule] Eine Spule besitzt ebenfalls keinen realen, sondern nur einen imaginären Widerstand. Dieser konvergiert für niedrige Frequenzen gegen Null, bei hohen Frequenzen divergiert er ins Positive
+\item[RC-Glied] Grenzflächen, beispielsweise zwischen Elektrode und Elektrolyt in einer Batterie, bilden meistens sogenannte Helmholtz-Doppelschichten aus. Sie besitzen sowohl ein kapazitives Element als auch einen Durchtrittswiderstand. Dies kann als RC-Glied, also einer Parallelschaltung von Widerstand und Kondensator, dargestellt werden. Im Nyquist-Plot ergibt sich ein Halbkreis mit Radius 1/RC.
+\item[Warburg-Element] Um Diffusionprozesse darzustellen, können Warburg-Elemente verwendet werden. Diese leiten sich aus den Fickschen Gesetzen her. Sie bestehen aus einem Kettenleitermodell aus Widerständen und Kondensatoren, wobei zwischen Finite-Length und Finite-Space Warburg-Elementen unterschieden werden muss (siehe Abbildung \ref{warburg_element})
+\end{description}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\columnwidth]{images/warburg_element.png}
+	\caption{Kettenleitermodell eines Finite-Length (a) und Finite-Space (b) Warburg-Elements \cite{bub_skript}}
+	\label{warburg_element}
+\end{figure}
+Das Impedanzspektrum einer Batterie kann mit Hilfe eines elektrochemischen Ersatzschaltbildes analysiert werden. Dabei versucht man für ein experimentell erhaltenes Impedanzspektrum ein plausibles Ersatzschaltbild zu finden, dessen Impedanzspektrum vom experimentell bestimmte Spektrum möglichst wenig abweicht. Ein Beispiel hierfür lässt sich in Abbildung \ref{schema_is} finden.
+\\\\
+Aus dem so modellierten Ersatzschaltbild lassen sich quantitative Aussagen über die einzelnen Widerstände und Grenzschichten innerhalb einer Batteriezelle treffen. Das Impedanzspektrum ist bei einer Batterie jedoch auch immer von Faktoren wie dem Ladezustand, der Temperatur oder der Anzahl an bereits erfolgter Zyklen abhängig \cite{Linden2011}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\columnwidth]{images/Schema_IS.jpg}
+	\caption{Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce{LiFePO4}-Zelle \cite{bub_skript}}
+	\label{schema_is}
+\end{figure}
+\section{Keramiken für den Einsatz als Festkörperelektrolyt}
+Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe verschiedene Klassen von lithiumleitenden Keramiken identifizieren. Dazu zählen die Perowskite, Granate, keramische Gläser, amorphe Keramiken sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken \cite{tatsumisago2013recent}. In dieser Arbeit werden Keramiken auf Perowskit- und NASICON-Basis untersucht.
+\subsection{Perowskite}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\columnwidth]{images/Perowskit-Struktur.png}
+	\caption{\ce{ABO3}-Struktur eines Perowskits (blau: A, rot: B, grün: O)}
+	\label{struktur-perowskit}
+\end{figure}
+Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Elementen an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung \cite{ishihara2009perovskite}.
+\\\\
+Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}, LLTO). Das einfach positive Lithium und das dreifach positive Lanthan besetzen dabei die A-Plätze, das vierfach positive Titan den B-Platz. Mögliche Strukturen des LLTO können daher über die Formel \ce{Li_{3x}La_{2/3-x}TiO3} mit $x \in (0, 1/6)$ beschrieben werden. Der Anteil an Leerstellen in der Struktur steigt mit größerem x an \cite{chen2015lithium}.
+\\\\
+Durch die Leerstellen auf den A-Plätzen und durch Diffusion können Lithiumionen durch das Material wandern. Dabei bilden jeweils vier Sauerstoffionen eine Flaschenhalsformation \cite{cao2014recent}. Durch eine unterschiedliche Neigung der TiO6-Oktaeder ist der Diffusionswiderstand und die Aktivierungsenergie allerdings im Material inhomogen verteilt. Da sich im Material außerdem entlang der c-Achse lanthanreiche und lanthanarme Schichten bilden, ist die Leerstellenbewegung zwischen diesen Ebenen teilweise gehemmt \cite{jay2015genetics}.
+\\\\
+Für Lithiumlanthantitanoxid konnte eine Bulk-Leitfähigkeit von bis zu 1x$10^{-3}$ S/cm nachgewiesen werden \cite{stramare2003lithium}, weshalb eine Einsatzmöglichkeit als Festkörperelektrolyt untersucht wird.
+\subsection{NASICON-Keramiken}
+Das Akronym NASICON steht für \textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor und wurde ursprünglich für spezielle, natriumleitende Keramiken in Natrium-Schwefel-Batterien verwendet \cite{hagman1968crystal}. Heute steht es allerdings für eine ganze Klasse an Keramiken die für den lithiumleitenden Fall mit der allgemeinen Formel \ce{LiM2(PO4)3} beschrieben werden können. Dabei steht der Platzhalter M für ein Element aus der Gruppe Titan (Ti), Zirkon (Zr), Germanium (Ge) oder Hafnium (Hf).
+\\\\
+Die Struktur der NASICON-Keramiken ist aus \ce{MO6}-Oktaedern und \ce{PO4}-Tetraedern aufgebaut. Dabei verbindet sich ein \ce{PO4}-Tetraeder immer mit vier unterschiedlichen \ce{MO6}-Oktaedern, der wiederum mit sechs unterschiedlichen Tetraedern in Kontakt steht. Zwischen dieser Struktur existieren zwei Zwischengitterplätze, auf dem sich die Lithiumionen aufhalten können \cite{knauth2009inorganic}. Eine Darstellung ist in Abbildung (noch einfügen) ersichtlich.
+\\\\
+Der Zwischengitterplatz M1 beschreibt dabei einen Raum zwischen zwei \ce{MO6}-Oktaedern entlang der c-Achse. Die M2-Plätze sind hingegen senkrecht zur c-Achse zwischen den Bändern angeordnet. Zwischen diesen Räumen existieren außerdem noch M12 Plätze. Von entscheidender Bedeutung für die Leitfähigkeit des Materials ist nun, welche Größe die Engstelle zwischen den Gitterplätzen einnimmt. Dieser Flaschenhals kann maßgeblich durch die Ionen innerhalb der Gitterstruktur beeinflusst werden \cite{cao2014recent}.
+\subsubsection{Lithiumtitanphosphat}
+Wählt man als Komponente M Titan, so erhält man Lithiumtitanphosphat (\ce{LiTi2(PO4)3}). Die zueinander passenden Größen von Lithiumionen auf der einen und der Zwischengitterstruktur auf der anderen Seite sorgt für eine sehr gute Leitfähigkeit. Die Lithiumionen besetzen dabei vollständig die M1-Stellen, die M2-Stellen bleiben vollständig unbesetzt \cite{cao2014recent}. 
+\\\\
+Eine weitere Erhöhung der Bulk-Leitfähigkeit kann durch einen teilweisen Einbau von beweglicheren Aluminiumionen anstelle von Titanionen erzielt werden. Das entstehende Material ist Lithium-Aluminium-Titanphosphat (LATP) und kann durch die allgemeine Struktur \ce{Li_{1+x}Al_{x}Ti_{2-x}(PO4)3} beschrieben werden. Die durch die Substituierung der Titanionen zusätzlich eingebrachten Lithiumionen besetzten dabei M2-Plätze, was zu einer Steigerung der Ionenleitfähigkeit führt \cite{aono1991electrical}. Es konnten Leitfähigkeiten von $7*10^{-4}$ Scm$^{-1}$ nachgewiesen werden \cite{aono1990ionic}. 
+\\\\
+Die \ce{Ti^{4+}}-Ionen des LATP werden von verschiedenen Anodenmaterialien, wie Lithiummetall oder lithiierten Graphit, zu \ce{Ti^{3+}} reduziert. Diese Instabilität kann zu einem Versagen des Elektrolyts führen. Das LATP muss daher mit einem geeigneten Anodenmaterial kombiniert werden.
+\subsubsection{Lithium-Aluminium-Germaniumphosphat}
+Um der Reduktion der Titankationen vorzubeugen, können diese mit Germaniumkationen ersetzt werden. Das so entstehende Material ist Lithium-Aluminium-Germaniumphosphat (LAGP). Es kann mit der allgemeinen Struktur \ce{Li_{1+x}Al_xGe_{2-x}(PO4)3} beschrieben werden. LAGP besitzt eine ionische Leitfähigkeit in Höhe von $4*10^{-4}$ Scm$^{-1}$ \cite{fu1997fast}.
+% Details zur Herstellung?
+\subsection{Pulveranalyse mittels Röntgendiffraktion}
+Die Röntgendiffraktion (X-Ray Diffraction, XRD) nutzt den Zustand der charakteristischen Beugung von Röntgenstrahlung an geordneten Strukturen wie Kristallen aus, um daraus Aussagen über diese Struktur treffen zu können. Damit ist es beispielsweise möglich, die Phasenreinheit eines Stoffes zu bestimmen.
+\subsubsection{Physikalische Grundlagen der XRD}
+Bei der Beugung von Röntgenstrahlen an Kristallgittern entstehen Interferenzen durch die unterschiedlich tiefe Eindringung in das Material bis zum Auftreffen auf ein Teilchen. Dieser Umstand kann mit der Bragg-Gleichung beschrieben werden:
+\begin{equation}
+n\lambda = 2d \sin{\theta}
+\end{equation}
+mit
+\begin{description}\itemsep0pt
+\item[n] Grad des untersuchten Maximums (?)
+\item[$\lambda$] Wellenlänge der Röntgenstrahlung
+\item[d] Abstand der Netzebenen
+\item[$\theta$] Winkel der Strahlung zur Netzebene
+\end{description}
+Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
+% Weitere Beschreibung?
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\columnwidth]{images/Bragg.png}
+	\caption{Schematische Darstellung der Bragg-Reflexion \cite{wiki_bragg}}
+	\label{bragg}
+\end{figure}
+\subsubsection{Bragg-Brentano-Diffraktometer}
+Eine Bragg-Brentano-Anordunung eignet sich besonders für das Anfertigen von Pulverdiffraktogrammen. Eine ebene, flache Probe, z.B. in einen kleinen Tigel gepresstes Pulver, wird im Mittelpunkt eines Drehkreises befestigt. Der Röhrenfokus wird nun im gleichen Abstand zur Probe wie der Detektor angebracht. Beide zeigen im gleichen Winkel auf die Probe. Während der Messung wird dieser Winkel nun kontinuierlich variiert. Dazu kann entweder die Probe mit halber Winkelgeschwindigkeit des Detektors gedreht werden oder Röhre und Detektor bewegen sich mit gleicher Geschwindigkeit aufeinander zu beziehungsweise voneinander weg. Es kann nun für jeden Winkel quantitativ das Maß an Reflexion und Interferenz gemessen werden und daraus ein Diffraktogramm erstellt werden. Mittels Rietveld-Methode oder Vergleich mit einer Datenbank ist anschließend eine Analyse des Diffraktogramms möglich \cite{krischner1994}.
+% Evtl. noch eine Grafik?
+\\\\
+Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
+%\section{Analysemethoden}
+%Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht. Die Röntgendiffraktion misst Reflexionen und Interferenzen an Kristallgittern und ermöglicht daher eine Charakterisierung der untersuchten Stoffe über ihre kristalline Struktur. Bei der Impedanzspektroskopie wird der frequenzabhängige, komplexe Widerstand eines Materials untersucht, um dessen Leitfähigkeit genauer analysieren zu können. Die Kernspinspektroskopie ermöglicht die genaue Untersuchung der atomaren Umgebung eines speziellen Elements innerhalb einer Struktur durch gezieltes Ausrichten und Variieren der Kernspins.
+\section{Kernspinresonanzspektroskopie}
+%Motivation NMR
+Die Grundlage der Kernspinresonanzspektroskopie (nuclear magnetic resonance spectroscopy, NMR-Spektroskopie) wurde zum Jahreswechsel 1945/1946 von zwei amerikanischen Forschungsgruppen unabhängig voneinander entwickelt. Felix Bloch und Edward M. Purcell wurden dafür 1952 mit dem Nobelpreis in Physik ausgezeichnet.
+\subsection{Physikalische Grundlagen der NMR-Spektroskopie}
+Die NMR-Spektroskopie nutzt die magnetischen Eigenschaften von Atomkernen und ihren Umgebungen aus, um Aussagen über Zusammensetzungen und Bindungen von Stoffen treffen zu können.
+\\\\
+Elektronen, Neutronen und Protonen besitzen eine Eigenrotation, den Spin s. Der Spin eines Atomkerns setzt sich aus den Spins der einzelnen Protonen und Neutronen innerhalb des Kerns zusammen. Spins sind gequantelt und können daher nur gewisse diskrete Zustände annehmen. Dies gilt auch für den resultierenden Gesamtspin des Atomkerns. Die möglichen Zustände des Kernspins eines spezifischen Isotops können beschrieben werden über seine Spinquantenzahl I. Es existieren folgende magnetische Spinquantenzahlen m, welche die möglichen Orientierungen des Spins beschreiben \cite{Gerthsen2015}:
+\begin{equation}
+m_I = I, I-1, I-2, ..., -I
+\end{equation}
+Die Gesamtzahl an möglichen Zuständen entspricht daher der Summe von 2I+1. Das Li$^7$ besitzt die Spinquantenzahl I=$\frac{3}{2}$ \cite{Fitzgerald1999}. Es gilt daher:
+\begin{equation}
+m_{I=\frac{3}{2}} = \frac{3}{2}, \frac{1}{2}, -\frac{1}{2}, -\frac{3}{2}
+\end{equation}
+Sind in einem Atomkern die Anzahl an Protonen und Neutronen beide gerade, so gilt für die Spinquantenzahl I=0. Ein solcher Nukleus besitzt keinen Kernspin und kann daher nicht mittels NMR-Spektroskopie untersucht werden.
+\\\\
+Ein Atomkern besitzt eine Ladung. Wenn diese durch einen Kernspin bewegt wird, so besitzt der Nukleus ein magnetisches Moment $\mu$ in Abhängigkeit zum Zustand des Spins. Der Zusammenhang zwischen einem Drehmoment P und dem magnetischen Moment kann allgemein über das gyromagnetische Verhältnis $\gamma$ beschrieben werden \cite{Guenther2013}: 
+\begin{equation}
+\mu = \gamma P
+\end{equation}
+Das Drehmoment des Kerns in Richtung z eines frei gewählten kartesischen Koordinatensystems entspricht dabei seiner magnetischen Spinquantenzahl multipliziert mit dem reduzierten Planckschen Wirkungsquantum:
+\begin{equation}
+P_z = m_I \hbar
+\label{magnMoment}
+\end{equation}
+Das magnetische Moment kann also beschrieben werden mit:
+\begin{equation}
+\mu_z = \gamma m_I \hbar
+\end{equation}
+Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Potentialenergie E kann beschrieben werden als:
+\begin{equation}
+E = -\mu_z B_0
+\end{equation}
+Mit Einsetzen von Gleichung \ref{magnMoment} ergibt sich daher mit den unterschiedlichen Spinorientierungen $m_I$:
+\begin{equation}
+E = -m_I \gamma \hbar B_0
+\label{energiezustaende}
+\end{equation}
+Diese Aufspaltung der Energieniveaus ist bekannt als \textit{nuclear Zeeman splitting} \cite{Guenther2013}. 
+\\\\
+Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiedifferenzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Mit der \textit{Bohrschen Frequenzbedingung}\cite{Gerthsen2015}:
+\begin{equation}
+\Delta E = hv
+\end{equation}
+kann die benötigte Quantenenergie bestimmt werden als: %gilt nur für den Protonenfall?
+\begin{equation}
+hv_0 = \gamma \hbar B_0
+\end{equation}
+Dargestellt als Frequenz:
+\begin{equation}
+\omega_0 = \gamma B_0
+\end{equation}
+Diese Frequenz wird als \textit{Larmor-Frequenz} bezeichnet und kann auch als Präzession des Kerns beschrieben werden \cite{Guenther2013}. 
+\\\\
+Wird nun eine Transmitterspule in einem äußeren Magnetfeld $B_0$ mit einer spezifischen Larmor-Frequenz betrieben, so bringt sie exakt die nötige Energiedifferenz ein, um die Spins in einen energiereicheren Zustand zu promovieren. Das dadurch entstehende NMR-Signal kann mit einer Empfängerspule aufgezeichnet werden \cite{Friebolin2011}.
+\\\\
+Durch chemische Verbindungen entstehen um Atomkerne herum unterschiedlich dichte Elektronenwolken. Diese schirmen den Kern etwas vom äußeren Magnetfeld $B_0$ ab. Es entsteht ein lokales Magnetfeld $B_{lokal}$ um die Kerne herum, welches sich in seiner Stärke vom globalen Magnetfeld unterscheidet. Dadurch variiert die benötigte Anregungsfrequenz je nach der Umgebung eines Kernes leicht. Dieser Effekt findet sich als \textit{chemische Verschiebung} in Gestalt von unterschiedlichen Peaks im NMR-Spektrum wieder. Mit ihr ist es möglich Strukturaussagen über ein untersuchtes Material zu treffen.
+\subsection{Aufbau eines NMR-Spektrometers}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\columnwidth]{images/Aufbau_NMR.png}
+	\caption{Schematischer Aufbau eines NMR-Spektrometers. Der Kryomagnetaufbau (1) mit Spule (a), Einfüllstutzen (b, c) und Vakuummänteln (d), Probenkopf (2), Probe (3), Probenwechsler (4) sowie Shim-Einheit (5). }
+	\label{aufbau_nmr}
+\end{figure}
+Aus Gleichung \ref{energiezustaende} wird klar, dass die Größe der Potentialdifferenz zwischen energiereichen und -armen Zuständen mit der Stärke des Magnetfelds $B_0$ ansteigt. Die Kerne liegen dabei in Abhängigkeit zur Energiedifferenz $\Delta E$ boltzmannverteilt im energiereichen und -armen Zustand vor \cite{Guenther2013}:
+\begin{equation} %auch hier: Hinterer Teil gilt nur für den Protonenfall
+\frac{N_{reich}}{N_{arm}} = \exp{\frac{-\Delta E}{kT}}=\exp{\frac{-\gamma h B_0}{2\pi k T}} \approx 1-\frac{\gamma h B_0}{2 \pi k T}
+\end{equation}
+Im Falle von H$^1$-NMR liegt die Energiedifferenz bei 0.04 J/mol. Bei Raumtemperatur und einer Magnetfeldstärke von 2,35 T ergibt sich damit eine Übergangswahrscheinlichkeit in den energiereichen Zustand von nur 0,002 \%. Um eine ausreichend gute Sensitivität zu gewährleisten, ist daher ein sehr starkes äußeres Magnetfeld $B_0$ nötig. Dies ist lediglich mit Kryomagneten zu erreichen.
+\\\\
+Der schematische Aufbau eines NMR-Spektrometers wird in Abbildung \ref{aufbau_nmr} dargestellt. Der Kryomagnetaufbau (1) besteht aus den Spulen (a), welche mit Flüssighelium gekühlt werden. Dieser wird wiederum mit Flüssigstickstoff umspült. Die Kühlflüssigkeiten können über spezielle Einlässe eingefüllt werden (b, c) und befinden sich in Vakuummänteln (d).
+\\\\
+ Der Probenkopf (2) wird von unten eingeführt und an eine Ansteuerungseinheit angeschlossen, welche die Transmitter- und die Empfängerspule ansteuert sowie das Signal aufzeichnet und ggf. verstärkt. Die Transmitter- und Empfängerspule kann meistens als eine Spule realisiert werden, welche beide Funktionen übernimmt. Sie ist im Probenkopf montiert, genauso wie die Entkoppler- Lock- und Gradientenspulen. Die Probe (3) wird von oben eingeführt, was durch einen Probenwechsler (4) passieren kann. Das äußere Magnetfeld $B_0$ liegt damit in Längsrichtung zur Probe. 
+\\\\
+Um die Feldhomogenität des eingepulsten Signals zu optimieren kann mit einer Shim-Einheit (5) ein \textit{Shimming} durchgeführt werden. Dieses besteht aus einem \textit{Tuning} und einem \textit{Matching}. Mit dem Tuning wird die durch die eingeführte Probe gedämpfte Empfindlichkeit des Probenkopfes auf die Resonanzfrequenz des zu untersuchenden Kerns eingestellt, um die höchstmögliche Empfindlichkeit zu gewährleisten. Das Matching besteht aus einer Impedanzanpassung, um die maximale Leistung am Probenkopf anliegen zu haben. Der gesamte Aufbau wird von einem Computer gesteuert und überwacht, welcher auch die Signalverarbeitung übernimmt \cite{Friebolin2011}.
+\subsection{Betriebsmodi eines NMR-Spektrometers}
+% Das hier ist schon arg rudimentär
+% Beschreibung der Relaxationsmechanismen?
+Es existieren zwei unterschiedliche Verfahren, um ein NMR-Spektrum zu messen. Das ältere von beiden ist das Continuous-Wave-Verfahren (CW). Beim CW-Verfahren wird eine monochromatische Strahlung in die Probe emittiert. Diese wird kontinuirlich variiert und die entsprechende Resonanz gemessen. Problematisch ist dabei vor allem die durch das Abfahren unterschiedlicher Frequenzen sehr lange Messzeit.
+\\\\
+Heute kommt nahezu ausschließlich das Puls-Fourier-Transform-Verfahren (PFT) zum Einsatz. Hierbei wird ein starker Frequenzpuls über einen Wellenlängenbereich auf die Probe abgegeben. Als Resonanz erhält man dabei einen \textit{Free Induction Decay} (FID), der als eine über den Zeitverlauf geschehende Einpendelbewegung in Larmor-Frequenz der angeregten Kerne beschrieben werden kann. Die sich dabei überlagernden Resonanzen können anschließend über eine Fourier-Transformation zum eigentlichen NMR-Spektrum zurückgerechnet werden \cite{Guenther2013}.
+\subsection{Magic Angle Spinning}
+Festkörper haben im Vergleich zu Flüssigkeiten eine starrere Orientierung zu ihren Nachbarn und auch zum äußeren Magnetfeld $B_0$. Dies kann beispielsweise über die \textit{Dipolare Kopplung} eines Kerns zu einem magnetischen Moment $\mu$ in einer Entfernung $r$ unter einem Winkel $\theta$ gezeigt werden. Die Variation $\Delta B$ des lokalen Magnetfeld kann dann mit der Permeabilität des freien Raumes bestimmt werden zu \cite{Guenther2013}:
+\begin{equation}
+\Delta B = \frac{\mu_0}{4\pi}(3\cos^2\theta - 1)\mu r
+\end{equation}
+Für Flüssigkeiten geht der Effekt der Diploaren Kopplung  durch thermische Bewegung und Rotation gegen Null, bei Feststoffen nicht. Er führt zu einer Verbreiterung der Peaks im Spektrum, was diese schwerer zu analysieren macht. Es gilt jedoch weiterhin:
+\begin{equation}
+3\cos^2\theta-1 = 0 \;\; \forall \;\; \theta = 54.7^\circ
+\end{equation}
+Dieser Winkel wird als \textit{magischer Winkel} (magic angle) bezeichnet. Wenn eine feste Probe also in einem speziellen Probengefäß (\textit{Spinner}) im magischen Winkel durch das Magnetfeld rotiert wird, so kann der Effekt der Dipolaren Kopplung auch bei Festkörpern verhindert werden. Diese Form der Kernspinresonanzspektroskopie nennt sich Magic-Angle-Spinning-NMR (MAS-NMR).
+\chapter{Konstruktion der in-situ NMR-Batterietestzelle}
+Um NMR-Messungen im laufenden Betrieb einer Batterie machen zu können, musste ein spezieller Testaufbau geplant und kostruiert werden. Es war nötig sowohl den Probenkopf des NMR-Spektrometers anzupassen, als auch eine komplett neue Batterie-Testzelle zu bauen.
+\section{Aufbau einer Batterie}
+Es gibt verschiedene Bauformen für Batteriezellen \cite{Linden2011}:
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/rund_prisma_pouch.jpg}
-	\caption{Vergleich möglicher Bauformen: Rundzelle, prismatische Zelle, Pouch-Zelle}
+	\caption{Vergleich möglicher Bauformen: Rundzelle, prismatische Zelle, Pouch-Zelle \cite{bub_skript}}
 	\label{vergleich_zellform}
 \end{figure}
 \begin{description}
@@ -325,7 +568,7 @@ Es gibt verschiedene Bauformen für Batteriezellen.
 \end{description}
 Eine Übersicht über die verschiedenen Bauformen wird in Abbildung \ref{vergleich_zellform} gezeigt. Batteriezellen können zu Batteriemodulen zusammengeschlossen werden, die dann über ein externes Batteriemanagement gezielt angesprochen und kontrolliert werden können. Ein solcher Aufbau ist in Abbildung \ref{battery_pack} zu sehen.
 \\\\
-Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfzellen ähnelt. Die beiden Elektroden und der Elektrolyt werden in eine Glasröhre übereinander montiert. Die Röhre ist über zwei Stopfen mit Dichtungsringen nach außen hin abgedichtet. Eine Druckfeder sorgt für den nötigen Anpressdruck, zwei Edelstahlplättchen für eine homogene Kraftverteilung und Kontaktierung. Verschlossen wird die Zelle mittels Plastikverschlüssen, welche die Stopfen am Verrutschen hindern. Über einfache 2mm-Bohrungen in den Stopfen kann die Zelle mit Bananensteckern an Geräte angeschlossen werden. Die Abbildung \ref{schema_zelle} zeigt die Testzelle schematisch.
+Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfzellen ähnelt. Die beiden Elektroden und der Elektrolyt werden in eine Glasröhre übereinander montiert. Die Röhre ist über zwei Edelstahlstopfen mit Dichtungsringen nach außen hin abgedichtet. Eine Druckfeder sorgt für den nötigen Anpressdruck, zwei Edelstahlplättchen für eine homogene Kraftverteilung und Kontaktierung. Verschlossen wird die Zelle mittels Plastikverschlüssen, welche die Stopfen am Verrutschen hindern. Über einfache 2mm-Bohrungen in den Stopfen kann die Zelle mit Bananensteckern an Geräte angeschlossen werden. Die Abbildung \ref{schema_zelle} zeigt die Testzelle schematisch.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\columnwidth]{images/bmw-i3-battery-pack.png}
@@ -349,249 +592,69 @@ Am IAM-KWT kommen spezielle Testzellen zum Einsatz, deren Aufbau dem von Knopfze
 			}
 	\label{schema_zelle}
 \end{figure}
-\subsection{Elektrodenmaterialien}
-Materialien müssen verschiedene chemische und physikalische Eigenschaften erfüllen, um für den Einsatz in Elektroden geeignet zu sein. Die eingesetzten Stoffe sollten ungiftig sein und in ausreichender Menge günstig zu beschaffen sein. Sie sollten eine ausreichend hohe Potentialdifferenz zwischen den Elektroden besitzen, um eine hohe Zellspannung gewährleisten zu können. Das Material sollte eine möglichs hohe Energie- und Leistungssdichte ermöglichen, um auch für den mobilen Einsatz interessant zu sein. Es muss sowohl eine gute Lithium- als auch Elektronenleitfähigkeit gewährleistet sein. Die Ein- und Auslagerung von Lithium sollte nicht zu einer zu hohen Veränderung des Volumens führen, da diese unter Umstände Grenzflächen zerstört und hohe Anforderungen an die Bauweise der Zellen stellt. Auch nach einer hohen Anzahl an Zyklierungen sollte das Material noch eine ausreichende Kapazität besitzen. Ein Versagen der Zelle sollte möglichst nicht zu einer starken Hitzeentwicklung und Explosion der Zelle führen.
+\section{Anforderungen an die in-situ Testzelle}
+Ziel ist die Konstruktion einer Testzelle, in welcher sowohl herkömmliche Batterien als auch Festkörperelektrolyt-Batterien eingebaut werden können. Für den Einsatz von reinem Lithium\-metall und Flüssigelektrolyten muss die Testzelle gasdicht gebaut werden können. Die eingesetzten Materialien müssen alle ausreichend amagnetisch sein, um die empfindlichen Kernspinresonanzmessungen der NMR-Spektroskopie nicht zu sehr zu stören. Sie sollte möglichst ähnlich wie die bereits am IAM-KWT im Einsatz befindliche Zelle aufgebaut sein, um eine Vergleichbarkeit zwischen beiden Zellen zu gewährleisten und einen Einsatz auch außerhalb der NMR-Anlage zu ermöglichen. 
 \\\\
-Die Materialien für Elektroden können grundsätzlich nach ihrem Diffusionsverhalten klassifiziert werden.
-\begin{description}
-\item[Olivinstruktur] Die Olivinstruktur ist eine eindimensionale Tunnelstruktur, an der entlang die Diffusion stattfindet.
-\item[Lagenstruktur] Materialien, die zweidimensionale Diffusion zwischen Schichten ermöglichen, besitzen eine Lagenstruktur.
-\item[Spinellstruktur] In der Spinellstruktur ist eine Diffusion in alle drei Richtungen des Raums möglich.
-\end{description}
-
+Der Außendurchmesser der Zelle ist durch den Aufbau des NMR-Probenkopfes auf maximal 10mm festgesetzt. Eine Ausnahme stellt hier der Zellabschluss dar, da dieser über die Teflonhülle der Spule des Probenkopfes reichen kann und daher lediglich durch die Öffnung der Kupferabschirmung des Probenkopfes beschränkt ist. Diese hat einen Durchmesser von 16,5mm. Der relevante Messbereich der Spule befindet sich auf einer Höhe von 22mm bis 32mm. Ein Anschluss an den externen Stromkreis zum Laden und Entladen der Zelle kann nur nach oben hin erfolgen.
+\\\\
+In der Literatur lassen sich unterschiedliche Umsetzungen von in-situ-Testzellen für NMR-Spektroskopie finden. Die Arbeitsgruppe um Silvio Indris am IAM-ESS sowie Zhou et al. \cite{zhou2013paramagnetic} und Key et al. \cite{key2009real} benutzen dafür Pouch-Zellen, die gerollt oder gefaltet in den NMR-Aufbau eingebracht werden können. Dies ist jedoch mit Festkörperelektrolyten wegen des starren Aufbaus der Zelle nicht möglich, weshalb dieser Ansatz nicht verfolgt wurde.  Poli et al. \cite{poli2011new} und Gerald et al. \cite{gerald2001situ} implementieren beide einen Knopfzellenaufbau. Beide Lösungen sehen aber einen umfangreichen Umbau des NMR-Probenkopfes vor. Die angestrebte Lösung soll jedoch eine weitere Verwendung des Probenkopfes für andere NMR-Experimente im gewohnten Messaufbau und damit einhergehend schnelles Umrüsten des Probenkopfes ermöglichen.
+\section{Planung und Anfertigung der Teile}
 \begin{figure}
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/strukturen_elektroden.png}
-	\caption{Spannunglsagen verschiedener Elektrodenmaterialien (links) und ihre entsprechenden Kanalstrukturen (rechts) \cite{bub_skript}}
-	\label{strukturen_elektroden}
+	\includegraphics[width=1.0\columnwidth]{images/Skizze_Testzelle.jpg}
+	\caption{Skizze der Testzelle}
+	\label{skizze_testzelle}
 \end{figure}
-\subsubsection{Typische Anodenmaterialien}
-% Was zur SEI schreiben? Quelle Skript BuB?
-Für die meisten Zellen in dieser Arbeit kamen metallische Lithiumanoden zum Einsatz. Kommerziell ist Graphit momentan das Standardanodenmaterial von Lithium-Ionen-Batterien.
-\begin{description}
-\item[Lithium-Metall] Rein metallisches Lithium besitzt eine sehr hohe theoretische Kapazität von 3860mAh/g. Da jedoch die Anode im Betrieb nicht aufgebraucht werden darf, muss es im Überschuss bereit gestellt werden. Es besitzt die maximal mögliche Zellspannung gegenüber der Kathode. Problematisch ist jedoch, dass es durch das fehlende Wirtsgitter dazu neigt während der Zyklierung Dendriten auszubilden, die schlussendlich zu einem Kurzschluss und Ausfall der Zelle führen.
-\item[Graphit (\ce{C6})] Graphit besitzt eine Lagenstruktur zwischen der er Lithium einspeichern kann. Es kann jeweils ein Lithiumatom pro sechs Kohlenstoffatomen eingelagert werden. Er erreicht damit eine theoretische Kapazität von 372 mAh/g. Das Potential gegen rein metallisches Lithium ist sehr klein (ca. 0,1V), was hohe Zellspannungen ermöglicht. Die Einlagerung erfolgt über drei unterschiedliche Stufen und führt zu einer Volumenzunahme von maximal 9\%.
-\item[Lithiumtitanat (\ce{Li4Ti5O12}, LTO)] Teilweise auch Lithiumtitanspinell. Lithiumtitanat besitzt eine Spinellstruktur. Die theoretische Kapazität liegt bei 233mAh/g, in der Praxis werden meistens Kapazitäten von etwa 150mAh/g erreicht. Das Material vollführt nahezu keine Volumenänderung bei Ein- und Ausbau von Lithium. Jedoch ist seine Potentiallage mit 1,55V gegenüber metallischem Lithium sehr hoch, was zu kleineren Zellspannungen führt.
-\end{description}
-\subsubsection{Typische Kathodenmaterialien}
-\begin{description}
-\item[Lithiumcobaltdioxid (\ce{LiCoO2})] Die praktische Kapazität von Lithiumcobaltoxid liegt bei 150mAh/g. Dies liegt an der Tatsache, dass nur etwa 60\% der Lithiumatome aus dem Gitter ausgebaut werden dürfen, da es sonst durch den Zusammenbruch der Struktur zur Bildung von Sauerstoff kommt. Beim Laden muss daher die Spannung unter 4,2V gehalten werden. Die Diffusion läuft daher zweidimensional zwischen zwei Schichten ab. Das mittlere Elektrodenpotential von Lithiumcobaltoxid liegt bei hohen 3,9V.
-\item[Lithiummanganspinell (\ce{LiMn2O4}, LMO)] Lithiummanganspinell ist ein Hochvolkathodenmaterial, sein mittleres Elektrodenpotential liegt bei 4,0V. Die praktische Kapazität des Stoffes liegt bei etwa 120mAh/g bei der Verwendung von Flüssigelektrolyten, welche die Ladespannung auf 4,2V begrenzen. Der Spinell selbst ist auch noch bei höheren Potentialen stabil. Bei tiefen Ladezuständen kann es zu einer Manganauslösung und unerwünschten Gitterumwandlungen kommen, der Jahn-Teller-Verzerrung. Um diese zu verhindern, können Teile des Mangans durch andere Übergangsmetalle substituiert werden. In dieser Arbeit wird eine \ce{LiNi_{0,5}Mn_{1,5}O4}-Verbindung (LNMO) untersucht.
-\item[Schwefel] Reiner Schwefel besitzt normalerweise einen zyklischen Achterring. Beim Einsatz als Kathodenmaterial wird dieser Ring beim Entladen langsam reduziert und es entstehen verschiedene Polysulfide:
-\begin{equation}
-\begin{split}
-\ce{S8 -> Li2S8 -> Li2S6 -> Li2S6 -> Li2S5 -> }\\
-\ce{ Li2S4 -> Li2S3 -> Li2S2 -> Li2S}
-\end{split}
-\end{equation}
-Diese existieren in unterschiedlichen Konzentrationen auch nebeneinander, der Schwefelanteil am Gemisch nimmt aber während dem Entladevorgang ab. Dieser Vorgang findet reversibel beim Laden der Zelle statt. Die theoretische Kapazität einer Lithium-Schwefel-Zelle liegt bei 1672mAh/g, praktisch kann aber momentan bei höheren Lade/Entladeraten jedoch nur ein um den Faktor 5-10 niedrigerer Wert erreicht werden. Das größte Problem des Materials sind ungewollte Reaktionen der Polysulfide mit dem Elektrolyten und eine damit einhergehende schleichende Vergiftung des Elektrolyten und Verlust an Aktivmaterial.
-\end{description}
-Alle Kathodenmaterialien und auch das Anodenmaterial LTO besitzen eine zu schwache Leitfähigkeit für Elektronen. Daher wird ihnen Kohlenstoff beigemischt, um Elektronen in die Elektrode zu transportieren. Die Materialien werden dabei mit Bindern versetzt. Die optimale Auswahl an Kohlenstoffmodifikation (Ruß, Graphit, Kohlenstoffnanoröhrchen, Graphen) und deren Prozessierung ist dabei eine aktuelle Forschungsaktivität (QUELLE). Es wird eine möglichst geringe Beimischung dieser Zusatzstoffe angestrebt, um die Masse an Aktivmaterial in der Zelle zu optimieren.
-\subsection{Elektrolyte}
+Der Aufbau des NMR-Spektrometers gibt eine zylindrische Form der einzuführenden Probe vor. Da die gewickelte Zellen für Festkörperelektrolytbatterien nicht geeignet sind, wird ein Knopfzellenaufbau gewählt. Für die einfachere Handhabung wird ein länglicheres Design mit einer normalen Druckfeder, ähnlich der bereits am IAM-KWT im Einsatz befindlichen Testzelle, umgesetzt. Jedoch musste der bisherige Abschluss der Zelle umgestaltet werden. Um in den Probenkopf eingeführt werden zu können, muss der Boden der neuen Zelle bündig mit der restlichen Zelle abschließen und darf nicht auskragen. Dies würde den optimalen Sitz der Spule verhindern. Der Verschluss kann daher nicht außenliegend erfolgen. Die Kontaktierung kann nicht nach unten hinweg erfolgen, weshalb an der Außenseite der Zelle nach oben hin eine Leitung existieren muss. Beide Maßnahmen erfordern ein neues Design des unteren Stempels sowie der äußeren Hülle. Der obere Stempel und die Feder müssen sowohl auf den kleineren Durchmesser hin angepasst werden, als auch aus amagnetischen Materialien gefertigt werden. Abbildung \ref{skizze_testzelle} zeigt skizzenhaft die Planung der neuen Testzelle.
+\subsection{Die Glaszelle}
+Als Material für die Zellhülle wurde Glas ausgewählt. Glas bietet den Vorteil einer optischen Kontrolle der Zelle während des manuellen Einbaus der verschiedenen Komponenten. Es ist auch bei dünnen Wandstärken ausreichend fest, womit der Innendurchmesser maximiert werden konnte. Glas ist ausreichend amagnetisch und kann gut bearbeitet werden.
+\\\\
+Die Glaszelle wurde von einem Glasbläser der Laborhandelsgesellschaft GmbH (Karlsruhe) aus einem Glasrohr gefertigt, welches unten nach innen verdickt und durchstochen worden ist und an das nach oben mit einem Standardgewindeteil (GL14) versehen worden ist.
+\\\\
+Die mitgelieferten Plastikdeckel mussten auf den maximalen Durchmesser der Kupferabschirmung von 16,5mm abgeschliffen werden. Dies erfolgte händisch auf einer Schleifmaschine des Typs DAP-V der Firma Struers.
+\subsection{Die Stempel}
+Die beiden Stempel wurden jeweils als CAD-Modell mit der Software Creo Parametric der Firma PTV geplant. Die Zeichnungen sind in Abbildung \ref{stempel_oben} und \ref{stempel_unten} dargestellt. Der obere Stempel entspricht dabei dem Stempel aus der existierenden Zelle mit angepasster Höhe, Durchmesser und Nut für den Dichtungsring. Die 2mm-Bohrung zur Kontaktierung bleibt erhalten. Der untere Stempel wurde komplett neu gestaltet. Er besteht aus einem Kopf mit einer Nut für den Dichtungsring, welcher für die Dichtigkeit der Zelle sorgt. Von ihm abgehend ist ein Stab mit einem M3-Isogewinde. Dieser passt durch die Aussparung der Glaszelle und ermöglicht das Befestigen des Stempels mit einer außenliegenden Mutter. Als Material kommt eine Messinglegierung zum Einsatz (\ce{CuZn39Pb3}), welche ausreichend amagnetisch (Suszeptibilität X $=\;-$0,173 · 10$^{-6}$ cm$^3$/g) ist. 
+\\\\
+Die Stempel wurden an einer CNC-Drehmaschine von Technikern der Technologiefabrik Karlsruhe gedreht. %Typ der Drehmaschine?
+\begin{figure}
+%mit Subfigures machen?
+	\centering
+	\includegraphics[width=0.7\columnwidth]{images/stempel_oben.png}
+	\caption{Stempel oben}
+	\label{stempel_oben}
+\end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/fluessigelektrolyt.png}
-	\caption{Chemische Strukturen der Bestandteile eines Flüssigelektrolyten}
-	\label{fluessigelektrolyt}
+	\includegraphics[width=0.7\columnwidth]{images/stempel_unten.png}
+	\caption{Stempel unten}
+	\label{stempel_unten}
 \end{figure}
-Elektrolyte sollen möglichst wenig elektronenleitend sein, um eine schleichende Selbstentladung der Batterie zu verhindern. Gleichzeitig muss aber eine gute Ionenleitfähigkeit gewährleistet werden, um eine hohe Leistung der Zelle zu ermöglichen. Weiterhin müssen die Grenzflächen zwischen Elektrode und Elektrolyt eine ausreichende Güte besitzen, damit die Ionen zwischen beiden Zellbestandteilen wandern können.
-\\\\
-Als Elektrolyt kommen kommerziell fast ausschließlich Flüssigelektrolyte zum Einsatz. Diese bestehen aus einem organischen Lösungsmittel wie beispielsweise einer Ethylencarbonat-Dimethylcarbonat-Mischung (EC-DMC). Hier sorgt das stark polare Ethylencarbonat für die Löslichkeit, während man mit dem Dimethylcarbonat-Anteil die Viskosität der Lösung einstellen kann. In diese Mischung löst man dann ungesättigte Lithium-Leitsalze wie \ce{LiPF6}, \ce{LiAsF6} oder \ce{LiClO4}. Eine Abbildung der chemischen Strukturen der Bestandteile eines Flüssigelektrolyten auf EC/DMC-Basis mit \ce{LiClO4} als Leitsalz ist in Abbildung \ref{fluessigelektrolyt} dargestellt.
-\\\\
-Problem dieser Lösungen sind ihre schlechte Beständigkeit gegenüber Wasser. Bei \ce{LiPF6} sorgen beispielsweise schon kleinste Verunreinigungen des Elektrolyts zur Bildung von hochätzender Flusssäure, die den Elektrolyt vergiftet und zu einem Ausfall der Zelle führt. Dies ist bei der Herstellung von Lithium-Ionen-Batterien ein großes Problem, da es eine aufwendige und teure Trocknung der Luft bei der Herstellung der Zellen erfordert.
-\\\\
-Ein weiteres Problem von Flüssigelektrolyten ist ihr begrenztes Temperaturfenster. Bei zu hohen Temperaturen verdampft der Elektrolyt und zerstört so die Zelle, bei zu niedrigeren Temperaturen bildet sich zumeist ein Polymergel, welches nicht mehr in der Lage ist die Ionen zu leiten.
-\section{Keramiken}
-Keramiken sind anorganische, nicht-metallische und polykristalline Werkstoffe. Es existieren verschiedene Keramiken, welche in der Lage sind Lithium-Ionen zu leiten. Grundsätzlich lassen sich dabei basierend auf der Struktur der Werkstoffe zwei vielversprechende Klassen von lithiumleitenden Keramiken identifizieren: Die perowskitischen sowie die Na-Super-Ionic-Conductor (NASICON) Keramiken. 
-\subsection{Perowskite}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.5\columnwidth]{images/Perowskit-Struktur.png}
-	\caption{\ce{ABO3}-Struktur eines Perowskits (blau: A, rot: B, grün: O)}
-	\label{struktur-perowskit}
+	\includegraphics[width=1.0\columnwidth]{images/Stempel_Foto_cutted.jpg}
+	\caption{Übersicht über die verschiedenen Teile des in-situ-Testzelle (besseres Foto machen!)}
+	\label{stempel_foto}
 \end{figure}
-Perowskite folgen der Struktur \ce{ABO_3}. Sie sind kubisch-flächenzentriert aufgebaut mit dem B-Element in der Mitte, den A-Elementen an den Ecken und dem Sauerstoff auf den Flächen. Der Sauerstoff ist zweifach negativ geladen. Damit ergibt sich für die Kombination aus A und B eine notwendige sechsfach positive Gesamtladung.
+\subsection{Die Mutter}
+Durch den Einsatz des M3-Standardgewindes bei den Stempeln, konnte bei der Mutter ein Standardmodell aus Messing aus dem Fachhandel eingesetzt werden.
+\subsection{Die Feder}
+Die Feder stellte besondere Herausforderungen an die Materialauswahl. So musste neben der amagnetischen Eigenschaft auch eine gute elastische Verformbarkeit und eine gute Leitfähigkeit für den elektrischen Strom gegeben sein. Neben Messing wurde daher auch Federbronze (\ce{CuSn6}) und Kupferberyllium (\ce{CuBe2}) als mögliche Materialien betrachtet.
+% Tabelle mit Übersicht?
 \\\\
-Ein vielversprechendes Material für den Einsatz als Festkörperelektrolyt ist hier das Lithiumlanthantitanoxid (\ce{LiLaTiO3}, LLTO). Das einfach positive Lithium und das dreifach positive Lanthan besetzen dabei die A-Plätze, das vierfach positive Titan den B-Platz. Mögliche Strukturen des LLTO können daher über die Formel \ce{Li_{3x}La_{2/3-x}TiO3} mit $x \in (0, 1/6)$ beschrieben werden. Der Anteil an Leerstellen in der Struktur steigt mit größerem x an.
+Die Feder wird dabei so ausgelegt, dass der Anpressdruck auf die Zelle möglichst gleich ist, wie bei der bereits am IAM-KWT existierenden Zelle. Diese baut bei einem Federweg von 25 mm und einer Federrate von 0,541 N/mm eine Kraft von 13,525 N auf. Bei einer Fläche von 93,3 mm$^2$ entspricht dies einem Anpressdruck von 0,145 N/mm$^2$. Die Höhe der neuen Feder wurde auf 30 mm festgelegt, der zu absolvierende Federweg bei Einbau beträgt 10 mm. Die Fläche auf der die Kraft aufgebracht wird beträgt 36,32 mm$^2$. Um den gleichen Anpressdruck zu gewährleisten, benötigt die neue Feder daher eine Kraft von 5,266 N, was einer Federrate von 0,527 N/mm entspricht.
 \\\\
-Durch die Leerstellen auf den A-Plätzen und durch Diffusion können Lithiumionen durch das Material wandern. Dabei bilden jeweils vier Sauerstoffionen eine Flaschenhalsformation (QUELLE). Durch eine unterschiedliche Neigung der TiO6-Oktaeder ist der Diffusionswiderstand und die Aktivierungsenergie allerdings im Material inhomogen verteilt. Da sich im Material außerdem entlang der c-Achse lanthanreiche und lanthanarme Schichten bilden, ist die Leerstellenbewegung zwischen diesen Ebenen teilweise gehemmt (QUELLE).
-\\\\
-Für Lithiumlanthantitanoxid konnte eine Bulk-Leitfähigkeit von bis zu 1x$10^{-3}$ S/cm nachgewiesen werden (QUELLE), weshalb eine Einsatzmöglichkeit als Festkörperelektrolyt untersucht wird.
-\subsection{NASICON-Keramiken}
-Das Akronym NASICON steht für \textbf{Na}-\textbf{S}uper-\textbf{I}onic-\textbf{Con}ductor und wurde ursprünglich für spezielle, natriumleitende Keramiken in Natrium-Schwefel-Batterien verwendet. Heute steht es allerdings für eine ganze Klasse an Keramiken die mit der allgemeinen Formel \ce{LiM2(PO4)3} beschrieben werden können. Dabei steht der Platzhalter M für ein Element aus der Gruppe Titan (Ti), Zirkon (Zr), Germanium (Ge) oder Hafnium (Hf).
-\\\\
-Die Struktur der NASICON-Keramiken ist aus \ce{MO6}-Oktaedern und \ce{PO4}-Tetraedern aufgebaut. Dabei verbindet sich ein \ce{PO4}-Tetraeder immer mit vier unterschiedlichen \ce{MO6}-Oktaedern, der wiederum mit sechs unterschiedlichen Tetraedern in Kontakt steht. Zwischen dieser Struktur existieren zwei Zwischengitterplätze, auf dem sich die Lithiumionen aufhalten können. Eine Darstellung ist in Abbildung (noch einfügen) ersichtlich.
-\\\\
-Der Zwischengitterplatz M1 beschreibt dabei einen Raum zwischen zwei \ce{MO6}-Oktaedern entlang der c-Achse. Die M2-Plätze sind hingegen senkrecht zur c-Achse zwischen den Bändern angeordnet. Zwischen diesen Räumen existieren außerdem noch M12 Plätze. Von entscheidender Bedeutung für die Leitfähigkeit des Materials ist nun, welche Größe die Engstelle zwischen den Gitterplätzen einnimmt. Dieser Flaschenhals kann maßgeblich durch die Ionen innerhalb der Gitterstruktur beeinflusst werden.
-\subsubsection{Lithiumtitanphosphat}
-Wählt man als Komponente M Titan, so erhält man Lithiumtitanphosphat (\ce{LiTi2(PO4)3}). Die zueinander passenden Größen von Lithiumionen auf der einen und der Zwischengitterstruktur auf der anderen Seite sorgt für eine sehr gute Leitfähigkeit. Die Lithiumionen besetzen dabei vollständig die M1-Stellen, die M2-Stellen bleiben vollständig unbesetzt. 
-\\\\
-Eine weitere Erhöhung der Bulk-Leitfähigkeit kann durch einen teilweisen Einbau von beweglicheren Aluminiumionen anstelle von Titanionen erzielt werden. Das entstehende Material ist Lithium-Aluminium-Titanphosphat (LATP) und kann durch die allgemeine Struktur \ce{Li_{1+x}Al_{x}Ti_{2-x}(PO4)3} beschrieben werden. Die durch die Substituierung der Titanionen zusätzlich eingebrachten Lithiumionen besetzten dabei M2-Plätze, was zu einer Steigerung der Ionenleitfähigkeit führt.
-\\\\
-Die \ce{Ti^{4+}}-Ionen des LATP werden von verschiedenen Anodenmaterialien, wie Lithiummetall oder lithiierten Graphit, zu \ce{Ti^{3+}} reduziert. Diese Instabilität kann zu einem Versagen des Elektrolyts führen. Das LATP muss daher mit einem geeigneten Anodenmaterial kombiniert werden.
-\subsubsection{Lithium-Aluminium-Germaniumphosphat}
-Um der Reduktion der Titankationen vorzubeugen, können diese mit Germaniumkationen ersetzt werden. Das so entstehende Material ist Lithium-Aluminium-Germaniumphosphat (LAGP). Es kann mit der allgemeinen Struktur \ce{Li_{1+x}Al_xGe_{2-x}(PO4)3} beschrieben werden.
-\\\\
-LAGP besitzt eine mit LATP vergleichbare Leitfähigkeit und ist außerdem auch noch bei hohen Spannungen von bis zu 7V stabil gegen Lithium.
-% Details zur Herstellung?
-\section{Analysemethoden}
-Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht. Die Röntgendiffraktion misst Reflexionen und Interferenzen an Kristallgittern und ermöglicht daher eine Charakterisierung der untersuchten Stoffe über ihre kristalline Struktur. Bei der Impedanzspektroskopie wird der frequenzabhängige, komplexe Widerstand eines Materials untersucht, um dessen Leitfähigkeit genauer analysieren zu können. Die Kernspinspektroskopie ermöglicht die genaue Untersuchung der atomaren Umgebung eines speziellen Elements innerhalb einer Struktur durch gezieltes Ausrichten und Variieren der Kernspins.
-\subsection{Röntgendiffraktion}
-Die Röntgendiffraktion (X-Ray Diffraction, XRD) nutzt den Zustand der charakteristischen Beugung von Röntgenstrahlung an geordneten Strukturen wie Kristallen aus, um daraus Aussagen über diese Struktur treffen zu können. Damit ist es beispielsweise möglich, die Phasenreinheit eines Stoffes zu bestimmen.
-\subsubsection{Physikalische Grundlagen der XRD}
-Bei der Beugung von Röntgenstrahlen an Kristallgittern entstehen Interferenzen durch die unterschiedlich tiefe Eindringung in das Material bis zum Auftreffen auf ein Teilchen. Dieser Umstand kann mit der Bragg-Gleichung beschrieben werden:
-\begin{equation}
-n\lambda = 2d \sin{\theta}
-\end{equation}
-mit
-\begin{description}\itemsep0pt
-\item[n] Grad des untersuchten Maximums (?)
-\item[$\lambda$] Wellenlänge der Röntgenstrahlung
-\item[d] Abstand der Netzebenen
-\item[$\theta$] Winkel der Strahlung zur Netzebene
-\end{description}
-Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
-% Weitere Beschreibung?
+Die Feder wurde von Febrotec Federn (Halver) aus Kupferberyllium gefertigt. Der Drahtdurchmesser beträgt 0,75 mm, der Federnaußendurchmesser 6,5 mm. Ungespannt hat die Feder eine Höhe von 30mm. %Windungszahl?
+\subsection{Die Positionsplättchen}
+Die Positionsplättchen sorgen dafür, dass sich die eigentliche Batteriezelle, also die Elektroden und der Elektrolyt, im sensitiven Bereich der Spule befindet. Da sie sich selbst dadurch unmittelbar im Messbereich aufhalten, wird auf eine vollständige Metallfertigung verzichtet, um die dämpfende Wirkung zu minimieren. Stattdessen werden von einem Teflonstab passende Scheiben abgeschnitten und plan geschliffen. Anschließend werden die beiden Grundflächen mit Kupferklebeband abgeklebt. Die beiden Seiten sind über einen dünnen Kupferstreifen an der Seite miteinander verbunden. 
+\section{Anpassung des NMR-Probenkopfes}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\columnwidth]{images/Bragg.png}
-	\caption{Schematische Darstellung der Bragg-Reflexion \cite{wiki_bragg}}
-	\label{bragg}
+	\includegraphics[width=0.85\columnwidth]{images/Platzhalter_Spule.jpg}
+	\caption{Spule mit Kondensator (links) und eingebaut in den Probenkopf (rechts)}
+	\label{spule}
 \end{figure}
-\subsubsection{Bragg-Brentano-Diffraktometer}
-Eine Bragg-Brentano-Anordunung eignet sich besonders für das Anfertigen von Pulverdiffraktogrammen. Eine ebene, flache Probe, z.B. in einen kleinen Tigel gepresstes Pulver, wird im Mittelpunkt eines Drehkreises befestigt. Der Röhrenfokus wird nun im gleichen Abstand zur Probe wie der Detektor angebracht. Beide zeigen im gleichen Winkel auf die Probe. Während der Messung wird dieser Winkel nun kontinuierlich variiert. Dazu kann entweder die Probe mit halber Winkelgeschwindigkeit des Detektors gedreht werden oder Röhre und Detektor bewegen sich mit gleicher Geschwindigkeit aufeinander zu beziehungsweise voneinander weg. Es kann nun für jeden Winkel quantitativ das Maß an Reflexion und Interferenz gemessen werden und daraus ein Diffraktogramm erstellt werden. Mittels Rietveld-Methode oder Vergleich mit einer Datenbank ist anschließend eine Analyse des Diffraktogramms möglich.
-% Evtl. noch eine Grafik?
-\\\\
-Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
-\subsection{Zyklische Voltametrie}
-Bei der zyklischen Voltametrie wird zuerst ein ansteigendes und anschließend ein abfallendes Potential an eine Batterie angelegt. Gemessen wird die sich bei den unterschiedlichen Potentialen ergebende Stromstärke. Diese ist ein Maß dafür, ob eine elektrochemische Reaktion innerhalb der Batterie stattfindet. Diese stellt sich als ein Peak innerhalb des Diagramms der zyklischen Voltametrie dar. Es kann dabei zwischen oxidierenden und reduzierenden Reaktionen unterschieden werden, je nachdem ob ein Peak im ansteigenden oder im abfallenden Potentialbereich auftritt.
-\\\\
-Die zyklische Voltametrie ist insbesondere dazu geeignet, zu verstehen bei welchen Spannungen Reaktionen ablaufen und ermöglicht damit das exakte einstellen von Arbeitsspannungen zum Laden und Entladen von Batteriezellen, die nicht über- oder unterschritten werden sollten.
-\subsection{Impedanzspektroskopie}
-Die Impedanzspektroskopie eignet sich, um Widerstände in einem Gesamtsystem genauer zu untersuchen und dadurch Aussagen über die Leitung innerhalb des Systems treffen zu können.
-\subsubsection{Grundlagen der Impedanzspektroskopie}
-Kapazitive und induktive Bauelemente besitzen einen sich über den Zeitverlauf ändernden Widerstand. Werden diese nun in einem Wechselstrom betrieben, so entsteht ein frequenzabhängiger Widerstand, die Impedanz. Eine Impedanz ist aufgebaut aus einem realen, frequenz\-unabhängigen und einem komplexen, frequenz\-abhängigen Teil.
-\\\\
-Admittanz, Leitfähigkeit.
-\subsubsection{Elektrochemisches Ersatzschaltbild}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/is_bauteile.png}
-	\caption{Ideale Darstellung verschiedener elektrotechnischer Bauteile bei der Impedanzspektroskopie im Nyquist-Plot}
-	\label{bauteile_is}
-\end{figure}
-Elektrotechnische Bauelemente besitzen nun unterschiedliche, charakteristische Impedanzen. Eine Verschaltung unterschiedlicher Elemente resultiert in einem Impedanzspektrum. Dargestellt werden können diese in einem Nyquist-Plot, der den Realteil gegen den Imaginärteil aufträgt. Eine Übersicht über alle Bauteile und ihre korrespondierenden Nyquist-Plots findet sich in Abbildung \ref{bauteile_is}.
-\begin{description}
-\item[Widerstand] Der Widerstand besitzt keinen komplexen, sondern lediglich einen realen Anteil. Dies entspricht einem Punkt auf der Realachse des Nyquist-Plots.
-\item[Kondensator] Ein idealer Kondensator besitzt keinen realen Widerstand. Sein Imaginärteil konvergiert bei hohen Frequenzen gegen Null, bei niedrigen Frequenzen divergiert er ins Negative.
-\item[Spule] Eine Spule besitzt ebenfalls keinen realen, sondern nur einen imaginären Widerstand. Dieser konvergiert für niedrige Frequenzen gegen Null, bei hohen Frequenzen divergiert er ins Positive
-\item[RC-Glied] Grenzflächen, beispielsweise zwischen Elektrode und Elektrolyt in einer Batterie, bilden meistens sogenannte Helmholtz-Doppelschichten aus. Sie besitzen sowohl ein kapazitives Element als auch einen Durchtrittswiderstand. Dies kann als RC-Glied, also einer Parallelschaltung von Widerstand und Kondensator, dargestellt werden. Im Nyquist-Plot ergibt sich ein Halbkreis mit Radius 1/RC.
-\item[Warburg-Element] Um Diffusionprozesse darzustellen, können Warburg-Elemente verwendet werden. Diese leiten sich aus den Fickschen Gesetzen her. Sie bestehen aus einem Kettenleitermodell aus Widerständen und Kondensatoren, wobei zwischen Finite-Length und Finite-Space Warburg-Elementen unterschieden werden muss (siehe Abbildung \ref{warburg_element})
-\end{description}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\columnwidth]{images/warburg_element.png}
-	\caption{Kettenleitermodell eines Finite-Length (a) und Finite-Space (b) Warburg-Elements}
-	\label{warburg_element}
-\end{figure}
-Das Impedanzspektrum einer Batterie kann mit Hilfe eines elektrochemischen Ersatzschaltbildes analysiert werden. Dabei versucht man für ein experimentell erhaltenes Impedanzspektrum ein plausibles Ersatzschaltbild zu finden, dessen Impedanzspektrum vom experimentell bestimmte Spektrum möglichst wenig abweicht. Ein Beispiel hierfür lässt sich in Abbildung \ref{schema_is} finden.
-\\\\
-Aus dem so modellierten Ersatzschaltbild lassen sich quantitative Aussagen über die einzelnen Widerstände und Grenzschichten innerhalb einer Batteriezelle treffen. Das Impedanzspektrum ist bei einer Batterie jedoch auch immer von Faktoren wie dem Ladezustand, der Temperatur oder der Anzahl an bereits erfolgter Zyklen abhängig.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\columnwidth]{images/Schema_IS.jpg}
-	\caption{Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce{LiFePO4}-Zelle}
-	\label{schema_is}
-\end{figure}
-\subsection{Kernspinresonanzspektroskopie}
-Die Grundlage der Kernspinresonanzspektroskopie (nuclear magnetic resonance spectroscopy, NMR-Spektroskopie) wurde zum Jahreswechsel 1945/1946 von zwei amerikanischen Forschungsgruppen unabhängig voneinander entwickelt. Felix Bloch und Edward M. Purcell wurden dafür 1952 mit dem Nobelpreis in Physik ausgezeichnet.
-\subsubsection{Physikalische Grundlagen der NMR-Spektroskopie}
-Die NMR-Spektroskopie nutzt die magnetischen Eigenschaften von Atomkernen und ihren Umgebungen aus, um Aussagen über Zusammensetzungen und Bindungen von Stoffen treffen zu können.
-\\\\
-Elektronen, Neutronen und Protonen besitzen eine Eigenrotation, den Spin s. Der Spin eines Atomkerns setzt sich aus den Spins der einzelnen Protonen und Neutronen innerhalb des Kerns zusammen. Spins sind gequantelt und können daher nur gewisse diskrete Zustände annehmen. Dies gilt auch für den resultierenden Gesamtspin des Atomkerns. Die möglichen Zustände des Kernspins eines spezifischen Isotops können beschrieben werden über seine Spinquantenzahl I. Es existieren folgende magnetische Spinquantenzahlen m, welche die möglichen Orientierungen des Spins beschreiben:
-\begin{equation}
-m_I = I, I-1, I-2, ..., -I
-\end{equation}
-Die Gesamtzahl an möglichen Zuständen entspricht daher der Summe von 2I+1. Das Li$^7$ besitzt die Spinquantenzahl I=$\frac{3}{2}$. Es gilt daher:
-\begin{equation}
-m_{I=\frac{3}{2}} = \frac{3}{2}, \frac{1}{2}, -\frac{1}{2}, -\frac{3}{2}
-\end{equation}
-Sind in einem Atomkern die Anzahl an Protonen und Neutronen beide gerade, so gilt für die Spinquantenzahl I=0. Ein solcher Nukleus besitzt keinen Kernspin und kann daher nicht mittels NMR-Spektroskopie untersucht werden.
-\\\\
-Ein Atomkern besitzt eine Ladung. Wenn diese durch einen Kernspin bewegt wird, so besitzt der Nukleus ein magnetisches Moment $\mu$ in Abhängigkeit zum Zustand des Spins. Der Zusammenhang zwischen einem Drehmoment P und dem magnetischen Moment kann allgemein über das gyromagnetische Verhältnis $\gamma$ beschrieben werden: 
-\begin{equation}
-\mu = \gamma P
-\end{equation}
-Das Drehmoment des Kerns in Richtung z eines frei gewählten kartesischen Koordinatensystems entspricht dabei seiner magnetischen Spinquantenzahl multipliziert mit dem reduzierten Planckschen Wirkungsquantum:
-\begin{equation}
-P_z = m_I \hbar
-\label{magnMoment}
-\end{equation}
-Das magnetische Moment kann also beschrieben werden mit:
-\begin{equation}
-\mu_z = \gamma m_I \hbar
-\end{equation}
-Keiner dieser möglichen Spinzustände ist energetisch günstiger als die anderen. Die Zustände liegen daher degeneriert vor. Dies kann allerdings durch das Anlegen eines starken äußeren Magnetfeldes B$_0$ in positiver z-Richtung beeinflusst werden. Es bilden sich verschiedene Energieniveaus für die unterschiedlichen Spinzustände aus. Die Potentialenergie E kann beschrieben werden als:
-\begin{equation}
-E = -\mu_z B_0
-\end{equation}
-Mit Einsetzen von Gleichung \ref{magnMoment} ergibt sich daher mit den unterschiedlichen Spinorientierungen $m_I$:
-\begin{equation}
-E = -m_I \gamma \hbar B_0
-\label{energiezustaende}
-\end{equation}
-Diese Aufspaltung der Energieniveaus ist bekannt als \textit{nuclear Zeeman splitting}. Die Energiedifferenz zwischen den Zuständen ist dabei proportional zur Stärke des angelegten äußeren Magnetfelds. Die Spins richten sich entlang der Achse aus. Die Energiedifferenzen sind dabei für jeden Kern, der einen Spin besitzt, charakteristisch und können mit einer Frequenz in Abhängigkeit zur Stärke des äußeren Magnetfelds beschrieben werden. Mit der \textit{Bohrschen Frequenzbedingung}:
-\begin{equation}
-\Delta E = hv
-\end{equation}
-kann die benötigte Quantenenergie bestimmt werden als: %gilt nur für den Protonenfall?
-\begin{equation}
-hv_0 = \gamma \hbar B_0
-\end{equation}
-Dargestellt als Frequenz:
-\begin{equation}
-\omega_0 = \gamma B_0
-\end{equation}
-Diese Frequenz wird als \textit{Larmor-Frequenz} bezeichnet und kann auch als Präzession des Kerns beschrieben werden. 
-\\\\
-Wird nun eine Transmitterspule in einem äußeren Magnetfeld $B_0$ mit einer spezifischen Larmor-Frequenz betrieben, so bringt sie exakt die nötige Energiedifferenz ein, um die Spins in einen energiereicheren Zustand zu promovieren. Das dadurch entstehende NMR-Signal kann mit einer Empfängerspule aufgezeichnet werden.
-\\\\
-Durch chemische Verbindungen entstehen um Atomkerne herum unterschiedlich dichte Elektronenwolken. Diese schirmen den Kern etwas vom äußeren Magnetfeld $B_0$ ab. Es entsteht ein lokales Magnetfeld $B_{lokal}$ um die Kerne herum, welches sich in seiner Stärke vom globalen Magnetfeld unterscheidet. Dadurch variiert die benötigte Anregungsfrequenz je nach der Umgebung eines Kernes leicht. Dieser Effekt findet sich als \textit{chemische Verschiebung} in Gestalt von unterschiedlichen Peaks im NMR-Spektrum wieder. Mit ihr ist es möglich Strukturaussagen über ein untersuchtes Material zu treffen.
-\subsubsection{Aufbau eines NMR-Spektrometers}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\columnwidth]{images/Aufbau_NMR.png}
-	\caption{Schematischer Aufbau eines NMR-Spektrometers. Der Kryomagnetaufbau (1) mit Spule (a), Einfüllstutzen (b, c) und Vakuummänteln (d), Probenkopf (2), Probe (3), Probenwechsler (4) sowie Shim-Einheit (5). }
-	\label{aufbau_nmr}
-\end{figure}
-Aus Gleichung \ref{energiezustaende} wird klar, dass die Größe der Potentialdifferenz zwischen energiereichen und -armen Zuständen mit der Stärke des Magnetfelds $B_0$ ansteigt. Die Kerne liegen dabei in Abhängigkeit zur Energiedifferenz $\Delta E$ boltzmannverteilt im energiereichen und -armen Zustand vor:
-\begin{equation} %auch hier: Hinterer Teil gilt nur für den Protonenfall
-\frac{N_{reich}}{N_{arm}} = \exp{\frac{-\Delta E}{kT}}=\exp{\frac{-\gamma h B_0}{2\pi k T}} \approx 1-\frac{\gamma h B_0}{2 \pi k T}
-\end{equation}
-Im Falle von H$^1$-NMR liegt die Energiedifferenz bei 0.04 J/mol. Bei Raumtemperatur und einer Magnetfeldstärke von 2,35 T ergibt sich damit eine Übergangswahrscheinlichkeit in den energiereichen Zustand von nur 0,002 \%. Um eine ausreichend gute Sensitivität zu gewährleisten, ist daher ein sehr starkes äußeres Magnetfeld $B_0$ nötig. Dies ist lediglich mit Kryomagneten zu erreichen.
-\\\\
-Der schematische Aufbau eines NMR-Spektrometers wird in Abbildung \ref{aufbau_nmr} dargestellt. Der Kryomagnetaufbau (1) besteht aus den Spulen (a), welche mit Flüssighelium gekühlt werden. Dieser wird wiederum mit Flüssigstickstoff umspült. Die Kühlflüssigkeiten können über spezielle Einlässe eingefüllt werden (b, c) und befinden sich in Vakuummänteln (d).
-\\\\
- Der Probenkopf (2) wird von unten eingeführt und an eine Ansteuerungseinheit angeschlossen, welche die Transmitter- und die Empfängerspule ansteuert sowie das Signal aufzeichnet und ggf. verstärkt. Die Transmitter- und Empfängerspule kann meistens als eine Spule realisiert werden, welche beide Funktionen übernimmt. Sie ist im Probenkopf montiert, genauso wie die Entkoppler- Lock- und Gradientenspulen. Die Probe (3) wird von oben eingeführt, was durch einen Probenwechsler (4) passieren kann. Das äußere Magnetfeld $B_0$ liegt damit in Längsrichtung zur Probe. 
-\\\\
-Um die Feldhomogenität des eingepulsten Signals zu optimieren kann mit einer Shim-Einheit (5) ein \textit{Shimming} durchgeführt werden. Dieses besteht aus einem \textit{Tuning} und einem \textit{Matching}. Mit dem Tuning wird die durch die eingeführte Probe gedämpfte Empfindlichkeit des Probenkopfes auf die Resonanzfrequenz des zu untersuchenden Kerns eingestellt, um die höchstmögliche Empfindlichkeit zu gewährleisten. Das Matching besteht aus einer Impedanzanpassung, um die maximale Leistung am Probenkopf anliegen zu haben. Der gesamte Aufbau wird von einem Computer gesteuert und überwacht, welcher auch die Signalverarbeitung übernimmt.
-\subsubsection{Betriebsmodus}
-% Das hier ist schon arg rudimentär
-% Beschreibung der Relaxationsmechanismen?
-Es existieren zwei unterschiedliche Verfahren, um ein NMR-Spektrum zu messen. Das ältere von beiden ist das Continuous-Wave-Verfahren (CW). Beim CW-Verfahren wird eine monochromatische Strahlung in die Probe emittiert. Diese wird kontinuirlich variiert und die entsprechende Resonanz gemessen. Problematisch ist dabei vor allem die durch das Abfahren unterschiedlicher Frequenzen sehr lange Messzeit.
-\\\\
-Heute kommt nahezu ausschließlich das Puls-Fourier-Transform-Verfahren (PFT) zum Einsatz. Hierbei wird ein starker Frequenzpuls über einen Wellenlängenbereich auf die Probe abgegeben. Als Resonanz erhält man dabei einen \textit{Free Induction Decay} (FID), der als eine über den Zeitverlauf geschehende Einpendelbewegung in Larmor-Frequenz der angeregten Kerne beschrieben werden kann. Die sich dabei überlagernden Resonanzen können anschließend über eine Fourier-Transformation zum eigentlichen NMR-Spektrum zurückgerechnet werden.
-\subsubsection{Magic Angle Spinning}
-Festkörper haben im Vergleich zu Flüssigkeiten eine starrere Orientierung zu ihren Nachbarn und auch zum äußeren Magnetfeld $B_0$. Dies kann beispielsweise über die \textit{Dipolare Kopplung} eines Kerns zu einem magnetischen Moment $\mu$ in einer Entfernung $r$ unter einem Winkel $\theta$ gezeigt werden. Die Variation $\Delta B$ des lokalen Magnetfeld kann dann mit der Permeabilität des freien Raumes bestimmt werden zu:
-\begin{equation}
-\Delta B = \frac{\mu_0}{4\pi}(3\cos^2\theta - 1)\mu r
-\end{equation}
-Für Flüssigkeiten geht der Effekt der Diploaren Kopplung  durch thermische Bewegung und Rotation gegen Null, bei Feststoffen nicht. Er führt zu einer Verbreiterung der Peaks im Spektrum, was diese schwerer zu analysieren macht. Es gilt jedoch weiterhin:
-\begin{equation}
-3\cos^2\theta-1 = 0 \;\; \forall \;\; \theta = 54.7^\circ
-\end{equation}
-Dieser Winkel wird als \textit{magischer Winkel} (magic angle) bezeichnet. Wenn eine feste Probe also in einem speziellen Probengefäß (\textit{Spinner}) im magischen Winkel durch das Magnetfeld rotiert wird, so kann der Effekt der Dipolaren Kopplung auch bei Festkörpern verhindert werden. Diese Form der Kernspinresonanzspektroskopie nennt sich MAS-NMR.
-\chapter{Methodik}
+Die in-situ-Testzelle kommt im 200MHz-NMR-Spektrometer der Firma mBruker am Institut XY zum Einsatz. Dafür wurde der Probenkopf entsprechend angepasst. Es wurde eine neue Sattelspule um ein Teflonrohr mit Innendurchmesser von 10mm gewickelt. Diese musste anschließend mit dem Anschlussstempel des Probenkopfes verlötet werden. Damit die Spule auf der richtigen Resonanzfrequenz von 77,7MHz für Li$^7$-NMR arbeitet, wurde ein 5pF-Kondensator in den Spulen-Schwingkreis eingebaut. Um einen Kurzschluss der Spule durch die massive Kupferabschirmung nach außen hin zu vermeiden, wird eine zweite Teflonröhre über die Spule gestülpt.
+\chapter{Experimentelle Durchführung}
 Zuerst wird die Herstellung unterschiedlicher keramischer Pulver beschrieben. Anschließend erfolgt die Beschreibung der Mischung zu Elektrodenslurries und des Foliengusses. Im dritten Abschnitt wird die Konstruktion und der Bau einer neuen in-situ NMR-Testzelle beschrieben. Im letzten Abschnitt wird der Bau der unterschiedlichen Batterie-Testzellen dargestellt. 
 \section{Pulverherstellung}
 Es wurden zwei Pulver selbst hergestellt. Weitere bereits am Institut vorhandene und charakterisierte Pulver wurden für die darauf folgenden Schritte ausgewählt.
@@ -625,14 +688,14 @@ Charakterisierung, XRD
 Die Herstellung von LTO erfolgt analog zu der des LLTO. Es wird jedoch noch zusätzlich Lanthanoxid (Lanthanum(III) oxide, 99,99\%, Aldrich) mit in Isopropanol dispergiert. Weiterhin wird ein Lanthanüberschuss von 2,5 m\% vorgelegt. Die Kalzinierung findet für acht Stunden bei 950$^\circ$C statt.
 \\\\
 Charakterisierung, XRD
-\section{Elektrodenherstellung}
+\section{Herstellung der Elektrodenfolien}
 Die hergestellten und ausgewählten Pulver werden anschließend zu Elektroden weiterverarbeitet. Dazu müssen Elektrodenslurries hergestellt werden und auf Folien gegossen werden. Alternativ erfolgt die Sinterung eines Gefüges aus Elektrode und Elektrolyt.
-\subsection{Herstellung verschiedener Elektrodenslurries}
-Es wurden aus den keramischen Pulvern LATP, LAGP, LLTO und LTO  Elektrodenslurries hergestellt. Zusätzlich wurden aus den herkömmlichen Aktivmaterialien \ce{LiCoO2} und Schwefel Elektrodenslurries produziert. Dabei wurde jeweils der gleiche Prozess verwendet. 
+\subsection{Herstellung verschiedener Elektrodensuspensionen}
+Es wurden aus den keramischen Pulvern LATP, LAGP, LLTO und LTO  Elektrodensuspensionen hergestellt. Zusätzlich wurden aus den herkömmlichen Aktivmaterialien \ce{LiCoO2} und Schwefel Elektrodensuspensionen produziert. Dabei wurde jeweils der gleiche Prozess verwendet. 
 \\\\
 Zunächst wird das ausgewählte Pulver als Aktivmaterial in N-Methyl-2-pyrrolidon (NMP, \ce{C5H9NO}, 99,5\%, Alfa Aesar) gelöst. Anschließend wird masseäquivalent zum Aktivmaterial das Leitruß Super C65 (TIMCAI), falls nötig unter Zugabe von weiterem NMP, beigemengt. Das Gemisch wird mit einem Ultraschallstab homogenisiert. Dies geschieht wegen der Wärmeentwicklung im Wasserbad. Abschließend wird ein NMP-Binder-Gemisch (Masseverhältnis $19:1$) zugegeben. Als Binder kommt Solef PVDF (Polyvinylidenfluorid, \ce{C2H2F2}, Solvay) zum Einsatz. Der Anteil an Binder im Gesamtgewicht wird dabei auf 10m\% eingestellt. Da das PVDF durch eine Ultraschallbehandlung Schaden nehmen würde, erfolgt das Vermischen für eine Stunde mittels eines Rührfisches unter einer Vakuumglocke.
-\subsection{Foliengießen der Elektroden}
-Als Stromkollektor wird handelsübliche Aluminiumfolie zurechtgeschnitten. Diese wird mit der rauen Seite nach oben auf das Foliengussgerät AB3320 der Firma TQC aufgelegt. Dieses zieht die Folie mittels Vakuum an, ein händisches Glattstreichen verhindert Falten. Anschließend wird ein Aluminiumschuh auf die Folie aufgelegt. Dieser bestimmt die Schichtdicke der Elektrode über die Schlitzhöhe am Boden des Schuhs. Dicken über 300$\mu$m zeigten eine unzureichende Trocknung und Haftung, weshalb alle Folien mit einer Höhe von 200$\mu$m gegossen wurden.
+\subsection{Foliengießen der Elektrodensuspensionen}
+Als Stromkollektor wird handelsübliche Aluminiumfolie zurechtgeschnitten. Diese wird mit der rauen Seite nach oben auf das Foliengussgerät AB3320 der Firma TQC aufgelegt. Das Gerät zieht die Folie mittels Vakuum an, ein händisches Glattstreichen verhindert Falten. Anschließend wird ein Aluminiumschuh auf die Folie aufgelegt und mit Elektrodensuspension befüllt. Der Schuh bestimmt die Schichtdicke der Elektrode über die Schlitzhöhe an seinem Boden. Dicken über 300$\mu$m zeigten eine unzureichende Trocknung und Haftung, weshalb alle Folien mit einer Höhe von 200$\mu$m gegossen wurden.
 \\\\
 Die Folien werden anschließend zur Trocknung und Ausdampfung des NMP für mehrere Tage in einen Vakuumtrockenschrank bei 80$^\circ$C gelegt. Die fertigen Elektrodenfolien werden in Klarsichthüllen trocken gelagert.
 \begin{figure}
@@ -641,74 +704,10 @@ Die Folien werden anschließend zur Trocknung und Ausdampfung des NMP für mehre
 	\caption{Folienguss einer Elektrode auf Aluminiumfolie}
 	\label{folienguss}
 \end{figure}
-\subsection{Herstellung eines Elektrode-Elektrolyt-Gefüges}
+\section{Sintern eines Elektrode-Elektrolyt-Gefüges}
 Für die Herstellung eines Elektrode-Elektrolyt-Gefüges wird zunächst 1,2g LTO in eine Matrize für das Spark-Plasma-Sintern (SPS) mit einem Durchmesser von 20mm verteilt. Darauf werden 1,5g LLTO aufgebracht. Die Pulver werden mit einer Handpresse mit 3kN vorgepresst. Anschließend wird die Matrize in die SPS-Anlage eingebaut. 
 \\\\
 Die SPS-Anlage legt nach Einbau erstmal einen Druck von 5kN auf die Matrize auf. Der Druck wird dann auf 7,8kN erhöht, bevor die Temperatur mit 50$^\circ$C/min auf 900$^\circ$C angepasst wird. Diese Temperatur wird eine Minute gehalten, bevor der Druck für fünf Minuten auf 15kN gesteigert wird. Anschließend wird die Probe bei 7,8kN abgekühlt. Eine Übersicht über den Prozess findet sich in Abbildung (noch einfügen).
-\section{Anpassung des NMR-Probenkopfes}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.85\columnwidth]{images/Platzhalter_Spule.jpg}
-	\caption{Spule mit Kondensator (links) und eingebaut in den Probenkopf (rechts)}
-	\label{spule}
-\end{figure}
-Die in-situ-Testzelle kommt im 200MHz-NMR-Spektrometer der Firma mBruker am Institut XY zum Einsatz. Dafür wurde der Probenkopf entsprechend angepasst. Es wurde eine neue Sattelspule um ein Teflonrohr mit Innendurchmesser von 10mm gewickelt. Diese musste anschließend mit dem Anschlussstempel des Probenkopfes verlötet werden. Damit die Spule auf der richtigen Resonanzfrequenz von 77,7MHz für Li$^7$-NMR arbeitet, wurde ein 5pF-Kondensator in den Spulen-Schwingkreis eingebaut. Um einen Kurzschluss der Spule durch die massive Kupferabschirmung nach außen hin zu vermeiden, wird eine zweite Teflonröhre über die Spule gestülpt.
-\section{Konstruktion der in-situ-Testzelle}
-Um NMR-Messungen im laufenden Betrieb einer Batterie machen zu können, musste ein spezieller Testaufbau geplant und kostruiert werden. Es war nötig sowohl den Probenkopf des NMR-Spektrometers anzupassen, als auch eine komplett neue Batterie-Testzelle zu bauen.
-\subsection{Anforderungen}
-Ziel ist die Konstruktion einer Testzelle, in welcher sowohl herkömmliche Batterien als auch Festkörperelektrolyt-Batterien eingebaut werden können. Für den Einsatz von reinem Lithium\-metall und Flüssigelektrolyten muss die Testzelle gasdicht gebaut werden können. Die eingesetzten Materialien müssen alle ausreichend amagnetisch sein, um die empfindlichen Kernspinresonanzmessungen der NMR-Spektroskopie nicht zu sehr zu stören. Sie sollte möglichst ähnlich wie die bereits am IAM-KWT im Einsatz befindliche Zelle aufgebaut sein, um eine Vergleichbarkeit zwischen beiden Zellen zu gewährleisten und einen Einsatz auch außerhalb der NMR-Anlage zu ermöglichen. 
-\\\\
-Der Außendurchmesser der Zelle ist durch den Aufbau des NMR-Probenkopfes auf maximal 10mm festgesetzt. Eine Ausnahme stellt hier der Zellabschluss dar, da dieser über die Teflonhülle der Spule des Probenkopfes reichen kann und daher lediglich durch die Öffnung der Kupferabschirmung des Probenkopfes beschränkt ist. Diese hat einen Durchmesser von 16,5mm. Der relevante Messbereich der Spule befindet sich auf einer Höhe von 22mm bis 32mm. Ein Anschluss an den externen Stromkreis zum Laden und Entladen der Zelle kann nur nach oben hin erfolgen.
-\\\\
-In der Literatur lassen sich unterschiedliche Umsetzungen von in-situ-Testzellen für NMR-Spektroskopie finden. Die Arbeitsgruppe um Silvio Indris am IAM-ESS sowie Zhou et al. \cite{zhou2013paramagnetic} und Key et al. \cite{key2009real} benutzen dafür Pouch-Zellen, die gerollt oder gefaltet in den NMR-Aufbau eingebracht werden können. Dies ist jedoch mit Festkörperelektrolyten wegen des starren Aufbaus der Zelle nicht möglich, weshalb dieser Ansatz nicht verfolgt wurde.  Poli et al. \cite{poli2011new} und Gerald et al. \cite{gerald2001situ} implementieren beide einen Knopfzellenaufbau. Beide Lösungen sehen aber einen umfangreichen Umbau des NMR-Probenkopfes vor. Die angestrebte Lösung soll jedoch eine weitere Verwendung des Probenkopfes für andere NMR-Experimente im gewohnten Messaufbau und damit einhergehend schnelles Umrüsten des Probenkopfes ermöglichen.
-\subsection{Planung und Anfertigung der Teile}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/Skizze_Testzelle.jpg}
-	\caption{Skizze der Testzelle}
-	\label{skizze_testzelle}
-\end{figure}
-Der Aufbau des NMR-Spektrometers gibt eine zylindrische Form der einzuführenden Probe vor. Da die gewickelte Zellen für Festkörperelektrolytbatterien nicht geeignet sind, wird ein Knopfzellenaufbau gewählt. Für die einfachere Handhabung wird ein länglicheres Design mit einer normalen Druckfeder, ähnlich der bereits am IAM-KWT im Einsatz befindlichen Testzelle, umgesetzt. Jedoch musste der bisherige Abschluss der Zelle umgestaltet werden. Um in den Probenkopf eingeführt werden zu können, muss der Boden der neuen Zelle bündig mit der restlichen Zelle abschließen und darf nicht auskragen. Dies würde den optimalen Sitz der Spule verhindern. Der Verschluss kann daher nicht außenliegend erfolgen. Die Kontaktierung kann nicht nach unten hinweg erfolgen, weshalb an der Außenseite der Zelle nach oben hin eine Leitung existieren muss. Beide Maßnahmen erfordern ein neues Design des unteren Stempels sowie der äußeren Hülle. Der obere Stempel und die Feder müssen sowohl auf den kleineren Durchmesser hin angepasst werden, als auch aus amagnetischen Materialien gefertigt werden. Abbildung \ref{skizze_testzelle} zeigt skizzenhaft die Planung der neuen Testzelle.
-\subsubsection{Die Glaszelle}
-Als Material für die Zellhülle wurde Glas ausgewählt. Glas bietet den Vorteil einer optischen Kontrolle der Zelle während des manuellen Einbaus der verschiedenen Komponenten. Es ist auch bei dünnen Wandstärken ausreichend fest, womit der Innendurchmesser maximiert werden konnte. Glas ist ausreichend amagnetisch und kann gut bearbeitet werden.
-\\\\
-Die Glaszelle wurde von einem Glasbläser der Laborhandelsgesellschaft GmbH (Karlsruhe) aus einem Glasrohr gefertigt, welches unten nach innen verdickt und durchstochen worden ist und an das nach oben mit einem Standardgewindeteil (GL14) versehen worden ist.
-\\\\
-Die mitgelieferten Plastikdeckel mussten auf den maximalen Durchmesser der Kupferabschirmung von 16,5mm abgeschliffen werden. Dies erfolgte händisch auf einer Schleifmaschine des Typs DAP-V der Firma Struers.
-\subsubsection{Die Stempel}
-Die beiden Stempel wurden jeweils als CAD-Modell mit der Software Creo Parametric der Firma PTV geplant. Die Zeichnungen sind in Abbildung \ref{stempel_oben} und \ref{stempel_unten} dargestellt. Der obere Stempel entspricht dabei dem Stempel aus der existierenden Zelle mit angepasster Höhe, Durchmesser und Nut für den Dichtungsring. Die 2mm-Bohrung zur Kontaktierung bleibt erhalten. Der untere Stempel wurde komplett neu gestaltet. Er besteht aus einem Kopf mit einer Nut für den Dichtungsring, welcher für die Dichtigkeit der Zelle sorgt. Von ihm abgehend ist ein Stab mit einem M3-Isogewinde. Dieser passt durch die Aussparung der Glaszelle und ermöglicht das Befestigen des Stempels mit einer außenliegenden Mutter. Als Material kommt eine Messinglegierung zum Einsatz (\ce{CuZn39Pb3}), welche ausreichend amagnetisch (Suszeptibilität X $=\;-$0,173 · 10$^{-6}$ cm$^3$/g) ist. 
-\\\\
-Die Stempel wurden an einer CNC-Drehmaschine von Technikern der Technologiefabrik Karlsruhe gedreht. %Typ der Drehmaschine?
-\begin{figure}
-%mit Subfigures machen?
-	\centering
-	\includegraphics[width=0.7\columnwidth]{images/stempel_oben.png}
-	\caption{Stempel oben}
-	\label{stempel_oben}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\columnwidth]{images/stempel_unten.png}
-	\caption{Stempel unten}
-	\label{stempel_unten}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/Stempel_Foto_cutted.jpg}
-	\caption{Übersicht über die verschiedenen Teile des in-situ-Testzelle (besseres Foto machen!)}
-	\label{stempel_foto}
-\end{figure}
-\subsubsection{Die Mutter}
-Durch den Einsatz des M3-Standardgewindes bei den Stempeln, konnte bei der Mutter ein Standardmodell aus Messing aus dem Fachhandel eingesetzt werden.
-\subsubsection{Die Feder}
-Die Feder stellte besondere Herausforderungen an die Materialauswahl. So musste neben der amagnetischen Eigenschaft auch eine gute elastische Verformbarkeit und eine gute Leitfähigkeit für den elektrischen Strom gegeben sein. Neben Messing wurde daher auch Federbronze (\ce{CuSn6}) und Kupferberyllium (\ce{CuBe2}) als mögliche Materialien betrachtet.
-% Tabelle mit Übersicht?
-\\\\
-Die Feder wird dabei so ausgelegt, dass der Anpressdruck auf die Zelle möglichst gleich ist, wie bei der bereits am IAM-KWT existierenden Zelle. Diese baut bei einem Federweg von 25 mm und einer Federrate von 0,541 N/mm eine Kraft von 13,525 N auf. Bei einer Fläche von 93,3 mm$^2$ entspricht dies einem Anpressdruck von 0,145 N/mm$^2$. Die Höhe der neuen Feder wurde auf 30 mm festgelegt, der zu absolvierende Federweg bei Einbau beträgt 10 mm. Die Fläche auf der die Kraft aufgebracht wird beträgt 36,32 mm$^2$. Um den gleichen Anpressdruck zu gewährleisten, benötigt die neue Feder daher eine Kraft von 5,266 N, was einer Federrate von 0,527 N/mm entspricht.
-\\\\
-Die Feder wurde von Febrotec Federn (Halver) aus Kupferberyllium gefertigt. Der Drahtdurchmesser beträgt 0,75 mm, der Federnaußendurchmesser 6,5 mm. Ungespannt hat die Feder eine Höhe von 30mm. %Windungszahl?
-\subsubsection{Die Positionsplättchen}
-Die Positionsplättchen sorgen dafür, dass sich die eigentliche Batteriezelle, also die Elektroden und der Elektrolyt, im sensitiven Bereich der Spule befindet. Da sie sich selbst dadurch unmittelbar im Messbereich aufhalten, wird auf eine vollständige Metallfertigung verzichtet, um die dämpfende Wirkung zu minimieren. Stattdessen werden von einem Teflonstab passende Scheiben abgeschnitten und plan geschliffen. Anschließend werden die beiden Grundflächen mit Kupferklebeband abgeklebt. Die beiden Seiten sind über einen dünnen Kupferstreifen an der Seite miteinander verbunden. 
 \section{Bau und Betrieb der Batterie-Testzellen}
 \begin{figure}
 	\centering
@@ -716,11 +715,12 @@ Die Positionsplättchen sorgen dafür, dass sich die eigentliche Batteriezelle, 
 	\caption{Messplatz für Batteriezellen mit Handschuhbox zum Bau (rechts), Ansteuerungselektronik und Aufbewahrung (mitte) sowie Kontrolle und Aufzeichnung durch Computer (links). --> Besseres Foto}
 	\label{messaufbau}
 \end{figure}
-Zunächst werden aus den gegossenen Elektrodenfolien Proben entnommen. Dies geschieht händisch mit einem 6mm-Stanzeisen. Die Proben werden anschließend in eine Handschuhbox der Firma mBraun eingeschleust. Der Zusammenbau der Testzellen erfolgt dort unter Argonatmosphäre. Die Proben werden dabei jeweils als Kathode verbaut. Als Anode kommt Lithiummetall (99,9\%, Aldrich) zum Einsatz. Von diesem wird die äußerste Schicht abgetragen, um mögliche passivierte Stellen zu entfernen. Anschließend wird das Lithium mit einer Handwalze auf einen halben Minimeter gewalzt, wodurch seine Oberfläche geglättet wird. Danach kann mit einem 6mm-Stanzeisen die Lithium-Elektrode hergestellt werden.
+Zunächst werden aus den gegossenen Elektrodenfolien Proben entnommen. Dies geschieht händisch mit einem 10mm-Stanzeisen. Die Proben werden anschließend in eine Handschuhbox der Firma mBraun eingeschleust. Der Zusammenbau der Testzellen erfolgt dort unter Argonatmosphäre. Die Proben werden dabei jeweils als Kathode verbaut. Als Anode kommt Lithiummetall (99,9\%, Aldrich) zum Einsatz. Von diesem wird die äußerste Schicht abgetragen, um mögliche passivierte Stellen zu entfernen. Anschließend wird das Lithium mit einer Handwalze auf einen halben Minimeter gewalzt, wodurch seine Oberfläche geglättet wird. Danach kann mit einem 10mm-Stanzeisen die Lithium-Elektrode hergestellt werden.
 \\\\
-Der Zusammenbau besteht aus dem Einsetzen des unteren Stempels sowie eines Positionsplättchens in die Zelle. Darauf wird zunächst die Kathodenprobe gelegt und mit zwei Separatoren abgedeckt. Durch die zweifache Bedeckung führt ein Defekt eines Separators nicht zum Ausfall der Zelle. Die Separatoren werden mit 25$\mu$l Elektrolyt benetzt. Auf die Separatoren wird die Lithium-Anode und ein weiteres Positionsplättchen gelegt. Um einen Anpressdruck der Teile zu gewährleisten wird nun die Feder eingebaut und die Zelle mit dem oberen Stempel verschlossen. Beide Stempel können nun mit Mutter und Deckel fixiert werden. Danach kann die Zelle ausgeschleust und an das Messsystem angeschlossen werden.
+Der Zusammenbau besteht aus dem Einsetzen des unteren Stempels sowie eines Positionsplättchens in die Zelle. Darauf wird zunächst die Kathodenprobe gelegt und mit zwei Separatoren abgedeckt. Durch die zweifache Bedeckung führt ein Defekt eines Separators nicht zum Ausfall der Zelle. Die Separatoren werden mit 80$\mu$l Elektrolyt benetzt. Auf die Separatoren wird die Lithium-Anode und ein weiteres Positionsplättchen gelegt. Um einen Anpressdruck der Teile zu gewährleisten wird nun die Feder eingebaut und die Zelle mit dem oberen Stempel verschlossen. Beide Stempel können nun mit Mutter und Deckel fixiert werden. Danach kann die Zelle ausgeschleust und an das Messsystem angeschlossen werden.
 % Was genau ist der Separator, was genau der Schwefel-Elektrolyt
 \\\\
+\subsection{Untersuchungsroutine der Batterietestzellen}
 Die Batteriezellen werden mit dem Messsystem VMP3 der Firma BioLogic untersucht. Dieses wird mit der Software ECLab in der Version 10.33 angesteuert und ermöglicht die Zyklierung der Zellen, zyklische Voltametrie sowie Impedanzmessungen. Die aufgezeichneten Daten können als zView-Datei exportiert und weiterverarbeitet werden.
 % ECLab-Programme?
 \chapter{Ergebnisse}
@@ -768,6 +768,7 @@ Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffrak
 	\caption{MAS-NMR-Spektrum von LiCl bei 4kHz}
 	\label{nmr_mas_LATP2}
 \end{figure}
+\section{Untersuchung der Elektroden mittel REM/EDX}
 \section{Batterietests}
 \subsection{\ce{LiCoO2}}
 \subsubsection{Zyklische Voltametrie}
@@ -798,7 +799,7 @@ Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffrak
 \subsubsection{Zyklische Voltametrie}
 \subsubsection{Ladekennlinien}
 \subsubsection{Impedanzmessungen}
-\section{NMR-Messungen}
+\section{In-situ NMR-Messungen}
 \subsection{Referenzmessung}
 \subsection{Lithium-Schwefel-Zelle}
 \chapter{Diskussion}

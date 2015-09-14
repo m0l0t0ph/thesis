@@ -4,4 +4,7 @@ Database file #1: literatur.bib
 Warning--empty year in howstuffworks
 Warning--empty year in bmwblog
 Warning--empty year in wiki_bragg
-(There were 3 warnings)
+Warning--empty author in Fitzgerald1999
+Warning--empty booktitle in Fitzgerald1999
+Warning--empty pages in Fitzgerald1999
+(There were 6 warnings)
