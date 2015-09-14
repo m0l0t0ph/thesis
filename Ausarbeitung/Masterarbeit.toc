@@ -3,105 +3,98 @@
 \contentsline {section}{\numberline {1.1}Motivation}{1}
 \contentsline {section}{\numberline {1.2}Zielsetzung}{1}
 \contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{2}
-\contentsline {chapter}{\numberline {2}Grundlagen}{3}
-\contentsline {section}{\numberline {2.1}Prinzip und Funktionsweise von Batteriezellen}{3}
-\contentsline {subsection}{\numberline {2.1.1}Elektrochemischer Vorgang}{4}
-\contentsline {subsubsection}{\nonumberline Bestimmung der Potentialdifferenz}{5}
-\contentsline {subsection}{\numberline {2.1.2}Elektrodenmaterialien}{6}
-\contentsline {subsubsection}{\nonumberline Typische Anodenmaterialien}{7}
-\contentsline {subsubsection}{\nonumberline Typische Kathodenmaterialien}{8}
-\contentsline {subsection}{\numberline {2.1.3}Elektrolyte}{9}
-\contentsline {subsection}{\numberline {2.1.4}Potentialuntersuchung mit zyklischer Voltametrie}{9}
-\contentsline {subsection}{\numberline {2.1.5}Grenzschichtcharakterisierung durch Impedanzspektroskopie}{10}
-\contentsline {subsubsection}{\nonumberline Elektrochemisches Ersatzschaltbild}{10}
-\contentsline {section}{\numberline {2.2}Keramiken f\IeC {\"u}r den Einsatz als Festk\IeC {\"o}rperelektrolyt}{12}
-\contentsline {subsection}{\numberline {2.2.1}Perowskite}{13}
-\contentsline {subsection}{\numberline {2.2.2}NASICON-Keramiken}{14}
-\contentsline {subsubsection}{\nonumberline Lithiumtitanphosphat}{14}
-\contentsline {subsubsection}{\nonumberline Lithium-Aluminium-Germaniumphosphat}{15}
-\contentsline {subsection}{\numberline {2.2.3}Pulveranalyse mittels R\IeC {\"o}ntgendiffraktion}{15}
-\contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der XRD}{15}
-\contentsline {subsubsection}{\nonumberline Bragg-Brentano-Diffraktometer}{16}
-\contentsline {section}{\numberline {2.3}Kernspinresonanzspektroskopie}{16}
-\contentsline {subsection}{\numberline {2.3.1}Physikalische Grundlagen der NMR-Spektroskopie}{16}
-\contentsline {subsection}{\numberline {2.3.2}Aufbau eines NMR-Spektrometers}{18}
-\contentsline {subsection}{\numberline {2.3.3}Betriebsmodi eines NMR-Spektrometers}{20}
-\contentsline {subsection}{\numberline {2.3.4}Magic Angle Spinning}{20}
-\contentsline {chapter}{\numberline {3}Konstruktion der in-situ NMR-Batterietestzelle}{23}
-\contentsline {section}{\numberline {3.1}Aufbau einer Batterie}{23}
-\contentsline {section}{\numberline {3.2}Anforderungen an die in-situ Testzelle}{24}
-\contentsline {section}{\numberline {3.3}Planung und Anfertigung der Teile}{26}
-\contentsline {subsection}{\numberline {3.3.1}Die Glaszelle}{26}
-\contentsline {subsection}{\numberline {3.3.2}Die Stempel}{26}
-\contentsline {subsection}{\numberline {3.3.3}Die Mutter}{28}
-\contentsline {subsection}{\numberline {3.3.4}Die Feder}{28}
-\contentsline {subsection}{\numberline {3.3.5}Die Positionspl\IeC {\"a}ttchen}{30}
-\contentsline {section}{\numberline {3.4}Anpassung des NMR-Probenkopfes}{30}
-\contentsline {chapter}{\numberline {4}Experimentelle Durchf\IeC {\"u}hrung}{33}
-\contentsline {section}{\numberline {4.1}Pulverherstellung}{33}
-\contentsline {subsection}{\numberline {4.1.1}LATP}{33}
-\contentsline {subsection}{\numberline {4.1.2}\ce {LiTiPO5}}{33}
-\contentsline {subsection}{\numberline {4.1.3}Weitere verwendete Pulver}{34}
-\contentsline {subsubsection}{\nonumberline LAGP}{34}
-\contentsline {subsubsection}{\nonumberline LLTO}{34}
-\contentsline {subsubsection}{\nonumberline LTO}{35}
-\contentsline {section}{\numberline {4.2}Herstellung der Elektrodenfolien}{35}
-\contentsline {subsection}{\numberline {4.2.1}Herstellung verschiedener Elektrodensuspensionen}{35}
-\contentsline {subsection}{\numberline {4.2.2}Foliengie\IeC {\ss }en der Elektrodensuspensionen}{35}
-\contentsline {section}{\numberline {4.3}Sintern eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{36}
-\contentsline {section}{\numberline {4.4}Bau und Betrieb der Batterie-Testzellen}{36}
-\contentsline {subsection}{\numberline {4.4.1}Untersuchungsroutine der Batterietestzellen}{38}
-\contentsline {chapter}{\numberline {5}Ergebnisse}{39}
-\contentsline {section}{\numberline {5.1}Pulveranalyse}{39}
-\contentsline {subsection}{\numberline {5.1.1}LATP}{39}
-\contentsline {subsubsection}{\nonumberline XRD-Analyse}{39}
-\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{39}
-\contentsline {subsection}{\numberline {5.1.2}\ce {LiTiPO5}}{39}
-\contentsline {subsubsection}{\nonumberline XRD-Analyse}{39}
-\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{39}
-\contentsline {subsection}{\numberline {5.1.3}Weitere Pulver}{39}
-\contentsline {subsubsection}{\nonumberline LAGP}{45}
-\contentsline {subsubsection}{\nonumberline LTO}{45}
-\contentsline {subsubsection}{\nonumberline LLTO}{45}
-\contentsline {subsubsection}{\nonumberline LiCl}{45}
-\contentsline {section}{\numberline {5.2}Untersuchung der Elektroden mittel REM/EDX}{45}
-\contentsline {section}{\numberline {5.3}Batterietests}{45}
-\contentsline {subsection}{\numberline {5.3.1}\ce {LiCoO2}}{45}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{45}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{45}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{45}
-\contentsline {subsection}{\numberline {5.3.2}Schwefel}{45}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{45}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{45}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{45}
-\contentsline {subsection}{\numberline {5.3.3}LATP}{45}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{45}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{45}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{45}
-\contentsline {subsection}{\numberline {5.3.4}LAGP}{45}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{45}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{45}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{45}
-\contentsline {subsection}{\numberline {5.3.5}LTO}{45}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{46}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{46}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{46}
-\contentsline {subsection}{\numberline {5.3.6}LLTO}{46}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{46}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{46}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{46}
-\contentsline {subsection}{\numberline {5.3.7}LTO-LLTO-Gef\IeC {\"u}ge}{46}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{46}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{46}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{46}
-\contentsline {section}{\numberline {5.4}In-situ NMR-Messungen}{46}
-\contentsline {subsection}{\numberline {5.4.1}Referenzmessung}{46}
-\contentsline {subsection}{\numberline {5.4.2}Lithium-Schwefel-Zelle}{46}
-\contentsline {chapter}{\numberline {6}Diskussion}{47}
-\contentsline {section}{\numberline {6.1}Anwendbarkeit NMR}{47}
-\contentsline {section}{\numberline {6.2}Vergleich Batterien}{47}
-\contentsline {chapter}{\numberline {7}Fazit}{49}
-\contentsline {section}{\numberline {7.1}Zusammenfassung}{49}
-\contentsline {section}{\numberline {7.2}Ausblick}{49}
-\contentsline {chapter}{Abbildungsverzeichnis}{51}
-\contentsline {chapter}{Literaturverzeichnis}{53}
+\contentsline {chapter}{\numberline {2}Grundlagen}{5}
+\contentsline {section}{\numberline {2.1}Prinzip und Funktionsweise von Batteriezellen}{5}
+\contentsline {subsection}{\numberline {2.1.1}Elektrochemischer Vorgang}{6}
+\contentsline {subsubsection}{\nonumberline Bestimmung der Potentialdifferenz}{7}
+\contentsline {subsection}{\numberline {2.1.2}Elektrodenmaterialien}{8}
+\contentsline {subsubsection}{\nonumberline Typische Anodenmaterialien}{9}
+\contentsline {subsubsection}{\nonumberline Typische Kathodenmaterialien}{10}
+\contentsline {subsection}{\numberline {2.1.3}Elektrolyte}{11}
+\contentsline {subsection}{\numberline {2.1.4}Potentialuntersuchung mit zyklischer Voltametrie}{11}
+\contentsline {subsection}{\numberline {2.1.5}Grenzschichtcharakterisierung durch Impedanzspektroskopie}{12}
+\contentsline {subsubsection}{\nonumberline Elektrochemisches Ersatzschaltbild}{12}
+\contentsline {section}{\numberline {2.2}Keramiken f\IeC {\"u}r den Einsatz als Festk\IeC {\"o}rperelektrolyt}{14}
+\contentsline {subsection}{\numberline {2.2.1}Perowskite}{15}
+\contentsline {subsection}{\numberline {2.2.2}NASICON-Keramiken}{16}
+\contentsline {subsubsection}{\nonumberline Lithiumtitanphosphat}{16}
+\contentsline {subsubsection}{\nonumberline Lithium-Aluminium-Germaniumphosphat}{17}
+\contentsline {subsection}{\numberline {2.2.3}Pulveranalyse mittels R\IeC {\"o}ntgendiffraktion}{17}
+\contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der XRD}{17}
+\contentsline {subsubsection}{\nonumberline Bragg-Brentano-Diffraktometer}{18}
+\contentsline {section}{\numberline {2.3}Kernspinresonanzspektroskopie}{18}
+\contentsline {subsection}{\numberline {2.3.1}Physikalische Grundlagen der NMR-Spektroskopie}{18}
+\contentsline {subsection}{\numberline {2.3.2}Aufbau eines NMR-Spektrometers}{20}
+\contentsline {subsection}{\numberline {2.3.3}Betriebsmodi eines NMR-Spektrometers}{22}
+\contentsline {subsection}{\numberline {2.3.4}Magic Angle Spinning}{22}
+\contentsline {chapter}{\numberline {3}Konstruktion der in-situ NMR-Batterietestzelle}{25}
+\contentsline {section}{\numberline {3.1}Aufbau einer Batterie}{25}
+\contentsline {section}{\numberline {3.2}Anforderungen an die in-situ Testzelle}{26}
+\contentsline {section}{\numberline {3.3}Planung und Anfertigung der Teile}{28}
+\contentsline {subsection}{\numberline {3.3.1}Die Glaszelle}{28}
+\contentsline {subsection}{\numberline {3.3.2}Die Stempel}{28}
+\contentsline {subsection}{\numberline {3.3.3}Die Mutter}{30}
+\contentsline {subsection}{\numberline {3.3.4}Die Feder}{30}
+\contentsline {subsection}{\numberline {3.3.5}Die Positionspl\IeC {\"a}ttchen}{32}
+\contentsline {section}{\numberline {3.4}Anpassung des NMR-Probenkopfes}{32}
+\contentsline {chapter}{\numberline {4}Experimentelle Durchf\IeC {\"u}hrung}{35}
+\contentsline {section}{\numberline {4.1}Pulverherstellung}{35}
+\contentsline {subsection}{\numberline {4.1.1}LATP}{35}
+\contentsline {subsection}{\numberline {4.1.2}\ce {LiTiPO5}}{35}
+\contentsline {subsection}{\numberline {4.1.3}Weitere verwendete Pulver}{36}
+\contentsline {subsubsection}{\nonumberline LAGP}{36}
+\contentsline {subsubsection}{\nonumberline LLTO}{36}
+\contentsline {subsubsection}{\nonumberline LTO}{37}
+\contentsline {section}{\numberline {4.2}Herstellung der Elektrodenfolien}{37}
+\contentsline {subsection}{\numberline {4.2.1}Herstellung verschiedener Elektrodensuspensionen}{37}
+\contentsline {subsection}{\numberline {4.2.2}Foliengie\IeC {\ss }en der Elektrodensuspensionen}{37}
+\contentsline {section}{\numberline {4.3}Sintern eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{38}
+\contentsline {section}{\numberline {4.4}Bau und Betrieb der Batterie-Testzellen}{38}
+\contentsline {subsection}{\numberline {4.4.1}Untersuchungsroutine der Batterietestzellen}{40}
+\contentsline {chapter}{\numberline {5}Ergebnisse}{41}
+\contentsline {section}{\numberline {5.1}Pulveranalyse}{41}
+\contentsline {subsection}{\numberline {5.1.1}LATP}{41}
+\contentsline {subsubsection}{\nonumberline XRD-Analyse}{41}
+\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{41}
+\contentsline {subsection}{\numberline {5.1.2}\ce {LiTiPO5}}{41}
+\contentsline {subsubsection}{\nonumberline XRD-Analyse}{41}
+\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{41}
+\contentsline {subsection}{\numberline {5.1.3}Weitere Pulver}{41}
+\contentsline {subsubsection}{\nonumberline LAGP}{41}
+\contentsline {subsubsection}{\nonumberline LTO}{41}
+\contentsline {subsubsection}{\nonumberline LLTO}{41}
+\contentsline {subsubsection}{\nonumberline LiCl}{41}
+\contentsline {section}{\numberline {5.2}Untersuchung der Elektrodenfolie mittel REM/EDX}{41}
+\contentsline {section}{\numberline {5.3}Bestimmung der Masse des Aktivmaterial}{41}
+\contentsline {section}{\numberline {5.4}Elektrochemische Analyse der Elektrodenproben}{47}
+\contentsline {subsection}{\numberline {5.4.1}LATP}{47}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{47}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{47}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{47}
+\contentsline {subsection}{\numberline {5.4.2}LAGP}{47}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{47}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{47}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{47}
+\contentsline {subsection}{\numberline {5.4.3}LTO}{47}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{48}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{48}
+\contentsline {subsection}{\numberline {5.4.4}LLTO}{48}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{48}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{48}
+\contentsline {subsection}{\numberline {5.4.5}LTO-LLTO-Gef\IeC {\"u}ge}{48}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{48}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{48}
+\contentsline {section}{\numberline {5.5}In-situ NMR-Messungen}{48}
+\contentsline {subsection}{\numberline {5.5.1}Referenzmessung}{48}
+\contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{48}
+\contentsline {chapter}{\numberline {6}Diskussion}{49}
+\contentsline {section}{\numberline {6.1}Anwendbarkeit NMR}{49}
+\contentsline {section}{\numberline {6.2}Vergleich Batterien}{49}
+\contentsline {chapter}{\numberline {7}Fazit}{51}
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{51}
+\contentsline {section}{\numberline {7.2}Ausblick}{51}
+\contentsline {chapter}{Abbildungsverzeichnis}{53}
+\contentsline {chapter}{Literaturverzeichnis}{55}

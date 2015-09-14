@@ -142,10 +142,7 @@
 \end{figure}
 
 \begin{center}
-\textbf{\huge{ Aufbau einer in-situ Li$^7$-NMR\\[0.4cm]Batterietestzelle}}
-\end{center}
-\begin{center}
-\large{}
+\textbf{\huge{ Elektrochemische und kern\-spin\-spek\-tros\-ko\-pische Untersuchung\\[0.4cm]von Festkörperelektrolytkeramiken}}
 \end{center}
 \begin{center}
 \textbf{\Large{}}
@@ -160,6 +157,7 @@
 \textbf{\LARGE{Masterarbeit}}
 \end{center}
 \begin{center}
+\textbf{\Large{Nr. XYZ}}\\
 am
 \end{center}
 \begin{center}
@@ -172,14 +170,10 @@ von
 \Large{Christoph Gielisch}
 \end{center}
 \begin{verbatim}
-
 \end{verbatim}
 \begin{center}
-30. September 2015
+Eingereicht am 30. September 2015
 \end{center}
-\begin{verbatim}
-
-\end{verbatim}
 \begin{center}
 \textbf{Referent:} \\ Prof. Dr-Ing. Volker Schulze \\
 \textbf{Koreferent:} \\ Prof. Dr. Michael J. Hoffmann\\
@@ -204,8 +198,8 @@ Karlsruhe, den 30.09.2015
 \newpage
 
 % Eidesstattliche Erklärung2
-\setcounter{page}{1}
-\pagenumbering{Roman}
+%\setcounter{page}{1}
+%\pagenumbering{Roman}
 \textbf{\Large{Zusammenfassung}}
 \\\\
 TBD
@@ -233,6 +227,12 @@ Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte S
 %Ggf Anpassen
 Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als Festkörperelektrolyt anzupassen und zu analysieren. Als Ausgangspunkt dienen hierbei die Materialien \ce{LiLaTiO3} (LLTO) sowie \ce{Li_(_1_+_x_)Al_xTi_(_2_-_x_)(PO4)3} (LATP), die in der Literatur bereits eine ausreichend gute Lithiumleitfähigkeit nachweisen konnten \cite{tatsumisago2013recent}. Die Keramiken sollen dabei in Pulverform, als Folienguss, als Tablette und im Gefüge Elektrode-Elektrolyt hergestellt werden. Als Referenz werden auch Elektroden für den Einsatz in normalen Flüssigelektrolyt-Batterien hergestellt und untersucht. Die Festkörperelektrolyte sollen mittels Röntendiffraktometrie (XRD), Kernspinspektroskopie (NMR) und Impedanzspektroskopie untersucht werden. Für die Messung von in-situ-NMR-Daten muss sowohl der Lithium-Probenkopf des NMR-Spektrometers angepasst, als auch eine eigene Testzelle konstruiert und gebaut werden.
 \section{Aufbau der Arbeit}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Flowchart_Masterarbeit2.png}
+	\caption{Übersicht über die Probenherstellung (grün) und die Messungen (orange) der vorliegenden Arbeit}
+	\label{Flowchart_Masterarbeit}
+\end{figure}
 Im ersten Kapitel wird die Arbeit motiviert sowie eine Zielsetzung formuliert. Anschließend werden die nötigen Grundlagen für die durchzuführenden Experimente beschrieben. Das dritte Kapitel beschreibt die Art und Weise der Experimente und deren Durchführung. Die erzielten Ergebnisse werden im vierten Kapitel dargestellt und im fünften Kapitel diskutiert. Das sechste Kapitel bietet eine kurze Zusammenfassung sowie einen Ausblick in die Zukunft.
 \chapter{Grundlagen}
 Im folgenden Kapitel werden die Grundlagen für die im Rahmen der Arbeit stattgefundenen Experimente gelegt. Dafür wird im ersten Teil der Aufbau und die Elektrochemie sowie die Materialauswahl von Batteriezellen beschrieben. Anschließend werden drei verschiedene Analysemethoden für Festkörperelektrolyte vorgestellt.
@@ -768,19 +768,42 @@ Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffrak
 	\caption{MAS-NMR-Spektrum von LiCl bei 4kHz}
 	\label{nmr_mas_LATP2}
 \end{figure}
-\section{Untersuchung der Elektroden mittel REM/EDX}
-\section{Batterietests}
-\subsection{\ce{LiCoO2}}
-\subsubsection{Zyklische Voltametrie}
-\subsubsection{Ladekennlinien}
-\subsubsection{Impedanzmessungen}
-\subsection{Schwefel}
-\subsubsection{Zyklische Voltametrie}
-\subsubsection{Ladekennlinien}
-\subsubsection{Impedanzmessungen}
+\section{Untersuchung der Elektrodenfolie mittel REM/EDX}
+\section{Bestimmung der Masse des Aktivmaterial}
+\begin{table}
+\begin{tabular}{llllll}
+\toprule
+ & & \textbf{LATP} & \textbf{LAGP} & \textbf{LLTO}& \textbf{LTO}\\
+\midrule
+\multirowbt{3}{*}{\textbf{Masse}} & \textit{Elektrode mit Kollektor} &  \SI{4.71}{\milli\gram} &   \SI{3.98}{\milli\gram}  &  \SI{4.05}{\milli\gram}& \SI{4.28}{\milli\gram}\\
+\cmidrule{2-6}
+ & \textit{Elektrode ohne Kollektor} &   \SI{1.24}{\milli\gram} &  \SI{1.05}{\milli\gram} &  \SI{1.12}{\milli\meter}& \SI{1.35}{\milli\gram}\\
+\cmidrule{2-6}
+ & \textit{Aktivmaterial} &   \SI{0.56}{\milli\gram} &   \SI{0.47}{\milli\gram} & \SI{0.50}{\milli\gram}& \SI{0.61}{\milli\gram}\\
+\bottomrule
+\end{tabular}
+ \caption{Massen der unterschiedlichen Proben.}
+ \label{tabelle_massen}
+ \end{table} 
+Um das Gewicht des Aktivmaterials einer gestanzten Elektrodenprobe zu bestimmen, wurden jeweils fünf Proben aus der gegossenen Folie sowie auch aus der unbehandelten Aluminiumfolie gestanzt.
+\section{Elektrochemische Analyse der Elektrodenproben}
+%\subsection{\ce{LiCoO2}}
+%\subsubsection{Zyklische Voltametrie}
+%\subsubsection{Ladekennlinien}
+%\subsubsection{Impedanzmessungen}
+%\subsection{Schwefel}
+%\subsubsection{Zyklische Voltametrie}
+%\subsubsection{Ladekennlinien}
+%\subsubsection{Impedanzmessungen}
 \subsection{LATP}
-\subsubsection{Zyklische Voltametrie}
 \subsubsection{Ladekennlinien}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Ladelinie_LATP.png}
+	\caption{dd}
+	\label{ladelinie_LATP}
+\end{figure}
+\subsubsection{Zyklische Voltametrie}
 \subsubsection{Impedanzmessungen}
 \subsection{LAGP}
 \subsubsection{Zyklische Voltametrie}

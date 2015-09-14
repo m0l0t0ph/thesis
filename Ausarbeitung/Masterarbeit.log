@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  14 SEP 2015 13:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.1)  14 SEP 2015 20:15
 entering extended mode
 **Masterarbeit.tex
 (C:\Users\Toph\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.tex
@@ -1642,7 +1642,7 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 139.
 (pdftex.def)             Requested size: 219.08623pt x 109.53983pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 156.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 153.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -1654,32 +1654,32 @@ itHub/thesis/Ausarbeitung/images/KIT_LOGO.png>] [2
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 194--203
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--203
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--203
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--203
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--203
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--203
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 
  []
 
@@ -1688,22 +1688,19 @@ Overfull \vbox (1.39674pt too high) has occurred while \output is active []
 
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 209--216
+Underfull \hbox (badness 10000) in paragraph at lines 203--210
 
  []
 
-<images/leerpixel.png, id=25, 1.00375pt x 1.00375pt>
+<images/leerpixel.png, id=24, 1.00375pt x 1.00375pt>
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 216.
+Package pdftex.def Info: images/leerpixel.png used on input line 210.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [1 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/leerpixel.png (P
-NG copy)>] [2
-
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 216.
+ [2 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/leerpixel.png (P
+NG copy)>]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 210.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
@@ -1717,11 +1714,14 @@ File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
 Package pdftex.def Info: images/leerpixel.png used on input line 43.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [3])
+ [3
+
+
+])
 \tf@toc=\write4
 File: images/leerpixel.png Graphic file (type png)
  <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 218.
+Package pdftex.def Info: images/leerpixel.png used on input line 212.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [4]
 Kapitel 1.
@@ -1741,18 +1741,18 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--228
+Underfull \hbox (badness 10000) in paragraph at lines 219--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--232
+Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 235.
+Package pdftex.def Info: images/leerpixel.png used on input line 229.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
  [1
 
@@ -1760,13 +1760,31 @@ Package pdftex.def Info: images/leerpixel.png used on input line 235.
 
 
 ]
+<images/Flowchart_Masterarbeit2.png, id=42, 614.295pt x 554.07pt>
+File: images/Flowchart_Masterarbeit2.png Graphic file (type png)
+
+<use images/Flowchart_Masterarbeit2.png>
+Package pdftex.def Info: images/Flowchart_Masterarbeit2.png used on input line 
+232.
+(pdftex.def)             Requested size: 438.17245pt x 395.21861pt.
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 237.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [2]
+ [2 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Flowchart_Master
+arbeit2.png>] <images/IAM_Logo.png, id=47, 248.42813pt x 113.67468pt>
+File: images/IAM_Logo.png Graphic file (type png)
+
+<use images/IAM_Logo.png>
+Package pdftex.def Info: images/IAM_Logo.png used on input line 237.
+(pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
+ [3 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/IAM_Logo.png>] [
+4
+
+
+]
 Kapitel 2.
-<images/Prinzipieller_Aufbau.png, id=49, 402.90524pt x 116.3547pt>
+<images/Prinzipieller_Aufbau.png, id=54, 402.90524pt x 116.3547pt>
 File: images/Prinzipieller_Aufbau.png Graphic file (type png)
 
 <use images/Prinzipieller_Aufbau.png>
@@ -1777,12 +1795,9 @@ File: images/leerpixel.png Graphic file (type png)
  <use images/leerpixel.png>
 Package pdftex.def Info: images/leerpixel.png used on input line 253.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [3
-
-
- <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Prinzipieller_Aufba
-u.png (PNG copy)>]
-<images/Schematischer_Aufbau_Li_Ionen.png, id=54, 451.6875pt x 359.3425pt>
+ [5 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Prinzipieller_Au
+fbau.png (PNG copy)>]
+<images/Schematischer_Aufbau_Li_Ionen.png, id=59, 451.6875pt x 359.3425pt>
 File: images/Schematischer_Aufbau_Li_Ionen.png Graphic file (type png)
 
 <use images/Schematischer_Aufbau_Li_Ionen.png>
@@ -1833,24 +1848,22 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 275.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [4 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schematischer_Au
+ [6 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schematischer_Au
 fbau_Li_Ionen.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 277--279
 
  []
 
-<images/IAM_Logo.png, id=59, 248.42813pt x 113.67468pt>
 File: images/IAM_Logo.png Graphic file (type png)
-
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 304.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [5 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/IAM_Logo.png>]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 311--314
 
  []
 
-<images/strukturen_elektroden.png, id=69, 1034.86626pt x 578.16pt>
+<images/strukturen_elektroden.png, id=74, 1034.86626pt x 578.16pt>
 File: images/strukturen_elektroden.png Graphic file (type png)
 
 <use images/strukturen_elektroden.png>
@@ -1861,7 +1874,7 @@ File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 330.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [6]
+ [8]
 Overfull \hbox (2.47566pt too wide) in paragraph at lines 332--333
 []\T1/cmr/m/n/10.95 Teilweise auch Li-thi-um-ti-t-an-spi-nell. Li-thi-um-ti-ta-
 nat be-sitzt
@@ -1871,9 +1884,9 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 337.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [7 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/strukturen_elekt
+ [9 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/strukturen_elekt
 roden.png>]
-<images/fluessigelektrolyt.png, id=79, 1611.01875pt x 402.50375pt>
+<images/fluessigelektrolyt.png, id=83, 1611.01875pt x 402.50375pt>
 File: images/fluessigelektrolyt.png Graphic file (type png)
 
 <use images/fluessigelektrolyt.png>
@@ -1883,7 +1896,7 @@ File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 355.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [8]
+ [10]
 Underfull \hbox (badness 10000) in paragraph at lines 356--363
 
  []
@@ -1907,13 +1920,13 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 367.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [9 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/fluessigelektrol
-yt.png>]
+ [11 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/fluessigelektro
+lyt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 368--371
 
  []
 
-<images/is_bauteile.png, id=87, 1290.8225pt x 803.0pt>
+<images/is_bauteile.png, id=91, 1290.8225pt x 803.0pt>
 File: images/is_bauteile.png Graphic file (type png)
 
 <use images/is_bauteile.png>
@@ -1923,15 +1936,15 @@ File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 385.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [10]
-<images/warburg_element.png, id=91, 277.035pt x 60.7068pt>
+ [12]
+<images/warburg_element.png, id=95, 277.035pt x 60.7068pt>
 File: images/warburg_element.png Graphic file (type png)
 
 <use images/warburg_element.png>
 Package pdftex.def Info: images/warburg_element.png used on input line 389.
 (pdftex.def)             Requested size: 394.35252pt x 86.41542pt.
 
-<images/Schema_IS.jpg, id=92, 1305.87875pt x 1161.33875pt>
+<images/Schema_IS.jpg, id=96, 1305.87875pt x 1161.33875pt>
 File: images/Schema_IS.jpg Graphic file (type jpg)
 
 <use images/Schema_IS.jpg>
@@ -1946,10 +1959,10 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 402.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [11 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/is_bauteile.png
+ [13 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/is_bauteile.png
 > <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/warburg_element.pn
 g>]
-<images/Perowskit-Struktur.png, id=98, 835.12pt x 780.9175pt>
+<images/Perowskit-Struktur.png, id=103, 835.12pt x 780.9175pt>
 File: images/Perowskit-Struktur.png Graphic file (type png)
 
 <use images/Perowskit-Struktur.png>
@@ -1978,7 +1991,7 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 418.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [12 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schema_IS.jpg>]
+ [14 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schema_IS.jpg>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 419--424
 
@@ -1997,7 +2010,7 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 424.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [13 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Perowskit-Struk
+ [15 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Perowskit-Struk
 tur.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 425--430
 
@@ -2012,8 +2025,8 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 433.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [14]
-<images/Bragg.png, id=110, 1027.84pt x 536.0025pt>
+ [16]
+<images/Bragg.png, id=114, 1027.84pt x 536.0025pt>
 File: images/Bragg.png Graphic file (type png)
  <use images/Bragg.png>
 Package pdftex.def Info: images/Bragg.png used on input line 451.
@@ -2027,7 +2040,7 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 462.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [15 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Bragg.png>]
+ [17 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Bragg.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 466--469
 
  []
@@ -2040,7 +2053,7 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 475.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [16]
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 475--479
 
  []
@@ -2058,7 +2071,7 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 505.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [17]
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 513--519
 
  []
@@ -2068,7 +2081,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--519
 
  []
 
-<images/Aufbau_NMR.png, id=122, 273.6624pt x 386.8854pt>
+<images/Aufbau_NMR.png, id=127, 273.6624pt x 386.8854pt>
 File: images/Aufbau_NMR.png Graphic file (type png)
 
 <use images/Aufbau_NMR.png>
@@ -2093,12 +2106,12 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 537.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [18]
+ [20]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 537.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [19 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Aufbau_NMR.png>
+ [21 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Aufbau_NMR.png>
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 540--543
 
@@ -2108,24 +2121,24 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 547.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [20]
+ [22]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 553.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [21] [22
+ [23] [24
 
 
 ]
 Kapitel 3.
-<images/rund_prisma_pouch.jpg, id=140, 1439.3775pt x 383.4325pt>
+<images/rund_prisma_pouch.jpg, id=144, 1439.3775pt x 383.4325pt>
 File: images/rund_prisma_pouch.jpg Graphic file (type jpg)
 
 <use images/rund_prisma_pouch.jpg>
 Package pdftex.def Info: images/rund_prisma_pouch.jpg used on input line 559.
 (pdftex.def)             Requested size: 438.17245pt x 116.72148pt.
 
-<images/bmw-i3-battery-pack.png, id=141, 1027.84pt x 642.4pt>
+<images/bmw-i3-battery-pack.png, id=145, 1027.84pt x 642.4pt>
 File: images/bmw-i3-battery-pack.png Graphic file (type png)
 
 <use images/bmw-i3-battery-pack.png>
@@ -2133,7 +2146,7 @@ Package pdftex.def Info: images/bmw-i3-battery-pack.png used on input line 574.
 
 (pdftex.def)             Requested size: 394.35252pt x 246.46707pt.
 
-<images/Schema_Zelle.jpg, id=142, 398.48875pt x 425.59pt>
+<images/Schema_Zelle.jpg, id=146, 398.48875pt x 425.59pt>
 File: images/Schema_Zelle.jpg Graphic file (type jpg)
 
 <use images/Schema_Zelle.jpg>
@@ -2148,7 +2161,7 @@ File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
 Package pdftex.def Info: images/leerpixel.png used on input line 595.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [23 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/rund_prisma_pou
+ [25 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/rund_prisma_pou
 ch.jpg>]
 Overfull \hbox (4.30475pt too wide) in paragraph at lines 596--601
 \T1/cmr/m/n/10.95 Festkörperelektrolyt-Batterien ein-ge-baut wer-den kön-nen. F
@@ -2169,15 +2182,15 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 601.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [24 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/bmw-i3-battery-
+ [26 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/bmw-i3-battery-
 pack.png (PNG copy)>]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 601.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
 
-[25 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schema_Zelle.jpg
->] <images/Skizze_Testzelle.jpg, id=153, 576.2328pt x 714.9912pt>
+[27 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Schema_Zelle.jpg
+>] <images/Skizze_Testzelle.jpg, id=157, 576.2328pt x 714.9912pt>
 File: images/Skizze_Testzelle.jpg Graphic file (type jpg)
 
 <use images/Skizze_Testzelle.jpg>
@@ -2193,21 +2206,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--615
 
  []
 
-<images/stempel_oben.png, id=154, 556.8899pt x 507.58194pt>
+<images/stempel_oben.png, id=158, 556.8899pt x 507.58194pt>
 File: images/stempel_oben.png Graphic file (type png)
 
 <use images/stempel_oben.png>
 Package pdftex.def Info: images/stempel_oben.png used on input line 622.
 (pdftex.def)             Requested size: 306.71938pt x 279.56592pt.
 
-<images/stempel_unten.png, id=155, 569.942pt x 514.10799pt>
+<images/stempel_unten.png, id=159, 569.942pt x 514.10799pt>
 File: images/stempel_unten.png Graphic file (type png)
 
 <use images/stempel_unten.png>
 Package pdftex.def Info: images/stempel_unten.png used on input line 628.
 (pdftex.def)             Requested size: 306.71938pt x 276.6728pt.
 
-<images/Stempel_Foto_cutted.jpg, id=156, 963.6pt x 536.0025pt>
+<images/Stempel_Foto_cutted.jpg, id=160, 963.6pt x 536.0025pt>
 File: images/Stempel_Foto_cutted.jpg Graphic file (type jpg)
 
 <use images/Stempel_Foto_cutted.jpg>
@@ -2223,12 +2236,12 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 638.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [26]
+ [28]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 638.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [27 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Skizze_Testzell
+ [29 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Skizze_Testzell
 e.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 641--647
 
@@ -2243,16 +2256,16 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 647.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [28 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_oben.pn
+ [30 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_oben.pn
 g>]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 647.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [29 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_unten.p
+ [31 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/stempel_unten.p
 ng> <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Stempel_Foto_cut
 ted.jpg>]
-<images/Platzhalter_Spule.jpg, id=172, 2007.5pt x 1505.625pt>
+<images/Platzhalter_Spule.jpg, id=177, 2007.5pt x 1505.625pt>
 File: images/Platzhalter_Spule.jpg Graphic file (type jpg)
 
 <use images/Platzhalter_Spule.jpg>
@@ -2262,14 +2275,14 @@ File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 657.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [30]
+ [32]
 File: images/IAM_Logo.png Graphic file (type png)
 
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 657.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [31 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Platzhalter_Spu
-le.jpg>] [32
+ [33 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Platzhalter_Spu
+le.jpg>] [34
 
 
 ]
@@ -2279,7 +2292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 662--665
 
  []
 
-<images/SolGel.jpg, id=183, 2007.5pt x 975.645pt>
+<images/SolGel.jpg, id=187, 2007.5pt x 975.645pt>
 File: images/SolGel.jpg Graphic file (type jpg)
  <use images/SolGel.jpg>
 Package pdftex.def Info: images/SolGel.jpg used on input line 668.
@@ -2293,7 +2306,7 @@ File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
 Package pdftex.def Info: images/leerpixel.png used on input line 679.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [33]
+ [35]
 Underfull \hbox (badness 10000) in paragraph at lines 680--683
 
  []
@@ -2312,12 +2325,12 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 691.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [34 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/SolGel.jpg>]
+ [36 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/SolGel.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 694--697
 
  []
 
-<images/folienguss.jpg, id=190, 2601.72pt x 1951.29pt>
+<images/folienguss.jpg, id=194, 2601.72pt x 1951.29pt>
 File: images/folienguss.jpg Graphic file (type jpg)
 
 <use images/folienguss.jpg>
@@ -2332,12 +2345,12 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 707.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [35]
+ [37]
 Underfull \hbox (badness 10000) in paragraph at lines 708--711
 
  []
 
-<images/Messplatz.jpg, id=194, 1559.8275pt x 1003.75pt>
+<images/Messplatz.jpg, id=199, 1559.8275pt x 1003.75pt>
 File: images/Messplatz.jpg Graphic file (type jpg)
 
 <use images/Messplatz.jpg>
@@ -2362,7 +2375,7 @@ File: images/KIT_LOGO.png Graphic file (type png)
 <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 723.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [36 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/folienguss.jpg>
+ [38 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/folienguss.jpg>
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2371,135 +2384,140 @@ File: images/IAM_Logo.png Graphic file (type png)
 <use images/IAM_Logo.png>
 Package pdftex.def Info: images/IAM_Logo.png used on input line 726.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [37 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Messplatz.jpg>]
+ [39 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Messplatz.jpg>]
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 726.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [38]
+ [40]
 Kapitel 5.
-<images/Spektrum_LATP.png, id=205, 621.522pt x 498.663pt>
+<images/Spektrum_LATP.png, id=209, 621.522pt x 498.663pt>
 File: images/Spektrum_LATP.png Graphic file (type png)
 
 <use images/Spektrum_LATP.png>
 Package pdftex.def Info: images/Spektrum_LATP.png used on input line 734.
 (pdftex.def)             Requested size: 438.17245pt x 351.56506pt.
 
-<images/P410.png, id=206, 567.3195pt x 555.7563pt>
+<images/P410.png, id=210, 567.3195pt x 555.7563pt>
 File: images/P410.png Graphic file (type png)
  <use images/P410.png>
 Package pdftex.def Info: images/P410.png used on input line 740.
 (pdftex.def)             Requested size: 438.17245pt x 429.23961pt.
 
-<images/LAGP.png, id=207, 567.3195pt x 555.7563pt>
+<images/LAGP.png, id=211, 567.3195pt x 555.7563pt>
 File: images/LAGP.png Graphic file (type png)
  <use images/LAGP.png>
 Package pdftex.def Info: images/LAGP.png used on input line 752.
 (pdftex.def)             Requested size: 438.17245pt x 429.23961pt.
 
-<images/Spektrum_LiCl.png, id=208, 620.43794pt x 499.74706pt>
+<images/Spektrum_LiCl.png, id=212, 620.43794pt x 499.74706pt>
 File: images/Spektrum_LiCl.png Graphic file (type png)
 
 <use images/Spektrum_LiCl.png>
 Package pdftex.def Info: images/Spektrum_LiCl.png used on input line 761.
 (pdftex.def)             Requested size: 438.17245pt x 352.947pt.
 
-<images/LiCl.png, id=209, 567.3195pt x 555.7563pt>
+<images/LiCl.png, id=213, 567.3195pt x 555.7563pt>
 File: images/LiCl.png Graphic file (type png)
  <use images/LiCl.png>
 Package pdftex.def Info: images/LiCl.png used on input line 767.
 (pdftex.def)             Requested size: 438.17245pt x 429.23961pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 791.
+Package pdftex.def Info: images/leerpixel.png used on input line 789.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [39
+ [41
 
 
 ]
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 791.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 789.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [40 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Spektrum_LATP.p
+ [42 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Spektrum_LATP.p
 ng>]
 File: images/IAM_Logo.png Graphic file (type png)
 
 <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 791.
+Package pdftex.def Info: images/IAM_Logo.png used on input line 789.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [41 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/P410.png>]
+ [43 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/P410.png>]
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 791.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 789.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [42 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/LAGP.png>]
+ [44 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/LAGP.png>]
 File: images/IAM_Logo.png Graphic file (type png)
  <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 791.
+Package pdftex.def Info: images/IAM_Logo.png used on input line 789.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [43 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Spektrum_LiCl.p
+ [45 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Spektrum_LiCl.p
 ng>]
 File: images/KIT_LOGO.png Graphic file (type png)
 
 <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 791.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 789.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [44 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/LiCl.png>]
+ [46 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/LiCl.png>]
+<images/Ladelinie_LATP.png, id=238, 1445.4pt x 731.73375pt>
+File: images/Ladelinie_LATP.png Graphic file (type png)
+
+<use images/Ladelinie_LATP.png>
+Package pdftex.def Info: images/Ladelinie_LATP.png used on input line 802.
+(pdftex.def)             Requested size: 438.17245pt x 221.82187pt.
+
+Underfull \vbox (badness 7203) has occurred while \output is active []
+
 File: images/IAM_Logo.png Graphic file (type png)
- <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 805.
+
+<use images/IAM_Logo.png>
+Package pdftex.def Info: images/IAM_Logo.png used on input line 828.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [45]
+ [47 <C:/Users/Toph/Documents/GitHub/thesis/Ausarbeitung/images/Ladelinie_LATP.
+png>]
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 805.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 828.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
-
-[46]
+ [48]
 Kapitel 6.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 808.
+Package pdftex.def Info: images/leerpixel.png used on input line 831.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [47
+ [49
 
 
-] [48
+] [50
 
 
 ]
 Kapitel 7.
 File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 819.
+Package pdftex.def Info: images/leerpixel.png used on input line 842.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [49] [50
+ [51] [52
 
 
 ]
 (C:\Users\Toph\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: images/leerpixel.png Graphic file (type png)
 
 <use images/leerpixel.png>
-Package pdftex.def Info: images/leerpixel.png used on input line 28.
+Package pdftex.def Info: images/leerpixel.png used on input line 27.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [51
+ [53
 
 
 ])
 \tf@lof=\write5
 File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
-Package pdftex.def Info: images/KIT_LOGO.png used on input line 825.
+Package pdftex.def Info: images/KIT_LOGO.png used on input line 848.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [52]
+ [54]
 (C:\Users\Toph\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.bbl
 Underfull \hbox (badness 1082) in paragraph at lines 36--41
 []\T1/cmr/m/sc/10.95 howstuffworks\T1/cmr/m/n/10.95 :  \T1/cmr/m/it/10.95 How L
@@ -2517,7 +2535,7 @@ File: images/leerpixel.png Graphic file (type png)
 <use images/leerpixel.png>
 Package pdftex.def Info: images/leerpixel.png used on input line 92.
 (pdftex.def)             Requested size: 21.94897pt x 21.90996pt.
- [53
+ [55
 
 
 
@@ -2527,13 +2545,13 @@ File: images/KIT_LOGO.png Graphic file (type png)
  <use images/KIT_LOGO.png>
 Package pdftex.def Info: images/KIT_LOGO.png used on input line 178.
 (pdftex.def)             Requested size: 43.81898pt x 21.90996pt.
- [54])
+ [56])
 File: images/IAM_Logo.png Graphic file (type png)
 
 <use images/IAM_Logo.png>
-Package pdftex.def Info: images/IAM_Logo.png used on input line 832.
+Package pdftex.def Info: images/IAM_Logo.png used on input line 855.
 (pdftex.def)             Requested size: 47.88037pt x 21.90996pt.
- [55]
+ [57]
 (C:\Users\Toph\Documents\GitHub\thesis\Ausarbeitung\Masterarbeit.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2541,12 +2559,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  34658 strings out of 493921
- 820200 string characters out of 3144879
+ 820380 string characters out of 3144879
  918863 words of memory out of 3000000
  37373 multiletter control sequences out of 15000+200000
- 30150 words of font info for 72 fonts, out of 3000000 for 9000
+ 26924 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 73i,26n,80p,10371b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,26n,80p,10371b,977s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Toph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 ctt1095.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\eccc1095.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
@@ -2561,22 +2579,21 @@ Users\Toph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095
 \ecsx2074.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\ecbx1095.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
 jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Toph\AppData\Local\
+k\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Toph\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Toph\AppData\Local\
 MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Toph\AppDa
 ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\T
 oph\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Masterarbeit.pdf (62 pages, 9473464 bytes).
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Masterarbeit.pdf (63 pages, 9707920 bytes).
 PDF statistics:
- 936 PDF objects out of 1000 (max. 8388607)
+ 953 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
