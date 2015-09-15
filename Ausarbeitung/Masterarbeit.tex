@@ -84,7 +84,7 @@
 	%\caption{}
 	\label{img:grafik-dummy}
 	}
-\fancyfoot[ER]{\parbox[b][0.04\columnwidth][t]{0.5\textwidth}{\raggedleft  Thema Masterarbeit}}
+\fancyfoot[ER]{\parbox[b][0.04\columnwidth][t]{0.85\textwidth}{\raggedleft  Elektrochemische und NMR-Untersuchung von Festkörperelektrolytkeramiken}}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.5pt}
 }
@@ -230,7 +230,7 @@ Ziel der vorliegenden Arbeit ist es, verschiedene Keramiken für den Einsatz als
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/Flowchart_Masterarbeit2.png}
-	\caption{Übersicht über die Probenherstellung (grün) und die Messungen (orange) der vorliegenden Arbeit}
+	\caption{Übersicht über die Probenpräperation (grün), den Messsystemaufbau (.) und die Messungen (orange) der vorliegenden Arbeit}
 	\label{Flowchart_Masterarbeit}
 \end{figure}
 Im ersten Kapitel wird die Arbeit motiviert sowie eine Zielsetzung formuliert. Anschließend werden die nötigen Grundlagen für die durchzuführenden Experimente beschrieben. Das dritte Kapitel beschreibt die Art und Weise der Experimente und deren Durchführung. Die erzielten Ergebnisse werden im vierten Kapitel dargestellt und im fünften Kapitel diskutiert. Das sechste Kapitel bietet eine kurze Zusammenfassung sowie einen Ausblick in die Zukunft.
@@ -455,8 +455,6 @@ Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
 \subsubsection{Bragg-Brentano-Diffraktometer}
 Eine Bragg-Brentano-Anordunung eignet sich besonders für das Anfertigen von Pulverdiffraktogrammen. Eine ebene, flache Probe, z.B. in einen kleinen Tigel gepresstes Pulver, wird im Mittelpunkt eines Drehkreises befestigt. Der Röhrenfokus wird nun im gleichen Abstand zur Probe wie der Detektor angebracht. Beide zeigen im gleichen Winkel auf die Probe. Während der Messung wird dieser Winkel nun kontinuierlich variiert. Dazu kann entweder die Probe mit halber Winkelgeschwindigkeit des Detektors gedreht werden oder Röhre und Detektor bewegen sich mit gleicher Geschwindigkeit aufeinander zu beziehungsweise voneinander weg. Es kann nun für jeden Winkel quantitativ das Maß an Reflexion und Interferenz gemessen werden und daraus ein Diffraktogramm erstellt werden. Mittels Rietveld-Methode oder Vergleich mit einer Datenbank ist anschließend eine Analyse des Diffraktogramms möglich \cite{krischner1994}.
 % Evtl. noch eine Grafik?
-\\\\
-Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. %Ggf. in die Methodik stecken
 %\section{Analysemethoden}
 %Zur Strukturaufklärung werden die Materialien mit drei unterschiedlichen Analysemethoden untersucht. Die Röntgendiffraktion misst Reflexionen und Interferenzen an Kristallgittern und ermöglicht daher eine Charakterisierung der untersuchten Stoffe über ihre kristalline Struktur. Bei der Impedanzspektroskopie wird der frequenzabhängige, komplexe Widerstand eines Materials untersucht, um dessen Leitfähigkeit genauer analysieren zu können. Die Kernspinspektroskopie ermöglicht die genaue Untersuchung der atomaren Umgebung eines speziellen Elements innerhalb einer Struktur durch gezieltes Ausrichten und Variieren der Kernspins.
 \section{Kernspinresonanzspektroskopie}
@@ -654,7 +652,8 @@ Die Positionsplättchen sorgen dafür, dass sich die eigentliche Batteriezelle, 
 	\label{spule}
 \end{figure}
 Die in-situ-Testzelle kommt im 200MHz-NMR-Spektrometer der Firma mBruker am Institut XY zum Einsatz. Dafür wurde der Probenkopf entsprechend angepasst. Es wurde eine neue Sattelspule um ein Teflonrohr mit Innendurchmesser von 10mm gewickelt. Diese musste anschließend mit dem Anschlussstempel des Probenkopfes verlötet werden. Damit die Spule auf der richtigen Resonanzfrequenz von 77,7MHz für Li$^7$-NMR arbeitet, wurde ein 5pF-Kondensator in den Spulen-Schwingkreis eingebaut. Um einen Kurzschluss der Spule durch die massive Kupferabschirmung nach außen hin zu vermeiden, wird eine zweite Teflonröhre über die Spule gestülpt.
-\chapter{Experimentelle Durchführung}
+%\chapter{Experimentelle Durchführung}
+\chapter{Probenpräperation}
 Zuerst wird die Herstellung unterschiedlicher keramischer Pulver beschrieben. Anschließend erfolgt die Beschreibung der Mischung zu Elektrodenslurries und des Foliengusses. Im dritten Abschnitt wird die Konstruktion und der Bau einer neuen in-situ NMR-Testzelle beschrieben. Im letzten Abschnitt wird der Bau der unterschiedlichen Batterie-Testzellen dargestellt. 
 \section{Pulverherstellung}
 Es wurden zwei Pulver selbst hergestellt. Weitere bereits am Institut vorhandene und charakterisierte Pulver wurden für die darauf folgenden Schritte ausgewählt.
@@ -720,15 +719,23 @@ Zunächst werden aus den gegossenen Elektrodenfolien Proben entnommen. Dies gesc
 Der Zusammenbau besteht aus dem Einsetzen des unteren Stempels sowie eines Positionsplättchens in die Zelle. Darauf wird zunächst die Kathodenprobe gelegt und mit zwei Separatoren abgedeckt. Durch die zweifache Bedeckung führt ein Defekt eines Separators nicht zum Ausfall der Zelle. Die Separatoren werden mit 80$\mu$l Elektrolyt benetzt. Auf die Separatoren wird die Lithium-Anode und ein weiteres Positionsplättchen gelegt. Um einen Anpressdruck der Teile zu gewährleisten wird nun die Feder eingebaut und die Zelle mit dem oberen Stempel verschlossen. Beide Stempel können nun mit Mutter und Deckel fixiert werden. Danach kann die Zelle ausgeschleust und an das Messsystem angeschlossen werden.
 % Was genau ist der Separator, was genau der Schwefel-Elektrolyt
 \\\\
-\subsection{Untersuchungsroutine der Batterietestzellen}
+\subsection{Untersuchungsroutine der Batterietestzellen} %Evtl. in die Ergebnisse
 Die Batteriezellen werden mit dem Messsystem VMP3 der Firma BioLogic untersucht. Dieses wird mit der Software ECLab in der Version 10.33 angesteuert und ermöglicht die Zyklierung der Zellen, zyklische Voltametrie sowie Impedanzmessungen. Die aufgezeichneten Daten können als zView-Datei exportiert und weiterverarbeitet werden.
 % ECLab-Programme?
 \chapter{Ergebnisse}
 Die angefertigten Pulver werden mittels Röntgendiffraktion und MAS-NMR untersucht. Für die aus ihnen hergestellten Batterieproben werden Ladekennlinien erstellt. Außerdem werden sie mittels zyklischer Voltametrie und Impedanzmessungen analysiert. Die Funktionalität der in-situ-Testzelle wird mit einer Lithium-Schwefel-Zelle gezeigt.
 \section{Pulveranalyse}
+Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. Dieses besitzt einen Bragg-Brentano-Aufbau. Abgefahren wurden in Gradschritten Winkel von 12 - 72$^\circ$. Die Verweilzeit in einer Stellung betrug fünf Sekunden. Die Analyse erfolgte durch Vergleich der erhaltenen Spektren mit einer Computerdatenbank.
+\\\\
+Die MAS-NMR-Spektroskopie wurde an einem Bruker-Spektroskopen mit einer H$^1$-Larmor\-frequenz von 400 MHz durchgeführt. Dies entspricht einer Stärke des äußeren Magnetfelds von 9,39 Tesla. Die Frequenz der Transmitterspule wurde deswegen für Li$^7$-Messungen auf 155,4 MHz eingestellt. Anschließend wurde der Nullpunkt der Messung mit einem Lithiumchlorid-Pulver (FIRMA) kalibriert. Der Spinner wurde mit vier unterschiedlichen Umdrehungsgeschwindigkeiten betrieben. Die Geschwindigkeit wurde dabei in 2 kHz-Schritten von 0 Hz auf 6kHz erhöht.
 \subsection{LATP}
+.
 \subsubsection{XRD-Analyse}
+
 \subsubsection{MAS-NMR-Analyse}
+Das MAS-NMR-Spektrum des LATP-Pulvers wird in Abbildung \ref{nmr_mas_LATP} dargestellt. Zu erkennen ist ein deutlicher Peak am geeichten Nullpunkt der Messung. Bei nicht vorhandener Umdrehung (0kHz) besitzt dieser noch eine sehr schwache Intensität und ist sehr breit. Bei den Messungen mit Rotation des Spinners ist ein deutlicher und intensiver Peak zu erkennen. Außerdem gibt es jeweils Seitenbänder, deren Abstand zum Hauptpeak proportional zur Umdrehungsgeschwindigkeit zunimmt.
+\\\\
+Abbildung \ref{nmr_mas_LATP2} zeigt eine höher aufgelöste Darstellung des Hauptpeaks. Es ist eine leichte Verschiebung des Peaks auf -0,3ppm zu erkennen. Der Peak ist nahezu symetrisch. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/Spektrum_LATP.png}
@@ -741,6 +748,7 @@ Die angefertigten Pulver werden mittels Röntgendiffraktion und MAS-NMR untersuc
 	\caption{MAS-NMR-Spektrum von LATP bei 4kHz}
 	\label{nmr_mas_LATP2}
 \end{figure}
+\newpage
 \subsection{\ce{LiTiPO5}}
 \subsubsection{XRD-Analyse}
 \subsubsection{MAS-NMR-Analyse}
@@ -768,66 +776,170 @@ Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffrak
 	\caption{MAS-NMR-Spektrum von LiCl bei 4kHz}
 	\label{nmr_mas_LATP2}
 \end{figure}
+\newpage
 \section{Untersuchung der Elektrodenfolie mittel REM/EDX}
+Die Beschaffenheit der gegossenen Elektrodenfolien wurde mit Aufnahmen des Rasterelektrodenmikroskops (REM) und an ausgewählten Stellen mittels einer energiedispersiven Röntgenspektroskopie (energy dispersive X-ray-spectorscopy, EDX) untersucht.
+\\\\
+Eine Übersicht der unterschiedlichen Folien ist in Abbildung \ref{uebersicht_rem} dargestellt. Zu erkennen ist
+% Höhe der Schicht
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/Uebersicht_REM.jpg}
+	\caption{. (Bezeichnung und Maßstab einbauen!!!)}
+	\label{uebersicht_rem}
+\end{figure}
+\newpage
 \section{Bestimmung der Masse des Aktivmaterial}
-\begin{table}
+Um das Gewicht des Aktivmaterials einer gestanzten Elektrodenprobe zu bestimmen, wurden jeweils fünf Proben aus der gegossenen und getrockneten Elektrodenfolie sowie auch aus der unbehandelten Aluminiumfolie gestanzt. Diese Proben wurden anschließend abgewogen und das resultierende Gewicht gemittelt. Die Masse der unbehandelten Aluminiumfolie wurde so zu 2,93mg bestimmt. Aus der Differenz aus Gesamtmasse und dem Gewicht der Aluminiumfolie konnte dann die Masse des Elektrodenmaterials der Probe bestimmt werden.
+\\\\
+Da der Massenanteil des jeweiligen Aktivmaterials auf 45\% der gesamten Elektrode eingewogen worden ist, kann dann die Masse des Aktivmaterials an einer Elektrodenprobe mittel Multiplikation mit diesem Faktor berechnet werden. Eine Übersicht über die so für alle Elektrodenproben bestimmten Massen findet sich in Tabelle \ref{tabelle_massen}.
+\\
+\begin{table}[h]
 \begin{tabular}{llllll}
 \toprule
  & & \textbf{LATP} & \textbf{LAGP} & \textbf{LLTO}& \textbf{LTO}\\
 \midrule
 \multirowbt{3}{*}{\textbf{Masse}} & \textit{Elektrode mit Kollektor} &  \SI{4.71}{\milli\gram} &   \SI{3.98}{\milli\gram}  &  \SI{4.05}{\milli\gram}& \SI{4.28}{\milli\gram}\\
 \cmidrule{2-6}
- & \textit{Elektrode ohne Kollektor} &   \SI{1.24}{\milli\gram} &  \SI{1.05}{\milli\gram} &  \SI{1.12}{\milli\meter}& \SI{1.35}{\milli\gram}\\
+ & \textit{Elektrode ohne Kollektor} &   \SI{1.78}{\milli\gram} &  \SI{1.05}{\milli\gram} &  \SI{1.12}{\milli\meter}& \SI{1.35}{\milli\gram}\\
 \cmidrule{2-6}
- & \textit{Aktivmaterial} &   \SI{0.56}{\milli\gram} &   \SI{0.47}{\milli\gram} & \SI{0.50}{\milli\gram}& \SI{0.61}{\milli\gram}\\
+ & \textit{Aktivmaterial} &   \SI{0.80}{\milli\gram} &   \SI{0.47}{\milli\gram} & \SI{0.50}{\milli\gram}& \SI{0.61}{\milli\gram}\\
 \bottomrule
 \end{tabular}
  \caption{Massen der unterschiedlichen Proben.}
  \label{tabelle_massen}
  \end{table} 
-Um das Gewicht des Aktivmaterials einer gestanzten Elektrodenprobe zu bestimmen, wurden jeweils fünf Proben aus der gegossenen Folie sowie auch aus der unbehandelten Aluminiumfolie gestanzt.
 \section{Elektrochemische Analyse der Elektrodenproben}
-%\subsection{\ce{LiCoO2}}
-%\subsubsection{Zyklische Voltametrie}
-%\subsubsection{Ladekennlinien}
-%\subsubsection{Impedanzmessungen}
-%\subsection{Schwefel}
-%\subsubsection{Zyklische Voltametrie}
-%\subsubsection{Ladekennlinien}
-%\subsubsection{Impedanzmessungen}
+Alle Elektrodenproben wurden als Kathoden gegen reines Lithiummetall verbaut und insgesamt elf mal ge- und entladen. Dabei wurde jeweils ein Lade- und Entladestrom von 50$\mu$A angelegt, bis eine definierte Abbruchspannung erreicht wurde.
+\\\\
+Bei der zyklischen Voltametrie wurden die Grenzen der Messung jeweils so gewählt, dass möglichst alle Reaktionen innerhalb der Zelle abgebildet wurden. Problematisch dabei war der Einfluss des Graphits innerhalb des Leitrußes. Dieser ist in der Lage Lithiumionen interkalieren zu lassen. Diese Reaktion findet bei einem abnehmenden Potential von etwa 0,6V statt, beginnt jedoch schon im Bereich zwischen 1,0 und 1,2V. Um eine vom Graphiteinfluss möglichst freie Messung aufnehmen zu können, wurde daher der untere Zyklierbereich so gewählt, dass gerade der beginnende Graphitpeak zu erkennen ist.
 \subsection{LATP}
+Die LATP-Probe wurde in einem Spannungsbereich von 1,5V bis 4,0V zykliert. Für die zyklische Voltametrie wurde der Potentialbereich von 1,2V bis 4,0V gewählt.
 \subsubsection{Ladekennlinien}
 \begin{figure}
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/Ladelinie_LATP.png}
-	\caption{dd}
-	\label{ladelinie_LATP}
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LATP.png}
+	\caption{}
+	\label{gcpl_LATP}
+\end{figure}
+Das LATP besitzt beim Laden der Zelle ein Plateau bei 2,55V. Schon nach kurzer Zeit geht die Zelle jedoch zu einem exponentiellem Anstieg der Spannung über, welche nach 59 Minuten die Abbruchspannung von 4V erreicht. Beim Anlegen des Entladestroms pendelt sich die Zelle auf eine Spannung von 2,45V ein. Äquivalent zum Laden kommt es beim Entladen schon nach kurzer Zeit zu einem exponentiell stärker werdenden Verfall der Entladespannung. Diese erreicht die Abbruchspannung ebenfalls nach 59 Minuten. Die zugehörige Kennlinie ist in Abbildung \ref{gcpl_LATP} dargestellt. 
+\\\\
+Die beim Entladen abgegebene elektrische Ladung sind 49$\mu$Ah. Die erreichte Kapazität der Probe lag bei einer Masse des Aktivmaterials von 0,80mg damit bei 61,3mAh/g. 
+%Die C-Rate der Zyklierung liegt bei 0,57C.
+\subsubsection{Zyklische Voltametrie}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LATP.jpg}
+	\caption{}
+	\label{cv_LATP}
+\end{figure}
+Das Ergebnis der Untersuchung der Zelle mittels zyklischer Voltametrie ist in Abbildung \ref{cv_LATP} zu sehen. Es ergeben sich zwei Peaks. Der Peak im ansteigenden Potentialbereich liegt dabei bei 3,1V, der im absteigenden Bereich bei knapp über 2V. Beide Peaks sind mit über einem Volt sehr breit und führen nicht zur Nulllinie der Stromstärke zurück. Die Peaks sind nicht symetrisch, sondern nach außen hin breiter.
+\subsubsection{Impedanzmessungen}
+.
+\newpage
+\subsection{LAGP}
+Der Spannungsbereich für die Zyklierung der LAGP-Probe lag zwischen 1,5V und 4,0V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 1,2V bis 4,0V abgefahren.
+\subsubsection{Ladekennlinien}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LAGP.jpg}
+	\caption{}
+	\label{gcpl_LAGP}
+\end{figure}
+In der Lade- und Entladekennlinie der LAGP-Probe in Abbildung \ref{gcpl_LAGP} ist ein Sägezahnmuster zu erkennen. Es bilden sich weder beim Laden noch beim Entladen Plateaus aus. zwischen Beginn und Ende von Lade- und Entladevorgang liegen jeweils nur knapp 140 Sekunden.
+\\\\
+Daraus ergibt sich eine abgegebene Ladung während des Entladevorgangs von 1,94$\mu$Ah. Bei einem Gewicht des Aktivmaterials von 0,47mg entspricht dies einer Kapazität von 4,13mAh.
+\subsubsection{Zyklische Voltametrie}
+Die zyklische Voltametrie der LAGP-Probe, dargestellt in Abbildung \ref{cv_LAGP}, zeigt keinerlei Peaks der Stromstärke, egal welche Spannung angenommen wird.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LAGP.jpg}
+	\caption{}
+	\label{cv_LAGP}
+\end{figure}
+\subsubsection{Impedanzmessungen}
+.
+\newpage
+\subsection{LTO}
+Die LTO-Probe wurde im Bereich zwischen 1,2V und 2,1V zykliert. Für die zyklische Voltametrie wurden als Grenzen 1,0V und 4,0V gewählt.
+\subsubsection{Ladekennlinien}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LTO.jpg}
+	\caption{Ladekennlinie}
+	\label{gcpl_LTO}
+\end{figure}
+\begin{figure}
+\centering
+\begin{subfigure}[Ladekennlinie]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LTO.jpg}
+	\label{gcpl_LTO}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Zyklische Voltametrie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
+	\label{gcpl_LTO}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Impedanzspektroskopie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
+	\label{is_LTO}
+	}
+\end{subfigure}
+\caption{Elektrochemische Charakterisierung des LTO mit }
+\end{figure}
+Die Lade- und Entladekennlinie der LTO-Probe in Abbildung \ref{gcpl_LTO} zeigt sehr ausgedehnte Plateaus und scharfe Anstiege beziehungsweise Abfälle der Spannung vor dem Erreichen der Abbruchspannungen. Das Plateau beim Laden liegt bei 1,6V, das beim Entladen bei etwa 1,55V. Ein Lade- oder Entladevorgang dauert jeweils etwa 136 Minuten.
+\\\\
+Während des Entladevorgangs wurde Ladung in Höhe von 113,7$\mu$Ah abgegeben. Dividiert durch das Gewicht des Aktivmaterials von 0,61mg ergibt sich daher eine erreichte Kapazität von 186,4mAh/g.
+\subsubsection{Zyklische Voltametrie}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
+	\caption{}
+	\label{cv_LTO}
+\end{figure}
+Die zyklische Voltametrie der LTO-Probe zeigt zwei ausgeprägte Peaks. Zu sehen ist dies in Abbildung \ref{cv_LTO}. Der Peak auf dem ansteigenden Potantialast beginnt bei 1,5V und hat seinen Höhepunkt bei etwa 2,15V. Danach fällt er schnell ab. Im absteigenden Bereich beginnt der Peak bei etwa 1,5V und hat seinen Höhepunkt bei ungefähr 1,2V. Die Intensität beider Peaks ist sehr groß.
+\subsubsection{Impedanzmessungen}
+.
+\newpage
+\subsection{LLTO}
+Der Spannungsbereich für die Zyklierung der LLTO-Probe lag zwischen 0,8V und 4,2V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 0,8V bis 4,2V abgefahren.
+\subsubsection{Ladekennlinien}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LLTO.jpg}
+	\caption{}
+	\label{gcpl_LLTO}
 \end{figure}
 \subsubsection{Zyklische Voltametrie}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LLTO.jpg}
+	\caption{}
+	\label{cv_LLTO}
+\end{figure}
 \subsubsection{Impedanzmessungen}
-\subsection{LAGP}
-\subsubsection{Zyklische Voltametrie}
-\subsubsection{Ladekennlinien}
-\subsubsection{Impedanzmessungen}
-\subsection{LTO}
-.
-\subsubsection{Zyklische Voltametrie}
-\subsubsection{Ladekennlinien}
-\subsubsection{Impedanzmessungen}
-\subsection{LLTO}
-\subsubsection{Zyklische Voltametrie}
-\subsubsection{Ladekennlinien}
-\subsubsection{Impedanzmessungen}
+\newpage
 \subsection{LTO-LLTO-Gefüge}
 \subsubsection{Zyklische Voltametrie}
 \subsubsection{Ladekennlinien}
 \subsubsection{Impedanzmessungen}
+\newpage
 \section{In-situ NMR-Messungen}
 \subsection{Referenzmessung}
 \subsection{Lithium-Schwefel-Zelle}
 \chapter{Diskussion}
-\section{Anwendbarkeit NMR}
-\section{Vergleich Batterien}
+\section{Untersuchung der Keramiken mit MAS-NMR-Spektroskopie}
+
+\section{Vergleich der elektrochemischen Eigenschaften der Kathodenproben}
 \chapter{Fazit}
 \section{Zusammenfassung}
 \section{Ausblick}

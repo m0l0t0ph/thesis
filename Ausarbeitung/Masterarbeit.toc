@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {3.3.4}Die Feder}{30}
 \contentsline {subsection}{\numberline {3.3.5}Die Positionspl\IeC {\"a}ttchen}{32}
 \contentsline {section}{\numberline {3.4}Anpassung des NMR-Probenkopfes}{32}
-\contentsline {chapter}{\numberline {4}Experimentelle Durchf\IeC {\"u}hrung}{35}
+\contentsline {chapter}{\numberline {4}Probenpr\IeC {\"a}peration}{35}
 \contentsline {section}{\numberline {4.1}Pulverherstellung}{35}
 \contentsline {subsection}{\numberline {4.1.1}LATP}{35}
 \contentsline {subsection}{\numberline {4.1.2}\ce {LiTiPO5}}{35}
@@ -56,45 +56,45 @@
 \contentsline {subsection}{\numberline {5.1.1}LATP}{41}
 \contentsline {subsubsection}{\nonumberline XRD-Analyse}{41}
 \contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{41}
-\contentsline {subsection}{\numberline {5.1.2}\ce {LiTiPO5}}{41}
-\contentsline {subsubsection}{\nonumberline XRD-Analyse}{41}
-\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{41}
-\contentsline {subsection}{\numberline {5.1.3}Weitere Pulver}{41}
-\contentsline {subsubsection}{\nonumberline LAGP}{41}
-\contentsline {subsubsection}{\nonumberline LTO}{41}
-\contentsline {subsubsection}{\nonumberline LLTO}{41}
-\contentsline {subsubsection}{\nonumberline LiCl}{41}
-\contentsline {section}{\numberline {5.2}Untersuchung der Elektrodenfolie mittel REM/EDX}{41}
-\contentsline {section}{\numberline {5.3}Bestimmung der Masse des Aktivmaterial}{41}
-\contentsline {section}{\numberline {5.4}Elektrochemische Analyse der Elektrodenproben}{47}
-\contentsline {subsection}{\numberline {5.4.1}LATP}{47}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{47}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{47}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{47}
-\contentsline {subsection}{\numberline {5.4.2}LAGP}{47}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{47}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{47}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{47}
-\contentsline {subsection}{\numberline {5.4.3}LTO}{47}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{48}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{48}
-\contentsline {subsection}{\numberline {5.4.4}LLTO}{48}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{48}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{48}
-\contentsline {subsection}{\numberline {5.4.5}LTO-LLTO-Gef\IeC {\"u}ge}{48}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{48}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{48}
-\contentsline {section}{\numberline {5.5}In-situ NMR-Messungen}{48}
-\contentsline {subsection}{\numberline {5.5.1}Referenzmessung}{48}
-\contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{48}
-\contentsline {chapter}{\numberline {6}Diskussion}{49}
-\contentsline {section}{\numberline {6.1}Anwendbarkeit NMR}{49}
-\contentsline {section}{\numberline {6.2}Vergleich Batterien}{49}
-\contentsline {chapter}{\numberline {7}Fazit}{51}
-\contentsline {section}{\numberline {7.1}Zusammenfassung}{51}
-\contentsline {section}{\numberline {7.2}Ausblick}{51}
-\contentsline {chapter}{Abbildungsverzeichnis}{53}
-\contentsline {chapter}{Literaturverzeichnis}{55}
+\contentsline {subsection}{\numberline {5.1.2}\ce {LiTiPO5}}{44}
+\contentsline {subsubsection}{\nonumberline XRD-Analyse}{44}
+\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{44}
+\contentsline {subsection}{\numberline {5.1.3}Weitere Pulver}{44}
+\contentsline {subsubsection}{\nonumberline LAGP}{45}
+\contentsline {subsubsection}{\nonumberline LTO}{45}
+\contentsline {subsubsection}{\nonumberline LLTO}{45}
+\contentsline {subsubsection}{\nonumberline LiCl}{45}
+\contentsline {section}{\numberline {5.2}Untersuchung der Elektrodenfolie mittel REM/EDX}{47}
+\contentsline {section}{\numberline {5.3}Bestimmung der Masse des Aktivmaterial}{49}
+\contentsline {section}{\numberline {5.4}Elektrochemische Analyse der Elektrodenproben}{49}
+\contentsline {subsection}{\numberline {5.4.1}LATP}{49}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{50}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{50}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{50}
+\contentsline {subsection}{\numberline {5.4.2}LAGP}{51}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{51}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{52}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{52}
+\contentsline {subsection}{\numberline {5.4.3}LTO}{53}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{53}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{53}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{53}
+\contentsline {subsection}{\numberline {5.4.4}LLTO}{55}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{55}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{55}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{55}
+\contentsline {subsection}{\numberline {5.4.5}LTO-LLTO-Gef\IeC {\"u}ge}{56}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{56}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{56}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{56}
+\contentsline {section}{\numberline {5.5}In-situ NMR-Messungen}{57}
+\contentsline {subsection}{\numberline {5.5.1}Referenzmessung}{57}
+\contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{57}
+\contentsline {chapter}{\numberline {6}Diskussion}{59}
+\contentsline {section}{\numberline {6.1}Untersuchung der Keramiken mit MAS-NMR-Spektroskopie}{59}
+\contentsline {section}{\numberline {6.2}Vergleich der elektrochemischen Eigenschaften der Kathodenproben}{59}
+\contentsline {chapter}{\numberline {7}Fazit}{61}
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{61}
+\contentsline {section}{\numberline {7.2}Ausblick}{61}
+\contentsline {chapter}{Abbildungsverzeichnis}{63}
+\contentsline {chapter}{Literaturverzeichnis}{65}
