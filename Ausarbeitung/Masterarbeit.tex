@@ -21,7 +21,7 @@
 \usepackage{booktabs} % schoenere Tabellen
 \usepackage{multirow} % s.o.
 \usepackage{ifthen} % s.o.
-\usepackage{subfigure} % Grafiken nebeneinander darstellen
+\usepackage[FIGTOPCAP]{subfigure} % Grafiken nebeneinander darstellen
 \usepackage{textcomp} %Euro-Zeichen
 \usepackage{siunitx} % Einheiten korrekt anzeigen
 %\sisetup{
@@ -677,16 +677,10 @@ Drei weitere bereits am Institut hergestellte und charakterisierte Pulver wurden
 % Hinweis auf Paul?
 \subsubsection{LAGP}
 Die Herstellung von LAGP erfolgt ebenfalls über den Sol-Gel-Prozess, der auch schon bei LATP angewendet wurde. Anstatt Titanphosphat wird Germaniumoxid ($>99\%$, Aldrich) verwendet. Dieses bildet mit Wasser allerdings keine homogene Lösung, weshalb der Ansatz mittels kontinuierlichem Rühren am Sedimentieren gehindert werden muss. Überschüssiges Wasser wird noch vor dem Kalzinierschritt verdampft.
-\\\\
-Charakterisierung, XRD
 \subsubsection{LLTO}
 Bei der Herstellung des LLTO kommt ein Mischoxid-Prozess zum Einsatz. Lithiumcarbonat (\ce{Li2CO3}, 99,998\%, Alfa Aesar) und Titandioxid (\ce{TiO2}, Titanium(IV) oxide, $>99.9\%$, Aldrich) werden in Isopropanol dispergiert und in einem Attritor deagglomeriert sowie homogenisiert. Das Isopropanol wird mit einem Rotationsverdampfer und mit einer eintägigen Lagerung in einem Vakuumtrockenschrank bei 60$^\circ$C entfernt. Als letzter Schritt wird das Pulver bei 800$^\circ$C für 12 Stunden kalziniert.
-\\\\
-Charakterisierung, XRD
 \subsubsection{LTO}
 Die Herstellung von LTO erfolgt analog zu der des LLTO. Es wird jedoch noch zusätzlich Lanthanoxid (Lanthanum(III) oxide, 99,99\%, Aldrich) mit in Isopropanol dispergiert. Weiterhin wird ein Lanthanüberschuss von 2,5 m\% vorgelegt. Die Kalzinierung findet für acht Stunden bei 950$^\circ$C statt.
-\\\\
-Charakterisierung, XRD
 \section{Herstellung der Elektrodenfolien}
 Die hergestellten und ausgewählten Pulver werden anschließend zu Elektroden weiterverarbeitet. Dazu müssen Elektrodenslurries hergestellt werden und auf Folien gegossen werden. Alternativ erfolgt die Sinterung eines Gefüges aus Elektrode und Elektrolyt.
 \subsection{Herstellung verschiedener Elektrodensuspensionen}
@@ -728,56 +722,113 @@ Die angefertigten Pulver werden mittels Röntgendiffraktion und MAS-NMR untersuc
 Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. Dieses besitzt einen Bragg-Brentano-Aufbau. Abgefahren wurden in Gradschritten Winkel von 12 - 72$^\circ$. Die Verweilzeit in einer Stellung betrug fünf Sekunden. Die Analyse erfolgte durch Vergleich der erhaltenen Spektren mit einer Computerdatenbank.
 \\\\
 Die MAS-NMR-Spektroskopie wurde an einem Bruker-Spektroskopen mit einer H$^1$-Larmor\-frequenz von 400 MHz durchgeführt. Dies entspricht einer Stärke des äußeren Magnetfelds von 9,39 Tesla. Die Frequenz der Transmitterspule wurde deswegen für Li$^7$-Messungen auf 155,4 MHz eingestellt. Anschließend wurde der Nullpunkt der Messung mit einem Lithiumchlorid-Pulver (FIRMA) kalibriert. Der Spinner wurde mit vier unterschiedlichen Umdrehungsgeschwindigkeiten betrieben. Die Geschwindigkeit wurde dabei in 2 kHz-Schritten von 0 Hz auf 6kHz erhöht.
+\newpage
 \subsection{LATP}
+\begin{figure}
+\centering
+\begin{subfigure}[Röntgendiffraktionsspektrum]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\label{xrd_LATP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[MAS-NMR-Spektrum]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/MAS_LATP.png}
+	\label{mas_LATP}
+	}
+\end{subfigure}
+\caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+\end{figure}
 .
 \subsubsection{XRD-Analyse}
 
 \subsubsection{MAS-NMR-Analyse}
-Das MAS-NMR-Spektrum des LATP-Pulvers wird in Abbildung \ref{nmr_mas_LATP} dargestellt. Zu erkennen ist ein deutlicher Peak am geeichten Nullpunkt der Messung. Bei nicht vorhandener Umdrehung (0kHz) besitzt dieser noch eine sehr schwache Intensität und ist sehr breit. Bei den Messungen mit Rotation des Spinners ist ein deutlicher und intensiver Peak zu erkennen. Außerdem gibt es jeweils Seitenbänder, deren Abstand zum Hauptpeak proportional zur Umdrehungsgeschwindigkeit zunimmt.
+Das MAS-NMR-Spektrum des LATP-Pulvers bei unterschiedlichen Umdrehungsgeschwindigkeiten wird in Abbildung \ref{mas_LATP} links dargestellt. Zu erkennen ist ein deutlicher Peak am geeichten Nullpunkt der Messung. Bei nicht vorhandener Umdrehung (0kHz) besitzt dieser noch eine sehr schwache Intensität und ist sehr breit. Bei den Messungen mit Rotation des Spinners ist ein deutlicher und intensiver Peak zu erkennen. Außerdem gibt es jeweils Seitenbänder, deren Abstand zum Hauptpeak proportional zur Umdrehungsgeschwindigkeit zunimmt.
 \\\\
-Abbildung \ref{nmr_mas_LATP2} zeigt eine höher aufgelöste Darstellung des Hauptpeaks. Es ist eine leichte Verschiebung des Peaks auf -0,3ppm zu erkennen. Der Peak ist nahezu symetrisch. 
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/Spektrum_LATP.png}
-	\caption{MAS-NMR-Spektrum von LATP bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, grün 4kHz, rot 6kHz)}
-	\label{nmr_mas_LATP}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/P410.png}
-	\caption{MAS-NMR-Spektrum von LATP bei 4kHz}
-	\label{nmr_mas_LATP2}
-\end{figure}
+Der rechte Teil der Abbildung \ref{mas_LATP} zeigt eine höher aufgelöste Darstellung des Hauptpeaks. Es ist eine leichte Verschiebung des Peaks auf -0,3ppm zu erkennen. Der Peak ist nahezu symetrisch. 
 \newpage
 \subsection{\ce{LiTiPO5}}
+\begin{figure}
+\centering
+\begin{subfigure}[Röntgendiffraktionsspektrum]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\label{xrd_LATP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[MAS-NMR-Spektrum]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/MAS_LATP.png}
+	\label{mas_LATP}
+	}
+\end{subfigure}
+\caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+\end{figure}
 \subsubsection{XRD-Analyse}
 \subsubsection{MAS-NMR-Analyse}
+%Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffraktometrie charakterisiert. Die zugrundeliegenden Daten werden in Kapitel \ref{methodik_weitere_Pulver} dargestellt. Daher wurde für diese Gruppe Pulver lediglich die MAS-NMR zur weiteren Charakterisierung angewandt.
+\newpage
 \subsection{Weitere Pulver}
-Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffraktometrie charakterisiert. Die zugrundeliegenden Daten werden in Kapitel \ref{methodik_weitere_Pulver} dargestellt. Daher wurde für diese Gruppe Pulver lediglich die MAS-NMR zur weiteren Charakterisierung angewandt.
 \subsubsection{LAGP}
 \begin{figure}
+\centering
+\begin{subfigure}[Röntgendiffraktionsspektrum]
+	{
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/LAGP.png}
-	\caption{MAS-NMR-Spektrum von LAGP bei 4kHz}
-	\label{nmr_mas_LATP2}
-\end{figure}
-\subsubsection{LTO}
-\subsubsection{LLTO}
-\subsubsection{LiCl}
-\begin{figure}
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\label{xrd_LATP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[MAS-NMR-Spektrum]
+	{
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/Spektrum_LiCl.png}
-	\caption{MAS-NMR-Spektrum von LiCl bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, grün 4kHz, rot 6kHz)}
-	\label{nmr_mas_LiCl}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/LiCl.png}
-	\caption{MAS-NMR-Spektrum von LiCl bei 4kHz}
-	\label{nmr_mas_LATP2}
+	\includegraphics[width=1.0\columnwidth]{images/MAS_LATP.png}
+	\label{mas_LATP}
+	}
+\end{subfigure}
+\caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
 \end{figure}
 \newpage
-\section{Untersuchung der Elektrodenfolie mittel REM/EDX}
+\subsubsection{LTO}
+.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\caption{PLATZHALTER}
+	\label{xrd_LTO}
+\end{figure}
+\newpage
+\subsubsection{LLTO}
+.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\caption{PLATZHALTER}
+	\label{xrd_LTO}
+\end{figure}
+%\subsubsection{LiCl}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\columnwidth]{images/Spektrum_LiCl.png}
+%	\caption{MAS-NMR-Spektrum von LiCl bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, grün 4kHz, rot 6kHz)}
+%	\label{nmr_mas_LiCl}
+%\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\columnwidth]{images/LiCl.png}
+%	\caption{MAS-NMR-Spektrum von LiCl bei 4kHz}
+%	\label{nmr_mas_LATP2}
+%\end{figure}
+\newpage
+\section{Untersuchung der Elektrodenfolie mittels REM/EDX}
 Die Beschaffenheit der gegossenen Elektrodenfolien wurde mit Aufnahmen des Rasterelektrodenmikroskops (REM) und an ausgewählten Stellen mittels einer energiedispersiven Röntgenspektroskopie (energy dispersive X-ray-spectorscopy, EDX) untersucht.
 \\\\
 Eine Übersicht der unterschiedlichen Folien ist in Abbildung \ref{uebersicht_rem} dargestellt. Zu erkennen ist
@@ -813,62 +864,85 @@ Da der Massenanteil des jeweiligen Aktivmaterials auf 45\% der gesamten Elektrod
 Alle Elektrodenproben wurden als Kathoden gegen reines Lithiummetall verbaut und insgesamt elf mal ge- und entladen. Dabei wurde jeweils ein Lade- und Entladestrom von 50$\mu$A angelegt, bis eine definierte Abbruchspannung erreicht wurde.
 \\\\
 Bei der zyklischen Voltametrie wurden die Grenzen der Messung jeweils so gewählt, dass möglichst alle Reaktionen innerhalb der Zelle abgebildet wurden. Problematisch dabei war der Einfluss des Graphits innerhalb des Leitrußes. Dieser ist in der Lage Lithiumionen interkalieren zu lassen. Diese Reaktion findet bei einem abnehmenden Potential von etwa 0,6V statt, beginnt jedoch schon im Bereich zwischen 1,0 und 1,2V. Um eine vom Graphiteinfluss möglichst freie Messung aufnehmen zu können, wurde daher der untere Zyklierbereich so gewählt, dass gerade der beginnende Graphitpeak zu erkennen ist.
+\newpage
 \subsection{LATP}
+\begin{figure}
+\centering
+\begin{subfigure}[Ladekennlinie]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LATP.jpg}
+	\label{gcpl_LATP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Zyklische Voltametrie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LATP.jpg}
+	\label{cv_LATP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Impedanzspektroskopie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/IS_LATP.jpg}
+	\label{is_LATP}
+	}
+\end{subfigure}
+\caption{Charakterisierung des LATP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+\end{figure}
 Die LATP-Probe wurde in einem Spannungsbereich von 1,5V bis 4,0V zykliert. Für die zyklische Voltametrie wurde der Potentialbereich von 1,2V bis 4,0V gewählt.
 \subsubsection{Ladekennlinien}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LATP.png}
-	\caption{}
-	\label{gcpl_LATP}
-\end{figure}
 Das LATP besitzt beim Laden der Zelle ein Plateau bei 2,55V. Schon nach kurzer Zeit geht die Zelle jedoch zu einem exponentiellem Anstieg der Spannung über, welche nach 59 Minuten die Abbruchspannung von 4V erreicht. Beim Anlegen des Entladestroms pendelt sich die Zelle auf eine Spannung von 2,45V ein. Äquivalent zum Laden kommt es beim Entladen schon nach kurzer Zeit zu einem exponentiell stärker werdenden Verfall der Entladespannung. Diese erreicht die Abbruchspannung ebenfalls nach 59 Minuten. Die zugehörige Kennlinie ist in Abbildung \ref{gcpl_LATP} dargestellt. 
 \\\\
 Die beim Entladen abgegebene elektrische Ladung sind 49$\mu$Ah. Die erreichte Kapazität der Probe lag bei einer Masse des Aktivmaterials von 0,80mg damit bei 61,3mAh/g. 
 %Die C-Rate der Zyklierung liegt bei 0,57C.
 \subsubsection{Zyklische Voltametrie}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.85\columnwidth]{images/CV_LATP.jpg}
-	\caption{}
-	\label{cv_LATP}
-\end{figure}
 Das Ergebnis der Untersuchung der Zelle mittels zyklischer Voltametrie ist in Abbildung \ref{cv_LATP} zu sehen. Es ergeben sich zwei Peaks. Der Peak im ansteigenden Potentialbereich liegt dabei bei 3,1V, der im absteigenden Bereich bei knapp über 2V. Beide Peaks sind mit über einem Volt sehr breit und führen nicht zur Nulllinie der Stromstärke zurück. Die Peaks sind nicht symetrisch, sondern nach außen hin breiter.
 \subsubsection{Impedanzmessungen}
 .
 \newpage
 \subsection{LAGP}
+\begin{figure}
+\centering
+\begin{subfigure}[Ladekennlinie]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LTO.jpg}
+	\label{gcpl_LAGP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Zyklische Voltametrie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/CV_LAGP.jpg}
+	\label{cv_LAGP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Impedanzspektroskopie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/IS_LAGP.jpg}
+	\label{is_LAGP}
+	}
+\end{subfigure}
+\caption{Charakterisierung des LAGP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+\end{figure}
 Der Spannungsbereich für die Zyklierung der LAGP-Probe lag zwischen 1,5V und 4,0V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 1,2V bis 4,0V abgefahren.
 \subsubsection{Ladekennlinien}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LAGP.jpg}
-	\caption{}
-	\label{gcpl_LAGP}
-\end{figure}
 In der Lade- und Entladekennlinie der LAGP-Probe in Abbildung \ref{gcpl_LAGP} ist ein Sägezahnmuster zu erkennen. Es bilden sich weder beim Laden noch beim Entladen Plateaus aus. zwischen Beginn und Ende von Lade- und Entladevorgang liegen jeweils nur knapp 140 Sekunden.
 \\\\
 Daraus ergibt sich eine abgegebene Ladung während des Entladevorgangs von 1,94$\mu$Ah. Bei einem Gewicht des Aktivmaterials von 0,47mg entspricht dies einer Kapazität von 4,13mAh.
 \subsubsection{Zyklische Voltametrie}
 Die zyklische Voltametrie der LAGP-Probe, dargestellt in Abbildung \ref{cv_LAGP}, zeigt keinerlei Peaks der Stromstärke, egal welche Spannung angenommen wird.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.85\columnwidth]{images/CV_LAGP.jpg}
-	\caption{}
-	\label{cv_LAGP}
-\end{figure}
 \subsubsection{Impedanzmessungen}
 .
 \newpage
 \subsection{LTO}
-Die LTO-Probe wurde im Bereich zwischen 1,2V und 2,1V zykliert. Für die zyklische Voltametrie wurden als Grenzen 1,0V und 4,0V gewählt.
-\subsubsection{Ladekennlinien}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LTO.jpg}
-	\caption{Ladekennlinie}
-	\label{gcpl_LTO}
-\end{figure}
 \begin{figure}
 \centering
 \begin{subfigure}[Ladekennlinie]
@@ -883,49 +957,60 @@ Die LTO-Probe wurde im Bereich zwischen 1,2V und 2,1V zykliert. Für die zyklisc
 	{
 	\centering
 	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
-	\label{gcpl_LTO}
+	\label{cv_LTO}
 	}
 \end{subfigure}
 ~
 \begin{subfigure}[Impedanzspektroskopie]
 	{
 	\centering
-	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
+	\includegraphics[width=0.85\columnwidth]{images/IS_LTO.jpg}
 	\label{is_LTO}
 	}
 \end{subfigure}
-\caption{Elektrochemische Charakterisierung des LTO mit }
+\caption{Charakterisierung des LTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
 \end{figure}
+Die LTO-Probe wurde im Bereich zwischen 1,2V und 2,1V zykliert. Für die zyklische Voltametrie wurden als Grenzen 1,0V und 4,0V gewählt.
+\subsubsection{Ladekennlinien}
 Die Lade- und Entladekennlinie der LTO-Probe in Abbildung \ref{gcpl_LTO} zeigt sehr ausgedehnte Plateaus und scharfe Anstiege beziehungsweise Abfälle der Spannung vor dem Erreichen der Abbruchspannungen. Das Plateau beim Laden liegt bei 1,6V, das beim Entladen bei etwa 1,55V. Ein Lade- oder Entladevorgang dauert jeweils etwa 136 Minuten.
 \\\\
 Während des Entladevorgangs wurde Ladung in Höhe von 113,7$\mu$Ah abgegeben. Dividiert durch das Gewicht des Aktivmaterials von 0,61mg ergibt sich daher eine erreichte Kapazität von 186,4mAh/g.
 \subsubsection{Zyklische Voltametrie}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
-	\caption{}
-	\label{cv_LTO}
-\end{figure}
 Die zyklische Voltametrie der LTO-Probe zeigt zwei ausgeprägte Peaks. Zu sehen ist dies in Abbildung \ref{cv_LTO}. Der Peak auf dem ansteigenden Potantialast beginnt bei 1,5V und hat seinen Höhepunkt bei etwa 2,15V. Danach fällt er schnell ab. Im absteigenden Bereich beginnt der Peak bei etwa 1,5V und hat seinen Höhepunkt bei ungefähr 1,2V. Die Intensität beider Peaks ist sehr groß.
 \subsubsection{Impedanzmessungen}
 .
 \newpage
 \subsection{LLTO}
-Der Spannungsbereich für die Zyklierung der LLTO-Probe lag zwischen 0,8V und 4,2V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 0,8V bis 4,2V abgefahren.
-\subsubsection{Ladekennlinien}
 \begin{figure}
+\centering
+\begin{subfigure}[Ladekennlinie]
+	{
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/GCPL_LLTO.jpg}
-	\caption{}
 	\label{gcpl_LLTO}
-\end{figure}
-\subsubsection{Zyklische Voltametrie}
-\begin{figure}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Zyklische Voltametrie]
+	{
 	\centering
 	\includegraphics[width=0.85\columnwidth]{images/CV_LLTO.jpg}
-	\caption{}
 	\label{cv_LLTO}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[Impedanzspektroskopie]
+	{
+	\centering
+	\includegraphics[width=0.85\columnwidth]{images/IS_LLTO.jpg}
+	\label{is_LLTO}
+	}
+\end{subfigure}
+\caption{Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
 \end{figure}
+Der Spannungsbereich für die Zyklierung der LLTO-Probe lag zwischen 0,8V und 4,2V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 0,8V bis 4,2V abgefahren.
+\subsubsection{Ladekennlinien}
+\subsubsection{Zyklische Voltametrie}
 \subsubsection{Impedanzmessungen}
 \newpage
 \subsection{LTO-LLTO-Gefüge}

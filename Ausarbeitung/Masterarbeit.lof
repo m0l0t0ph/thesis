@@ -26,23 +26,33 @@
 \contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Folienguss einer Elektrode auf Aluminiumfolie\relax }}{38}
 \contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Messplatz f\IeC {\"u}r Batteriezellen mit Handschuhbox zum Bau (rechts), Ansteuerungselektronik und Aufbewahrung (mitte) sowie Kontrolle und Aufzeichnung durch Computer (links). --> Besseres Foto\relax }}{39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces MAS-NMR-Spektrum von LATP bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, gr\IeC {\"u}n 4kHz, rot 6kHz)\relax }}{42}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces MAS-NMR-Spektrum von LATP bei 4kHz\relax }}{43}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces MAS-NMR-Spektrum von LAGP bei 4kHz\relax }}{44}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces MAS-NMR-Spektrum von LiCl bei verschiedenen Umdrehungsgeschwindigkeiten (lila 0kHz, blau 2kHz, gr\IeC {\"u}n 4kHz, rot 6kHz)\relax }}{45}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces MAS-NMR-Spektrum von LiCl bei 4kHz\relax }}{46}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces . (Bezeichnung und Ma\IeC {\ss }stab einbauen!!!)\relax }}{48}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces \relax }}{50}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces \relax }}{51}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces \relax }}{51}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces \relax }}{52}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Ladekennlinie\relax }}{53}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Elektrochemische Charakterisierung des LTO mit \relax }}{54}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Charakterisierung des LATP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {R\IeC {\"o}ntgendiffraktionsspektrum}}}{43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAS-NMR-Spektrum}}}{43}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Charakterisierung des LATP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {R\IeC {\"o}ntgendiffraktionsspektrum}}}{45}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAS-NMR-Spektrum}}}{45}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Charakterisierung des LATP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {R\IeC {\"o}ntgendiffraktionsspektrum}}}{47}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAS-NMR-Spektrum}}}{47}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces PLATZHALTER\relax }}{48}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces PLATZHALTER\relax }}{49}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces . (Bezeichnung und Ma\IeC {\ss }stab einbauen!!!)\relax }}{51}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Charakterisierung des LATP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{54}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{54}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{54}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{54}
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces \relax }}{55}
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces \relax }}{55}
-\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces \relax }}{56}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Charakterisierung des LAGP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{56}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{56}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{56}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Charakterisierung des LTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{58}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{58}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{58}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{60}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{60}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
