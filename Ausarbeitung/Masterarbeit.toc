@@ -53,10 +53,10 @@
 \contentsline {subsection}{\numberline {4.4.1}Untersuchungsroutine der Batterietestzellen}{39}
 \contentsline {chapter}{\numberline {5}Ergebnisse}{41}
 \contentsline {section}{\numberline {5.1}Pulveranalyse}{41}
-\contentsline {subsection}{\numberline {5.1.1}LATP}{42}
+\contentsline {subsection}{\numberline {5.1.1}Pulvercharakterisierung des LATP}{42}
 \contentsline {subsubsection}{\nonumberline XRD-Analyse}{42}
 \contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{42}
-\contentsline {subsection}{\numberline {5.1.2}\ce {LiTiPO5}}{44}
+\contentsline {subsection}{\numberline {5.1.2}Pulvercharakterisierung des \ce {LiTiPO5}}{44}
 \contentsline {subsubsection}{\nonumberline XRD-Analyse}{44}
 \contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{44}
 \contentsline {subsection}{\numberline {5.1.3}Weitere Pulver}{46}
@@ -64,36 +64,36 @@
 \contentsline {subsubsection}{\nonumberline LTO}{48}
 \contentsline {subsubsection}{\nonumberline LLTO}{49}
 \contentsline {section}{\numberline {5.2}Untersuchung der Elektrodenfolie mittels REM/EDX}{50}
-\contentsline {section}{\numberline {5.3}Bestimmung der Masse des Aktivmaterial}{52}
-\contentsline {section}{\numberline {5.4}Elektrochemische Analyse der Elektrodenproben}{52}
-\contentsline {subsection}{\numberline {5.4.1}LATP}{53}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{53}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{53}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{53}
-\contentsline {subsection}{\numberline {5.4.2}LAGP}{55}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{55}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{55}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{55}
-\contentsline {subsection}{\numberline {5.4.3}LTO}{57}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{57}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{57}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{57}
-\contentsline {subsection}{\numberline {5.4.4}LLTO}{59}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{59}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{59}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{59}
-\contentsline {subsection}{\numberline {5.4.5}LTO-LLTO-Gef\IeC {\"u}ge}{61}
-\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{61}
-\contentsline {subsubsection}{\nonumberline Ladekennlinien}{61}
-\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{61}
-\contentsline {section}{\numberline {5.5}In-situ NMR-Messungen}{62}
-\contentsline {subsection}{\numberline {5.5.1}Referenzmessung}{62}
-\contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{62}
-\contentsline {chapter}{\numberline {6}Diskussion}{63}
-\contentsline {section}{\numberline {6.1}Untersuchung der Keramiken mit MAS-NMR-Spektroskopie}{63}
-\contentsline {section}{\numberline {6.2}Vergleich der elektrochemischen Eigenschaften der Kathodenproben}{63}
-\contentsline {chapter}{\numberline {7}Fazit}{65}
-\contentsline {section}{\numberline {7.1}Zusammenfassung}{65}
-\contentsline {section}{\numberline {7.2}Ausblick}{65}
-\contentsline {chapter}{Abbildungsverzeichnis}{67}
-\contentsline {chapter}{Literaturverzeichnis}{69}
+\contentsline {subsubsection}{\nonumberline REM}{50}
+\contentsline {subsubsection}{\nonumberline EDX}{50}
+\contentsline {section}{\numberline {5.3}Bestimmung der Masse des Aktivmaterial}{53}
+\contentsline {section}{\numberline {5.4}Elektrochemische Analyse der Elektrodenproben}{53}
+\contentsline {subsection}{\numberline {5.4.1}LATP-Kathode}{54}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{54}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{54}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{54}
+\contentsline {subsection}{\numberline {5.4.2}LAGP-Kathode}{56}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{56}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{56}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{56}
+\contentsline {subsection}{\numberline {5.4.3}LTO-Kathode}{58}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{58}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{58}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{58}
+\contentsline {subsection}{\numberline {5.4.4}LLTO-Kathode}{60}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{60}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{60}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{60}
+\contentsline {subsection}{\numberline {5.4.5}LTO-LLTO-Gef\IeC {\"u}ge}{62}
+\contentsline {subsubsection}{\nonumberline Impedanzmessungen}{62}
+\contentsline {section}{\numberline {5.5}In-situ NMR-Messungen}{63}
+\contentsline {subsection}{\numberline {5.5.1}Referenzmessung}{63}
+\contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{63}
+\contentsline {chapter}{\numberline {6}Diskussion}{65}
+\contentsline {section}{\numberline {6.1}Untersuchung der Keramiken mit MAS-NMR-Spektroskopie}{65}
+\contentsline {section}{\numberline {6.2}Vergleich der elektrochemischen Eigenschaften der Kathodenproben}{65}
+\contentsline {chapter}{\numberline {7}Fazit}{67}
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{67}
+\contentsline {section}{\numberline {7.2}Ausblick}{67}
+\contentsline {chapter}{Abbildungsverzeichnis}{69}
+\contentsline {chapter}{Literaturverzeichnis}{71}

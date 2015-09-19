@@ -19,6 +19,8 @@
 \usepackage[justification=RaggedRight, singlelinecheck=false, margin=1.5cm]{caption}  % huebschere Captions
 \usepackage[version=3]{mhchem} % chemische Formeln
 \usepackage{booktabs} % schoenere Tabellen
+\usepackage{tabulary} % seitenbreite Tabellen
+\usepackage{tabularx} % custom-Breite + Anordnung in tabulars
 \usepackage{multirow} % s.o.
 \usepackage{ifthen} % s.o.
 \usepackage[FIGTOPCAP]{subfigure} % Grafiken nebeneinander darstellen
@@ -36,6 +38,11 @@
 \newcommand{\changefont}[3]{
 \fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
 \changefont{ptm}{m}{n}
+
+% neue modi tabular
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
 
 % Zeilenabstand 1,5
 \onehalfspacing
@@ -220,7 +227,7 @@ Batterien nehmen in unserem Leben einen immer höheren Stellenwert ein. Sie komm
 \\\\
 Die vorliegende Arbeit betrachtet die Einsatzmöglichkeit von speziellen Keramiken als Festkörperelektrolyt in Batterien.
 \section{Motivation}
-Ein Batterie mit einem Festkörperelektrolyten bietet gleich mehrere Vorteile gegenüber der herkömmlichen Flüssigelektrolyt-Batterie. Der Flüssigelektrolyt moderner Lithiumbatterien besteht zumeist aus einem organischem Lösungsmittel und darin gelösten Lithiumsalzen \cite{xu2004nonaqueous}. Diese sind jedoch nicht stabil gegenüber der Luftfeuchtigkeit und reagieren unter der Bildung von ätzenden Substanzen wie Flusssäure ab. Dies ist neben der Unsicherheit beim Versagen der Batterie ebenso auch ein Problem bei der industriellen Großproduktion. Diese kann nur mit großen Anlagen zur Trocknung der Luft erfolgen. Ein Festkörperelektrolyt könnte so gestaltet werden, dass dieser stabil gegenüber der Luftfeuchtigkeit und dem Sauerstoff der Luft ist.
+Eine Batterie mit einem Festkörperelektrolyten bietet gleich mehrere Vorteile gegenüber der herkömmlichen Flüssigelektrolyt-Batterie. Der Flüssigelektrolyt moderner Lithiumbatterien besteht zumeist aus einem organischem Lösungsmittel und darin gelösten Lithiumsalzen \cite{xu2004nonaqueous}. Diese sind jedoch nicht stabil gegenüber der Luftfeuchtigkeit und reagieren unter der Bildung von ätzenden Substanzen wie Flusssäure ab. Dies ist neben der Unsicherheit beim Versagen der Batterie ebenso auch ein Problem bei der industriellen Großproduktion. Diese kann nur mit großen Anlagen zur Trocknung der Luft erfolgen. Ein Festkörperelektrolyt könnte so gestaltet werden, dass dieser stabil gegenüber der Luftfeuchtigkeit und dem Sauerstoff der Luft ist.
 \\\\
 Ein weiteres Problem der aktuellen Flüssigelektrolyten ist deren beschränkte Stabilität gegenüber elektrischen Spannungen. Handelsübliche Flüssigelektrolyte sind lediglich bis zu einer Spannung von maximal 5V stabil \cite{tarascon1994new}. Es existieren jedoch Hochvoltelektroden, die von höheren Spannungen profitieren würden. Festkörperelektrolyte könnten diesen Mangel beheben.
 \section{Zielsetzung}
@@ -439,10 +446,10 @@ n\lambda = 2d \sin{\theta}
 \end{equation}
 mit
 \begin{description}\itemsep0pt
-\item[n] Grad des untersuchten Maximums (?)
-\item[$\lambda$] Wellenlänge der Röntgenstrahlung
+\item[n] Grad des untersuchten Maximums
+\item[$\boldsymbol{\lambda}$] Wellenlänge der Röntgenstrahlung
 \item[d] Abstand der Netzebenen
-\item[$\theta$] Winkel der Strahlung zur Netzebene
+\item[$\boldsymbol{\theta}$] Winkel der Strahlung zur Netzebene
 \end{description}
 Eine schematische Darstellung ist in Abbildung \ref{bragg} gegeben.
 % Weitere Beschreibung?
@@ -658,10 +665,12 @@ Zuerst wird die Herstellung unterschiedlicher keramischer Pulver beschrieben. An
 \section{Pulverherstellung}
 Es wurden zwei Pulver selbst hergestellt. Weitere bereits am Institut vorhandene und charakterisierte Pulver wurden für die darauf folgenden Schritte ausgewählt.
 \subsection{LATP}
+\label{praep_LATP}
 Bei der Herstellung des LATP kommt das Sol-Gel-Verfahren zum Einsatz. Als Ausgangsmaterial werden drei Stoffe verwendet: Aluminiumnitrat (\ce{Al(No3)3 \; 9H2O}, Aluminiumnitrate nonahydrat, EMSURE), Lithiumacetat (\ce{LiOOCH3 \; 2H2O} Lithiumacetate dihydrate, Reagent Grade, Alfa Aesar) und Tetra\-iso\-propyl\-ortho\-titanat (\ce{C12H28O4Ti}, Merck). Die Einwaage der Stoffe erfolgt stöchiometrisch. Alle werden jeweils in Wasser gelöst und anschließend miteinander vermengt. Danach wird Phosphorsäure (\ce{H3PO4}) zugegeben. Auf Grund der dabei entstehenden Reaktionswärme erfolgt dies in einem Wasserbad unter kontinuierlichen Rühren.
 \\\\
 Um die organischen Anteile des Gels zu entfernen, wird dieses zunächst für acht Stunden bei 400$^\circ$C wärmebehandelt. In einem zweiten Schritt kann dann mit einem weiteren Glühschritt bei 900$^\circ$C für acht Stunden die gewünschte LATP-Struktur erzeugt werden. Um feinere Agglomerate zu erhalten wird das Pulver noch mit einem Mörser zerkleinert.
 \subsection{\ce{LiTiPO5}}
+\label{praep_LiTiPO5}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/SolGel.jpg}
@@ -676,10 +685,13 @@ Zur Befreiung des Gels von unerwünschten organischen Bestandteilen wird dieses 
 Drei weitere bereits am Institut hergestellte und charakterisierte Pulver wurden zur weiteren Untersuchung mittels MAS-NMR und zur Weiterverarbeitung zu Elektrodenslurries ausgewählt.  
 % Hinweis auf Paul?
 \subsubsection{LAGP}
+\label{praep_LAGP}
 Die Herstellung von LAGP erfolgt ebenfalls über den Sol-Gel-Prozess, der auch schon bei LATP angewendet wurde. Anstatt Titanphosphat wird Germaniumoxid ($>99\%$, Aldrich) verwendet. Dieses bildet mit Wasser allerdings keine homogene Lösung, weshalb der Ansatz mittels kontinuierlichem Rühren am Sedimentieren gehindert werden muss. Überschüssiges Wasser wird noch vor dem Kalzinierschritt verdampft.
 \subsubsection{LLTO}
+\label{praep_LLTO}
 Bei der Herstellung des LLTO kommt ein Mischoxid-Prozess zum Einsatz. Lithiumcarbonat (\ce{Li2CO3}, 99,998\%, Alfa Aesar) und Titandioxid (\ce{TiO2}, Titanium(IV) oxide, $>99.9\%$, Aldrich) werden in Isopropanol dispergiert und in einem Attritor deagglomeriert sowie homogenisiert. Das Isopropanol wird mit einem Rotationsverdampfer und mit einer eintägigen Lagerung in einem Vakuumtrockenschrank bei 60$^\circ$C entfernt. Als letzter Schritt wird das Pulver bei 800$^\circ$C für 12 Stunden kalziniert.
 \subsubsection{LTO}
+\label{praep_LTO}
 Die Herstellung von LTO erfolgt analog zu der des LLTO. Es wird jedoch noch zusätzlich Lanthanoxid (Lanthanum(III) oxide, 99,99\%, Aldrich) mit in Isopropanol dispergiert. Weiterhin wird ein Lanthanüberschuss von 2,5 m\% vorgelegt. Die Kalzinierung findet für acht Stunden bei 950$^\circ$C statt.
 \section{Herstellung der Elektrodenfolien}
 Die hergestellten und ausgewählten Pulver werden anschließend zu Elektroden weiterverarbeitet. Dazu müssen Elektrodenslurries hergestellt werden und auf Folien gegossen werden. Alternativ erfolgt die Sinterung eines Gefüges aus Elektrode und Elektrolyt.
@@ -717,13 +729,15 @@ Der Zusammenbau besteht aus dem Einsetzen des unteren Stempels sowie eines Posit
 Die Batteriezellen werden mit dem Messsystem VMP3 der Firma BioLogic untersucht. Dieses wird mit der Software ECLab in der Version 10.33 angesteuert und ermöglicht die Zyklierung der Zellen, zyklische Voltametrie sowie Impedanzmessungen. Die aufgezeichneten Daten können als zView-Datei exportiert und weiterverarbeitet werden.
 % ECLab-Programme?
 \chapter{Ergebnisse}
-Die angefertigten Pulver werden mittels Röntgendiffraktion und MAS-NMR untersucht. Für die aus ihnen hergestellten Batterieproben werden Ladekennlinien erstellt. Außerdem werden sie mittels zyklischer Voltametrie und Impedanzmessungen analysiert. Die Funktionalität der in-situ-Testzelle wird mit einer Lithium-Schwefel-Zelle gezeigt.
+Die angefertigten Pulver werden mittels Röntgendiffraktion untersucht. Für das LATP-, LAGP- und \ce{LiTiPO5}-Pulver werden außerdem noch Ergebnisse der Untersuchung mit der MAS-NMR-Spektroskopie vorgestellt.
+\\\\
+Für die hergestellten Batterieproben werden Ladekennlinien erstellt. Außerdem werden sie mittels zyklischer Voltametrie und Impedanzmessungen analysiert. Die Funktionalität der in-situ-Testzelle wird mit einer Lithium-Schwefel-Zelle gezeigt. Dazu erfolgt eine elektrochemische Voruntersuchung.
 \section{Pulveranalyse}
 Die Röntgenbeugungsexperimente wurden am Röntgendiffraktometer D500 der Firma Siemens durchgeführt. Dieses besitzt einen Bragg-Brentano-Aufbau. Abgefahren wurden in Gradschritten Winkel von 12 - 72$^\circ$. Die Verweilzeit in einer Stellung betrug fünf Sekunden. Die Analyse erfolgte durch Vergleich der erhaltenen Spektren mit einer Computerdatenbank.
 \\\\
 Die MAS-NMR-Spektroskopie wurde an einem Bruker-Spektroskopen mit einer H$^1$-Larmor\-frequenz von 400 MHz durchgeführt. Dies entspricht einer Stärke des äußeren Magnetfelds von 9,39 Tesla. Die Frequenz der Transmitterspule wurde deswegen für Li$^7$-Messungen auf 155,4 MHz eingestellt. Anschließend wurde der Nullpunkt der Messung mit einem Lithiumchlorid-Pulver (FIRMA) kalibriert. Der Spinner wurde mit vier unterschiedlichen Umdrehungsgeschwindigkeiten betrieben. Die Geschwindigkeit wurde dabei in 2 kHz-Schritten von 0 Hz auf 6kHz erhöht.
 \newpage
-\subsection{LATP}
+\subsection{Pulvercharakterisierung des LATP}
 \begin{figure}
 \centering
 \begin{subfigure}[Röntgendiffraktionsspektrum]
@@ -743,21 +757,21 @@ Die MAS-NMR-Spektroskopie wurde an einem Bruker-Spektroskopen mit einer H$^1$-La
 \end{subfigure}
 \caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
 \end{figure}
-.
+Die Pulveranalyse erfolgte an einer LATP-Probe mit der in Kapitel \ref{praep_LATP} vorgestellten Sol-Gel-Routine.
 \subsubsection{XRD-Analyse}
-
+Die XRD-Analyse des LATP-Pulvers in Abbildung \ref{xrd_LATP} zeigt eine gute Übereinstimmung zwischen Referenz und Probe. LEdiglich in den niedrigen Winkelberreichen kommt es zu einer leichten, systematischen Fehldetektierung. Es kann von einer hohe Phasenreinheit des eingesetzten Pulvers ausgegangen werden.
 \subsubsection{MAS-NMR-Analyse}
 Das MAS-NMR-Spektrum des LATP-Pulvers bei unterschiedlichen Umdrehungsgeschwindigkeiten wird in Abbildung \ref{mas_LATP} links dargestellt. Zu erkennen ist ein deutlicher Peak am geeichten Nullpunkt der Messung. Bei nicht vorhandener Umdrehung (0kHz) besitzt dieser noch eine sehr schwache Intensität und ist sehr breit. Bei den Messungen mit Rotation des Spinners ist ein deutlicher und intensiver Peak zu erkennen. Außerdem gibt es jeweils Seitenbänder, deren Abstand zum Hauptpeak proportional zur Umdrehungsgeschwindigkeit zunimmt.
 \\\\
 Der rechte Teil der Abbildung \ref{mas_LATP} zeigt eine höher aufgelöste Darstellung des Hauptpeaks. Es ist eine leichte Verschiebung des Peaks auf -0,3ppm zu erkennen. Der Peak ist nahezu symetrisch. 
 \newpage
-\subsection{\ce{LiTiPO5}}
+\subsection{Pulvercharakterisierung des \ce{LiTiPO5}}
 \begin{figure}
 \centering
 \begin{subfigure}[Röntgendiffraktionsspektrum]
 	{
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LiTiPO5.png}
 	\label{xrd_LATP}
 	}
 \end{subfigure}
@@ -771,37 +785,44 @@ Der rechte Teil der Abbildung \ref{mas_LATP} zeigt eine höher aufgelöste Darst
 \end{subfigure}
 \caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
 \end{figure}
+Untersucht wird das im Sol-Gel-Prozess hergestellte \ce{LiTiPO5}. Die genaue Prozessierung findet sich in Kapitel \ref{praep_LiTiPO5}.
 \subsubsection{XRD-Analyse}
 \subsubsection{MAS-NMR-Analyse}
 %Die bereits am Institut vorhandenen Pulver wurden bereits mittels Röntendiffraktometrie charakterisiert. Die zugrundeliegenden Daten werden in Kapitel \ref{methodik_weitere_Pulver} dargestellt. Daher wurde für diese Gruppe Pulver lediglich die MAS-NMR zur weiteren Charakterisierung angewandt.
 \newpage
 \subsection{Weitere Pulver}
+Die Herstellung der weiteren Pulver wird in Kapitel \ref{methodik_weitere_Pulver} beschrieben. Sie erfolgt bei der LAGP-Probe über den Sol-Gel-Prozess, bei der LTO- und der LLTO-Probe über eine Misch\-oxid-Route.
 \subsubsection{LAGP}
 \begin{figure}
 \centering
 \begin{subfigure}[Röntgendiffraktionsspektrum]
 	{
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
-	\label{xrd_LATP}
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LAGP.png}
+	\label{xrd_LAGP}
 	}
 \end{subfigure}
 ~
 \begin{subfigure}[MAS-NMR-Spektrum]
 	{
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/MAS_LATP.png}
-	\label{mas_LATP}
+	\includegraphics[width=1.0\columnwidth]{images/MAS_LAGP.png}
+	\label{mas_LAGP}
 	}
 \end{subfigure}
-\caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+\caption{Charakterisierung des LAGP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
 \end{figure}
+.
+\\\\
+Das Spektrum der röntgendiffraktometrische Untersuchung des LAGP in Abbildung \ref{xrd_LAGP} zeigt keine Zweitphasenanteile. Das verwendete Pulver ist daher phasenrein.
+\\\\
+In Abbildung \ref{mas_LAGP} ist das MAS-NMR-Spektrum des LAGP-Pulvers zu sehen. Im linken Teil der Abbildung kann man dabei, äquivalent zu den bereits untersuchten Materialien, einen Hauptpeak bei etwa 0ppm mit von der Umdrehungsgeschwindigkeit abhängigen Seitenbändern erkennen. In der rechts abgebildeten Nahaufnahme des Peaks lässt sich dieser auf -0,6ppm bestimmen. Der Peak ist scharf und symetrisch.
 \newpage
 \subsubsection{LTO}
 .
 \begin{figure}
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LTO.png}
 	\caption{PLATZHALTER}
 	\label{xrd_LTO}
 \end{figure}
@@ -810,7 +831,7 @@ Der rechte Teil der Abbildung \ref{mas_LATP} zeigt eine höher aufgelöste Darst
 .
 \begin{figure}
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
+	\includegraphics[width=1.0\columnwidth]{images/XRD_LLTO.png}
 	\caption{PLATZHALTER}
 	\label{xrd_LTO}
 \end{figure}
@@ -830,14 +851,51 @@ Der rechte Teil der Abbildung \ref{mas_LATP} zeigt eine höher aufgelöste Darst
 \newpage
 \section{Untersuchung der Elektrodenfolie mittels REM/EDX}
 Die Beschaffenheit der gegossenen Elektrodenfolien wurde mit Aufnahmen des Rasterelektrodenmikroskops (REM) und an ausgewählten Stellen mittels einer energiedispersiven Röntgenspektroskopie (energy dispersive X-ray-spectorscopy, EDX) untersucht.
-\\\\
-Eine Übersicht der unterschiedlichen Folien ist in Abbildung \ref{uebersicht_rem} dargestellt. Zu erkennen ist
-% Höhe der Schicht
+\subsubsection{REM}
+Eine Übersicht  über die REM-Aufnahmen der unterschiedlichen Folien ist in Abbildung \ref{uebersicht_rem} dargestellt. Zu erkennen sind helle Partikel, welche das Aktivmaterial innerhalb der Probe sind. Die Aluminiumfolie ist als helle, massive  und klar abgetrennte Schicht sichtbar, während der Leitruß eine poröse, dunkle Struktur bildet. Das Aktivmaterial ist in allen Folien gut über die gesamte Höhe der Elektrode verteilt und liegt weder sedimentiert noch stark agglomeriert vor. Es ist jedoch eine gewisse Neigung zur Agglomeration zu erkennen, die vor allem bei der LAGP-Probe zu einigen größeren Agglomeraten führt. Bei der Struktur des Leitrußes lässt sich eine im Nanometerbereich fein verästelte und hochporöse Struktur ausmachen, in die sich das Aktivmaterial einbaut. Die Höhe der Elektrodenschicht lässt sich mit den Aufnahmen auf 40$\mu$m bestimmen, die der Aluminiumfolie auf 7,5$\mu$m.
+\subsubsection{EDX}
+Für eine genauere Materialuntersuchung wurden anschließend noch EDX-Aufnahmen angefertigt, die in Abbildung \ref{edx_gesamt} dargestellt werden. Mit diesen konnten die bisher gemachten Aussagen über die beteiligten Materialien bestätigt werden. Eine Verunreinigung der Suspensionen durch andere Partikel kann ebenfalls ausgeschlossen werden. Lediglich in der Aufnahme des LTO in \ref{edx_LTO} sind vereinzelt Aluminiumpartikel auf der Elektrodenfolie zu erkennen. Diese dürften ihren Ursprung im nicht perfekten Zuschnitt der Folie haben.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\columnwidth]{images/Uebersicht_REM.jpg}
-	\caption{. (Bezeichnung und Maßstab einbauen!!!)}
+	\caption{REM-Aufnahmen der verschiedenen Elektrodenfolien bei unterschiedlichen Vergrößerungsgraden}
 	\label{uebersicht_rem}
+\end{figure}
+\begin{figure}
+\centering
+\begin{subfigure}[LATP]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/EDX_LATP.jpg}
+	\label{edx_LATP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[LAGP]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/EDX_LAGP.jpg}
+	\label{edx_LAGP}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[LTO]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/EDX_LTO.jpg}
+	\label{edx_LTO}
+	}
+\end{subfigure}
+~
+\begin{subfigure}[LLTO]
+	{
+	\centering
+	\includegraphics[width=1.0\columnwidth]{images/EDX_LLTO.jpg}
+	\label{edx_LLTO}
+	}
+\end{subfigure}
+\caption{EDX-Aufnahmen der unterschiedlichen Folienproben}
+\label{edx_gesamt}
 \end{figure}
 \newpage
 \section{Bestimmung der Masse des Aktivmaterial}
@@ -846,7 +904,7 @@ Um das Gewicht des Aktivmaterials einer gestanzten Elektrodenprobe zu bestimmen,
 Da der Massenanteil des jeweiligen Aktivmaterials auf 45\% der gesamten Elektrode eingewogen worden ist, kann dann die Masse des Aktivmaterials an einer Elektrodenprobe mittel Multiplikation mit diesem Faktor berechnet werden. Eine Übersicht über die so für alle Elektrodenproben bestimmten Massen findet sich in Tabelle \ref{tabelle_massen}.
 \\
 \begin{table}[h]
-\begin{tabular}{llllll}
+\begin{tabular}{L{1.2cm} L{4.6cm} L{1.8cm} L{1.8cm} L{1.8cm} L{1.8cm}}
 \toprule
  & & \textbf{LATP} & \textbf{LAGP} & \textbf{LLTO}& \textbf{LTO}\\
 \midrule
@@ -864,8 +922,10 @@ Da der Massenanteil des jeweiligen Aktivmaterials auf 45\% der gesamten Elektrod
 Alle Elektrodenproben wurden als Kathoden gegen reines Lithiummetall verbaut und insgesamt elf mal ge- und entladen. Dabei wurde jeweils ein Lade- und Entladestrom von 50$\mu$A angelegt, bis eine definierte Abbruchspannung erreicht wurde.
 \\\\
 Bei der zyklischen Voltametrie wurden die Grenzen der Messung jeweils so gewählt, dass möglichst alle Reaktionen innerhalb der Zelle abgebildet wurden. Problematisch dabei war der Einfluss des Graphits innerhalb des Leitrußes. Dieser ist in der Lage Lithiumionen interkalieren zu lassen. Diese Reaktion findet bei einem abnehmenden Potential von etwa 0,6V statt, beginnt jedoch schon im Bereich zwischen 1,0 und 1,2V. Um eine vom Graphiteinfluss möglichst freie Messung aufnehmen zu können, wurde daher der untere Zyklierbereich so gewählt, dass gerade der beginnende Graphitpeak zu erkennen ist.
+\\\\ % WERTE CHECKEN!
+Die Impedanzmessungen fanden jeweils in einem Frequenzbereich von 1 Hz bis 1 MHz statt. Die dabei angelegte Spannung betrug 10mV. % Messpunkte, Zeit 
 \newpage
-\subsection{LATP}
+\subsection{LATP-Kathode}
 \begin{figure}
 \centering
 \begin{subfigure}[Ladekennlinie]
@@ -902,15 +962,15 @@ Die beim Entladen abgegebene elektrische Ladung sind 49$\mu$Ah. Die erreichte Ka
 \subsubsection{Zyklische Voltametrie}
 Das Ergebnis der Untersuchung der Zelle mittels zyklischer Voltametrie ist in Abbildung \ref{cv_LATP} zu sehen. Es ergeben sich zwei Peaks. Der Peak im ansteigenden Potentialbereich liegt dabei bei 3,1V, der im absteigenden Bereich bei knapp über 2V. Beide Peaks sind mit über einem Volt sehr breit und führen nicht zur Nulllinie der Stromstärke zurück. Die Peaks sind nicht symetrisch, sondern nach außen hin breiter.
 \subsubsection{Impedanzmessungen}
-.
+Die Messung der Impedanz wird in Abbildung \ref{is_LATP} im Nyquist-Plot dargestellt. Die Messung beschreibt einen Halbkreis, der bei einem Realteil von \SI{82}{\ohm} in eine im 45$^\circ$-Winkel ansteigende Gerade übergeht. Im hohen Frequenzbereich trifft der Graph bei einem Realteil von \SI{10}{\ohm} die X-Achse in einem Innenwinkel von etwa 75$^\circ$.
 \newpage
-\subsection{LAGP}
+\subsection{LAGP-Kathode}
 \begin{figure}
 \centering
 \begin{subfigure}[Ladekennlinie]
 	{
 	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LTO.jpg}
+	\includegraphics[width=1.0\columnwidth]{images/GCPL_LAGP.jpg}
 	\label{gcpl_LAGP}
 	}
 \end{subfigure}
@@ -940,9 +1000,9 @@ Daraus ergibt sich eine abgegebene Ladung während des Entladevorgangs von 1,94$
 \subsubsection{Zyklische Voltametrie}
 Die zyklische Voltametrie der LAGP-Probe, dargestellt in Abbildung \ref{cv_LAGP}, zeigt keinerlei Peaks der Stromstärke, egal welche Spannung angenommen wird.
 \subsubsection{Impedanzmessungen}
-.
+Eine Darstellung der Impedanzmessung der LAGP-Probe in Nyquist-Darstellung wird in Abbildung \ref{is_LAGP} gezeigt. Im Graph sind zwei sich überschneidende Halbkreise sichtbar. Die X-Achse wird bei \SI{12}{\ohm} Realteil nahezu senkrecht geschnitten. Bei einem Realteil von \SI{49}{\ohm} geht der Halbkreis in eine Gerade mit einem Winkel von 75$^\circ$ zur X-Achse über.
 \newpage
-\subsection{LTO}
+\subsection{LTO-Kathode}
 \begin{figure}
 \centering
 \begin{subfigure}[Ladekennlinie]
@@ -978,9 +1038,9 @@ Während des Entladevorgangs wurde Ladung in Höhe von 113,7$\mu$Ah abgegeben. D
 \subsubsection{Zyklische Voltametrie}
 Die zyklische Voltametrie der LTO-Probe zeigt zwei ausgeprägte Peaks. Zu sehen ist dies in Abbildung \ref{cv_LTO}. Der Peak auf dem ansteigenden Potantialast beginnt bei 1,5V und hat seinen Höhepunkt bei etwa 2,15V. Danach fällt er schnell ab. Im absteigenden Bereich beginnt der Peak bei etwa 1,5V und hat seinen Höhepunkt bei ungefähr 1,2V. Die Intensität beider Peaks ist sehr groß.
 \subsubsection{Impedanzmessungen}
-.
+Die Impedanzmessung, dargestellt im Nyquist-Plot in Abbildung \ref{is_LTO}, der LTO-Kathoden\-probe zeigt zwei ineinander geschobene Halbkreise. Ab einem Realteil von \SI{66}{\ohm} gehen die Halbkreise in eine Gerade mit einem Winkel von 80$^\circ$ zur X-Achse über. Bei einem Realteil von \SI{12}{\ohm} trifft der Graph die X-Achse in einem senkrechten Winkel.
 \newpage
-\subsection{LLTO}
+\subsection{LLTO-Kathode}
 \begin{figure}
 \centering
 \begin{subfigure}[Ladekennlinie]
@@ -1008,15 +1068,25 @@ Die zyklische Voltametrie der LTO-Probe zeigt zwei ausgeprägte Peaks. Zu sehen 
 \end{subfigure}
 \caption{Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
 \end{figure}
-Der Spannungsbereich für die Zyklierung der LLTO-Probe lag zwischen 0,8V und 4,2V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 0,8V bis 4,2V abgefahren.
+Der Spannungsbereich für die Zyklierung der LLTO-Probe lag zwischen 0,8V und 4,2V. Als Lade- und Entladestrom wurde anstatt der sonst gewählten 50$\mu$A ein Strom von \SI{100}{\micro\ampere} angelegt. In der zyklischen Voltametrie wurde ein Spannungsbereich von 0,8V bis 4,2V abgefahren.
 \subsubsection{Ladekennlinien}
+Die Lade- und Entladekennlinie der LLTO-Kathodenprobe weist mehrere Bereiche auf. Sie wird in Abbildung \ref{gcpl_LLTO} dargestellt. Während des Ladevorgangs kann zwischen einem Bereich zwischen \SI{0.8}{\volt} bis \SI{1.0}{\volt}, einem Bereich mit höhrere Steigung zwischen \SI{1.0}{\volt} bis \SI{1.4}{\volt} und einem Bereich über \SI{1.4}{\volt} unterschieden werden. Im Entladefall existieren die Bereiche zwischen \SI{1.4}{\volt} und \SI{1.0}{\volt} sowie zwischen \SI{1.0}{\volt} und \SI{0.8}{\volt} reversibel zum Ladefall. Die Bereiche unter \SI{1.0}{\volt} sind dabei auf eine Zyklierung des Graphits innerhalb des Leitrußes zurückzuführen. Insgesamt benötigt ein Ladevorgang 28 Minuten, ein Entladevorgang 26,5 Minuten. Ohne die Bereiche unter \SI{1.0}{\volt} sind es 20 respektive 13 Minuten.
+\\\\
+Für den graphitfreien Fall  wird während eines Entladevorgangs \SI{22.2}{\micro\ampere\hour} Ladung abgegeben. Bei einem Gewicht des Aktivmaterials von 0,50mg entspricht das einer erreichten Kapazität von 44,4mAh/g.
 \subsubsection{Zyklische Voltametrie}
+Die zyklische Voltametrie in Abbildung \ref{cv_LLTO} zeigt im ansteigenden Potentialbereich zwei Peak bei \SI{1.05}{\volt} und \SI{1.55}{\volt}. Der erste Peak dürfte dabei der Graphitzyklierung zuzuordnen zu sein.  Im Bereich zwischen \SI{3.5}{\volt} und \SI{4.0}{\volt} existiert außerdem noch ein Plateau mit leichter Steigung. Im absteigenden Potentialast ist neben dem graphitischen Übergangspeak bei \SI{0.8}{\volt} ein Peak bei etwa \SI{1.0}{\volt} zu erkennen.
 \subsubsection{Impedanzmessungen}
+die Impedanzmessung in Abbildung \ref{is_LLTO} zeigt zwei sich überlappende Halbkreise, die bei einem Realteil von \SI{52}{\ohm} in eine Gerade mit einem Winkel von \SI{80}{\degree} zur X-Achse übergeht. Der Schnitt mit der X-Achse erfolgt bei \SI{12}{\ohm} Realteil im senkrechten Winkel.
 \newpage
 \subsection{LTO-LLTO-Gefüge}
-\subsubsection{Zyklische Voltametrie}
-\subsubsection{Ladekennlinien}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.00\columnwidth]{images/IS_Gefuege.jpg}
+	\label{is_LLTO}
+	\caption{Gemessenes Impedanzspektrum (blau) und angefitteter Halbkreis (orange) für die LTO-LLTO-Li-Zelle}
+\end{figure}
 \subsubsection{Impedanzmessungen}
+.
 \newpage
 \section{In-situ NMR-Messungen}
 \subsection{Referenzmessung}
