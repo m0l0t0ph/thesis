@@ -1,11 +1,11 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces \IeC {\"U}bersicht \IeC {\"u}ber die Probenpr\IeC {\"a}peration (gr\IeC {\"u}n), den Messsystemaufbau (.) und die Messungen (orange) der vorliegenden Arbeit\relax }}{2}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces \IeC {\"U}bersicht \IeC {\"u}ber die Probenpr\IeC {\"a}peration (gr\IeC {\"u}n), den Messsystemaufbau (blau) und die Messungen (orange) der vorliegenden Arbeit\relax }}{2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Prinzip einer sekund\IeC {\"a}ren Zelle \cite {jossen_2006}\relax }}{5}
 \contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Schematischer Aufbau einer Lithium-Ionen-Batterie \cite {howstuffworks}\relax }}{6}
 \contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Potentiallagen verschiedener Elektrodenmaterialien (links) und die ihrere Diffusion zugrundeliegenden Kanalstrukturen (rechts) \cite {bub_skript}\relax }}{9}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Chemische Strukturen der Bestandteile eines Fl\IeC {\"u}ssigelektrolyten\relax }}{11}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Chemische Strukturen der Bestandteile eines Fl\IeC {\"u}ssigelektrolyten \cite {bub_skript}\relax }}{11}
 \contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Ideale Darstellung verschiedener elektrotechnischer Bauteile bei der Impedanzspektroskopie im Nyquist-Plot \cite {bub_skript}\relax }}{13}
 \contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Kettenleitermodell eines Finite-Length (a) und Finite-Space (b) Warburg-Elements \cite {bub_skript}\relax }}{13}
 \contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces Elektrochemisches Ersatzschaltbild und resultierendes Impedanzspektrum in Nyquist-Darstellung einer Li-\ce {LiFePO4}-Zelle \cite {bub_skript}\relax }}{14}
@@ -13,13 +13,13 @@
 \contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Schematische Darstellung der Bragg-Reflexion \cite {wiki_bragg}\relax }}{17}
 \contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Schematischer Aufbau eines NMR-Spektrometers. Der Kryomagnetaufbau (1) mit Spule (a), Einf\IeC {\"u}llstutzen (b, c) und Vakuumm\IeC {\"a}nteln (d), Probenkopf (2), Probe (3), Probenwechsler (4) sowie Shim-Einheit (5). \relax }}{21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Vergleich m\IeC {\"o}glicher Bauformen: Rundzelle, prismatische Zelle, Pouch-Zelle \cite {bub_skript}\relax }}{25}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Vergleich m\IeC {\"o}glicher Bauformen: (a) Rundzelle, (b) prismatische Zelle, (c) Knopfzelle, (d) Pouch-Zelle \cite {tarascon2001issues}\relax }}{26}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Battery-Pack des BMW i3 bestehend aus zwei Batteriemodulen und einem Batteriemanagement \cite {bmwblog}\relax }}{26}
 \contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Schema der IAM-KWT-Testzelle; 1: Plastikkappe, 2: Dichtungsring, 3: Edelstahlfeder, 4: Kathode, 5: Anode, 6: Plastikkappe, 7: Glaszylinder, 8: Kontaktierpl\IeC {\"a}ttchen, 9: Separator, 10: Edelstahlstopfen. \relax }}{27}
 \contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Skizze der Testzelle\relax }}{29}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Stempel oben\relax }}{30}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Stempel oben\relax }}{31}
 \contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Stempel unten\relax }}{31}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces \IeC {\"U}bersicht \IeC {\"u}ber die verschiedenen Teile des in-situ-Testzelle (besseres Foto machen!)\relax }}{31}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces \IeC {\"U}bersicht \IeC {\"u}ber die verschiedenen Teile des in-situ-Testzelle (besseres Foto machen!)\relax }}{32}
 \contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Spule mit Kondensator (links) und eingebaut in den Probenkopf (rechts)\relax }}{33}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Herstellung von \ce {LiTiPO5} \IeC {\"u}ber einen Sol-Gel-Prozess\relax }}{36}
@@ -29,36 +29,38 @@
 \contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Charakterisierung des LATP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{43}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {R\IeC {\"o}ntgendiffraktionsspektrum}}}{43}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAS-NMR-Spektrum}}}{43}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Charakterisierung des LATP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{45}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces R\IeC {\"o}ntgendiffraktionsspektrum der LTO-Probe\relax }}{44}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Charakterisierung des LAGP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{45}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {R\IeC {\"o}ntgendiffraktionsspektrum}}}{45}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAS-NMR-Spektrum}}}{45}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Charakterisierung des LAGP-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{47}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces R\IeC {\"o}ntgendiffraktionsspektrum der LLTO-Probe\relax }}{46}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Charakterisierung des \ce {LiTiPO5}-Pulvers mit (a)~R\IeC {\"o}ntgen\discretionary {-}{}{}diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links \IeC {\"U}bersicht \IeC {\"u}ber verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)\relax }}{47}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {R\IeC {\"o}ntgendiffraktionsspektrum}}}{47}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAS-NMR-Spektrum}}}{47}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces PLATZHALTER\relax }}{48}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces PLATZHALTER\relax }}{49}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces REM-Aufnahmen der verschiedenen Elektrodenfolien bei unterschiedlichen Vergr\IeC {\"o}\IeC {\ss }erungsgraden\relax }}{51}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces EDX-Aufnahmen der unterschiedlichen Folienproben\relax }}{52}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LATP}}}{52}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LAGP}}}{52}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LTO}}}{52}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {LLTO}}}{52}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Charakterisierung des LATP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{55}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces REM-Aufnahmen der verschiedenen Elektrodenfolien bei unterschiedlichen Vergr\IeC {\"o}\IeC {\ss }erungsgraden\relax }}{49}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces EDX-Aufnahmen der unterschiedlichen Folienproben\relax }}{50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LATP}}}{50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LAGP}}}{50}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LTO}}}{50}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {LLTO}}}{50}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Charakterisierung des LATP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{53}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{53}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Charakterisierung des LAGP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{55}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{55}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{55}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{55}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Charakterisierung des LAGP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{57}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Charakterisierung des LTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{57}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{57}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{57}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{57}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Charakterisierung des LTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{59}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{59}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{59}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{59}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{59}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie\relax }}{61}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ladekennlinie}}}{61}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zyklische Voltametrie}}}{61}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Impedanzspektroskopie}}}{61}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Gemessenes Impedanzspektrum (blau) und angefitteter Halbkreis (orange) f\IeC {\"u}r die LTO-LLTO-Li-Zelle\relax }}{62}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Gemessenes Impedanzspektrum (blau) und angefitteter Halbkreis (orange) f\IeC {\"u}r die LTO-LLTO-Li-Zelle\relax }}{60}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces \IeC {\"U}bersicht \IeC {\"u}ber die verschiedenen Kapazit\IeC {\"a}ten der untersuchten Keramiken (in mAh/g)\relax }}{64}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Relativer Verlust der Kapazit\IeC {\"a}t \IeC {\"u}ber elf Zyklierungen\relax }}{65}
 \addvspace {10\p@ }
