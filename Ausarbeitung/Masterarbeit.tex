@@ -23,7 +23,8 @@
 \usepackage{tabularx} % custom-Breite + Anordnung in tabulars
 \usepackage{multirow} % s.o.
 \usepackage{ifthen} % s.o.
-\usepackage[FIGTOPCAP]{subfigure} % Grafiken nebeneinander darstellen
+%\usepackage[FIGTOPCAP]{subfigure} % Grafiken nebeneinander darstellen, deprecated
+\usepackage[position=top, font=small]{subfig}% s.o.
 \usepackage{textcomp} %Euro-Zeichen
 \usepackage{siunitx} % Einheiten korrekt anzeigen
 %\sisetup{
@@ -149,7 +150,7 @@
 \end{figure}
 
 \begin{center}
-\textbf{\huge{ Elektrochemische und kern\-spin\-spek\-tros\-ko\-pische Untersuchung\\[0.4cm]von Festkörperelektrolytkeramiken}}
+\textbf{\huge{ Elektrochemische und kern\-spin\-resonanz- spek\-tros\-ko\-pische Untersuchung von\\[0.4cm]Festkörperelektrolytkeramiken}}
 \end{center}
 \begin{center}
 \textbf{\Large{}}
@@ -716,6 +717,7 @@ Für die Herstellung eines Elektrode-Elektrolyt-Gefüges wird zunächst 1,2g LTO
 Die SPS-Anlage legt nach Einbau erstmal einen Druck von 5kN auf die Matrize auf. Der Druck wird dann auf 7,8kN erhöht, bevor die Temperatur mit 50$^\circ$C/min auf 900$^\circ$C angepasst wird. Diese Temperatur wird eine Minute gehalten, bevor der Druck für fünf Minuten auf 15kN gesteigert wird. Anschließend wird die Probe bei 7,8kN abgekühlt. 
 %Eine Übersicht über den Prozess findet sich in Abbildung (noch einfügen).
 \section{Bau und Betrieb der Batterie-Testzellen}
+\label{bau_zellen}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.95\columnwidth]{images/Messplatz.jpg}
@@ -730,6 +732,9 @@ Der Zusammenbau besteht aus dem Einsetzen des unteren Stempels sowie eines Posit
 \subsection{Untersuchungsroutine der Batterietestzellen} %Evtl. in die Ergebnisse
 Die Batteriezellen werden mit dem Messsystem VMP3 der Firma BioLogic untersucht. Dieses wird mit der Software ECLab in der Version 10.33 angesteuert und ermöglicht die Zyklierung der Zellen, zyklische Voltametrie sowie Impedanzmessungen. Die aufgezeichneten Daten können als zView-Datei exportiert und weiterverarbeitet werden.
 % ECLab-Programme?
+
+%%%%%%%%%%%%%%%%% 5. ERGEBNISSE %%%%%%%%%%%%%%%%%
+
 \chapter{Ergebnisse}
 Die angefertigten Pulver werden mittels Röntgendiffraktion untersucht. Für das LATP-, LAGP- und \ce{LiTiPO5}-Pulver werden außerdem noch Ergebnisse der Untersuchung mit der MAS-NMR-Spektroskopie vorgestellt.
 \\\\
@@ -741,23 +746,17 @@ Die MAS-NMR-Spektroskopie wurde an einem Bruker-Spektroskopen mit einer H$^1$-La
 \newpage
 \subsection{Pulvercharakterisierung des LATP}
 \begin{figure}
-\centering
-\begin{subfigure}[Röntgendiffraktionsspektrum]
-	{
-	\centering
+   \centering
+      \subfloat[Röntgendiffraktionsspektrum]{
 	\includegraphics[width=1.0\columnwidth]{images/XRD_LATP.png}
 	\label{xrd_LATP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[MAS-NMR-Spektrum]
-	{
-	\centering
+	} \vspace{6mm}
+      \subfloat[MAS-NMR-Spektrum]{
 	\includegraphics[width=1.0\columnwidth]{images/MAS_LATP.png}
 	\label{mas_LATP}
-	}
-\end{subfigure}
-\caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+      	} \vspace{3mm}
+	\caption{Charakterisierung des LATP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+   	\label{pulver_LATP}
 \end{figure}
 Die Pulveranalyse erfolgte an einer LATP-Probe mit der in Kapitel \ref{praep_LATP} vorgestellten Sol-Gel-Routine.
 \subsubsection{XRD-Analyse}
@@ -774,23 +773,17 @@ Der rechte Teil der Abbildung \ref{mas_LATP} zeigt eine höher aufgelöste Darst
 	\label{xrd_LTO}
 \end{figure}
 \begin{figure}
-\centering
-\begin{subfigure}[Röntgendiffraktionsspektrum]
-	{
-	\centering
+   \centering
+      \subfloat[Röntgendiffraktionsspektrum]{
 	\includegraphics[width=1.0\columnwidth]{images/XRD_LAGP.png}
 	\label{xrd_LAGP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[MAS-NMR-Spektrum]
-	{
-	\centering
+	} \vspace{6mm}
+      \subfloat[MAS-NMR-Spektrum]{
 	\includegraphics[width=1.0\columnwidth]{images/MAS_LAGP.png}
 	\label{mas_LAGP}
-	}
-\end{subfigure}
-\caption{Charakterisierung des LAGP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+      	} \vspace{3mm}
+	\caption{Charakterisierung des LAGP-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+   	\label{pulver_LAGP}
 \end{figure}
 \subsection{Pulvercharakterisierung des LTO}
 Die Untersuchung der mit dem Mischoxid-Verfahren hergestellten LTO-Pulverprobe mittels XRD (Abbildung \ref{xrd_LTO}) ergibt eine gute Phasenreinheit des Pulvers. Bei \SI{27.5}{\degree} ist eine leichte Rutil (\ce{TiO2}) Fremdphase zu erkennen, die so allerdings auch im kommerziellen Produkt der Firma Sigma-Aldrich detektierbar ist. 
@@ -808,23 +801,17 @@ In Abbildung \ref{mas_LAGP} ist das MAS-NMR-Spektrum des LAGP-Pulvers zu sehen. 
 	\label{xrd_LLTO}
 \end{figure}
 \begin{figure}
-\centering
-\begin{subfigure}[Röntgendiffraktionsspektrum]
-	{
-	\centering
+   \centering
+      \subfloat[Röntgendiffraktionsspektrum]{
 	\includegraphics[width=1.0\columnwidth]{images/XRD_LiTiPO5.png}
 	\label{xrd_LiTiPO5}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[MAS-NMR-Spektrum]
-	{
-	\centering
+	} \vspace{6mm}
+      \subfloat[MAS-NMR-Spektrum]{
 	\includegraphics[width=1.0\columnwidth]{images/MAS_LATP.png}
-	\label{mas_LiTiPO5}
-	}
-\end{subfigure}
-\caption{Charakterisierung des \ce{LiTiPO5}-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+	\label{mas_LiTiPO5}  
+      	} \vspace{3mm}
+	\caption{Charakterisierung des \ce{LiTiPO5}-Pulvers mit (a)~Röntgen\-diffraktionsspektrum und (b)~MAS-NMR-Spektrum (links Übersicht über verschiedene Umdrehungsgeschwindigkeiten, rechts Nahaufnahme des Hauptpeaks bei 4kHz)}
+   	\label{pulver_LiTiPO5}
 \end{figure}
 \subsection{Pulvercharakterisierung des LLTO}
 .
@@ -848,40 +835,25 @@ Für eine genauere Materialuntersuchung wurden anschließend noch EDX-Aufnahmen 
 	\label{uebersicht_rem}
 \end{figure}
 \begin{figure}
-\centering
-\begin{subfigure}[LATP]
-	{
-	\centering
+   \centering
+      \subfloat[LATP]{
 	\includegraphics[width=1.0\columnwidth]{images/EDX_LATP.jpg}
 	\label{edx_LATP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[LAGP]
-	{
-	\centering
+	} \vspace{3mm}
+      \subfloat[LAGP]{
 	\includegraphics[width=1.0\columnwidth]{images/EDX_LAGP.jpg}
-	\label{edx_LAGP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[LTO]
-	{
-	\centering
+	\label{edx_LAGP}   
+      	} \vspace{3mm}
+      \subfloat[LTO]{
 	\includegraphics[width=1.0\columnwidth]{images/EDX_LTO.jpg}
 	\label{edx_LTO}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[LLTO]
-	{
-	\centering
+	} \vspace{3mm}
+      \subfloat[LLTO]{
 	\includegraphics[width=1.0\columnwidth]{images/EDX_LLTO.jpg}
-	\label{edx_LLTO}
-	}
-\end{subfigure}
-\caption{EDX-Aufnahmen der unterschiedlichen Folienproben}
-\label{edx_gesamt}
+	\label{edx_LLTO}  
+      	} \vspace{3mm}
+	\caption{EDX-Aufnahmen der unterschiedlichen Folienproben}
+   	\label{edx_gesamt}
 \end{figure}
 \newpage
 \section{Bestimmung der Masse des Aktivmaterial}
@@ -913,32 +885,21 @@ Die Impedanzmessungen fanden jeweils in einem Frequenzbereich von 1 Hz bis 1 MHz
 \newpage
 \subsection{LATP-Kathode}
 \begin{figure}
-\centering
-\begin{subfigure}[Ladekennlinie]
-	{
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LATP.jpg}
+   \centering
+      \subfloat[Ladekennlinie]{
+	\includegraphics[width=1.00\columnwidth]{images/GCPL_LATP.jpg}
 	\label{gcpl_LATP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Zyklische Voltametrie]
-	{
-	\centering
+	} \vspace{3mm}
+      \subfloat[Zyklische Voltametrie]{
 	\includegraphics[width=0.85\columnwidth]{images/CV_LATP.jpg}
-	\label{cv_LATP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Impedanzspektroskopie]
-	{
-	\centering
+	\label{cv_LATP}   
+      	} \vspace{3mm}
+      \subfloat[Impedanzspektroskopie]{
 	\includegraphics[width=0.85\columnwidth]{images/IS_LATP.jpg}
-	\label{is_LATP}
-	}
-\end{subfigure}
-\caption{Charakterisierung des LATP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
-\label{pulver_LATP}
+	\label{is_LATP}    
+      	} \vspace{3mm}
+	\caption{Charakterisierung des LATP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+   	\label{ec_LATP}
 \end{figure}
 Die LATP-Probe wurde in einem Spannungsbereich von 1,5V bis 4,0V zykliert. Für die zyklische Voltametrie wurde der Potentialbereich von 1,2V bis 4,0V gewählt.
 \subsubsection{Ladekennlinien}
@@ -953,31 +914,21 @@ Die Messung der Impedanz wird in Abbildung \ref{is_LATP} im Nyquist-Plot dargest
 \newpage
 \subsection{LAGP-Kathode}
 \begin{figure}
-\centering
-\begin{subfigure}[Ladekennlinie]
-	{
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LAGP.jpg}
+   \centering
+      \subfloat[Ladekennlinie]{
+	\includegraphics[width=1.00\columnwidth]{images/GCPL_LAGP.jpg}
 	\label{gcpl_LAGP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Zyklische Voltametrie]
-	{
-	\centering
+	} \vspace{3mm}
+      \subfloat[Zyklische Voltametrie]{
 	\includegraphics[width=0.85\columnwidth]{images/CV_LAGP.jpg}
-	\label{cv_LAGP}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Impedanzspektroskopie]
-	{
-	\centering
+	\label{cv_LAGP}   
+      	} \vspace{3mm}
+      \subfloat[Impedanzspektroskopie]{
 	\includegraphics[width=0.85\columnwidth]{images/IS_LAGP.jpg}
-	\label{is_LAGP}
-	}
-\end{subfigure}
-\caption{Charakterisierung des LAGP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+	\label{is_LAGP}    
+      	} \vspace{3mm}
+	\caption{Charakterisierung des LAGP mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+   	\label{ec_LAGP}
 \end{figure}
 Der Spannungsbereich für die Zyklierung der LAGP-Probe lag zwischen 1,5V und 4,0V. In der zyklischen Voltametrie wurde ein Spannungsbereich von 1,2V bis 4,0V abgefahren.
 \subsubsection{Ladekennlinien}
@@ -991,31 +942,21 @@ Eine Darstellung der Impedanzmessung der LAGP-Probe in Nyquist-Darstellung wird 
 \newpage
 \subsection{LTO-Kathode}
 \begin{figure}
-\centering
-\begin{subfigure}[Ladekennlinie]
-	{
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LTO.jpg}
+   \centering
+      \subfloat[Ladekennlinie]{
+	\includegraphics[width=1.00\columnwidth]{images/GCPL_LTO.jpg}
 	\label{gcpl_LTO}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Zyklische Voltametrie]
-	{
-	\centering
+	} \vspace{3mm}
+      \subfloat[Zyklische Voltametrie]{
 	\includegraphics[width=0.85\columnwidth]{images/CV_LTO.jpg}
-	\label{cv_LTO}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Impedanzspektroskopie]
-	{
-	\centering
+	\label{cv_LTO}   
+      	} \vspace{3mm}
+      \subfloat[Impedanzspektroskopie]{
 	\includegraphics[width=0.85\columnwidth]{images/IS_LTO.jpg}
-	\label{is_LTO}
-	}
-\end{subfigure}
-\caption{Charakterisierung des LTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+	\label{is_LTO}    
+      	} \vspace{3mm}
+	\caption{Charakterisierung des LTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+   	\label{ec_LTO}
 \end{figure}
 Die LTO-Probe wurde im Bereich zwischen 1,2V und 2,1V zykliert. Für die zyklische Voltametrie wurden als Grenzen 1,0V und 4,0V gewählt.
 \subsubsection{Ladekennlinien}
@@ -1029,32 +970,21 @@ Die Impedanzmessung, dargestellt im Nyquist-Plot in Abbildung \ref{is_LTO}, der 
 \newpage
 \subsection{LLTO-Kathode}
 \begin{figure}
-\centering
-\begin{subfigure}[Ladekennlinie]
-	{
-	\centering
-	\includegraphics[width=1.0\columnwidth]{images/GCPL_LLTO.jpg}
+   \centering
+      \subfloat[Ladekennlinie]{
+	\includegraphics[width=1.00\columnwidth]{images/GCPL_LLTO.jpg}
 	\label{gcpl_LLTO}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Zyklische Voltametrie]
-	{
-	\centering
+	} \vspace{3mm}
+      \subfloat[Zyklische Voltametrie]{
 	\includegraphics[width=0.85\columnwidth]{images/CV_LLTO.jpg}
-	\label{cv_LLTO}
-	}
-\end{subfigure}
-~
-\begin{subfigure}[Impedanzspektroskopie]
-	{
-	\centering
+	\label{cv_LLTO}   
+      	} \vspace{3mm}
+      \subfloat[Impedanzspektroskopie]{
 	\includegraphics[width=0.85\columnwidth]{images/IS_LLTO.jpg}
-	\label{is_LLTO}
-	}
-\end{subfigure}
-\caption{Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
-\label{pulver_LLTO}
+	\label{is_LLTO}    
+      	} \vspace{3mm}
+	\caption{Charakterisierung des LLTO mit (a)~Ladekennlinie, (b)~Zyklischer Voltametrie, (c)~Impedanzspektroskopie}
+   	\label{ec_LLTO}
 \end{figure}
 Der Spannungsbereich für die Zyklierung der LLTO-Probe lag zwischen 0,8V und 4,2V. Als Lade- und Entladestrom wurde anstatt der sonst gewählten 50$\mu$A ein Strom von \SI{100}{\micro\ampere} angelegt. In der zyklischen Voltametrie wurde ein Spannungsbereich von 0,8V bis 4,2V abgefahren.
 \subsubsection{Ladekennlinien}
@@ -1080,8 +1010,83 @@ Für die Impedanzmessungen der Gefügeprobe wurde die Spannung der Sinusamplitud
 Abbildung \ref{is_Gefuege} zeigt das gemessene Impedanzspektrum. Es kann dabei ein Halbkreis an die fehlerbehaftete Messung angefittet werden. Dieser trifft die X-Achse bei einem Realteil von \SI{10}{\kilo\ohm} und \SI{36.5}{\mega\ohm}. An beiden Stellen beträgt der Innenwinkel zur X-Achse dabei \SI{75}{\degree}
 \newpage
 \section{In-situ NMR-Messungen}
+.
 \subsection{Referenzmessung}
+Um das Spektroskop zu kalibrieren wurden zunächst Referenzmessungen mit einer Lithium\-chlorid-Lösung. Dazu wurde Lithiumchlorid (FIRMA) im Masseverhältnis $1:2$ in Wasser gelöst. Die Lösung wurde sowohl in ein handelsübliches 10mm NMR-Röhrchen als auch in eine Batterietestzelle eingefüllt. In der Zelle wurden dabei vier Lagen Separator mit der Lösung benetzt, um die Flüssigkeit im Messbereich zu halten.
+\subsubsection{Einstellen der Geräteparameter}
+\begin{table}[h]
+\centering
+\begin{tabular}{L{5.0cm} L{5.0cm}}
+\toprule
+ \textbf{Parameter}&\textbf{Wert} \\
+\midrule
+Datenpunkte pro Scan& 16384\\
+\midrule
+Bandbreite& \SI{2.5}{\kilo\hertz}\\
+\midrule
+Receiver Gain& 11,3\\
+\midrule
+Dwell Time& \SI{40}{\micro\sec}\\
+\midrule
+Todzeit& \SI{6}{\micro\sec}\\
+\midrule
+D1& \SI{5}{\sec}\\
+\midrule
+Pulslänge (0db)& \SI{12}{\micro\sec}\\
+\bottomrule
+\end{tabular}
+ \caption{Parameter für das Messen des Kalibrierspektrums mit der LiCl-Lösung}
+ \label{tabelle_massen}
+ \end{table} 
+\begin{figure}
+   \centering
+      \subfloat[Diffusionsmessung  der LiCl-Lösung in einem NMR-Röhrchen]{
+	\includegraphics[width=0.95\columnwidth]{images/LiCl_Diff.jpg}
+	\label{LiCl_Diff}
+	} \vspace{10mm}
+      \subfloat[Diffusionsmessung der LiCl-Lösung in der Batterietestzelle]{
+	\includegraphics[width=0.95\columnwidth]{images/LiCl_Diff_Batterie.jpg}
+	\label{LiCl_Diff_Batterie}      
+      	} \vspace{6mm}
+	\caption{Vergleich der Diffusionsmessung der LiCl-Lösung in einem NMR-Röhrchen und in der Batterietestzelle}
+   	\label{vergleich_diff}
+\end{figure}
+\subsubsection{Diffusionsmessungen}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\columnwidth]{images/LiCl_Batterie.jpg}
+	\label{LiCl_Batterie_NMR} 
+	\caption{Spektrum der LiCL-Lösung innerhalb der Batterietestzelle}
+	\label{LiCl_Batterie_NMR}
+\end{figure} 
 \subsection{Lithium-Schwefel-Zelle}
+Für die in-situ-NMR-Batterietestzelle wurde eine Lithium-Schwefel-Zelle gebaut. Dies erfolgte äquivalent zum im Kapitel \ref{bau_zellen} vorgestellten Verfahren für die herkömmlichen Batterietestzellen. Die Größe der Elektroden und der Separatoren wurde auf einen Durchmesser von \SI{6}{\milli\meter} verringert. Als Elektrolyt kamen \SI{20}{\micro\liter} einer ???-Lösung zum Einsatz.
+\\\\
+Mit der Lithium-Schwefel-Testzelle wurden drei Messungen durchgeführt. Es wurde jeweils ein NMR-Spektrum vor und nach einer 90 minütigen Ladephase aufgenommen. Geladen wurde mit einem Strom von \SI{50}{\micro\ampere}. Außerdem wurde vor dem Ladevorgang eine Diffusionsmessung durchgeführt.
+\subsubsection{Spektren der LiS-Testzelle}
+\begin{figure}
+   \centering
+      \subfloat[Spektrum der Lithium-Schwefel-Zelle vor dem Laden]{
+	\includegraphics[width=0.75\columnwidth]{images/LiS_VorLaden.jpg}
+	\label{LiS_VorLaden}
+	} \vspace{10mm}
+      \subfloat[Spektrum der Lithium-Schwefel-Zelle nach 90 minütigem Laden]{
+	\includegraphics[width=0.75\columnwidth]{images/LiS_NachLaden.jpg}
+	\label{LiS_NachLaden}      
+      	} \vspace{6mm}
+	\caption{Spektren der in-situ-NMR-Batterietestzelle}
+   	\label{insitu_nmr}
+\end{figure}    
+\subsubsection{Diffusionsmessungen}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\columnwidth]{images/LiS_Diff_Batterie.jpg}
+	\label{LiS_Diff_Batterie} 
+	\caption{Diffusionsmessung der LiS-Batterietestzelle}
+	\label{LiS_Diff}
+\end{figure} 
+%%%%%%%%%%%%%%%%% 6. DISKUSSION %%%%%%%%%%%%%%%%%
+
 \chapter{Diskussion}
 Die im vorherigen Kapitel erhaltenen Ergebnisse der elektrochemischen Untersuchung ermöglichen Rückschlüsse auf die Eignung der Materialien als Festkörperelektrolyt. Die Ladekennlinien ermöglichen eine Aussage über den Grad der Reaktion des Materials mit dem Lithium. Mit der zyklischen Voltametrie sind Aussagen über mögliche Arbeitsspannungen für die Materialien möglich. Für die Impedanzspektroskopie wird ein elektrochemisches Ersatzschaltbild motiviert. Mit diesem werden Aussagen über Grenzschichten und Diffusionsverhalten der Zellen getroffen.
 \\\\
@@ -1116,19 +1121,19 @@ Mittels der molaren Masse einer Struktureinheit können die Kapazitäten der unt
 Die Ergebnisse dieser Berechnung für die untersuchten Materialien lassen sich in Tabelle \ref{berechnung_insertation} finden.
 \\
 \begin{table}[h]
-\begin{tabular}{L{2.2cm} L{3.5cm} L{3.2cm} L{2.2cm} L{2.2cm}}
+\begin{tabular}{L{1.3cm} L{3.5cm} L{3.5cm} L{2.4cm} L{2.6cm}}
 \toprule
 &\textbf{LATP}&\textbf{LAGP}&\textbf{LTO}&\textbf{LLTO} \\
 \midrule
-\textbf{SE} & \ce{Li_{1,3}Al_{0,3}Ti_{1,7}(PO4)3} & \ce{} & \ce{Li4Ti5O12} & \ce{} \\
+\textbf{SE} & \ce{Li_{1,3}Al_{0,3}Ti_{1,7}(PO4)3} & \ce{Li_{1,3}Al_{0,3}Ge_{1,7}(PO4)3} & \ce{Li4Ti5O12} & \ce{Li_{0,33}La_{0,577}TiO3} \\
 \midrule
-\textbf{Mol. Masse} & \SI{383.8}{\gram\per\mol}&& \SI{412}{\gram\per\mol}& \\
+\textbf{M} & \SI{383.8}{\gram\per\mol}&& \SI{459.1}{\gram\per\mol}&  \SI{175,5}{\gram\per\mol}\\
 \midrule
-\textbf{Kapazität} & \SI{61.3}{\milli\ampere\hour\per\gram} && \SI{186.4}{\milli\ampere\hour\per\gram}& \\
+\textbf{C} & \SI{61.3}{\milli\ampere\hour\per\gram} &  \SI{4.13}{\milli\ampere\hour\per\gram} & \SI{186.4}{\milli\ampere\hour\per\gram}&  \SI{44.4}{\milli\ampere\hour\per\gram}\\
 \midrule
-\textbf{Kap./Mol} & \SI{23.53}{\ampere\hour\per\mol} && \SI{76.80}{\ampere\hour\per\mol}& \\
+\textbf{C/M} & \SI{23.53}{\ampere\hour\per\mol} && \SI{85.58}{\ampere\hour\per\mol}&  \SI{7.79}{\ampere\hour\per\mol}\\
 \midrule
-\textbf{Li$^+$/SE} & 0,878 && 2,866 & \\
+\textbf{Li$^+$/SE} & 0,878 && 3,193 & 0,291\\
 \bottomrule
 \end{tabular}
 \caption{Eingebaute Lithiumionen pro Struktureinheit (SE)}
@@ -1145,6 +1150,19 @@ bla
 \section{Diskussion der Kernspinresonanzspektroskopie}
 \subsection{Eignung der MAS-NMR für die Pulvercharakterisierung}
 \subsection{Rest}
+\begin{figure}
+   \centering
+      \subfloat[Vergleich der LiCl-Referenz (rot) mit der LiS-Zelle (grün) vor dem Laden]{
+	\includegraphics[width=0.75\columnwidth]{images/LiCl_LiS_Vergleich.jpg}
+	\label{LiS_VorLaden}
+	} \vspace{10mm}
+      \subfloat[Vergleich der LiS-Zelle vor (grün) und nach (lila) dem 90 minütigem Laden]{
+	\includegraphics[width=0.75\columnwidth]{images/LiS_VergleichLaden.jpg}
+	\label{LiS_NachLaden}      
+      	} \vspace{6mm}
+	\caption{Auswertung der in-situ-NMR-Spektren}
+   	\label{insitu_nmr_auswertung}
+\end{figure}   
 \chapter{Fazit}
 \section{Zusammenfassung}
 \section{Ausblick}
