@@ -1,0 +1,40 @@
+
+Current Data Parameters
+NAME     cg_7Li_Diff30_5mm                
+EXPNO                 7                
+PROCNO                1                
+
+F2 - Acquisition Parameters
+Date_          20150921                
+Time              16.16                
+INSTRUM           spect                
+PROBHD   5 mm diff30 1H                
+PULPROG              zg                
+TD                32768                
+SOLVENT                                
+NS                 1024                
+DS                    0                
+SWH           40000.000 Hz             
+FIDRES         1.220703 Hz             
+AQ            0.4096625 sec            
+RG                 90.5                
+DW               12.500 usec           
+DE                 6.00 usec           
+TE                300.0 K              
+D1           2.00000000 sec            
+TD0                   1                
+
+======== CHANNEL f1 ========
+NUC1                7Li                
+P1                20.00 usec           
+PL1                0.00 dB             
+SFO1         77.7971745 MHz            
+
+F2 - Processing parameters
+SI                32768                
+SF           77.7870682 MHz            
+WDW                  EM                
+SSB                   0                
+LB                50.00 Hz             
+GB                    0                
+PC                 1.00                

@@ -1,0 +1,301 @@
+# 1 "/opt/PV4.0/exp/stan/nmr/lists/pp/diffSte"
+;diffSte
+;2D stimulated echo sequence
+;new version including decoupling 13.05.04 KLZ
+;comments updated 24.06.04 KLZ
+;decoupling corrected 02.07.04 KLZ
+
+# 1 "/opt/PV4.0/exp/stan/nmr/lists/pp/Grad.incl" 1
+;Grad.incl  -  include file for Gradient Spectroscopy
+;
+;avance-version (02/05/31)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+define list<gradient> EA=<EA>
+
+
+
+;$Id: Grad1.incl,v 1.7 2002/06/12 09:04:22 ber Exp $
+# 7 "/opt/PV4.0/exp/stan/nmr/lists/pp/diffSte" 2
+
+# 1 "/opt/PV4.0/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance.incl
+;
+;avance-version (03/02/17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;$Id: Avance1.incl,v 1.10 2003/02/25 14:46:08 ber Exp $
+# 8 "/opt/PV4.0/exp/stan/nmr/lists/pp/diffSte" 2
+
+ze
+10u 
+5m pl1:f1		;set rf power level
+
+start,      1u
+if (l14) {                              ; if decoupling in use  
+            1u do:f2                    ; decoupler off during d1
+} else  { 
+            1u
+} 
+ if (l12) {                             ; if lock in use
+	    	d1 setnmr2^0                ; lock on during d1
+			d11 setnmr0|34|32|33 setnmr2|0	    ; unblank gradient amplifier, lock hold during experiment
+} else {                                ; if locnuc off
+	    	d1
+			d11 setnmr0|34|32|33              ; unblank gradient amplifier
+}
+;-------------------------- Start of dummy gradient loop ---------------------------
+if (l3) {                               ; dummy gradient pulses in use
+			dummy,	p17:gp1*diff_ramp	; trapezoidal gradient pulse
+				p18:gp2*diff_ramp		; trapezoidal gradient pulse
+				p17:gp3*diff_ramp		; trapezoidal gradient pulse
+				d2				        ; gradient stabilisation time
+				d9 setnmr0^34^32^33			    ; tau
+    if (l11) {	                        ; if spoiler in use
+                d11 setnmr0|34|32|33			; unblank gradient amplifier
+				p17:gp4				    ; trapezoidal gradient pulse
+				p19:gp5				    ; trapezoidal gradient pulse
+				p17:gp6				    ; trapezoidal gradient pulse
+				d2                      ; gradient stabilisation time
+	}			
+	if (l12) {                          ; if lock in use
+				d5 setnmr0^34^32^33 setnmr2^0		; blank gradient amp., lock on during long tau
+  				d11 setnmr0|34|32|33 setnmr2|0 	; unblank gradient amplifier
+	} else {                            ; if locnuc off
+				d5 setnmr0^34^32^33			    ; long tau
+  				d11 setnmr0|34|32|33 			; unblank gradient amplifier
+	}
+			lo to dummy times l13       ; l13 number of dummy gradient pulses
+}
+;-------------------------- Start of experiment -----------------------------------
+  			p1:f1 ph1			        ; 90 degree pulse
+			p17:gp1*diff_ramp		    ; trapezoidal gradient pulse
+			p18:gp2*diff_ramp		    ; trapezoidal gradient pulse
+			p17:gp3*diff_ramp		    ; trapezoidal gradient pulse
+			d2				            ; gradient stabilisation time
+			d9 setnmr0^34^32^33			        ; tau
+			p1:f1 ph2			        ; 90 degree pulse
+if (l11) {	                            ; if spoiler in use
+            d11 setnmr0|34|32|33			    ; unblank gradient amplifier
+			p17:gp4				        ; trapezoidal gradient pulse
+			p19:gp5				        ; trapezoidal gradient pulse
+			p17:gp6				        ; trapezoidal gradient pulse
+			d2				            ; gradient stabilisation time
+}			
+if (l12) {                              ; if lock in use 
+			d5 setnmr0^34^32^33 setnmr2^0		; blank gradient amp., lock on during long tau
+  			d11 setnmr0|34|32|33 setnmr2|0 	; unblank gradient amplifier
+} else {                                ; if locnuc off
+			d5 setnmr0^34^32^33			        ; long tau
+  			d11 setnmr0|34|32|33 			    ; unblank gradient amplifier
+}
+  			p1:f1 ph3			        ; 90 degree pulse
+			p17:gp1*diff_ramp		    ; trapezoidal gradient pulse
+			p18:gp2*diff_ramp		    ; trapezoidal gradient pulse
+			p17:gp3*diff_ramp		    ; trapezoidal gradient pulse
+			d2				            ; gradient stabilisation time
+  			d10 ph0 setnmr0^34^32^33 		    ; tau
+if (l14) {                              ; if f2 on
+		go=start ph31 cpd2:f2           ; start acquisition with decoupling
+} else {                                ; if f2 off
+		go=start ph31                   ; start acquisition
+}
+  		100u wr #0 if #0 zd igrad diff_ramp     ; store data, increment gradient ramp
+    	lo to start times td1 		    ; td1 = number of gradientsteps
+if (l14) {                              ; if decoupling in use  
+        100m do:f2                      ; wait for data storage, decoupler off
+} else  { 
+        100m                            ; wait for data storage
+} 
+if (l12) {                              ; if lock in use  
+    	100m rf #0 setnmr2^0		    ; reset file pointer, lock on
+} else {                                ; if locnuc off
+    	100m rf #0 					    ; reset file pointer
+}
+	lo to start times l1			    ; l1 = Number of repetitions
+exit
+
+ph0=0
+ph1= 0 0 0 0 2 2 2 2  1 1 1 1 3 3 3 3
+ph2= 1 3 0 2
+ph3= 1 3 0 2
+ph31=0 0 2 2 2 2 0 0  3 3 1 1 1 1 3 3 
+
+;pl1: f1 channel - power level for pulse (default)
+;p1: f1 channel -  90 degree pulse
+;p17: gradient ramp time
+;p18: gradient duration - p17
+;p19: spoil gradient duration - 2*p17
+;d1: relaxation delay; 1-5 * T1
+;d2: gradient stabilisation time
+;d5: DELTA remainder
+;d9: tau remainder
+;d10: tau remainder, used to shift trigger position
+;d11: gradient amplifier unblank delay 200 us
+
+;gpnam1: ramp up of trapezoidal
+;gpnam2: plateau of trapezoidal
+;gpnam3: ramp down of trapezoidal
+;gpnam4: ramp up of trapezoidal
+;gpnam5: plateau of trapezoidal
+;gpnam6: ramp down of trapezoidal
+;gpx1: x-diffusion gradient amplitude
+;gpx2: x-diffusion gradient amplitude
+;gpx3: x-diffusion gradient amplitude
+;gpx4: x-spoiler gradient amplitude
+;gpx5: x-spoiler gradient amplitude
+;gpx6: x-spoiler gradient amplitude
+;gpy1: y-diffusion gradient amplitude
+;gpy2: y-diffusion gradient amplitude
+;gpy3: y-diffusion gradient amplitude
+;gpy4: y-spoiler gradient amplitude
+;gpy5: y-spoiler gradient amplitude
+;gpy6: y-spoiler gradient amplitude
+;gpz1: z-diffusion gradient amplitude
+;gpz2: z-diffusion gradient amplitude
+;gpz3: z-diffusion gradient amplitude
+;gpz4: z-spoiler gradient amplitude
+;gpz5: z-spoiler gradient amplitude
+;gpz6: z-spoiler gradient amplitude
+
+;NS: 16 * n
+;td1: number of experiments
+;l1: Repetitions of the whole experiment
+;l3: dummy gradient pulses off/on 0/1
+;l11: spoil gradient off/on 0/1
+;l12: lock off/on 0/1
+;l13: number of dummy gradient pulses
+;l14: decoupling off/on 0/1
+;l21: diffusion gradient list type
+;l27: use taumin off/on 0/1
+;l28: use default parameters off/on 0/1
+;l29: use userdefined pulse program off/on 0/1

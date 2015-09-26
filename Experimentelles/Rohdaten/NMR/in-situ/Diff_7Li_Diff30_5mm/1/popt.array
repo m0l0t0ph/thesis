@@ -1,0 +1,2 @@
+global serfile 0
+	P1	POSMAX	2.5	40	15	LIN	null	

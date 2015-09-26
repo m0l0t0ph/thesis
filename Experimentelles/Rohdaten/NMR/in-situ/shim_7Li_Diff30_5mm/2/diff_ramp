@@ -1,0 +1,27 @@
+##TITLE= /opt/PV4.0/exp/stan/nmr/lists/gp/diff_ramp
+##JCAMP-DX= 5.00 Bruker JCAMP library
+##DATA TYPE= Shape Data
+##ORIGIN= Bruker Analytik GmbH
+##OWNER= <nmr>
+##DATE= 13/09/09
+##TIME= 17:15:46
+##MINX= 0.000000e+00
+##MAXX= nan
+##MINY= 7.272727e-01
+##MAXY= 1.000000e+00
+##$SHAPE_EXMODE= Gradient
+##$SHAPE_TOTROT= 0.000000e+00
+##$SHAPE_BWFAC= 0.000000e+00
+##$SHAPE_INTEGFAC= 8.636364e-01
+##$SHAPE_MODE= 0
+##NPOINTS= 8
+##XYDATA= (X++(Y..Y))
+7.272727e-01
+7.662338e-01
+8.051948e-01
+8.441558e-01
+8.831169e-01
+9.220779e-01
+9.610390e-01
+1.000000e+00
+##END= 

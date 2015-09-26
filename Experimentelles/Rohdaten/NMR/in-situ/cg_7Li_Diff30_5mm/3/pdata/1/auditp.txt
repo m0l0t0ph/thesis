@@ -1,0 +1,29 @@
+##TITLE= Audit trail, TOPSPIN		Version 1.5
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ /opt/topspin/data/nmrsu/nmr/cg_7Li_Diff30_5mm/3/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, VERSION, WHAT)
+(   1,<2015-09-21 09:10:57.291 +0200>,<nmr>,<MVMVM040>,<TOPSPIN 1.5>,
+      <created by zg, POWCHK disabled, PULCHK disabled
+       configuration hash MD5:
+       ED F1 76 3F A2 B6 ED 28 3C A7 AB 05 BF B1 EB E8
+       data hash MD5: 64K
+       62 5B 96 DB D1 47 A3 C2 B7 59 BF A2 C4 E0 12 65>)
+(   2,<2015-09-21 09:11:11.674 +0200>,<nmr>,<MVMVM040>,<TOPSPIN 1.5>,
+      <Start of raw data processing
+       em BC_mod = 2 LB = 15 SI = 8K 
+       data hash MD5: 8K
+       5B A3 F1 0D F5 45 4B 71 29 DA D9 06 F6 BD E3 69>)
+(   3,<2015-09-21 09:11:19.825 +0200>,<nmr>,<MVMVM040>,<TOPSPIN 1.5>,
+      <ft FT_mod = 6 PKNL = 1 SI = 8K 
+       data hash MD5: 8K
+       87 FB 5D 2F 14 4E D7 47 EB 38 CE EB C6 D7 E4 35>)
+(   4,<2015-09-21 09:11:23.959 +0200>,<nmr>,<MVMVM040>,<TOPSPIN 1.5>,
+      <apk 
+       data hash MD5: 8K
+       A4 8C 2C 2D 4F 54 6B 4B 38 E2 3A D3 3C BD 69 4F>)
+##END=
+
+$$ hash MD5
+$$ E1 0C 72 A2 64 6D 90 C6 34 DA D7 03 81 8F 43 59

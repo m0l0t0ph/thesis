@@ -1,0 +1,15 @@
+##TITLE= Parameter file, TOPSPIN		Version 1.5
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##ORIGIN= UXNMR, Bruker Analytische Messtechnik GmbH
+##OWNER= root
+$$ 2015-09-22 11:43:35.026 +0200  nmr@MVMVM040
+$$ /opt/topspin/data/nmrsu/nmr/shim_7Li_Diff30_5mm/3/pdata/1/outd
+##$CURPLOT= <hplj5100>
+##$CURPRIN= <$noprint>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##$SURQMSG= 1
+##END=
