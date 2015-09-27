@@ -883,6 +883,7 @@ Da der Massenanteil des jeweiligen Aktivmaterials auf 45\% der gesamten Elektrod
  \label{tabelle_massen}
  \end{table} 
 \section{Elektrochemische Analyse der Elektrodenproben}
+\label{elektrochemische_analyse}
 Alle Elektrodenproben wurden als Kathoden gegen reines Lithiummetall verbaut und insgesamt elf mal ge- und entladen. Dabei wurde jeweils ein Lade- und Entladestrom von 50$\mu$A angelegt, bis eine definierte Abbruchspannung erreicht wurde.
 \\\\
 Bei der zyklischen Voltametrie wurden die Grenzen der Messung jeweils so gewählt, dass möglichst alle Reaktionen innerhalb der Zelle abgebildet wurden. Problematisch dabei war der Einfluss des Graphits innerhalb des Leitrußes. Dieser ist in der Lage Lithiumionen interkalieren zu lassen. Diese Reaktion findet bei einem abnehmenden Potential von etwa 0,6V statt, beginnt jedoch schon im Bereich zwischen 1,0 und 1,2V. Um eine vom Graphiteinfluss möglichst freie Messung aufnehmen zu können, wurde daher der untere Zyklierbereich so gewählt, dass gerade der beginnende Graphitpeak zu erkennen ist.
@@ -1075,6 +1076,15 @@ Für die Referenzproben wurden Diffusionsmessungen durchgeführt. Die Darstellun
 Für die in-situ-NMR-Batterietestzelle wurde eine Lithium-Schwefel-Zelle gebaut. Dies erfolgte äquivalent zum im Kapitel \ref{bau_zellen} vorgestellten Verfahren für die herkömmlichen Batterietestzellen. Die Größe der Elektroden und der Separatoren wurde auf einen Durchmesser von \SI{6}{\milli\meter} verringert. Als Elektrolyt kamen \SI{20}{\micro\liter} einer ???-Lösung zum Einsatz.
 \\\\
 Mit der Lithium-Schwefel-Testzelle wurden drei Messungen durchgeführt. Es wurde jeweils ein NMR-Spektrum vor und nach einer 90 minütigen Ladephase aufgenommen. Geladen wurde mit einem Strom von \SI{50}{\micro\ampere}. Außerdem wurde vor dem Ladevorgang eine Diffusionsmessung durchgeführt.
+\subsubsection{Diffusionsmessung}
+Die Diffusionsmessung an der Lithium-Schwefel-Testzelle zeigt ein starkes Rauschen. Abbildung \ref{LiS_Diff} zeigt die zugehörige Darstellung. Der Diffusionskoeffizient konnte bestimmt werden zu \SI{6,34e-11}{\square\meter\per\sec}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\columnwidth]{images/LiS_Diff_Batterie.jpg}
+	\label{LiS_Diff_Batterie} 
+	\caption{Diffusionsmessung der LiS-Batterietestzelle}
+	\label{LiS_Diff}
+\end{figure} 
 \subsubsection{Spektren der LiS-Testzelle}
 \begin{figure}
    \centering
@@ -1088,15 +1098,11 @@ Mit der Lithium-Schwefel-Testzelle wurden drei Messungen durchgeführt. Es wurde
       	} \vspace{6mm}
 	\caption{Spektren der in-situ-NMR-Batterietestzelle}
    	\label{insitu_nmr}
-\end{figure}    
-\subsubsection{Diffusionsmessungen}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.95\columnwidth]{images/LiS_Diff_Batterie.jpg}
-	\label{LiS_Diff_Batterie} 
-	\caption{Diffusionsmessung der LiS-Batterietestzelle}
-	\label{LiS_Diff}
-\end{figure} 
+\end{figure}  
+Das Spektrum der Lithium-Schwefel-Testzelle zeigt in Abbildung \ref{LiS_VorLaden} zwei Peaks. Einen großen, scharfen Peak auf dem geeichten Lithiumionen-Punkt von 0\;ppm sowie einen breiteren und weniger starken Peak bei etwa 245\;ppm. Dieser ist dem Lithiummetall zuzuordnen.
+\\\\
+Nach dem 90 minütigem Laden zeigt sich in Abbildung \ref{LiS_NachLaden} ein deutliche Vergrößerung des Peaks des metallischem Lithiums. Außerdem haben sich zwei weitere, weniger intensive Peaks in unmittelbarer Nähe zum Lithiumionen-Peak gebildet. Diese sind in die negative Richtung verschoben und könnten Übergangsprodukte des Ladeprozesses darstellen.
+  
 %%%%%%%%%%%%%%%%% 6. DISKUSSION %%%%%%%%%%%%%%%%%
 
 \chapter{Diskussion}
@@ -1128,9 +1134,9 @@ Mit nur \SI{4}{\milli\ampere\hour\per\gram} erreicht das LAGP quasi keine Kapazi
 \end{figure}
 Während der Zyklierung kommt es auch zu einem Verlust an Kapazität. Dieser Verlust ist ein Maß für die Degradierung des Materials. Durch ungewollte Nebenreaktionen entwickeln die Elektrodenmaterialien passivierte Schichten, die dann verhindern, dass Material an der Zyklierung teilnimmt. Eine Übersicht über den Verlust an Kapazität gibt Abbildung \ref{kapazitaetsverlust}. Zu erkennen ist, dass die LTO- und die LAGP-Probe jeweils nur knapp \SI{3}{\percent} ihrer ursprünglichen Kapazität verlieren und sich auf diesem Niveau auch stabilisieren. Das LLTO sowie das LATP hingegen haben nach elf Zyklierungen schon über \SI{10}{\percent} ihrer ursprünglichen Kapazität verloren. Dieser Trend scheint sich außerdem auch noch weiter fortzusetzen.
 \subsection{Analyse der Lithiuminsertation}
-Mittels der molaren Masse einer Struktureinheit können die Kapazitäten der untersuchten Materialien umgerechnet werden zur Anzahl der pro Struktureinheit eingebauten Lithiumionen. Ein Lithiumion besitzt eine einfache elektrischen Ladung, was \SI{1.602e-19}{\coulomb} entspricht. Ein Coulomb sind umgerechnet \SI{0.28}{\milli\ampere\hour}. Mit der Avogadrozahl lässt sich damit die Ladung pro Mol bestimmen zu \SI{26.8}{\ampere\hour\per\mol}.
+Mittels der molaren Masse einer Struktureinheit können die Kapazitäten der untersuchten Materialien umgerechnet werden zur Anzahl der pro Struktureinheit eingebauten Lithium\-ionen. Ein Lithiumion besitzt eine einfache elektrischen Ladung, was \SI{1.602e-19}{\coulomb} entspricht. Ein Coulomb sind umgerechnet \SI{0.28}{\milli\ampere\hour}. Mit der Avogadrozahl lässt sich damit die Ladung pro Mol bestimmen zu \SI{26.8}{\ampere\hour\per\mol}.
 \\\\
-Die Ergebnisse dieser Berechnung für die untersuchten Materialien lassen sich in Tabelle \ref{berechnung_insertation} finden.
+Die Ergebnisse dieser Berechnung für die untersuchten Materialien lassen sich in Tabelle \ref{berechnung_insertation} finden. Es fällt auf, dass pro Struktureinheit in das LATP beinahe dreimal mehr Lithium\-ionen eingebaut werden, als in das LLTO. Das LAGP bleibt wie zu erwarten nahezu frei von Insertation, das LTO baut mehr als drei Ionen pro Struktureinheit ein.
 \\
 \begin{table}[h]
 \begin{tabular}{L{1.3cm} L{3.5cm} L{3.5cm} L{2.4cm} L{2.6cm}}
@@ -1139,13 +1145,13 @@ Die Ergebnisse dieser Berechnung für die untersuchten Materialien lassen sich i
 \midrule
 \textbf{SE} & \ce{Li_{1,3}Al_{0,3}Ti_{1,7}(PO4)3} & \ce{Li_{1,3}Al_{0,3}Ge_{1,7}(PO4)3} & \ce{Li4Ti5O12} & \ce{Li_{0,33}La_{0,577}TiO3} \\
 \midrule
-\textbf{M} & \SI{383.8}{\gram\per\mol}&& \SI{459.1}{\gram\per\mol}&  \SI{175,5}{\gram\per\mol}\\
+\textbf{M} & \SI{383.8}{\gram\per\mol}& \SI{425,5}{\gram\per\mol}& \SI{459.1}{\gram\per\mol}&  \SI{175,5}{\gram\per\mol}\\
 \midrule
 \textbf{C} & \SI{61.3}{\milli\ampere\hour\per\gram} &  \SI{4.13}{\milli\ampere\hour\per\gram} & \SI{186.4}{\milli\ampere\hour\per\gram}&  \SI{44.4}{\milli\ampere\hour\per\gram}\\
 \midrule
-\textbf{C/M} & \SI{23.53}{\ampere\hour\per\mol} && \SI{85.58}{\ampere\hour\per\mol}&  \SI{7.79}{\ampere\hour\per\mol}\\
+\textbf{C/M} & \SI{23.53}{\ampere\hour\per\mol} & \SI{1.76}{\ampere\hour\per\mol}& \SI{85.58}{\ampere\hour\per\mol}&  \SI{7.79}{\ampere\hour\per\mol}\\
 \midrule
-\textbf{Li$^+$/SE} & 0,878 && 3,193 & 0,291\\
+\textbf{Li$^+$/SE} & 0,878 & 0,066 & 3,193 & 0,291\\
 \bottomrule
 \end{tabular}
 \caption{Eingebaute Lithiumionen pro Struktureinheit (SE)}
@@ -1155,13 +1161,40 @@ Die Ergebnisse dieser Berechnung für die untersuchten Materialien lassen sich i
 \subsection{Vergleich der möglichen Arbeitsspannungen}
 Durch das gezielte Setzen eines Arbeitsspannungsbereichs, kann der Ein- und Ausbau der Lithiumionen verhindert werden. Damit ist es möglich, dass auch die Proben, die während der Zyklierung aktiv waren, für den Einsatz als Festkörperelektrolyt nutzbar gemacht werden können. Wichtig ist dabei das Zusammenspiel zwischen Arbeitsspannungsbereich der Elektroden und dem Arbeitsspannungsbereich des Elektrolyts.
 \\\\
-bla
+Mit der zyklische Voltametrie kann visualisiert werden in welchen Bereichen die untersuchten Elektrolytmaterialen keine Reaktionen mit dem Lithium eingingen. Dort bilden sich keine Peaks aus, die Stromstärke liegt nahe Null. Tabelle \ref{spannung_keramiken} zeigt die aus den Daten der zyklischen Voltametrie in Kapitel \ref{elektrochemische_analyse} gewonnenen Arbeitsspannungsbereiche für das Laden und Entladen der Zelle.
+\\
+\begin{table}[h]
+\begin{tabular}{L{2.6cm} L{2.6cm} L{2.6cm} L{2.6cm} L{2.6cm}}
+\toprule
+&\textbf{LATP}&\textbf{LAGP}&\textbf{LTO}&\textbf{LLTO} \\
+\midrule
+\textbf{Ladung} &\SI{1.2}{\volt} - \SI{2.3}{\volt}&\SI{1.2}{\volt} - \SI{4.0}{\volt}& \SI{2.8}{\volt} - \SI{4.0}{\volt}& \SI{1.7}{\volt} - \SI{3.3}{\volt}\\
+\midrule
+\textbf{Entladung} &\SI{4.0}{\volt} - \SI{2.7}{\volt} &\SI{4.0}{\volt} - \SI{1.2}{\volt}&\SI{4.0}{\volt} - \SI{1.6}{\volt}&  \SI{4.0}{\volt} - \SI{1.5}{\volt}\\
+\bottomrule
+\end{tabular}
+\caption{Arbeitsspannungsbereiche der untersuchten Elektrolyt\-materialien}
+\label{spannung_keramiken}
+\end{table}
+\\
+Zu erkennen ist, dass es beim LATP nur einen sehr kleinen Arbeitsbereich für die Zyklierung gibt. Die Bereiche für Laden und Entladen überlappen außerdem nicht, weshalb in grundsätzlich ungünstigen Bereichen zykliert werden muss. Das LAGP zeigt über den gesamten abgefahrenen Spannungsbereich keine Reaktionen. Damit scheint es innerhalb dieses Bereiches stabil zu sein und eignet sich in diesem Kriteriung für den Einsatz mit einer Vielzahl von unterschiedlichen Anoden- und Kathodenmaterialien.
+\\\\
+Das LTO besitzt für das Laden eine maximale Spannung von \SI{4.0}{\volt}, welches jedoch bei mindestens \SI{2.8}{\volt} beginnen muss. Das Entladen kann bis \SI{1.6}{\volt} durchgeführt werden. Beim LLTO darf die maximale Ladespannung nicht über \SI{3.3}{\volt} liegen und muss bei mindestens \SI{1.7}{\volt} beginnen. Die Zelle kann bis \SI{1.5}{\volt} entladen werden. Damit eignet sich das LLTO grundsätzlich für den Einsatz mit LTO als Kathodenmaterial.
+% Für alle untersuchten Materialien gilt, dass ...
 \subsection{Entwicklung eines elektrochemischen Ersatzschaltbilds}
-\subsection{Vergleich der Grenzschichten}
+Zur besseren Interpretation der Impedanzspektroskopie kann ein elektrochemisches Ersatzschaltbild entwickelt werden. Dabei wurden zwei Modelle angewandt.
+\subsubsection{Reihenmodell (?)}
+Grenzschichten
+\subsubsection{Randals Modell}
+Redoxreaktion
+\subsubsection{DRT}
+\subsection{Auswertung der Impedanzspektroskopie}
 %\subsection{Vergleich des Diffusionsverhaltens}
 \section{Diskussion der Kernspinresonanzspektroskopie}
+Es wurde die MAS-NMR zur Pulvercharakterisierung eingesetzt. Für in-situ NMR-Messungen von Batterien wurde ein eigener Messaufbau konzipiert, konstruiert, gebaut und getestet. Im Folgenden soll die Anwendung und der Nutzen beider dieser Maßnahmen diskutiert werden. 
 \subsection{Eignung der MAS-NMR für die Pulvercharakterisierung}
-\subsection{Rest}
+
+\subsection{Funktionsfähigkeit des in-situ NMR-Testaufbaus}
 \begin{figure}
    \centering
       \subfloat[Vergleich der LiCl-Referenz (rot) mit der LiS-Zelle (grün) vor dem Laden]{
@@ -1174,7 +1207,9 @@ bla
       	} \vspace{6mm}
 	\caption{Auswertung der in-situ-NMR-Spektren}
    	\label{insitu_nmr_auswertung}
-\end{figure}   
+\end{figure} 
+\subsubsection{Probleme} 
+\section{Bewertung der untersuchten Materialien} 
 \chapter{Fazit}
 \section{Zusammenfassung}
 \section{Ausblick}

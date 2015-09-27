@@ -92,8 +92,8 @@
 \contentsline {subsubsection}{\nonumberline Spektrum der Referenzproben}{62}
 \contentsline {subsubsection}{\nonumberline Diffusionsmessungen}{62}
 \contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{64}
+\contentsline {subsubsection}{\nonumberline Diffusionsmessung}{64}
 \contentsline {subsubsection}{\nonumberline Spektren der LiS-Testzelle}{64}
-\contentsline {subsubsection}{\nonumberline Diffusionsmessungen}{64}
 \contentsline {chapter}{\numberline {6}Diskussion}{67}
 \contentsline {section}{\numberline {6.1}Diskussion der elektrochemischen Untersuchung}{67}
 \contentsline {subsection}{\numberline {6.1.1}Vergleich der Zellkapazit\IeC {\"a}ten und des Ladeverhaltens}{67}
@@ -101,10 +101,15 @@
 \contentsline {subsection}{\numberline {6.1.2}Analyse der Lithiuminsertation}{69}
 \contentsline {subsection}{\numberline {6.1.3}Vergleich der m\IeC {\"o}glichen Arbeitsspannungen}{70}
 \contentsline {subsection}{\numberline {6.1.4}Entwicklung eines elektrochemischen Ersatzschaltbilds}{70}
-\contentsline {subsection}{\numberline {6.1.5}Vergleich der Grenzschichten}{70}
-\contentsline {section}{\numberline {6.2}Diskussion der Kernspinresonanzspektroskopie}{70}
-\contentsline {subsection}{\numberline {6.2.1}Eignung der MAS-NMR f\IeC {\"u}r die Pulvercharakterisierung}{70}
-\contentsline {subsection}{\numberline {6.2.2}Rest}{70}
+\contentsline {subsubsection}{\nonumberline Reihenmodell (?)}{70}
+\contentsline {subsubsection}{\nonumberline Randals Modell}{71}
+\contentsline {subsubsection}{\nonumberline DRT}{71}
+\contentsline {subsection}{\numberline {6.1.5}Auswertung der Impedanzspektroskopie}{71}
+\contentsline {section}{\numberline {6.2}Diskussion der Kernspinresonanzspektroskopie}{71}
+\contentsline {subsection}{\numberline {6.2.1}Eignung der MAS-NMR f\IeC {\"u}r die Pulvercharakterisierung}{71}
+\contentsline {subsection}{\numberline {6.2.2}Funktionsf\IeC {\"a}higkeit des in-situ NMR-Testaufbaus}{71}
+\contentsline {subsubsection}{\nonumberline Probleme}{71}
+\contentsline {section}{\numberline {6.3}Bewertung der untersuchten Materialien}{71}
 \contentsline {chapter}{\numberline {7}Fazit}{73}
 \contentsline {section}{\numberline {7.1}Zusammenfassung}{73}
 \contentsline {section}{\numberline {7.2}Ausblick}{73}
