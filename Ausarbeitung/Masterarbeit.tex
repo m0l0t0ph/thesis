@@ -208,7 +208,12 @@ Karlsruhe, den 30.09.2015
 % Eidesstattliche Erklärung2
 %\setcounter{page}{1}
 %\pagenumbering{Roman}
+\hspace{20mm} \\
 \textbf{\Large{Zusammenfassung}}
+\\\\
+TBD
+\\\\
+\textbf{\Large{Abstract}}
 \\\\
 TBD
 % Inhaltsverzeichnis
@@ -655,6 +660,7 @@ Die Positionsplättchen sorgen dafür, dass sich die eigentliche Batteriezelle, 
 \\\\
 Eine Übersicht über alle konstruierten und gebauten Teile der in-situ NMR-Batterietestzelle findet sich in Abbildung \ref{uebersicht_teile}.
 \section{Anpassung des NMR-Probenkopfes}
+\label{anpassung_probenkopf}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\columnwidth]{images/Platzhalter_Spule.jpg}
@@ -1010,11 +1016,11 @@ Für die Impedanzmessungen der Gefügeprobe wurde die Spannung der Sinusamplitud
 Abbildung \ref{is_Gefuege} zeigt das gemessene Impedanzspektrum. Es kann dabei ein Halbkreis an die fehlerbehaftete Messung angefittet werden. Dieser trifft die X-Achse bei einem Realteil von \SI{10}{\kilo\ohm} und \SI{36.5}{\mega\ohm}. An beiden Stellen beträgt der Innenwinkel zur X-Achse dabei \SI{75}{\degree}
 \newpage
 \section{In-situ NMR-Messungen}
-.
+Für die in-situ NMR-Messungen werden zunächst die angefertigten Bauteile mittels einer Lithiumchlorid-Lösung kalibriert. Anschließend wird mit einer Lithium-Schwefel-Zelle die Funktionsfähigkeit des Messaufbaus gezeigt. Die Wahl des Zellmaterials fiel dabei auf Lithium-Schwefel, da es hierfür bereits ausreichend Ergebnisse in der Literatur und auch erste Voruntersuchungen im Rahmen einer Studienarbeit am IAM-KWT gibt.
 \subsection{Referenzmessung}
-Um das Spektroskop zu kalibrieren wurden zunächst Referenzmessungen mit einer Lithium\-chlorid-Lösung. Dazu wurde Lithiumchlorid (FIRMA) im Masseverhältnis $1:2$ in Wasser gelöst. Die Lösung wurde sowohl in ein handelsübliches 10mm NMR-Röhrchen als auch in eine Batterietestzelle eingefüllt. In der Zelle wurden dabei vier Lagen Separator mit der Lösung benetzt, um die Flüssigkeit im Messbereich zu halten.
+Um das Spektroskop zu kalibrieren wurden zunächst Referenzmessungen mit einer Lithium\-chlorid-Lösung durchgeführt. Dazu wurde Lithiumchlorid (FIRMA) im Masseverhältnis $1:2$ in Wasser gelöst. Die Lösung wurde sowohl in ein handelsübliches 10mm NMR-Röhrchen als auch in eine Batterietestzelle eingefüllt. In der Zelle wurden dabei vier Lagen Separator mit der Lösung benetzt, um die Flüssigkeit im Messbereich zu halten.
 \subsubsection{Einstellen der Geräteparameter}
-\begin{table}[h]
+\begin{table}[b]
 \centering
 \begin{tabular}{L{5.0cm} L{5.0cm}}
 \toprule
@@ -1036,8 +1042,21 @@ Pulslänge (0db)& \SI{12}{\micro\sec}\\
 \bottomrule
 \end{tabular}
  \caption{Parameter für das Messen des Kalibrierspektrums mit der LiCl-Lösung}
- \label{tabelle_massen}
- \end{table} 
+ \label{tabelle_parameter_nmr}
+\end{table} 
+Die modifizierte Spule (siehe Kapitel \ref{anpassung_probenkopf}) wird auf den Probenkopf montiert. Die Referenzproben können dann einfach in die Teflonröhre eingeführt werden. Anschließend wird der gesamte Probenkopf von unten in das NMR-Gerät eingeführt und fixiert. Der Probenkopf wird händisch auf die richtige Frequenz grobabgestimmt. Dazu können an der Unterseite des Probenkopfs mittels Drehreglern kleine variable Kondensatoren in ihrer Kapazität variiert werden. In einem nächsten Schritt kann über die Ansteuerung am Rechner das Signal über die Homogenisierung des Magnetfeldes feinabgestimmt werden.
+\\\\
+Nachdem das Signal angepasst worden ist, können möglichst optimale Parameter für die eigentlichen Messungen gesucht werden. Dazu werden unterschiedliche Messparameter variiert und die Auswirkung der Änderung auf die gemessene Probespektren beobachtet. Ziel ist es hierbei, die Parameter so zu wählen, dass das Rauschen der Messung möglichst klein ist. Weiterhin muss eine Bandbreite gefunden werden, die alle relevanten Peaks der Messung darstellt. Unter einer zu großen Bandbreite leidet die Qualität der Messung. Die Anzahl an Datenpunkten, Scans und Messzeiten pro Scan kann die Qualität der Messung verbessern, erhöht allerdings auch drastisch die Messzeit. Hier muss ein guter Mittelweg gefunden werden. Die für die Referenzprobe verwendeten Werte werden in Tabelle \ref{tabelle_parameter_nmr} dargestellt.
+\subsubsection{Spektrum der Referenzproben}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\columnwidth]{images/LiCl_Batterie.jpg}
+	\label{LiCl_Batterie_NMR} 
+	\caption{Spektrum der LiCL-Lösung innerhalb der Batterietestzelle}
+	\label{LiCl_Batterie_NMR}
+\end{figure} 
+Die Spektren der beiden Referenzproben zeigen beide einen deutlichen und scharfen Peak der Lithiumionen. Auf diesen Peak kann das Gerät für die weiteren Messungen eingestellt werden, so dass dieser den Nullpunkt der Messung darstellt. Abbildung \ref{LiCl_Batterie_NMR} zeigt das Spektrum der Lithiumchlorid-Lösung innerhalb der Batterietestzelle.
+\subsubsection{Diffusionsmessungen}
 \begin{figure}
    \centering
       \subfloat[Diffusionsmessung  der LiCl-Lösung in einem NMR-Röhrchen]{
@@ -1048,17 +1067,10 @@ Pulslänge (0db)& \SI{12}{\micro\sec}\\
 	\includegraphics[width=0.95\columnwidth]{images/LiCl_Diff_Batterie.jpg}
 	\label{LiCl_Diff_Batterie}      
       	} \vspace{6mm}
-	\caption{Vergleich der Diffusionsmessung der LiCl-Lösung in einem NMR-Röhrchen und in der Batterietestzelle}
+	\caption{Vergleich der Diffusionsmessung der LiCl-Lösung in einem NMR-Röhrchen und in der Batterietestzelle. Dargestellt werden die Resonanzen für die unterschiedlichen Feldstärken.}
    	\label{vergleich_diff}
 \end{figure}
-\subsubsection{Diffusionsmessungen}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.75\columnwidth]{images/LiCl_Batterie.jpg}
-	\label{LiCl_Batterie_NMR} 
-	\caption{Spektrum der LiCL-Lösung innerhalb der Batterietestzelle}
-	\label{LiCl_Batterie_NMR}
-\end{figure} 
+Für die Referenzproben wurden Diffusionsmessungen durchgeführt. Die Darstellungen in Abbildung \ref{vergleich_diff} visualisieren dabei das Ergebnis der Messung. Zu erkennen ist, dass der Messaufbau die Diffusionsmessung verrauscht. Es ist jedoch immer noch gut möglich, die Diffusion zu bestimmen. Der so ermittelte Diffusionskoeffizient für die Lithiumchlorid-Lösung betrug im NMR-Röhrchen  \SI{2.825e-10}{\square\meter\per\sec}, in der Batterie bei  \SI{2.593e-10}{\square\meter\per\sec}.
 \subsection{Lithium-Schwefel-Zelle}
 Für die in-situ-NMR-Batterietestzelle wurde eine Lithium-Schwefel-Zelle gebaut. Dies erfolgte äquivalent zum im Kapitel \ref{bau_zellen} vorgestellten Verfahren für die herkömmlichen Batterietestzellen. Die Größe der Elektroden und der Separatoren wurde auf einen Durchmesser von \SI{6}{\milli\meter} verringert. Als Elektrolyt kamen \SI{20}{\micro\liter} einer ???-Lösung zum Einsatz.
 \\\\
