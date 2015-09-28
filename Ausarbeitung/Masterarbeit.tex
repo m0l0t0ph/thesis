@@ -1220,7 +1220,7 @@ Die in-situ NMR-Testzelle konnte erfolgreich getestet werden. Es ist mit ihr mö
 Im Vergleich zwischen dem Spektrum im entladenen Zustand und nach 90 minütigem Laden in Abbildung \ref{LiS_NachLaden_Vergleich} zeigt sich, dass der Lithiummetall-Peak in Relation zum ionischen Peak angewachsen ist. Gleichzeitig haben sich zwei weitere ineinander verschobene Peaks an der negativen Flanke des Lithiumpeaks gebildet. Während dem Laden wird ionisches Lithium zu metallischem Lithium an der Anode abgeschieden. Dieser Vorgang erklärt den Relationsunterschied der beiden Hauptpeaks zwischen dem ungeladenen und dem Spektrum nach 90 minütigem Laden. Die beiden ineinander verschobenen PEaks wiederum gehen auf Nebenprodukte der Zyklierreaktion zurück. --> QUELLEN?
 \\\\
 Die gemessenen Diffusionskoeffzienten weisen beim Vergleich zwischen NMR-Röhrchen und Zelle einen Unterschied von weniger als \SI{10}{\percent} auf. Durch den unterschiedlichen Messaufbau ist hier eine gewisse Ungenauigkeit zu erklären, die Diffusionskoeffizienten befinden sich jedoch in einer ähnlichen Größenordnung. Die Selbstdiffusion des Lithiums im Flüssigelektrolyten innerhalb der Lithium-Schwefel-Zelle ist in den Messungen um den Faktor vier langsamer als die des Lithiums in der Referenzzelle.
-\\
+\\ % Vergleich der Koeffizienten mit Werten aus der Literatur
 \begin{table}[h]
 \centering
 \begin{tabular}{L{5.0cm} L{5.0cm}}
@@ -1242,7 +1242,24 @@ Es ist mit der Testzelle nicht möglich, Messungen durchzuführen, während ein 
 \\\\
 Größtes Problem hierbei dürfte die Kupferberyllium-Feder des Aufbaus sein. Als gewickelter Draht entspricht sie einer Spule. Wenn diese mit Strom durchflossen wird, baut sie ein eigenes Magnetfeld auf, welches jedwede Messungen innerhalb der Testzelle massiv stört und damit unmöglich macht.
 \subsection{Verbesserungsansätze}
-Die Konstruktion der in-situ Testzelle bietet verschiedene Ansatzpunkte für Verbesserungen.
+Die Konstruktion der in-situ Testzelle bietet verschiedene Ansatzpunkte für Verbesserungen. Die Stempel der Testzelle müssen nicht komplett aus Messing gefertigt werden, sondern könnten geschickt mit Teflonbauteilen kombiniert werden. Dies würde den metallischen Anteil am Messaufbau verringern und damit das Rauschen verkleinern.
+\\\\
+Bei der Feder muss die mechanische von der elektrischen Anforderung getrennt werden. Dies bedeutet, dass man eine nichtmetallische Feder, z.B. aus Polymer oder Keramik, in die Testzelle einbaut. Damit dennoch die Kontaktierung der Elektroden gelingt, muss ein Leiter an der Innenseite der Glaszelle oder durch das Innere der Feder geführt werden. Da dieser dann nicht wie eine Spule gewickelt ist, wird das bei Stromfluss entstehende Magnetfeld deutlich verkleinert. Dies sollte Diffusionsmessungen im laufenden Betrieb ermöglichen. Grundsätzlich kann auch die Höhe der Feder verringert werden und mit höheren Kontaktierplättchen kompensiert werden.
+\\\\
+Auch der Anschluss der Zelle mit dem Netzteil kann durch besser abgeschirmte Kabel und intelligente Stecksysteme noch weiter verbessert werden. So wurde das Kupferkabel auf den oberen Stempel aufgelötet, da keine geeignete Steckverbindung vorhanden war.
+\begin{figure}
+   \centering
+      \subfloat[Skizze Stempel oben]{
+	\includegraphics[width=0.8\columnwidth]{images/Stempel_oben_v2.jpg}
+	\label{stempel_oben_v2}
+	} \vspace{10mm}
+      \subfloat[Skizze Stempel unten]{
+	\includegraphics[width=0.8\columnwidth]{images/Stempel_unten_v2.jpg}
+	\label{stempel_unten_v2}      
+      	} \vspace{6mm}
+	\caption{Entwurf für gemischte Teflon-Messing-Stempel}
+   	\label{stempel_v2}
+\end{figure} 
 \section{Bewertung der untersuchten Materialien} 
 \chapter{Fazit}
 \section{Zusammenfassung}
