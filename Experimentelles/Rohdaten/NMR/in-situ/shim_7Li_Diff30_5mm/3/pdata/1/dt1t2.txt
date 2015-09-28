@@ -1,3 +1,0 @@
-
-Region 1 from 1.852 to 1.428 ppm
-Diff Con.      =   2.869e-10 m2/s
