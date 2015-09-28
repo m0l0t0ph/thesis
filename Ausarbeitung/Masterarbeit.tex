@@ -1012,7 +1012,7 @@ die Impedanzmessung in Abbildung \ref{is_LLTO} zeigt zwei sich überlappende Hal
 \end{figure}
 Die Gefügeprobe zeigt schon bei sehr kleinen angelegten Lade- und Entladeströmen im Nanoampere-Bereich extrem hohe resultierende Spannungen. Eine Zyklierung konnte daher nicht stattfinden.
 \subsubsection{Impedanzmessungen}
-Für die Impedanzmessungen der Gefügeprobe wurde die Spannung der Sinusamplitude auf \SI{100}{\milli\volt} angehoben. Die Anzahl der Messpunkte pro Zehnerpotenz wurde ebenfalls erhöt auf 20. Bei Widerständen über \SI{10}{\mega\ohm} waren mit dem zum Einsatz kommenden VMP3-Messsystem keine fehlerfreien Messungen mehr möglich.
+Für die Impedanzmessungen der Gefügeprobe wurde die Spannung der Sinusamplitude auf \SI{100}{\milli\volt} angehoben. Die Anzahl der Messpunkte pro Zehnerpotenz wurde ebenfalls erhöht auf 20. Bei Widerständen über \SI{10}{\mega\ohm} waren mit dem zum Einsatz kommenden VMP3-Messsystem keine fehlerfreien Messungen mehr möglich.
 \\\\
 Abbildung \ref{is_Gefuege} zeigt das gemessene Impedanzspektrum. Es kann dabei ein Halbkreis an die fehlerbehaftete Messung angefittet werden. Dieser trifft die X-Achse bei einem Realteil von \SI{10}{\kilo\ohm} und \SI{36.5}{\mega\ohm}. An beiden Stellen beträgt der Innenwinkel zur X-Achse dabei \SI{75}{\degree}
 \newpage
@@ -1073,18 +1073,15 @@ Die Spektren der beiden Referenzproben zeigen beide einen deutlichen und scharfe
 \end{figure}
 Für die Referenzproben wurden Diffusionsmessungen durchgeführt. Die Darstellungen in Abbildung \ref{vergleich_diff} visualisieren dabei das Ergebnis der Messung. Zu erkennen ist, dass der Messaufbau die Diffusionsmessung verrauscht. Es ist jedoch immer noch gut möglich, die Diffusion zu bestimmen. Der so ermittelte Diffusionskoeffizient für die Lithiumchlorid-Lösung betrug im NMR-Röhrchen  \SI{2.825e-10}{\square\meter\per\sec}, in der Batterie bei  \SI{2.593e-10}{\square\meter\per\sec}.
 \subsection{Lithium-Schwefel-Zelle}
-Für die in-situ-NMR-Batterietestzelle wurde eine Lithium-Schwefel-Zelle gebaut. Dies erfolgte äquivalent zum im Kapitel \ref{bau_zellen} vorgestellten Verfahren für die herkömmlichen Batterietestzellen. Die Größe der Elektroden und der Separatoren wurde auf einen Durchmesser von \SI{6}{\milli\meter} verringert. Als Elektrolyt kamen \SI{20}{\micro\liter} einer ???-Lösung zum Einsatz.
-\\\\
-Mit der Lithium-Schwefel-Testzelle wurden drei Messungen durchgeführt. Es wurde jeweils ein NMR-Spektrum vor und nach einer 90 minütigen Ladephase aufgenommen. Geladen wurde mit einem Strom von \SI{50}{\micro\ampere}. Außerdem wurde vor dem Ladevorgang eine Diffusionsmessung durchgeführt.
-\subsubsection{Diffusionsmessung}
-Die Diffusionsmessung an der Lithium-Schwefel-Testzelle zeigt ein starkes Rauschen. Abbildung \ref{LiS_Diff} zeigt die zugehörige Darstellung. Der Diffusionskoeffizient konnte bestimmt werden zu \SI{6,34e-11}{\square\meter\per\sec}.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.95\columnwidth]{images/LiS_Diff_Batterie.jpg}
-	\label{LiS_Diff_Batterie} 
-	\caption{Diffusionsmessung der LiS-Batterietestzelle}
-	\label{LiS_Diff}
+	\includegraphics[width=0.85\columnwidth]{images/GCPL_LiS.jpg}
+	\caption{Lade-/Entladekennlinie der Lithium-Schwefel-Testzelle}
+	\label{gcpl_LiS}
 \end{figure} 
+Für die in-situ-NMR-Batterietestzelle wurde eine Lithium-Schwefel-Zelle gebaut. Dies erfolgte äquivalent zum im Kapitel \ref{bau_zellen} vorgestellten Verfahren für die herkömmlichen Batterietestzellen. Die Größe der Elektroden und der Separatoren wurde auf einen Durchmesser von \SI{6}{\milli\meter} verringert. Als Elektrolyt kamen \SI{20}{\micro\liter} einer ???-Lösung zum Einsatz. Vor dem Einbau in das NMR-Spektroskop wird die Zelle zweimal zykliert. Abbildung \ref{gcpl_LiS} zeigt die Ladekennlinie der Zelle. Zu erkennen sind die unterschiedlichen Lade- und Entladeplateaus der Zelle, die auf die unterschiedlichen Sulfidationsschritte des Lithiums zurückzuführen sind.
+\\\\
+Mit der Lithium-Schwefel-Testzelle wurden drei Messungen durchgeführt. Es wurde jeweils ein NMR-Spektrum vor und nach einer 90 minütigen Ladephase aufgenommen. Geladen wurde mit einem Strom von \SI{50}{\micro\ampere}. Außerdem wurde vor dem Ladevorgang eine Diffusionsmessung durchgeführt.
 \subsubsection{Spektren der LiS-Testzelle}
 \begin{figure}
    \centering
@@ -1102,7 +1099,14 @@ Die Diffusionsmessung an der Lithium-Schwefel-Testzelle zeigt ein starkes Rausch
 Das Spektrum der Lithium-Schwefel-Testzelle zeigt in Abbildung \ref{LiS_VorLaden} zwei Peaks. Einen großen, scharfen Peak auf dem geeichten Lithiumionen-Punkt von 0\;ppm sowie einen breiteren und weniger starken Peak bei etwa 245\;ppm. Dieser ist dem Lithiummetall zuzuordnen.
 \\\\
 Nach dem 90 minütigem Laden zeigt sich in Abbildung \ref{LiS_NachLaden} ein deutliche Vergrößerung des Peaks des metallischem Lithiums. Außerdem haben sich zwei weitere, weniger intensive Peaks in unmittelbarer Nähe zum Lithiumionen-Peak gebildet. Diese sind in die negative Richtung verschoben und könnten Übergangsprodukte des Ladeprozesses darstellen.
-  
+\subsubsection{Diffusionsmessung}
+Die Diffusionsmessung an der Lithium-Schwefel-Testzelle zeigt ein starkes Rauschen. Abbildung \ref{LiS_Diff} zeigt die zugehörige Darstellung. Der Diffusionskoeffizient konnte bestimmt werden zu \SI{6,34e-11}{\square\meter\per\sec}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\columnwidth]{images/LiS_Diff_Batterie.jpg}
+	\caption{Diffusionsmessung der LiS-Batterietestzelle}
+	\label{LiS_Diff}
+\end{figure} 
 %%%%%%%%%%%%%%%%% 6. DISKUSSION %%%%%%%%%%%%%%%%%
 
 \chapter{Diskussion}
@@ -1161,7 +1165,7 @@ Die Ergebnisse dieser Berechnung für die untersuchten Materialien lassen sich i
 \subsection{Vergleich der möglichen Arbeitsspannungen}
 Durch das gezielte Setzen eines Arbeitsspannungsbereichs, kann der Ein- und Ausbau der Lithiumionen verhindert werden. Damit ist es möglich, dass auch die Proben, die während der Zyklierung aktiv waren, für den Einsatz als Festkörperelektrolyt nutzbar gemacht werden können. Wichtig ist dabei das Zusammenspiel zwischen Arbeitsspannungsbereich der Elektroden und dem Arbeitsspannungsbereich des Elektrolyts.
 \\\\
-Mit der zyklische Voltametrie kann visualisiert werden in welchen Bereichen die untersuchten Elektrolytmaterialen keine Reaktionen mit dem Lithium eingingen. Dort bilden sich keine Peaks aus, die Stromstärke liegt nahe Null. Tabelle \ref{spannung_keramiken} zeigt die aus den Daten der zyklischen Voltametrie in Kapitel \ref{elektrochemische_analyse} gewonnenen Arbeitsspannungsbereiche für das Laden und Entladen der Zelle.
+Mit der zyklische Voltametrie kann visualisiert werden, in welchen Bereichen die untersuchten Elektrolytmaterialen keine Reaktionen mit dem Lithium eingingen. Dort bilden sich keine Peaks aus, die Stromstärke liegt nahe Null. Tabelle \ref{spannung_keramiken} zeigt die aus den Daten der zyklischen Voltametrie in Kapitel \ref{elektrochemische_analyse} gewonnenen Arbeitsspannungsbereiche für das Laden und Entladen der Zelle.
 \\
 \begin{table}[h]
 \begin{tabular}{L{2.6cm} L{2.6cm} L{2.6cm} L{2.6cm} L{2.6cm}}
@@ -1179,7 +1183,7 @@ Mit der zyklische Voltametrie kann visualisiert werden in welchen Bereichen die 
 \\
 Zu erkennen ist, dass es beim LATP nur einen sehr kleinen Arbeitsbereich für die Zyklierung gibt. Die Bereiche für Laden und Entladen überlappen außerdem nicht, weshalb in grundsätzlich ungünstigen Bereichen zykliert werden muss. Das LAGP zeigt über den gesamten abgefahrenen Spannungsbereich keine Reaktionen. Damit scheint es innerhalb dieses Bereiches stabil zu sein und eignet sich in diesem Kriteriung für den Einsatz mit einer Vielzahl von unterschiedlichen Anoden- und Kathodenmaterialien.
 \\\\
-Das LTO besitzt für das Laden eine maximale Spannung von \SI{4.0}{\volt}, welches jedoch bei mindestens \SI{2.8}{\volt} beginnen muss. Das Entladen kann bis \SI{1.6}{\volt} durchgeführt werden. Beim LLTO darf die maximale Ladespannung nicht über \SI{3.3}{\volt} liegen und muss bei mindestens \SI{1.7}{\volt} beginnen. Die Zelle kann bis \SI{1.5}{\volt} entladen werden. Damit eignet sich das LLTO grundsätzlich für den Einsatz mit LTO als Kathodenmaterial.
+Das LTO besitzt für das Laden eine maximale Spannung von \SI{4.0}{\volt}, welches jedoch bei mindestens \SI{2.8}{\volt} beginnen muss. Das Entladen kann bis \SI{1.6}{\volt} durchgeführt werden. Beim LLTO darf die maximale Ladespannung nicht über \SI{3.3}{\volt} liegen und muss bei mindestens \SI{1.7}{\volt} beginnen. Die Zelle kann bis \SI{1.5}{\volt} entladen werden. Damit eignet sich das LLTO grundsätzlich für den Einsatz als Elektrolyt in diesem Bereich.
 % Für alle untersuchten Materialien gilt, dass ...
 \subsection{Entwicklung eines elektrochemischen Ersatzschaltbilds}
 Zur besseren Interpretation der Impedanzspektroskopie kann ein elektrochemisches Ersatzschaltbild entwickelt werden. Dabei wurden zwei Modelle angewandt.
@@ -1193,22 +1197,52 @@ Redoxreaktion
 \section{Diskussion der Kernspinresonanzspektroskopie}
 Es wurde die MAS-NMR zur Pulvercharakterisierung eingesetzt. Für in-situ NMR-Messungen von Batterien wurde ein eigener Messaufbau konzipiert, konstruiert, gebaut und getestet. Im Folgenden soll die Anwendung und der Nutzen beider dieser Maßnahmen diskutiert werden. 
 \subsection{Eignung der MAS-NMR für die Pulvercharakterisierung}
-
+Die MAS-NMR kann nur eingeschränkt für die Pulvercharakterisierung eingesetzt werden. Versuche Fremdphasen wie das \ce{LiTiPO5} innerhalb des LATP zu detektieren, führten nicht zum Erfolg. Die Peaks beider Materialien überlagern sich und sind daher nicht zu separieren. Es konnte bei allen untersuchten Stoffen mittels Röntgendiffraktometrie genauere Aussagen über die Stoffzusammensetzung getroffen werden.
+\\\\
+% Paper zitieren
+Dennoch kann die MAS-NMR Mehrinformationen bieten. Hierfür müsste allerdings nicht das Lithium-Isotop, sondern beispielsweise das Phosphor-Isotop untersucht werden. Verschiedene Forschungsgruppen konnten dabei Rückschlüsse auf die Struktur der untersuchten Keramiken ziehen (QUELLE).
 \subsection{Funktionsfähigkeit des in-situ NMR-Testaufbaus}
 \begin{figure}
    \centering
       \subfloat[Vergleich der LiCl-Referenz (rot) mit der LiS-Zelle (grün) vor dem Laden]{
 	\includegraphics[width=0.75\columnwidth]{images/LiCl_LiS_Vergleich.jpg}
-	\label{LiS_VorLaden}
+	\label{LiS_VorLaden_Vergleich}
 	} \vspace{10mm}
       \subfloat[Vergleich der LiS-Zelle vor (grün) und nach (lila) dem 90 minütigem Laden]{
 	\includegraphics[width=0.75\columnwidth]{images/LiS_VergleichLaden.jpg}
-	\label{LiS_NachLaden}      
+	\label{LiS_NachLaden_Vergleich}      
       	} \vspace{6mm}
 	\caption{Auswertung der in-situ-NMR-Spektren}
    	\label{insitu_nmr_auswertung}
 \end{figure} 
+Die in-situ NMR-Testzelle konnte erfolgreich getestet werden. Es ist mit ihr möglich Spektren sowie Diffusionsmessungen der eingebauten Zelle aufzunehmen. Abbildung \ref{LiS_VorLaden_Vergleich} zeigt die Spektren der Lithiumchlorid-Referenzzelle und der Lithium-Schwefel-Zelle. Man sieht, dass sich die Peaks der Lithiumionen gut überlagern. Bei 245\;ppm bildet sich der Lithiummetall-Peak aus. Dies ist stimmig mit innerhalb der Literatur (QUELLE) und auch in vorherigen Arbeiten am IAM-KWT (QUELLE) gefundenen Werten.
+\\\\
+Im Vergleich zwischen dem Spektrum im entladenen Zustand und nach 90 minütigem Laden in Abbildung \ref{LiS_NachLaden_Vergleich} zeigt sich, dass der Lithiummetall-Peak in Relation zum ionischen Peak angewachsen ist. Gleichzeitig haben sich zwei weitere ineinander verschobene Peaks an der negativen Flanke des Lithiumpeaks gebildet. Während dem Laden wird ionisches Lithium zu metallischem Lithium an der Anode abgeschieden. Dieser Vorgang erklärt den Relationsunterschied der beiden Hauptpeaks zwischen dem ungeladenen und dem Spektrum nach 90 minütigem Laden. Die beiden ineinander verschobenen PEaks wiederum gehen auf Nebenprodukte der Zyklierreaktion zurück. --> QUELLEN?
+\\\\
+Die gemessenen Diffusionskoeffzienten weisen beim Vergleich zwischen NMR-Röhrchen und Zelle einen Unterschied von ... auf. Durch die
+\\
+\begin{table}[h]
+\centering
+\begin{tabular}{L{5.0cm} L{5.0cm}}
+\toprule
+ \textbf{Probe}&\textbf{Diffusionskoeffizient} \\
+\midrule
+LiCl im NMR-Röhrchen& \SI{2.83e-10}{\square\meter\per\sec}\\
+\midrule
+LiCl in  der Testzelle& \SI{2.59e-10}{\square\meter\per\sec}\\
+\midrule
+LiS in der Testzelle& \SI{6.34e-11}{\square\meter\per\sec}\\
+\bottomrule
+\end{tabular}
+ \caption{Parameter für das Messen des Kalibrierspektrums mit der LiCl-Lösung}
+ \label{tabelle_parameter_nmr}
+\end{table} 
 \subsubsection{Probleme} 
+Es ist mit der Testzelle nicht möglich, Messungen durchzuführen, während ein Strom angelegt ist. Für die Aufnahmen des Spektrums musste die Stromzufuhr ausgeschaltet werden. Es ist damit allerdings trotzdem möglich im eingebauten Zustand gezielt Ladezustände der Zelle anzufahren und diese zu vermessen. Gerade für Diffusionsmessungen wäre allerdings eine Untersuchung im laufenden Betrieb von Interesse.
+\\\\
+Größtes Problem hierbei dürfte die Kupferberyllium-Feder des Aufbaus sein. Als gewickelter Draht entspricht sie einer Spule. Wenn diese mit Strom durchflossen wird, baut sie ein eigenes Magnetfeld auf, welches jedwede Messungen innerhalb der Testzelle massiv stört und damit unmöglich macht.
+\subsection{Verbesserungsansätze}
+Die Konstruktion der in-situ Testzelle bietet verschiedene Ansatzpunkte für Verbesserungen.
 \section{Bewertung der untersuchten Materialien} 
 \chapter{Fazit}
 \section{Zusammenfassung}
@@ -1225,6 +1259,12 @@ Es wurde die MAS-NMR zur Pulvercharakterisierung eingesetzt. Für in-situ NMR-Me
 % \phantomsection
 \addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
 \listoffigures
+
+% das Tabellenverzeichnis
+\cleardoublepage
+% \phantomsection
+\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+\listoftables
 
  % das Literaturverzeichnis
 \cleardoublepage
