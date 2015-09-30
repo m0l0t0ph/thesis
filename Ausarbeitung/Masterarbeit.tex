@@ -1186,13 +1186,106 @@ Zu erkennen ist, dass es beim LATP nur einen sehr kleinen Arbeitsbereich für di
 Das LTO besitzt für das Laden eine maximale Spannung von \SI{4.0}{\volt}, welches jedoch bei mindestens \SI{2.8}{\volt} beginnen muss. Das Entladen kann bis \SI{1.6}{\volt} durchgeführt werden. Beim LLTO darf die maximale Ladespannung nicht über \SI{3.3}{\volt} liegen und muss bei mindestens \SI{1.7}{\volt} beginnen. Die Zelle kann bis \SI{1.5}{\volt} entladen werden. Damit eignet sich das LLTO grundsätzlich für den Einsatz als Elektrolyt in diesem Bereich.
 % Für alle untersuchten Materialien gilt, dass ...
 \subsection{Entwicklung eines elektrochemischen Ersatzschaltbilds}
-Zur besseren Interpretation der Impedanzspektroskopie kann ein elektrochemisches Ersatzschaltbild entwickelt werden. Dabei wurden zwei Modelle angewandt.
-\subsubsection{Reihenmodell (?)}
-Grenzschichten
-\subsubsection{Randals Modell}
-Redoxreaktion
+Zur besseren Interpretation der Impedanzspektroskopie kann ein elektrochemisches Ersatzschaltbild entwickelt werden. Dafür soll mittels der Verteilung der Relaxationszeiten (Distribution of Relaxation Times, DRT) zunächst das Spektrum auf die Anzahl detektierbarer Mechanismen untersucht werden. Anschließend werden zwei unterschiedliche Modelle auf Basis der Daten entwickelt.
 \subsubsection{DRT}
+Für die DRT-Analyse kommt ein am IAM-KWT entwickeltes Labview-Programm zum Einsatz. Dabei konnten mit Ausnahme des LATP für jede der vier untersuchten Elektroden jeweils zwei Prozesse gefunden werden. Das LATP weist nur einen Prozess auf. Dies steht in Einklang mit den in Kapitel \ref{elektrochemische_analyse} gefunden Halbkreisen innerhalb der Impedanzspektren. Die ermittelten Frequenzen dieser Prozesse lassen sich in Tabelle \ref{tabelle_drt} finden.
+\\
+\begin{table}[h]
+\begin{tabular}{L{5.2cm} L{2.0cm} L{2.0cm} L{2.0cm} L{2.0cm}}
+\toprule
+&\textbf{LATP}&\textbf{LAGP}&\textbf{LTO}&\textbf{LLTO} \\
+\midrule
+\textbf{Frequenz erster Prozess} &\SI{3.42}{\kilo\hertz}&\SI{3.98}{\kilo\hertz}& \SI{1.36}{\kilo\hertz}& \SI{0.54}{\kilo\hertz}\\
+\midrule
+\textbf{Frequenz zweiter Prozess} & - &\SI{29.29}{\kilo\hertz}&\SI{10.00}{\kilo\hertz}&  \SI{4.64}{\kilo\hertz}\\
+\bottomrule
+\end{tabular}
+\caption{Ergebnis der DRT-Analyse}
+\label{tabelle_drt}
+\end{table}
+\subsubsection{Reihenmodell}
+Eine Batterie kann als Verkettung mehrerer Grenzschichten gesehen werden. Diese sind beispielsweise die Grenzschicht zwischen Elektrode und Elektrolyt oder zwischen Elektrode und Stromkollektor. Eine solche Grenzschicht baut jeweils ein kapazitives Element in Form einer Helmholtz-Doppelschicht auf und besitzt einen Durchtrittswiderstand. Schaltet man diese zwei Elememente parallel zueinander, so erhält man ein RC-Glied. Dieses bildet im Nyquist-Plot einen perfekten Halbkreis. Nun kann an den erhaltenen Spektren gesehen werden, dass die gemssenen Halbkreise teilweise verschoben und verdrückt vorliegen. Ihre Winkel zur x-Achse entsprechen größtenteils nicht den zu erwartenden \SI{90}{\degree}. Dies ist darin begründet sein, dass die Kapazität der Grenzschichten nicht ideal ist. Daher werden die Kondensatoren durch Q-Elemente ersetzt, welche dieses nicht-ideale Verhalten modellieren können. Das entsprechende Bauteil für Grenzschichten im Modell ist dann das RQ-Glied.
+\\\\
+In der DRT-Messung und in den Impedanzspektren konnten jeweils nur ein oder zwei Prozesse in jeder Zelle gefunden werden. Die Anzahl der RQ-Glieder wird daher auf diese Menge gesetzt. % Mehr Begündung
+\\\\
+Die Diffusion des Lithiums durch die Elektroden hindurch kann in der metallischen Lithiumanode als ideal und vernachlässigbar angenommen werden. Für die Kathode kann der Diffusionsprozess mittels eines Warburg-Elements modelliert werden. Dieses stellt als Verkettung mehrerer RC-Glieder die Hindernisse und Ladungsbarrieren beim Transport durch das Material dar.
+\\\\
+Die Batterie besitzt außerdem noch, bedingt durch den Testaufbau, Kabel, Stempel und auch dem Elektrolyten, einen inneren Widerstand. Verschaltet man diesen nun mit den zwei RQ-Gleidern für die Grenzschichten und dem Warburg-Element, so erhält man das in Abbildung \ref{schaltbild_2RQ} dargestellte Reihenmodell als elektrochemisches Ersatzschaltbild für die untersuchten Zellen. 
+\begin{figure}
+   \centering
+      \subfloat[Reihenmodell]{
+	\includegraphics[width=0.7\columnwidth]{images/Schaltbild_2RQ.png}
+	\label{schaltbild_2RQ}
+	} \vspace{10mm}
+      \subfloat[Redox-Modell]{
+	\includegraphics[width=0.7\columnwidth]{images/Schaltbild_Randles.png}
+	\label{schaltbild_Randles}      
+      	} \vspace{6mm}
+	\caption{Elektrochemisches Ersatzschaltbild des Reihen- sowie des Redox-Modells}
+   	\label{ersatzschaltbilder}
+\end{figure} 
+\subsubsection{Redox-Modell}
+Anstatt einer reinen Verkettung von RQ- und Warburg-Elementen, können diese auch teilweise parallel geschaltet werden. %Erklärung?
+\\\\
+Das entsprechende elektrochemische Ersatzschaltbild wird in Abbildung \ref{schaltbild_Randles} dargestellt.
 \subsection{Auswertung der Impedanzspektroskopie}
+Mit den aufgestellten Modellen wurden anschließend Fits zu den realen Messungen angefertigt und deren Güte und Aussagekraft untersucht.
+\begin{table}[h]
+\begin{tabular}{L{1.95cm} L{1.35cm} L{0.75cm} L{1.35cm} L{0.75cm} L{1.35cm}L{0.75cm}L{1.3cm}L{0.75cm}L{0.75cm}}
+\toprule
+&&\multicolumn{2}{c}{\textbf{LATP\;\;\;}}& \multicolumn{2}{c}{\textbf{LAGP\;\;\;}}&\multicolumn{2}{c}{\textbf{LLTO\;\;\;}}&\multicolumn{2}{c}{\textbf{LTO}}\\
+& Modell & Reihe & Redox & Reihe & Redox & Reihe & Redox & Reihe & Redox\\
+\midrule
+\textbf{Widerstand}&R$_i$\;[$\Omega$]&9,29&9,36&12,44&13,59&12,55&12,78&12,94&13,03\\
+\midrule
+\multirowbt{3}{*}{\textbf{1.\;Glied}} & R$_1$\;[$\Omega$] & 72,00 & 69,82 & 20,18  & 7,85 & 12,24 & 16,97 & 18,51 & 23,62\\
+\cmidrule{2-10}
+ & C$_1$\;[\SI{}{\micro\farad}] & 0,74 & 0,71 & 0,69 & 0,36 & 0,83 & 0,55 & 1,25 & 0,97\\
+\cmidrule{2-10}
+ & f$_1$\;[\SI{}{\kilo\hertz}] & 18,89 & 20,25 & 71,34 & 356,35 & 98,87 & 108,5 & 43,13 & 43,48\\
+\midrule
+\multirowbt{3}{*}{\textbf{2.\;Glied}} & R$_2$\;[$\Omega$] & \quad- & \quad- & 13,05 & 26,12 & 24,77 & 21,76 & 33,94 & 29,34\\
+\cmidrule{2-10}
+ & C$_2$\;[\SI{}{\micro\farad}] & \quad - &  \quad- & 5,27 & 1,41 & 3,64 & 3,88 & 7,89 & 8,42 \\
+\cmidrule{2-10}
+ & f$_2$\;[\SI{}{\kilo\hertz}] &  \quad- &  \quad- & 14,53 & 27,14 & 11,10 & 11,83 & 3,73 & 4,05 \\
+%\midrule
+%\multirowbt{3}{*}{\textbf{Warburg}} & R$_W$\;[$\Omega$] & 133,1 & 9,7 & 10,5 & 7,3 & 8,0 & 3,2 &  & 1,1\\
+%\cmidrule{2-10}
+ %& C$_W$\;[\SI{}{\milli\farad}] & 1,3$\mu$F & 5,83 & 11,0 & 7,4 & 12,8 & 4,5 & 0,3$\mu$F & 1,8 \\
+%\cmidrule{2-10}
+% & f$_W$\;[\SI{}{\kilo\hertz}] &  &  &  & &&&&\\
+\midrule
+\textbf{Güte}&$\chi^2$[E-4]&1,47&1,39&3,09&0,74&2,27&1,78&3,83&3,42\\
+\bottomrule
+\end{tabular}
+ \caption{Ergebnisse der Auswertung der Impedanzspektroskopie mit den zwei entwickelten Ersatzschaltbildern}
+ \label{tabelle_is}
+ \end{table} 
+\begin{table}[h]
+\begin{tabular}{L{1.4cm}L{2.2cm}  L{2.2cm} L{1.2cm} L{2.2cm}L{1.2cm}L{1.8cm}}
+\toprule
+&&\textbf{DRT\;\;\;}& \multicolumn{2}{c}{\textbf{Reihenmodell\;\;\;\;\;\;}}&\multicolumn{2}{c}{\textbf{Redoxmodell\;\;\;\;\;\;}}\\
+\multicolumn{2}{l}{\qquad Frequenz in}&[\SI{}{\kilo\hertz}]&[\SI{}{\kilo\hertz}]&\% DRT&[\SI{}{\kilo\hertz}]&\% DRT\\
+\midrule
+\multirowbt{1}{*}{\textbf{LATP}} &1. Prozess&  3,42 & 18,89  & \SI{552}{\percent} & 20,25 &  \SI{592}{\percent}\\
+\midrule
+\multirowbt{2}{*}{\textbf{LAGP}} &1. Prozess&  3,98 & 14,53 & \SI{365}{\percent} & 27,14 &  \SI{682}{\percent}\\
+\cmidrule{2-7}
+& 2. Prozess & 29,29 & 71,34  & \SI{244}{\percent} & 356,35 & \SI{1217}{\percent}\\
+\midrule
+\multirowbt{2}{*}{\textbf{LLTO}} &1. Prozess &  1,36 & 11,10& \SI{816}{\percent} & 11,83 &  \SI{870}{\percent}\\
+\cmidrule{2-7}
+& 2. Prozess & 10,00 & 98,87 & \SI{989}{\percent} & 108,05 & \SI{1085}{\percent}\\
+\midrule
+\multirowbt{2}{*}{\textbf{LTO}} &1. Prozess&  0,54 & 3,73 & \SI{691}{\percent} & 4,05 & \SI{750}{\percent}\\
+\cmidrule{2-7}
+& 2. Prozess & 4,64 & 43,13 & \SI{930}{\percent} & 43,48 & \SI{937}{\percent}\\
+\bottomrule
+\end{tabular}
+ \caption{Vergleich der Frequenzen zwischen DRT und Ersatzschaltbild-Fits}
+ \label{tabelle_vergleich_frequenzen}
+ \end{table} 
 %\subsection{Vergleich des Diffusionsverhaltens}
 \section{Diskussion der Kernspinresonanzspektroskopie}
 Es wurde die MAS-NMR zur Pulvercharakterisierung eingesetzt. Für in-situ NMR-Messungen von Batterien wurde ein eigener Messaufbau konzipiert, konstruiert, gebaut und getestet. Im Folgenden soll die Anwendung und der Nutzen beider dieser Maßnahmen diskutiert werden. 
@@ -1260,8 +1353,9 @@ Auch der Anschluss der Zelle mit dem Netzteil kann durch besser abgeschirmte Kab
 	\caption{Entwurf für gemischte Teflon-Messing-Stempel}
    	\label{stempel_v2}
 \end{figure} 
-\section{Bewertung der untersuchten Materialien} 
+%\section{Bewertung der untersuchten Materialien} 
 \chapter{Fazit}
+Im Folgenden werden die gefundenen Ergebnisse kurz zusammengefasst und ein Ausblick in die Zukunft gegeben.
 \section{Zusammenfassung}
 \section{Ausblick}
 % der Anhang
