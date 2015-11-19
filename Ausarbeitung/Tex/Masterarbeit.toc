@@ -1,0 +1,110 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Zielsetzung}{2}
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{3}
+\contentsline {chapter}{\numberline {2}Grundlagen}{5}
+\contentsline {section}{\numberline {2.1}Prinzip und Funktionsweise von Batteriezellen}{5}
+\contentsline {subsection}{\numberline {2.1.1}Elektrochemischer Vorgang}{6}
+\contentsline {subsubsection}{\nonumberline Bestimmung der Potentialdifferenz}{7}
+\contentsline {subsection}{\numberline {2.1.2}Elektrodenmaterialien}{8}
+\contentsline {subsubsection}{\nonumberline Typische Anodenmaterialien}{9}
+\contentsline {subsubsection}{\nonumberline Typische Kathodenmaterialien}{10}
+\contentsline {subsection}{\numberline {2.1.3}Elektrolyte}{11}
+\contentsline {subsection}{\numberline {2.1.4}Potentialuntersuchung mit zyklischer Voltametrie}{12}
+\contentsline {section}{\numberline {2.2}Keramiken f\IeC {\"u}r den Einsatz als Festk\IeC {\"o}rperelektrolyt}{12}
+\contentsline {subsection}{\numberline {2.2.1}Perowskite}{12}
+\contentsline {subsection}{\numberline {2.2.2}NASICON-Keramiken}{13}
+\contentsline {subsubsection}{\nonumberline Lithiumtitanphosphat}{14}
+\contentsline {subsubsection}{\nonumberline Lithium-Aluminium-Germaniumphosphat}{14}
+\contentsline {subsection}{\numberline {2.2.3}Pulveranalyse mittels R\IeC {\"o}ntgendiffraktion}{14}
+\contentsline {subsubsection}{\nonumberline Physikalische Grundlagen der XRD}{14}
+\contentsline {subsubsection}{\nonumberline Bragg-Brentano-Diffraktometer}{15}
+\contentsline {section}{\numberline {2.3}Kernspinresonanzspektroskopie}{15}
+\contentsline {subsection}{\numberline {2.3.1}Physikalische Grundlagen der NMR-Spektroskopie}{16}
+\contentsline {subsection}{\numberline {2.3.2}Aufbau eines NMR-Spektrometers}{18}
+\contentsline {subsection}{\numberline {2.3.3}Betriebsmodi eines NMR-Spektrometers}{18}
+\contentsline {subsection}{\numberline {2.3.4}Magic Angle Spinning}{20}
+\contentsline {chapter}{\numberline {3}Konstruktion der in-situ NMR-Batterietestzelle}{21}
+\contentsline {section}{\numberline {3.1}Aufbau einer Batterie}{21}
+\contentsline {section}{\numberline {3.2}Anforderungen an die in-situ Testzelle}{23}
+\contentsline {section}{\numberline {3.3}Planung und Anfertigung der Teile}{24}
+\contentsline {subsection}{\numberline {3.3.1}Die Glaszelle}{24}
+\contentsline {subsection}{\numberline {3.3.2}Die Stempel}{26}
+\contentsline {subsection}{\numberline {3.3.3}Die Mutter}{26}
+\contentsline {subsection}{\numberline {3.3.4}Die Feder}{26}
+\contentsline {subsection}{\numberline {3.3.5}Die Positionspl\IeC {\"a}ttchen}{28}
+\contentsline {section}{\numberline {3.4}Anpassung des NMR-Probenkopfes}{29}
+\contentsline {chapter}{\numberline {4}Probenpr\IeC {\"a}peration}{31}
+\contentsline {section}{\numberline {4.1}Pulverherstellung}{31}
+\contentsline {subsection}{\numberline {4.1.1}Herstellung des LATP-Pulvers}{31}
+\contentsline {subsection}{\numberline {4.1.2}Herstellung des \ce {LiTiOPO4}-Pulvers}{31}
+\contentsline {subsection}{\numberline {4.1.3}Herstellung des LAGP-Pulvers}{32}
+\contentsline {subsection}{\numberline {4.1.4}Herstellung des LTO-Pulvers}{32}
+\contentsline {subsection}{\numberline {4.1.5}Herstellung des LLTO-Pulvers}{33}
+\contentsline {subsection}{\numberline {4.1.6}Analyse der Pulverreinheit}{33}
+\contentsline {section}{\numberline {4.2}Herstellung der Elektrodenfolien}{33}
+\contentsline {subsection}{\numberline {4.2.1}Herstellung verschiedener Elektrodensuspensionen}{33}
+\contentsline {subsection}{\numberline {4.2.2}Foliengie\IeC {\ss }en der Elektrodensuspensionen}{34}
+\contentsline {subsection}{\numberline {4.2.3}Stanzen der Elektrodenproben}{35}
+\contentsline {subsection}{\numberline {4.2.4}Analyse der gegossenen und gestanzten Folien}{35}
+\contentsline {section}{\numberline {4.3}Sintern eines Elektrode-Elektrolyt-Gef\IeC {\"u}ges}{36}
+\contentsline {section}{\numberline {4.4}Bau und Betrieb der Batterie-Testzellen}{36}
+\contentsline {subsection}{\numberline {4.4.1}Untersuchungsroutine der Batterietestzellen}{37}
+\contentsline {chapter}{\numberline {5}Ergebnisse}{39}
+\contentsline {section}{\numberline {5.1}Pulveranalyse}{39}
+\contentsline {subsection}{\numberline {5.1.1}Pulvercharakterisierung des LATP}{40}
+\contentsline {subsubsection}{\nonumberline XRD-Analyse}{40}
+\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{40}
+\contentsline {subsection}{\numberline {5.1.2}Pulvercharakterisierung des \ce {LiTiOPO4}}{40}
+\contentsline {subsubsection}{\nonumberline XRD-Analyse}{40}
+\contentsline {subsubsection}{\nonumberline MAS-NMR-Analyse}{40}
+\contentsline {subsection}{\numberline {5.1.3}Pulvercharakterisierung des LAGP}{42}
+\contentsline {subsubsection}{\nonumberline XRD}{42}
+\contentsline {subsubsection}{\nonumberline MAS-NMR}{42}
+\contentsline {subsection}{\numberline {5.1.4}Pulvercharakterisierung des LLTO}{42}
+\contentsline {subsection}{\numberline {5.1.5}Pulvercharakterisierung des LTO}{44}
+\contentsline {section}{\numberline {5.2}Untersuchung der Elektrodenfolie mittels REM/EDX}{44}
+\contentsline {subsubsection}{\nonumberline REM}{44}
+\contentsline {subsubsection}{\nonumberline EDX}{46}
+\contentsline {section}{\numberline {5.3}Bestimmung der Masse des Aktivmaterial}{46}
+\contentsline {section}{\numberline {5.4}Elektrochemische Analyse der Elektrodenproben}{48}
+\contentsline {subsection}{\numberline {5.4.1}LATP-Kathode}{48}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{48}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{49}
+\contentsline {subsection}{\numberline {5.4.2}LAGP-Kathode}{50}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{50}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{51}
+\contentsline {subsection}{\numberline {5.4.3}LLTO-Kathode}{51}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{52}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{52}
+\contentsline {subsection}{\numberline {5.4.4}LTO-Kathode}{52}
+\contentsline {subsubsection}{\nonumberline Ladekennlinien}{52}
+\contentsline {subsubsection}{\nonumberline Zyklische Voltametrie}{52}
+\contentsline {subsection}{\numberline {5.4.5}LTO-LLTO-Gef\IeC {\"u}ge}{53}
+\contentsline {section}{\numberline {5.5}In-situ NMR-Messungen}{54}
+\contentsline {subsection}{\numberline {5.5.1}Referenzmessung}{54}
+\contentsline {subsubsection}{\nonumberline Einstellen der Ger\IeC {\"a}teparameter}{54}
+\contentsline {subsubsection}{\nonumberline Spektrum der Referenzproben}{55}
+\contentsline {subsubsection}{\nonumberline Diffusionsmessungen}{55}
+\contentsline {subsection}{\numberline {5.5.2}Lithium-Schwefel-Zelle}{57}
+\contentsline {subsubsection}{\nonumberline Spektren der LiS-Testzelle}{58}
+\contentsline {subsubsection}{\nonumberline Diffusionsmessung}{60}
+\contentsline {chapter}{\numberline {6}Diskussion}{61}
+\contentsline {section}{\numberline {6.1}Diskussion der elektrochemischen Untersuchung}{61}
+\contentsline {subsection}{\numberline {6.1.1}Vergleich der Zellkapazit\IeC {\"a}ten und des Ladeverhaltens}{61}
+\contentsline {subsubsection}{\nonumberline Analyse des Kapazit\IeC {\"a}tsverlustes}{62}
+\contentsline {subsection}{\numberline {6.1.2}Analyse der Lithiuminsertation}{63}
+\contentsline {subsection}{\numberline {6.1.3}Vergleich der m\IeC {\"o}glichen Arbeitsspannungen}{64}
+\contentsline {subsection}{\numberline {6.1.4}\IeC {\"U}bersicht \IeC {\"u}ber die elektrochemischen Charakterisierung}{65}
+\contentsline {section}{\numberline {6.2}Diskussion der Kernspinresonanzspektroskopie}{66}
+\contentsline {subsection}{\numberline {6.2.1}Eignung der MAS-NMR f\IeC {\"u}r die Pulvercharakterisierung}{66}
+\contentsline {subsection}{\numberline {6.2.2}Funktionsf\IeC {\"a}higkeit des in-situ NMR-Testaufbaus}{66}
+\contentsline {subsubsection}{\nonumberline Probleme}{68}
+\contentsline {subsection}{\numberline {6.2.3}Verbesserungsans\IeC {\"a}tze}{68}
+\contentsline {chapter}{\numberline {7}Fazit}{71}
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{71}
+\contentsline {section}{\numberline {7.2}Ausblick}{72}
+\contentsline {chapter}{Abbildungsverzeichnis}{73}
+\contentsline {chapter}{Tabellenverzeichnis}{75}
+\contentsline {chapter}{Literaturverzeichnis}{77}

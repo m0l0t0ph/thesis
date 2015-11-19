@@ -1,0 +1,984 @@
+Chikrii Softlab pseudoTeX 3.0 report.
+http://www.chikrii.com, mailto: support@chikrii.com
+
+Masterarbeit.tex (Ln 2) Warning: Can't find pseudoTeX definition for class/package (scrbook)
+Masterarbeit.tex (Ln 7) Warning: Can't find pseudoTeX definition for class/package (url)
+Masterarbeit.tex (Ln 8) Warning: Can't find pseudoTeX definition for class/package (geometry)
+Masterarbeit.tex (Ln 9) Warning: Can't find pseudoTeX definition for class/package (fancyhdr)
+Masterarbeit.tex (Ln 14) Warning: Can't find pseudoTeX definition for class/package (setspace)
+Masterarbeit.tex (Ln 15) Warning: Can't find pseudoTeX definition for class/package (fontenc)
+Masterarbeit.tex (Ln 18) Warning: Can't find pseudoTeX definition for class/package (pgfplots)
+Masterarbeit.tex (Ln 19) Warning: Can't find pseudoTeX definition for class/package (caption)
+Masterarbeit.tex (Ln 20) Warning: Can't find pseudoTeX definition for class/package (mhchem)
+Masterarbeit.tex (Ln 21) Warning: Can't find pseudoTeX definition for class/package (booktabs)
+Masterarbeit.tex (Ln 22) Warning: Can't find pseudoTeX definition for class/package (tabulary)
+Masterarbeit.tex (Ln 25) Warning: Can't find pseudoTeX definition for class/package (ifthen)
+Masterarbeit.tex (Ln 27) Warning: Can't find pseudoTeX definition for class/package (subfig)
+Masterarbeit.tex (Ln 28) Warning: Can't find pseudoTeX definition for class/package (textcomp)
+Masterarbeit.tex (Ln 29) Warning: Can't find pseudoTeX definition for class/package (siunitx)
+Masterarbeit.tex (Ln 36) Syntax Error: Undefined control sequence (\DeclareSIUnit)
+Masterarbeit.tex (Ln 36) Syntax Error: Undefined control sequence (\masspercent)
+Masterarbeit.tex (Ln 37) Syntax Error: Undefined control sequence (\DeclareSIUnit)
+Masterarbeit.tex (Ln 37) Syntax Error: Undefined control sequence (\nmrppm)
+Masterarbeit.tex (Ln 46) Syntax Error: Undefined control sequence (\fontfamily) within (\changefont)
+Masterarbeit.tex (Ln 46) Syntax Error: Undefined control sequence (\fontseries) within (\changefont)
+Masterarbeit.tex (Ln 46) Syntax Error: Undefined control sequence (\fontshape) within (\changefont)
+Masterarbeit.tex (Ln 46) Syntax Error: Undefined control sequence (\selectfont) within (\changefont)
+Masterarbeit.tex (Ln 54) Syntax Error: Undefined control sequence (\onehalfspacing)
+Masterarbeit.tex (Ln 57) Syntax Error: Undefined control sequence (\geometry)
+Masterarbeit.tex (Ln 82) Syntax Error: Undefined control sequence (\fancypagestyle)
+Masterarbeit.tex (Ln 84) Syntax Error: Undefined control sequence (\fancyhead)
+Masterarbeit.tex (Ln 85) Syntax Error: Undefined control sequence (\fancyhead)
+Masterarbeit.tex (Ln 85) Syntax Error: Undefined control sequence (\leftmark)
+Masterarbeit.tex (Ln 86) Syntax Error: Undefined control sequence (\fancyhead)
+Masterarbeit.tex (Ln 86) Syntax Error: Undefined control sequence (\rightmark)
+Masterarbeit.tex (Ln 87) Syntax Error: Undefined control sequence (\fancyhead)
+Masterarbeit.tex (Ln 88) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 88) Syntax Error: Undefined control sequence (\parbox)
+Masterarbeit.tex (Ln 88) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 88) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 88) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 88) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 89) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 94) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 95) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 100) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 100) Syntax Error: Undefined control sequence (\parbox)
+Masterarbeit.tex (Ln 100) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 100) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 100) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 100) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 106) Syntax Error: Undefined control sequence (\fancypagestyle)
+Masterarbeit.tex (Ln 108) Syntax Error: Undefined control sequence (\fancyhf)
+Masterarbeit.tex (Ln 109) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 109) Syntax Error: Undefined control sequence (\parbox)
+Masterarbeit.tex (Ln 109) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 109) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 109) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 109) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 110) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 120) Syntax Error: Undefined control sequence (\fancypagestyle)
+Masterarbeit.tex (Ln 122) Syntax Error: Undefined control sequence (\fancyhf)
+Masterarbeit.tex (Ln 123) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 123) Syntax Error: Undefined control sequence (\parbox)
+Masterarbeit.tex (Ln 123) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 123) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 123) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 123) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 124) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 129) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 129) Syntax Error: Undefined control sequence (\parbox)
+Masterarbeit.tex (Ln 129) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 129) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 129) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 129) Syntax Error: illegal unit of measure
+Masterarbeit.tex (Ln 130) Syntax Error: Undefined control sequence (\fancyfoot)
+Masterarbeit.tex (Ln 197) Syntax Error: Undefined control sequence (\cleardoubleemptypage)
+Masterarbeit.tex (Ln 241) Syntax Error: Undefined control sequence (\tableofcontents)
+Masterarbeit.tex (Ln 242) Syntax Error: Undefined control sequence (\KOMAoption)
+Masterarbeit.tex (Ln 244) Syntax Error: Undefined control sequence (\cleardoubleemptypage)
+Masterarbeit.tex (Ln 249) Syntax Error: Undefined control sequence (\chapter)
+Masterarbeit.tex (Ln 274) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 280) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 280) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 280) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 280) Syntax Error: Extra }, or forgotten $
+Masterarbeit.tex (Ln 285) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 285) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 285) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 289) Syntax Error: Undefined control sequence ( ) within (\section)
+Masterarbeit.tex (Ln 292) Syntax Error: Undefined control sequence (\chapter)
+Masterarbeit.tex (Ln 295) Syntax Error: Undefined control sequence ( ) within (\section)
+Masterarbeit.tex (Ln 299) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 299) Syntax Error: Undefined control sequence ( ) within (\cite)
+Masterarbeit.tex (Ln 299) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 299) Warning: Missing } inserted
+Masterarbeit.tex (Ln 299) Warning: Missing } inserted
+Masterarbeit.tex (Ln 299) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 299) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 299) Syntax Error: Extra }, or forgotten \endgroup
+Masterarbeit.tex (Ln 301) Warning: Extra }
+Masterarbeit.tex (Ln 314) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 334) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 338) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 342) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 350) Syntax Error: Undefined control sequence (\itemsep)
+Masterarbeit.tex (Ln 352) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 355) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 371) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 371) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 371) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 371) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 371) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 372) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 372) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 382) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 390) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 397) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 397) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 397) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 397) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 397) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 397) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 399) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 399) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 399) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 399) Syntax Error: Undefined control sequence (\amper)
+Masterarbeit.tex (Ln 400) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 400) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 400) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 400) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 400) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 401) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 401) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 402) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 403) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 410) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 411) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 411) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 412) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 412) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\volt)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 413) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 419) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 420) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 424) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 424) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 424) Syntax Error: Undefined control sequence (\ampere)
+Masterarbeit.tex (Ln 424) Syntax Error: Undefined control sequence (\hour)
+Masterarbeit.tex (Ln 424) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 424) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 435) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 442) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 442) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 442) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 443) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 445) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 507) Syntax Error: Undefined control sequence (\figurename) within (\ce)
+Masterarbeit.tex (Ln 507) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 510) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 510) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 510) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 510) Syntax Error: Extra }, or forgotten $
+Masterarbeit.tex (Ln 513) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 514) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 514) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 516) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 520) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 520) Syntax Error: Undefined control sequence (\siemens)
+Masterarbeit.tex (Ln 520) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 520) Syntax Error: Undefined control sequence (\centi)
+Masterarbeit.tex (Ln 520) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 524) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 527) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 527) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 527) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 527) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 530) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 534) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 538) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 538) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 538) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 538) Syntax Error: Extra }, or forgotten $
+Masterarbeit.tex (Ln 539) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 539) Syntax Error: Undefined control sequence (\siemens)
+Masterarbeit.tex (Ln 539) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 539) Syntax Error: Undefined control sequence (\centi)
+Masterarbeit.tex (Ln 539) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 541) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 541) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 543) Syntax Error: Undefined control sequence ( ) within (\subsubsection)
+Masterarbeit.tex (Ln 544) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 545) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 545) Syntax Error: Undefined control sequence (\siemens)
+Masterarbeit.tex (Ln 545) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 545) Syntax Error: Undefined control sequence (\centi)
+Masterarbeit.tex (Ln 545) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 547) Syntax Error: Undefined control sequence ( ) within (\subsection)
+Masterarbeit.tex (Ln 550) Syntax Error: Undefined control sequence ( ) within (\subsubsection)
+Masterarbeit.tex (Ln 552) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 554) Warning: Missing $ inserted
+Masterarbeit.tex (Ln 554) Warning: Missing } inserted
+Masterarbeit.tex (Ln 554) Warning: Missing } inserted
+Masterarbeit.tex (Ln 554) Warning: Extra }
+Masterarbeit.tex (Ln 556) Syntax Error: Undefined control sequence (\itemsep)
+Masterarbeit.tex (Ln 567) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 593) Warning: Misplaced superscript
+Masterarbeit.tex (Ln 613) Warning: Misplaced subscript
+Masterarbeit.tex (Ln 650) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 658) Warning: Misplaced superscript
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\joule)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\mol)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\tesla)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 658) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 696) Syntax Error: Undefined control sequence (\chapter)
+Masterarbeit.tex (Ln 705) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 711) Syntax Error: Undefined control sequence (\figurename) within (\cite)
+Masterarbeit.tex (Ln 742) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 750) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 750) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 750) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 751) Syntax Error: Undefined control sequence (\metr)
+Masterarbeit.tex (Ln 762) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 777) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 777) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 777) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 780) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 780) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 780) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\cubic)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\centi)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 782) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 789) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 795) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 801) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 808) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 808) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 811) Syntax Error: Undefined control sequence (\)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 812) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 812) Syntax Error: Extra }, or forgotten $
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 812) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 813) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 813) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 813) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 813) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 813) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 813) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 814) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 816) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 818) Syntax Error: Undefined control sequence ( ) within (\subsection)
+Masterarbeit.tex (Ln 824) Syntax Error: Undefined control sequence ( ) within (\section)
+Masterarbeit.tex (Ln 829) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 829) Syntax Error: Undefined control sequence ( ) within (\caption)
+Masterarbeit.tex (Ln 829) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 829) Warning: Missing } inserted
+Masterarbeit.tex (Ln 829) Warning: Missing } inserted
+Masterarbeit.tex (Ln 829) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 829) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 829) Syntax Error: Too many }'s
+Masterarbeit.tex (Ln 831) Warning: Extra }
+Masterarbeit.tex (Ln 831) Warning: Extra }
+Masterarbeit.tex (Ln 832) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 832) Syntax Error: Undefined control sequence (\mega)
+Masterarbeit.tex (Ln 832) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 832) Warning: Misplaced superscript
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\mega)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 833) Warning: Misplaced superscript
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\pico)
+Masterarbeit.tex (Ln 833) Syntax Error: Undefined control sequence (\farad)
+Masterarbeit.tex (Ln 839) Syntax Error: Undefined control sequence (\chapter)
+Masterarbeit.tex (Ln 841) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 844) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 847) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 847) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 847) Syntax Error: Extra }, or forgotten $
+Masterarbeit.tex (Ln 847) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 848) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 848) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 851) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 851) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 851) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 851) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 854) Syntax Error: Undefined control sequence ( ) within (\ce)
+Masterarbeit.tex (Ln 854) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 859) Syntax Error: Undefined control sequence (\figurename) within (\ce)
+Masterarbeit.tex (Ln 859) Syntax Error: Undefined control sequence ( ) within (\ce)
+Masterarbeit.tex (Ln 859) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 859) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 859) Warning: Missing } inserted
+Masterarbeit.tex (Ln 859) Warning: Missing } inserted
+Masterarbeit.tex (Ln 859) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 859) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 859) Syntax Error: Too many }'s
+Masterarbeit.tex (Ln 861) Warning: Extra }
+Masterarbeit.tex (Ln 861) Warning: Extra }
+Masterarbeit.tex (Ln 862) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 862) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 865) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 865) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 865) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 865) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 869) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 869) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 874) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 874) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 874) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 874) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 874) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 874) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 875) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 875) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 875) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 875) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 879) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 879) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 879) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 879) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 879) Syntax Error: Undefined control sequence (\masspercent)
+Masterarbeit.tex (Ln 880) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 880) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 884) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 884) Syntax Error: Undefined control sequence (\degree)
+Masterarbeit.tex (Ln 884) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 884) Syntax Error: Undefined control sequence (\degree)
+Masterarbeit.tex (Ln 887) Warning: Misplaced superscript
+Masterarbeit.tex (Ln 887) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 887) Syntax Error: Undefined control sequence (\mega)
+Masterarbeit.tex (Ln 887) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 887) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 887) Syntax Error: Undefined control sequence (\tesla)
+Masterarbeit.tex (Ln 888) Warning: Misplaced superscript
+Masterarbeit.tex (Ln 888) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 888) Syntax Error: Undefined control sequence (\mega)
+Masterarbeit.tex (Ln 888) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 888) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 888) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 889) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 894) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 897) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 897) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 897) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 899) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 899) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 899) Syntax Error: Undefined control sequence (\masspercent)
+Masterarbeit.tex (Ln 903) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 903) Syntax Error: Undefined control sequence (\micro)
+Masterarbeit.tex (Ln 903) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 904) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 904) Syntax Error: Undefined control sequence (\micro)
+Masterarbeit.tex (Ln 904) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 906) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 906) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 910) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 917) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 920) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 920) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 920) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 920) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 920) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 920) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 929) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 930) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 930) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 930) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\per)
+Masterarbeit.tex (Ln 932) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 932) Syntax Error: Extra }, or forgotten $
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 932) Syntax Error: Undefined control sequence (\celsius)
+Masterarbeit.tex (Ln 933) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 933) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 933) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 933) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 933) Syntax Error: Undefined control sequence (\kilo)
+Masterarbeit.tex (Ln 933) Syntax Error: Undefined control sequence (\newton)
+Masterarbeit.tex (Ln 938) Syntax Error: Undefined control sequence ( ) within (\section)
+Masterarbeit.tex (Ln 943) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 943) Syntax Error: Undefined control sequence ( ) within (\caption)
+Masterarbeit.tex (Ln 943) Syntax Error: Missing $ inserted
+Masterarbeit.tex (Ln 943) Warning: Missing } inserted
+Masterarbeit.tex (Ln 943) Warning: Missing } inserted
+Masterarbeit.tex (Ln 943) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 943) Warning: Missing \endgroup inserted
+Masterarbeit.tex (Ln 943) Syntax Error: Too many }'s
+Masterarbeit.tex (Ln 945) Warning: Extra }
+Masterarbeit.tex (Ln 945) Warning: Extra }
+Masterarbeit.tex (Ln 946) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 947) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 948) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 948) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 948) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 948) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 948) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 948) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 951) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 951) Syntax Error: Undefined control sequence (\micro)
+Masterarbeit.tex (Ln 951) Syntax Error: Undefined control sequence (\litre)
+Masterarbeit.tex (Ln 951) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 951) Syntax Error: Undefined control sequence (\micro)
+Masterarbeit.tex (Ln 951) Syntax Error: Undefined control sequence (\litre)
+Masterarbeit.tex (Ln 968) Syntax Error: Undefined control sequence (\chapter)
+Masterarbeit.tex (Ln 969) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 986) Syntax Error: Undefined control sequence (\toprule)
+Masterarbeit.tex (Ln 987) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 988) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 990) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 992) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 994) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 996) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 998) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 1000) Syntax Error: Undefined control sequence (\bottomrule)
+Masterarbeit.tex (Ln 1002) Syntax Error: Undefined control sequence (\tablename) within (\caption)
+Masterarbeit.tex (Ln 1011) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1015) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1019) Syntax Error: Undefined control sequence (\figurename) within (\-)
+Masterarbeit.tex (Ln 1027) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1027) Syntax Error: Undefined control sequence (\ki)
+Masterarbeit.tex (Ln 1028) Syntax Error: Undefined control sequence (\hertz)
+Masterarbeit.tex (Ln 1031) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1031) Syntax Error: Undefined control sequence (\nmrppm)
+Masterarbeit.tex (Ln 1032) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 1033) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 1037) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 1043) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 1048) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1052) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1056) Syntax Error: Undefined control sequence (\figurename) within (\-)
+Masterarbeit.tex (Ln 1064) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1064) Syntax Error: Undefined control sequence (\nmrppm)
+Masterarbeit.tex (Ln 1065) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1065) Syntax Error: Undefined control sequence (\nmrppm)
+Masterarbeit.tex (Ln 1067) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1067) Syntax Error: Undefined control sequence (\masspercent)
+Masterarbeit.tex (Ln 1073) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 1090) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1090) Syntax Error: Undefined control sequence (\degree)
+Masterarbeit.tex (Ln 1090) Syntax Error: Undefined control sequence (\ce)
+Masterarbeit.tex (Ln 1098) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1098) Syntax Error: Undefined control sequence (\micro)
+Masterarbeit.tex (Ln 1098) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 1098) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1098) Syntax Error: Undefined control sequence (\micro)
+Masterarbeit.tex (Ln 1098) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 1101) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1105) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1109) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1113) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1117) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 1123) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 1132) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1136) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1140) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1144) Syntax Error: Undefined control sequence (\subfloat)
+Masterarbeit.tex (Ln 1148) Syntax Error: Undefined control sequence (\figurename) within (\caption)
+Masterarbeit.tex (Ln 1152) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1152) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 1152) Syntax Error: Undefined control sequence (\metre)
+Masterarbeit.tex (Ln 1153) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1153) Syntax Error: Undefined control sequence (\milli)
+Masterarbeit.tex (Ln 1153) Syntax Error: Undefined control sequence (\gram)
+Masterarbeit.tex (Ln 1156) Syntax Error: Undefined control sequence (\SI)
+Masterarbeit.tex (Ln 1156) Syntax Error: Undefined control sequence (\percent)
+Masterarbeit.tex (Ln 1161) Syntax Error: Undefined control sequence (\toprule)
+Masterarbeit.tex (Ln 1163) Syntax Error: Undefined control sequence (\midrule)
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) Syntax Error: Undefined control sequence (\ifthenelse) within (\textbf)
+Masterarbeit.tex (Ln 1164) Syntax Error: missing number, treated as zero
+Masterarbeit.tex (Ln 1164) CriticalError: macro-parameter stack overflow!
